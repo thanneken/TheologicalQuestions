@@ -1,7 +1,7 @@
-/Theological Questions/ is an Open Educational Resource (free textbook) that originates from St. Mary’s University in San Antonio. There it is used in the first of two required core courses. It is designed to give a broad historical overview of theological questions from the perspective of the Catholic tradition. It seeks to represent fairly a variety of questions and answers within and beyond the Catholic tradition. It is free to use and modify (see below). 
+*Theological Questions* is an Open Educational Resource (free textbook) that originates from St. Mary’s University in San Antonio. There it is used in the first of two required core theology courses. It is designed to give a broad historical overview of theological questions from the perspective of the Catholic tradition. It seeks to represent fairly a variety of questions and answers within and beyond the Catholic tradition. It is free to use and modify (see below). 
 
 # How do I read it?
-/Theological Questions/ is available in formats for web, Kindle, and virtual paper (PDF). 
+*Theological Questions* is available in formats for web, Kindle, and virtual paper (PDF). 
 Just remember that citing by page will not be meaningful to readers using other formats. 
 The section numbers are standard across formats. 
 Enjoy!
@@ -22,4 +22,4 @@ If you or your team do have technical interests it is possible to do everything 
 
 Most matters of formatting are governed by the stylesheets. The directory `stylesheets/profiles/theologicalquestions/` contains special formatting that builds on the default stylesheets offered by the TEI Consortium. As with the text itself, friendly ammendments and alternative versions of the stylesheet profile are welcome. 
 
-The included scripts will run on Linux, MacOS, and WSL (Windows Subsystem for Linux). The scripts require simple modification of the BASEPATH variable and the tools provided by the TEI Consortium @LINK. 
+The included scripts will run on Linux, MacOS, and WSL (Windows Subsystem for Linux). The scripts require simple modification of the BASEPATH variable and the tools provided by the [TEI Consortium](https://github.com/TEIC/Stylesheets).
