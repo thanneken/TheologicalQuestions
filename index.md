@@ -1,5 +1,3 @@
-#Theological Questions
-
 [GitHub Repository](https://github.com/thanneken/TheologicalQuestions/)
 
 [HTML Webpage](derivatives/TheologicalQuestions.html)
