@@ -8,7 +8,8 @@ It is free to use and modify (see below).
 *Theological Questions* is available in formats for 
 [web](https://thanneken.github.io/TheologicalQuestions/derivatives/TheologicalQuestions.html), 
 [Kindle ePub](https://thanneken.github.io/TheologicalQuestions/derivatives/TheologicalQuestions.epub), 
-and [PDF virtual paper](https://thanneken.github.io/TheologicalQuestions/derivatives/TheologicalQuestions.pdf). 
+[PDF virtual paper](https://thanneken.github.io/TheologicalQuestions/derivatives/TheologicalQuestions.pdf)
+and [MOBI](https://thanneken.github.io/TheologicalQuestions/derivatives/TheologicalQuestions.mobi). 
 Just remember that citing by page will not be meaningful to readers using other formats. 
 The section numbers are standard across formats. 
 Enjoy!
