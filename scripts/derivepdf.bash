@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 BASEPATH='/home/thanneken/git/'
 FILE='TheologicalQuestions'
-teitopdf \
+${BASEPATH}/teic/Stylesheets/bin/teitopdf \
 	--localsource=${BASEPATH}teic/TEI/P5 \
 	--profiledir=${BASEPATH}TheologicalQuestions/stylesheets/profiles \
 	--profile=theologicalquestions \

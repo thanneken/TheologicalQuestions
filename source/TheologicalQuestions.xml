@@ -28,10 +28,8 @@
         </availability>
         <date when="2021-01-20">2021</date>
         <idno type="doi">
-					<ptr target="https://github.com/thanneken/TheologicalQuestions/">
-						DOI TBA
-					</ptr>
-				</idno>
+          <ptr target="https://doi.org/10.5281/zenodo.4459330">10.5281/zenodo.4459330</ptr>
+        </idno>
       </publicationStmt>
       <seriesStmt>
         <p>The base of a series of open educational resources (OER) related to Theological Questions</p>
@@ -277,18 +275,18 @@
               <item>New Testament… survey of all or part of the writings of the first followers of Jesus of Nazareth</item>
               <item>Catholic Social Ethics… do religion and politics mix? Religion and work? Faith and citizenship? What does it mean to be a Christian other than Sunday morning?</item>
               <item>
-								Contemporary Catholic Moral Life… the theory and practice of doing the right thing. 
-								Abortion? Euthanasia? Is this just personal opinion? When is it not okay to just agree to disagree?
-							</item>
+                Contemporary Catholic Moral Life… the theory and practice of doing the right thing. 
+                Abortion? Euthanasia? Is this just personal opinion? When is it not okay to just agree to disagree?
+              </item>
               <item>Health Care and Medical Ethics… does stem cell research save lives or take lives, or both? If my brain is dead and a machine is making my heart beat, am I alive? </item>
               <item>Marriage and Family Today… what does marriage mean in the Catholic Church beyond what it means according to the state of Texas (which also has laws about marriage)? </item>
               <item>Personal Religious Transformation… letting religion build spirituality rather than getting in the way</item>
               <item>Christology… is Jesus God? Human? Both? Neither? What has he done for me lately?</item>
               <item>Ecclesiology… what is the Church? Do we need it? </item>
               <item>
-								American Catholic experience… what have been the special challenges and fruits of combining American citizenship and Roman Catholicism? 
-								Am I an American Catholic or a Catholic American?
-							</item>
+                American Catholic experience… what have been the special challenges and fruits of combining American citizenship and Roman Catholicism? 
+                Am I an American Catholic or a Catholic American?
+              </item>
             </list>
           </div>
           <div type="section">
@@ -296,8 +294,8 @@
             <p>
               <s>The theology major/minor can combine with other majors/minors in many interesting ways.</s>
               <s>The Catholic Church is involved in a variety of endeavors besides Sunday morning mass,</s>
-              <s>	so theological training could come in handy in all sorts of areas</s>
-              <s>	such as non-profit/charity business leadership, healthcare, law and government, and media studies.</s>
+              <s>  so theological training could come in handy in all sorts of areas</s>
+              <s>  such as non-profit/charity business leadership, healthcare, law and government, and media studies.</s>
               <s>The most direct areas of employment are teaching and parish work.</s>
               <s>A B.A. in Theology would be enough to teach in a catholic grade school or high school.</s>
               <s>It would also qualify one for jobs in youth or other parish ministry.</s>
@@ -357,14 +355,14 @@
           <div type="section">
             <head type="section">Where is the land of Israel?</head>
             <figure rend="wide" xml:id="romanempire">
-							<!--
+              <!--
               <graphic width="6.5in" n="1006" url="media/image7.jpeg" source="C:\Program Files\BibleWorks 9\images\mbatlas\098.jpg"/>
-							-->
+              -->
               <graphic width="100%" n="1006" url="media/image7.jpeg" source="C:\Program Files\BibleWorks 9\images\mbatlas\098.jpg"/>
               <head type="figure">
-								The Roman Empire. Source: Moody Bible Atlas in BibleWorks 9.
-								Look for Babylon, Jerusalem, Red Sea, Nile River, Egypt, Athens, Rome.  
-							</head>
+                The Roman Empire. Source: Moody Bible Atlas in BibleWorks 9.
+                Look for Babylon, Jerusalem, Red Sea, Nile River, Egypt, Athens, Rome.  
+              </head>
             </figure>
             <figure rend="wide" xml:id="southtexas">
               <graphic width="100%" n="1007" url="media/image8.jpeg"/>
@@ -386,19 +384,19 @@
             </p>
             <p>
               <s>
-								Just for perspective on how small the territory is, the maps of modern Israel and 
-								<distinct space="Texas">Texas</distinct> 
-								in the figure labeled 
-								<ref target="#southtexas">Israel and South Texas</ref> 
-								are on the same scale.
-							</s>
+                Just for perspective on how small the territory is, the maps of modern Israel and 
+                <distinct space="Texas">Texas</distinct> 
+                in the figure labeled 
+                <ref target="#southtexas">Israel and South Texas</ref> 
+                are on the same scale.
+              </s>
             </p>
             <p>
               <s>
-								The figure labeled 
-								<ref target="#israel">Israel at the time of Jesus</ref> 
-								shows the internal geography of Israel.
-							</s>
+                The figure labeled 
+                <ref target="#israel">Israel at the time of Jesus</ref> 
+                shows the internal geography of Israel.
+              </s>
               <s><hi>Jerusalem</hi> is the most important city from the perspective of the authors of most of the Bible.</s>
               <s>Also look for the Sea of Galilee, the Jordan river, Nazareth, Bethlehem, and the Dead Sea.</s>
             </p>
@@ -491,10 +489,10 @@
             <figure rend="wide">
               <graphic width="100%" n="1009" url="media/image10.jpeg" source="BABYLONA.gif"/>
               <head type="figure">
-							Artist’s rendering of ancient Babylon.
-							When the captive Israelites were taken to Babylon they saw an awe-inspiring city, but they held on to their own identity and beliefs. 
-							Source: bible-history.com.
-						</head>
+              Artist’s rendering of ancient Babylon.
+              When the captive Israelites were taken to Babylon they saw an awe-inspiring city, but they held on to their own identity and beliefs. 
+              Source: bible-history.com.
+            </head>
             </figure>
             <p>
               <s>In 587 BCE the Temple and city of Jerusalem were destroyed and the leading citizens were taken into exile as captives.</s>
@@ -945,10 +943,10 @@
             </p>
             <floatingText rend="float">
               <body><head type="floatingText">Terms</head>
-								Theodicy – God’s justice<lb/>
-								Omnipotent – all-powerful<lb/>
-								Benevolent – wishing good
-							</body>
+                Theodicy – God’s justice<lb/>
+                Omnipotent – all-powerful<lb/>
+                Benevolent – wishing good
+              </body>
             </floatingText>
             <p>
               <s>One classical way of formulating the problem is,</s>
@@ -1266,7 +1264,7 @@
               <s>Catholicism has a concept of pilgrimage journeys to holy sites (often with more emphasis on the journey than the destination), but there is no requirement or a particular time or place to make a pilgrimage.</s>
               <s>The practice of pilgrimage continues most in Islam.</s>
               <s>The Arabic word <foreign>haj</foreign> is a variation on the Hebrew word for pilgrimage festival, <foreign>hag</foreign>.</s>
-              <s>Muslims who are able are expected to journey to Mecca (the city in modern Saudi Arabia where Mohammed begin to prophesy) at least once in their lifetimes.</s>
+              <s>Muslims who are able are expected to journey to Mecca (the city in modern Saudi Arabia where Mohammed began to prophesy) at least once in their lifetimes.</s>
             </p>
           </div>
           <div type="section">
@@ -1648,7 +1646,7 @@
               <s>The current state of the world is chaos, so God will end this world and create a new heavens and a new earth.</s>
               <s>One could also look to the flood in primordial times.</s>
               <s>The claim is that the earth then was filled with wickedness,</s>
-              <s>	so God killed everyone with a flood except a small number of people (Noah and his family) that were kept safe in an ark.</s>
+              <s>  so God killed everyone with a flood except a small number of people (Noah and his family) that were kept safe in an ark.</s>
               <s>Similarly, God will destroy the earth again, and only a small sect of truly righteous people will be saved.</s>
             </item>
             <item>
@@ -1941,10 +1939,10 @@
                 <head type="floatingText">The New Testament</head>
                 <s>The earliest writings about Jesus are in the New Testament.</s>
                 <s>
-									The New Testament consists of letters written by Paul and his students to various churches, other letters, 
-									four Gospels (Mark, Matthew, Luke, and John), a sequel to the Gospel of Luke about the Apostles, 
-									and a revelation in which John saw the true nature of the Roman Empire and God’s sovereignty. 
-								</s>
+                  The New Testament consists of letters written by Paul and his students to various churches, other letters, 
+                  four Gospels (Mark, Matthew, Luke, and John), a sequel to the Gospel of Luke about the Apostles, 
+                  and a revelation in which John saw the true nature of the Roman Empire and God’s sovereignty. 
+                </s>
               </body>
             </floatingText>
             <p>
@@ -2426,7 +2424,7 @@
                 <p>
                   <s>By making his life as a reparation offering, he shall see his offspring,</s>
                   <lb/>
-                  <s>	shall lengthen his days, and the LORD’s will shall be accomplished through him.</s>
+                  <s>  shall lengthen his days, and the LORD’s will shall be accomplished through him.</s>
                 </p>
                 <p>
                   <milestone unit="vs" n="11"/>
@@ -2991,7 +2989,7 @@
                   <s>The initiate is not to touch the drink of the general membership prior to passing a second year among the men of the <foreign rend="italic">Yahad</foreign>.</s>
                   <s>When that second year has passed, the general membership shall review his case.</s>
                   <s>If it be ordained for him to proceed to full membership in the <foreign>Yahad</foreign>, they</s>
-                  <s>	shall enroll him at the appropriate rank among his brothers for discussion of the Law, jurisprudence, participation in pure meals and <hi>admixture of property</hi>.</s>
+                  <s>  shall enroll him at the appropriate rank among his brothers for discussion of the Law, jurisprudence, participation in pure meals and <hi>admixture of property</hi>.</s>
                   <s>Thenceforth the <foreign>Yahad</foreign> may draw upon his counsel and judgement.</s>
                 </quote>
                 <ref cRef="1QS VI">Qumran Cave 1 Community Rule, Column 6</ref>
@@ -3050,11 +3048,11 @@
             </p>
             <cit>
               <quote>
-							There is neither Jew nor Greek, 
-							there is neither slave nor free person, 
-							there is not male and female; 
-							for you are all one in Christ Jesus. 
-						</quote>
+              There is neither Jew nor Greek, 
+              there is neither slave nor free person, 
+              there is not male and female; 
+              for you are all one in Christ Jesus. 
+            </quote>
               <ref cRef="Gal 3:28">Paul’s Letter to the Galatians 3:28</ref>
             </cit>
             <figure rend="float">
@@ -3073,11 +3071,11 @@
           </div>
           <div type="section">
             <head type="section">Attitudes toward sexuality</head>
-						<floatingText>
-							<body>
-								Don’t know that I will, but until I can find me the girl who’ll stay and won’t play games behind me, I’ll be what I am, a solitary man. —Neil Diamond
-							</body>
-						</floatingText>
+            <floatingText>
+              <body>
+                Don’t know that I will, but until I can find me the girl who’ll stay and won’t play games behind me, I’ll be what I am, a solitary man. —Neil Diamond
+              </body>
+            </floatingText>
             <figure rend="wide">
               <graphic width="100%" n="10031" url="media/image32.jpeg" source="http://sacredsites.com/africa/egypt/images/st-catherines-monastery-500.jpg"/>
               <head type="figure">St. Catherine’s Monastery in the Sinai Desert.</head>
@@ -3135,9 +3133,9 @@
               <head type="section">The Jesus Movement</head>
               <p>
                 <s>
-									Even before full organized monasticism, the early followers of Jesus expressed the ideal that marriage should be avoided, 
-									or those already married before following Jesus should avoid sex. 
-								</s>
+                  Even before full organized monasticism, the early followers of Jesus expressed the ideal that marriage should be avoided, 
+                  or those already married before following Jesus should avoid sex. 
+                </s>
                 <s>Paul advises that sexuality within marriage is at least better than uncontrolled lust outside of marriage.</s>
               </p>
               <cit>
@@ -3401,9 +3399,9 @@
               <item>
                 <s>Christ came into existence when Jesus was born in Palestine around the year 1 CE.</s>
                 <s>
-									Although the New Testament as we have it would rule out this position, 
-									before there was a New Testament some followed Jesus as a great teacher but not a being that existed prior to physical birth. 
-								</s>
+                  Although the New Testament as we have it would rule out this position, 
+                  before there was a New Testament some followed Jesus as a great teacher but not a being that existed prior to physical birth. 
+                </s>
               </item>
               <item>
                 <s>Jesus was begotten by God as the firstborn son even before the world was created.</s>
@@ -3926,7 +3924,7 @@
                 </p>
                 <p>
                   <milestone type="vs" n="43"/>
-                  <s>	so indeed also the law was fulfilled when the gospel was brought to light,</s>
+                  <s>  so indeed also the law was fulfilled when the gospel was brought to light,</s>
                   <s>and the people <hi>lost their significance</hi> when the church came on the scene, and the type was destroyed when the Lord appeared.</s>
                   <s>Therefore, those things which once had value are <hi>today without value</hi>, because the things which have true value have appeared.</s>
                 </p>
@@ -3935,7 +3933,7 @@
             </cit>
             <p>
               <s>The following excerpt comes from an elaborate accusation of deicide that begins as follows and concludes, 
-					“<hi>You dashed the Lord to the ground; you, too, were dashed to the ground, and lie quite dead.</hi>”</s>
+          “<hi>You dashed the Lord to the ground; you, too, were dashed to the ground, and lie quite dead.</hi>”</s>
             </p>
             <cit>
               <quote>
@@ -3950,7 +3948,7 @@
                   <s>Somewhere it has been written in the law and prophets,</s>
                   <s>“<hi>They paid me back evil for good</hi>, and my soul with barrenness” (Psalm 34:12),</s>
                   <s>“plotting evil against me” (Psalm 34:4; 40:8),</s>
-                  <s>	saying, “Let us bind this just man because he is troublesome to us” (Isaiah 3:10 LXX).</s>
+                  <s>  saying, “Let us bind this just man because he is troublesome to us” (Isaiah 3:10 LXX).</s>
                 </p>
                 <p>
                   <milestone type="vs" n="73"/>
@@ -5031,10 +5029,10 @@
               <item>
                 <s><hi>Eucharist</hi> – along with baptism, Luther had no problem with the eucharist, which derives from Jesus’ command at the <hi>Last Supper</hi> to break bread in his memory.</s>
                 <s>There was debate as to whether the bread becomes Jesus’ body really, symbolically, or in some other complicated way.</s>
-								<figure rend="wide">
-									<graphic width="3in" n="10064" url="media/image65.jpeg" source="http://www.catholicradiodramas.com/wp-content/uploads/2010/07/LastSupperJUAN-DE-FLANDES1560.jpg"/>
-									<head type="figure">The Last Supper, Juan de Flandes</head>
-								</figure>
+                <figure rend="wide">
+                  <graphic width="3in" n="10064" url="media/image65.jpeg" source="http://www.catholicradiodramas.com/wp-content/uploads/2010/07/LastSupperJUAN-DE-FLANDES1560.jpg"/>
+                  <head type="figure">The Last Supper, Juan de Flandes</head>
+                </figure>
               </item>
               <item>
                 <s><hi>Reconciliation</hi> – in Catholicism this sacrament involves confessing one’s sins before a priest and requesting <hi>forgiveness</hi> from Christ.</s>
@@ -5046,13 +5044,13 @@
                 <s>Luther accepted the practice of matrimony, but did not recognize it as a sacrament instituted by Christ.</s>
                 <s>The only link between Jesus and matrimony is that Jesus went to a wedding when he was young.</s>
                 <s>The major discussion of matrimony in the New Testament is Paul discouraging it but permitting it as the lesser of the lust-based evils.</s>
-								<figure rend="wide">
-									<graphic width="5in" n="10065" url="media/image66.jpeg"/>
-									<head type="figure">
-										<s>Before the 12th century marriage was a civil institution that could be blessed on the steps of a cathedral, but was not a sacrament and could not take place inside.</s>
-										<s>Artist: Raphael</s>
-									</head>
-								</figure>
+                <figure rend="wide">
+                  <graphic width="5in" n="10065" url="media/image66.jpeg"/>
+                  <head type="figure">
+                    <s>Before the 12th century marriage was a civil institution that could be blessed on the steps of a cathedral, but was not a sacrament and could not take place inside.</s>
+                    <s>Artist: Raphael</s>
+                  </head>
+                </figure>
               </item>
               <item>
                 <s><hi>Holy Orders</hi> –</s>
@@ -5499,7 +5497,7 @@
               </item>
               <item>
                 <s>Further along the scale in the direction of reason over faith,</s>
-                <s>	some believe that scripture is primarily a human achievement that is revelatory in the sense that it reveals something about ourselves,</s>
+                <s>  some believe that scripture is primarily a human achievement that is revelatory in the sense that it reveals something about ourselves,</s>
                 <s>or inspired the way poets today can be called inspired.</s>
                 <s>It may even be the word of God in the sense of being words about God.</s>
                 <s>Reason has led many to believe that the Bible is fundamentally a human achievement.</s>
@@ -6043,7 +6041,7 @@
               <s>Implicit in accusations of “baby-killer,” or “It’s a child, not a choice” is the assumption that protection of the unborn is a social responsibility rather than an individual choice.</s>
               <s>It is not a teaching of the Catholic Church so much as a teaching of natural law.</s>
               <s>Just as faith leads some to work for the dignity of all human beings, for example sweatshop workers, regardless of faith,</s>
-              <s>	so too the responsibility to protect life is not internal to Catholic faith but an outside responsibility.</s>
+              <s>so too the responsibility to protect life is not internal to Catholic faith but an outside responsibility.</s>
               <s>The responsibility of a person of faith is not merely to avoid having an abortion, avoid providing an abortion, or persuade others not to have an abortion.</s>
               <s>The responsibility is to promote laws and political candidates that will enforce natural law for all citizens, regardless of faith.</s>
             </p>

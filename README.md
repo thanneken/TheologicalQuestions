@@ -7,9 +7,9 @@ It is free to use and modify (see below).
 # How do I read it?
 *Theological Questions* is available in formats for 
 [web](https://thanneken.github.io/TheologicalQuestions/derivatives/TheologicalQuestions.html), 
-[Kindle ePub](https://thanneken.github.io/TheologicalQuestions/derivatives/TheologicalQuestions.epub), 
+[ePub](https://thanneken.github.io/TheologicalQuestions/derivatives/TheologicalQuestions.epub), 
 [PDF virtual paper](https://thanneken.github.io/TheologicalQuestions/derivatives/TheologicalQuestions.pdf)
-and [MOBI](https://thanneken.github.io/TheologicalQuestions/derivatives/TheologicalQuestions.mobi). 
+and [Kindle MOBI](https://thanneken.github.io/TheologicalQuestions/derivatives/TheologicalQuestions.mobi). 
 Just remember that citing by page will not be meaningful to readers using other formats. 
 The section numbers are standard across formats. 
 Enjoy!
@@ -50,3 +50,6 @@ As with the text itself, friendly ammendments and alternative versions of the st
 The included scripts will run on Linux, MacOS, and WSL (Windows Subsystem for Linux). 
 The scripts require simple modification of the BASEPATH variable and the tools provided by the 
 [TEI Consortium](https://github.com/TEIC/Stylesheets).
+
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4459330.svg)](https://doi.org/10.5281/zenodo.4459330)
