@@ -15,20 +15,25 @@
 	<xsl:param name="showFloatLabel">true</xsl:param>
 	<xsl:param name="latexPaperSize">letterpaper</xsl:param>
 	<xsl:param name="classParameters">11pt,twoside</xsl:param>
+	<xsl:param name="romanFont">DejaVu Serif</xsl:param>
+	<xsl:param name="sansFont">DejaVu Sans</xsl:param>
 	<!-- add definitions to latex header -->
 	<xsl:template name="latexPreambleHook">
 		\definecolor{darkblue}{RGB}{0,0,128} 
 		\definecolor{darkred}{RGB}{128,0,0}
+		\usepackage{fontspec}
+		\usepackage{setspace}
+		\usepackage{float}
+		\usepackage{wrapfig}
 		\renewcommand\fbox{\fcolorbox{darkblue}{white}}
 		\renewcommand{\baselinestretch}{1.2}
-		\setromanfont{DejaVuSerif}
-		\setsansfont{DejaVuSans}
-		\newfontfamily\HebrewFont{SBL BibLit}
-		\usepackage{setspace}
+		\newfontfamily\hebrewfont{SBL BibLit}
 	</xsl:template>
 	<!-- front matter --> 
 	<xsl:template name="printTitleAndLogo"> 
 		<!--
+		\setromanfont{Liberation Serif}
+		\setsansfont{Liberation Sans}
 		-->
 		<xsl:text>&#10;\topskip0pt &#10;\vspace*{\fill}&#10;\begin{minipage}{\textwidth}&#10;\begin{center}&#10;\begin{spacing}{2.2}</xsl:text>
 		<xsl:for-each select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:author">
@@ -50,7 +55,7 @@
 		<xsl:text>&#10;\par{</xsl:text><xsl:value-of select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:distributor"/><xsl:text>} </xsl:text>
 		<xsl:text>&#10;\par{\TheDate}</xsl:text>
 		<xsl:text>&#10;\par{</xsl:text><xsl:value-of select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:availability/tei:licence/tei:ref"/><xsl:text>} </xsl:text>
-		<xsl:text>&#10;\par{</xsl:text><xsl:value-of select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:idno/tei:ptr"/><xsl:text>} </xsl:text>
+		<xsl:text>&#10;\par{doi: </xsl:text><xsl:value-of select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:idno[@type='doi']"/><xsl:text>} </xsl:text>
 		<xsl:text>&#10;\vspace{90pt} &#10;\end{spacing} &#10;\end{center} &#10;\end{minipage} &#10;\vfill </xsl:text>
 	</xsl:template>
 	<!-- not in use, see front matter -->
@@ -62,14 +67,19 @@
 	<xsl:template match="tei:bibl">
 		<xsl:text>\textup{</xsl:text><xsl:apply-templates/><xsl:text>}</xsl:text>
 	</xsl:template>
+	<xsl:template match="tei:title[@rend='italic']">
+		<xsl:text>\textit{</xsl:text><xsl:apply-templates/><xsl:text>}</xsl:text>
+	</xsl:template>
 	<!-- foreign -->
 	<xsl:template match="tei:foreign">
 		<xsl:choose>
-			<xsl:when test="tei:match(@lang,'xml:he')">
-				<xsl:text>\textup{\HebrewFont </xsl:text><xsl:apply-templates/><xsl:text>}</xsl:text>
-			</xsl:when>
-			<xsl:when test="tei:match(@rend,'notitalic') or tei:match(@lang,'xml:el')">
-				<xsl:text>\textup{</xsl:text><xsl:apply-templates/><xsl:text>}</xsl:text>
+			<xsl:when test="tei:match(@rend,'notitalic') or tei:match(@xml:lang,'el')">
+				<xsl:text>\textup{</xsl:text>
+				<xsl:if test="tei:match(@xml:lang,'he')">
+					<xsl:text>\hebrewfont </xsl:text>
+				</xsl:if>
+				<xsl:apply-templates/>
+				<xsl:text>}</xsl:text>
 			</xsl:when>
 			<xsl:otherwise>
 				<xsl:text>\textit{</xsl:text><xsl:apply-templates/><xsl:text>}</xsl:text>
@@ -128,9 +138,13 @@
 			</xsl:otherwise>
 		</xsl:choose>
 	</xsl:template>
-	<!-- figure head is smaller than body text first heading -->
+	<!-- floatingText head is smaller than body text first heading -->
 	<xsl:template match="tei:floatingText/tei:body/tei:head">
 		<xsl:text>&#10;&#10;\par\textbf{</xsl:text><xsl:apply-templates/><xsl:text>}&#10;&#10;</xsl:text>
+	</xsl:template>
+	<!-- figure head is smaller than body text first heading -->
+	<xsl:template match="tei:figure/tei:head">
+		<xsl:text>&#10;&#10;\vspace{-10pt}&#10;\par&#10;</xsl:text>
 	</xsl:template>
 	<!-- Redefine default figure to distinguish narrow as floating right, 3 inches wide, dark red, sans -->
 	<doc xmlns="http://www.oxygenxml.com/ns/doc/xsl"> <desc>Adapted [latex] Make figure (start)</desc> </doc>
@@ -142,14 +156,15 @@
 			<xsl:when test="tei:match(@rend,'display') or not(@place='inline') or tei:head or tei:p">
 				<xsl:choose>
 					<!-- can't wrap a list around a figure; if there's no difference between scenario 1 and 3 they can be consolidated -->
-					<xsl:when test="parent::tei:item">
+					<xsl:when test="parent::tei:item or tei:match(@rend,'wide')">
 						<xsl:text>&#10;\begin{figure}[h!tp]&#10;\begin{center} &#10;\color{darkred}&#10;\sffamily&#10;</xsl:text>
 					</xsl:when>
 					<xsl:when test="tei:match(@rend,'float')">
 						<xsl:text>&#10;\begin{wrapfigure}{R}{</xsl:text><xsl:value-of select="./tei:graphic/@width"/><xsl:text>}&#10;\color{darkred}&#10;\sffamily&#10;</xsl:text> 
 					</xsl:when>
 					<xsl:otherwise>
-						<xsl:text>&#10;\begin{figure}[h!tp]&#10;\begin{center} &#10;\color{darkred}&#10;\sffamily&#10;</xsl:text>
+						<!-- new 20210511 H (in place of h!tp) with usepackage{float} fixes error with Books theologians read -->
+						<xsl:text>&#10;\begin{figure}[H]&#10;\begin{center} &#10;\color{darkred}&#10;\sffamily&#10;</xsl:text>
 					</xsl:otherwise>
 				</xsl:choose>
 			</xsl:when>
@@ -258,13 +273,15 @@
 			</xsl:otherwise>
 		</xsl:choose>
 	</xsl:template>
-	<xsl:template match="tei:ref">
+  <xsl:template match="tei:ref[not(@target)]">
 		<xsl:text> (</xsl:text><xsl:apply-templates/><xsl:text>)</xsl:text>
 	</xsl:template>
+	<!-- tei xml, unlike html, allows lists and block quotes within paragraphs, so continuation no longer necessary 
 	<xsl:template match="tei:p[@type='continuation']">
 		<xsl:text>&#10;\noindent&#10;</xsl:text>
 		<xsl:apply-templates/>
 	</xsl:template>
+	--> 
 	<xsl:template match="tei:s">
 		<xsl:apply-templates/><xsl:text> </xsl:text>
 	</xsl:template>

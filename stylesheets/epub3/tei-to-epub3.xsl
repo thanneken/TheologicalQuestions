@@ -756,7 +756,8 @@ height: </xsl:text>
           <xsl:message>write file OPS/toc.html</xsl:message>
         </xsl:if>
         <xsl:result-document href="{concat($directory,'/OPS/toc.html')}" method="xml" doctype-system="">
-          <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+					<!-- add lang to pass daisy tests -->
+          <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="en">
             <head>
               <title>
                 <xsl:sequence select="tei:generateSimpleTitle(.)"/>
@@ -771,7 +772,8 @@ height: </xsl:text>
                 <header>
                   <h1>Contents</h1>
                 </header>
-                <nav xmlns:epub="http://www.idpf.org/2007/ops" epub:type="toc" id="toc">
+								<!-- add title and role to pass daisy tests -->
+								<nav xmlns:epub="http://www.idpf.org/2007/ops" epub:type="toc" id="toc" title="toc" role="doc-toc">
                   <ol>
                     <xsl:for-each select="$TOC/html:TOC/html:ul/html:li">
                       <xsl:choose>
@@ -793,7 +795,8 @@ height: </xsl:text>
                     </li>
                   </ol>
                 </nav>
-                <nav xmlns:epub="http://www.idpf.org/2007/ops" epub:type="landmarks" id="guide">
+								<!-- add title and role to pass daisy tests -->
+								<nav xmlns:epub="http://www.idpf.org/2007/ops" epub:type="landmarks" id="guide" title="guide" role="navigation">
                   <h2>Guide</h2>
                   <ol>
                     <li>

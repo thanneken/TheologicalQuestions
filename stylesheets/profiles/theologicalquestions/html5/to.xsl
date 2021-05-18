@@ -7,6 +7,10 @@
 			<p>Author: Todd Hanneken</p>
 		</desc>
 	</doc>
+	<!-- strip space fixes <p> </p> between block quotes; -->
+	<!-- may be necessary to use <xsl:preserve-space elements="something"/> in the future -->
+	<!-- alternatively, could use xml:space="preserve" in the xml when space is meaningful -->
+	<xsl:strip-space elements="*"/>
 	<!-- quotation marks are typed in the source, do not add -->
 	<xsl:param name="preQuote"/>
 	<xsl:param name="postQuote"/>
@@ -23,12 +27,12 @@
 			span.bibl{font-style:normal;}
 			.caption{color:darkred;font-style:normal;max-width:100%;}
 			.chapter{clear:right;border-top:2pxdottedblue;margin-top:2em;}
-			.cit{padding-left:3em;padding-bottom:0.3em;}
+			.cit{padding-left:3em;padding-bottom:0;margin-bottom:1em;}
 			div.citquote{margin-left:0;margin-right:0;}
 			.doubleunderline{text-decoration:underline;text-decoration-style:double;}
 			figure{margin:6pt;}
 			.float{float:right;clear:right;max-width:3in;}
-			.floatingHead{margin:0;}
+			.floatingHead{margin:0;font-weight:bold;}
 			.floatingText{padding:0.5em;color:darkblue;}
 			.graphic{width:100%;}
 			.hi{font-weight:bold;font-style:normal;}
@@ -39,8 +43,9 @@
 			.section{clear:right;}
 			.toc{padding-inline-start:0.4em;}
 			.unit{border-top:3pxsolidblue;margin-top:3em;}
-			.vs{color:gray;font-size:75%;line-height:0;position:relative;vertical-align:baseline;top:-0.5em;}
+			.vs{color:gray;font-size:75%;line-height:0;position:relative;vertical-align:baseline;top:-0.5em;padding-right:0.3em;}
 			.wide{margin:0;width:6.5in;max-width:100%;}
+			span.distinct{font-style:normal;color:maroon;}
 		</xsl:element>
 	</xsl:template>
 	<!-- add credits to footer -->
@@ -88,9 +93,10 @@
 				<xsl:value-of select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:availability/tei:licence/tei:ref"/><xsl:text> </xsl:text>
 				<xsl:element name="a" xmlns="http://www.w3.org/1999/xhtml">
 					<xsl:attribute name="href">
-						<xsl:value-of select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:idno/tei:ptr/@target"/>
+						<xsl:value-of select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:idno[@type='uri']"/>
 					</xsl:attribute>
-					<xsl:value-of select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:idno/tei:ptr"/>
+					<xsl:text>doi:</xsl:text>
+					<xsl:value-of select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:idno[@type='doi']"/>
 				</xsl:element>
 			</xsl:element>
 			<xsl:element name="p" xmlns="http://www.w3.org/1999/xhtml">
@@ -116,7 +122,7 @@
 	</xsl:template>
 	<!-- specify that a floating text head is html h4, not h1 -->
 	<xsl:template match="tei:floatingText/tei:body/tei:head">
-		<xsl:element name="h4" xmlns="http://www.w3.org/1999/xhtml">
+		<xsl:element name="div" xmlns="http://www.w3.org/1999/xhtml">
 			<xsl:attribute name="class">floatingHead</xsl:attribute>
 			<xsl:value-of select="."/>
 		</xsl:element>
