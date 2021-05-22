@@ -52,11 +52,22 @@
 	<xsl:template name="stdfooter">
 		<xsl:element name="div" xmlns="http://www.w3.org/1999/xhtml">
 			<xsl:attribute name="class">stdfooter</xsl:attribute>
-			<xsl:element name="h2" xmlns="http://www.w3.org/1999/xhtml">
-				<xsl:value-of select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
-			</xsl:element>
 			<xsl:element name="p" xmlns="http://www.w3.org/1999/xhtml">
-				<xsl:value-of select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:editionStmt/tei:edition/tei:title"/>
+				<xsl:value-of select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:author[1]"/><xsl:text>, </xsl:text>
+				<xsl:element name="i" xmlns="http://www.w3.org/1999/xhtml">
+					<xsl:value-of select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
+				</xsl:element><xsl:text>. </xsl:text>
+				<xsl:value-of select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:editionStmt/tei:edition/tei:title"/><xsl:text>. </xsl:text>
+				<xsl:value-of select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:pubPlace"/><xsl:text>: </xsl:text>
+				<xsl:value-of select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:distributor"/><xsl:text> </xsl:text>
+				<xsl:value-of select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:date"/><xsl:text>. </xsl:text>
+				<xsl:element name="a" xmlns="http://www.w3.org/1999/xhtml">
+					<xsl:attribute name="href">
+						<xsl:value-of select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:idno[@type='uri']"/>
+					</xsl:attribute>
+					<xsl:text>doi:</xsl:text>
+					<xsl:value-of select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:idno[@type='doi']"/>
+				</xsl:element>
 			</xsl:element>
 			<xsl:element name="h3" xmlns="http://www.w3.org/1999/xhtml">
 				<xsl:text>Contributors</xsl:text>
@@ -84,24 +95,12 @@
 				</xsl:for-each>
 			</xsl:element>
 			<xsl:element name="h3" xmlns="http://www.w3.org/1999/xhtml">
-				<xsl:text>Publication</xsl:text>
+				<xsl:text>License</xsl:text>
 			</xsl:element>
 			<xsl:element name="p" xmlns="http://www.w3.org/1999/xhtml">
-				<xsl:value-of select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:pubPlace"/><xsl:text>: </xsl:text>
-				<xsl:value-of select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:distributor"/><xsl:text> </xsl:text>
-				<xsl:value-of select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:date"/><xsl:text>. </xsl:text>
-				<xsl:value-of select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:availability/tei:licence/tei:ref"/><xsl:text> </xsl:text>
-				<xsl:element name="a" xmlns="http://www.w3.org/1999/xhtml">
-					<xsl:attribute name="href">
-						<xsl:value-of select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:idno[@type='uri']"/>
-					</xsl:attribute>
-					<xsl:text>doi:</xsl:text>
-					<xsl:value-of select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:idno[@type='doi']"/>
-				</xsl:element>
+				<xsl:apply-templates select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:availability/tei:licence"/><xsl:text> </xsl:text>
 			</xsl:element>
-			<xsl:element name="p" xmlns="http://www.w3.org/1999/xhtml">
-				<xsl:text>See the TEI  header for complete publication information.</xsl:text>
-			</xsl:element>
+			<xsl:apply-templates select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:notesStmt/tei:note"/>
 		</xsl:element>
 	</xsl:template>
 	<!-- cause each image to become a link to the full-size version of itself -->
@@ -139,5 +138,9 @@
 	<xsl:template match="tei:s">
 		<xsl:apply-templates/>
 		<xsl:text> </xsl:text>
+	</xsl:template>
+	<!-- override elaborate formatting for note -->
+	<xsl:template match="tei:note">
+		<xsl:apply-templates/>
 	</xsl:template>
 </xsl:stylesheet>

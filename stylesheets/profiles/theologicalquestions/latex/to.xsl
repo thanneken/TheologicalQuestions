@@ -31,10 +31,6 @@
 	</xsl:template>
 	<!-- front matter --> 
 	<xsl:template name="printTitleAndLogo"> 
-		<!--
-		\setromanfont{Liberation Serif}
-		\setsansfont{Liberation Sans}
-		-->
 		<xsl:text>&#10;\topskip0pt &#10;\vspace*{\fill}&#10;\begin{minipage}{\textwidth}&#10;\begin{center}&#10;\begin{spacing}{2.2}</xsl:text>
 		<xsl:for-each select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:author">
 			<xsl:text>&#10;\par{</xsl:text><xsl:value-of select="."/><xsl:text> (author)}</xsl:text>
@@ -54,8 +50,9 @@
 		<xsl:text>&#10;\par{</xsl:text><xsl:value-of select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:pubPlace"/><xsl:text>} </xsl:text>
 		<xsl:text>&#10;\par{</xsl:text><xsl:value-of select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:distributor"/><xsl:text>} </xsl:text>
 		<xsl:text>&#10;\par{\TheDate}</xsl:text>
-		<xsl:text>&#10;\par{</xsl:text><xsl:value-of select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:availability/tei:licence/tei:ref"/><xsl:text>} </xsl:text>
 		<xsl:text>&#10;\par{doi: </xsl:text><xsl:value-of select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:idno[@type='doi']"/><xsl:text>} </xsl:text>
+		<xsl:text>&#10;\par{</xsl:text><xsl:value-of select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:availability/tei:licence"/><xsl:text>} </xsl:text>
+		<xsl:text>&#10;\par{</xsl:text><xsl:value-of select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:notesStmt/tei:note"/><xsl:text>} </xsl:text>
 		<xsl:text>&#10;\vspace{90pt} &#10;\end{spacing} &#10;\end{center} &#10;\end{minipage} &#10;\vfill </xsl:text>
 	</xsl:template>
 	<!-- not in use, see front matter -->

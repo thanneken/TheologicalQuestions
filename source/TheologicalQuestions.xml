@@ -13,7 +13,7 @@
       </titleStmt>
       <editionStmt>
         <edition n="202105">
-          <title>Version 202105</title>
+          <title>202105 Edition</title>
           <date when="2021">2021</date>
         </edition>
       </editionStmt>
@@ -27,17 +27,21 @@
           </licence>
         </availability>
         <date when="2021-06-01">2021</date>
-        <idno type="doi">10.5281/zenodo.4459330</idno>
-        <idno type="uri">https://doi.org/10.5281/zenodo.4459330</idno>
+        <idno type="doi">10.5281/zenodo.4459329</idno>
+        <idno type="uri">https://doi.org/10.5281/zenodo.4459329</idno>
       </publicationStmt>
-      <seriesStmt>
-        <p>The base of a series of open educational resources (OER) related to Theological Questions</p>
-      </seriesStmt>
       <notesStmt>
-        <note>The TEI XML document available on GitHub is authoritative for all derivatives.</note>
+        <note>
+          <p><s>This Open Educational Resource (OER) is freely available in Web HTML, PDF, ePub, and Kindle MOBI formats.</s></p>
+          <p><s>The source is also freely available for authors and educators to modify.</s></p>
+          <p><s>See <ref target="https://thanneken.github.io/TheologicalQuestions/">https://thanneken.github.io/TheologicalQuestions/</ref>.</s></p>
+        </note>
       </notesStmt>
       <sourceDesc>
-        <p>No source, born digital</p>
+        <p>
+					<s>The TEI XML source was born digital.</s>
+					<s>Other formats (HTML, PDF, ePub, MOBI) are derived from the TEI XML source.</s>
+				</p>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -177,7 +181,7 @@
               <s>More so than theology, catechesis is concerned with a single faith tradition, and only the present teaching.</s>
             </p>
             <p>
-              <s>This course aspires to accurately represent the current Catholic teaching on major theological questions, but it will also include other teachings.</s>
+              <s>This course aspires to accurately represent the current Catholic teaching on major theological questions, but it will also include other perspectives.</s>
               <s>If it is important to you to keep straight what the Catholic Church currently teaches and align your thinking with the official thinking, you should be sure to have on your shelf a copy of</s>
               <bibl rend="inline">
                 <title>The Catechism of the Catholic Church </title>
@@ -235,14 +239,14 @@
               <s>Social justice considers how a Christian should respond to injustices in the world, such as inequality (racism, sexism), and economic injustice (poverty, living-wage, social security).</s>
               <s>Medical ethics deals with the sanctity of life, particularly at its beginning (embryos and fetuses) and end (life support, euthanasia).</s>
               <s>
-                <distinct space="stmarytx.edu">As St. Mary’s Dr. Ball focuses on social justice and Dr. Getz focuses on medical ethics.</distinct>
+                <distinct space="stmarytx.edu">At St. Mary’s Dr. Ball focuses on social justice and Dr. Getz focuses on medical ethics.</distinct>
               </s>
             </p>
             <p>
               <s><hi>Systematic theology</hi> focuses on articulating the traditional faith in light of new ideas in philosophy and culture.</s>
               <s>The term “systematic” refers to the idea that every individual belief should be consistent with every other belief, as part of a larger “system.”</s>
               <s>The biblical writers and great theologians of the past never really considered or faced the specific challenges of modern science, globalization of war and commerce, democracy, feminism, genocide, and so forth.</s>
-              <s>Systematic theology tries to find a consistent way of responding to these challenges by refining a traditional teaching without contradicting the essential beliefs.</s>
+              <s>Systematic theology tries to find a consistent way of responding to these challenges through engagement with the existing traditions of Christianity.</s>
               <s>
                 <distinct space="stmarytx.edu">At St. Mary’s the specialist in systematic theology is Dr. Buhrman.</distinct>
               </s>
@@ -254,36 +258,29 @@
           <div type="section">
             <head type="section">What kinds of courses do theology majors take?</head>
             <p>
-              <s>The major in theology at St. Mary’s calls for a broad foundation in the major topics of theology,</s>
-              <s>and a significant number of electives to allow development of a specialized interest.</s>
-              <s>The major calls for twelve theology courses.</s>
-              <s>The catalog gives more advanced descriptions.</s>
-              <s>Here is my attempt to introduce in a few words the courses typically offered.</s>
+              <s>The major in theology at St. Mary’s calls for ten theology courses distributed between the areas of Scripture and Thought and Practice.</s>
+              <s>The course catalog gives descriptions more thorough than these brief summaries.</s>
             </p>
             <list type="unordered">
-              <item>Old Testament… survey of all or part of the writings of the Israelites and early Jews, especially as viewed by the Christian tradition</item>
+              <item>Old Testament… survey of all or part of the writings of the Israelites and early Jews</item>
               <item>New Testament… survey of all or part of the writings of the first followers of Jesus of Nazareth</item>
-              <item>Catholic Social Ethics… do religion and politics mix? Religion and work? Faith and citizenship? What does it mean to be a Christian other than Sunday morning?</item>
               <item>
-                Contemporary Catholic Moral Life… the theory and practice of doing the right thing. 
+                Moral Theology… the theory and practice of doing the right thing. 
                 Abortion? Euthanasia? Is this just personal opinion? When is it not okay to just agree to disagree?
               </item>
+              <item>Catholic Social Ethics… do religion and politics mix? Religion and work? Faith and citizenship? What does it mean to be a Christian other than Sunday morning?</item>
               <item>Health Care and Medical Ethics… does stem cell research save lives or take lives, or both? If my brain is dead and a machine is making my heart beat, am I alive? </item>
-              <item>Marriage and Family Today… what does marriage mean in the Catholic Church beyond what it means according to the state of Texas (which also has laws about marriage)? </item>
-              <item>Personal Religious Transformation… letting religion build spirituality rather than getting in the way</item>
               <item>Christology… is Jesus God? Human? Both? Neither? What has he done for me lately?</item>
               <item>Ecclesiology… what is the Church? Do we need it? </item>
-              <item>
-                American Catholic experience… what have been the special challenges and fruits of combining American citizenship and Roman Catholicism? 
-                Am I an American Catholic or a Catholic American?
-              </item>
+							<item>Sacraments… how do certain objects and actions in particular become encounters with the divine?</item>
+							<item>Theology in the Southwest… how do regional language and culture, particularly those of the Southwest, shape experiences of faith?</item>
             </list>
           </div>
           <div type="section">
             <head type="section">What do theology majors get paid to do?</head>
             <p>
               <s>The theology major/minor can combine with other majors/minors in many interesting ways.</s>
-              <s>The Catholic Church is involved in a variety of endeavors besides Sunday morning mass, </s>
+              <s>Christianity is involved in a variety of endeavors besides Sunday morning worship, </s>
               <s>so theological training could come in handy in all sorts of areas </s>
               <s>such as non-profit/charity business leadership, healthcare, law and government, and media studies.</s>
               <s>The most direct areas of employment are teaching and parish work.</s>
@@ -298,17 +295,17 @@
                 <ab>
                   <figure>
                     <graphic width="1.5in" n="1002" height="2in" url="media/image3.jpeg" source="41ik7oky9l.jpg (359×500)">
-											<desc>Elizabeth Johnson, Quest for the Living God</desc>
-										</graphic>
+                      <desc>Elizabeth Johnson, Quest for the Living God</desc>
+                    </graphic>
                     <graphic width="1.5in" n="1003" height="2in" url="media/image4.jpeg">
-											<desc>John Meier, A Marginal Jew</desc>
-										</graphic>
+                      <desc>John Meier, A Marginal Jew</desc>
+                    </graphic>
                     <graphic width="1.5in" n="1004" height="2in" url="media/image5.jpeg" source="http://tandtclark.typepad.com/ttc/images/2007/12/07/justlove.jpg">
-											<desc>Margaret Farley, Just Love</desc>
-										</graphic>
+                      <desc>Margaret Farley, Just Love</desc>
+                    </graphic>
                     <graphic width="1.5in" n="1005" height="2in" url="media/image6.jpeg" source="http://1.bp.blogspot.com/_ksx6dIcRH6c/TA05s6GexeI/AAAAAAAAAFM/4LJ9DKj3KcA/s1600/TheologyofLiberation.jpg">
-											<desc>Gustavo Gutiérrez, A Theology of Liberation</desc>
-										</graphic>
+                      <desc>Gustavo Gutiérrez, A Theology of Liberation</desc>
+                    </graphic>
                   </figure>
                 </ab>
               </body>
@@ -317,7 +314,7 @@
               <body>
                 <head type="floatingText">Sample job description for a professor of biblical theology</head>
                 <ab>
-                  <s>The Ecclesiastical Faculty of the Boston College School of Theology and Ministry seeks applications for a full-time, open-rank, tenure-track position in New Testament with appointment to begin in August of 2015.<!-- TODO update --></s>
+                  <s>The Ecclesiastical Faculty of the Boston College School of Theology and Ministry seeks applications for a full-time, open-rank, tenure-track position in New Testament.</s>
                   <s>Candidates should be prepared to teach courses appropriate for the Master of Divinity, as well as offerings for other theology and ministry students at the master’s and doctoral levels concerning most or all of the following topics: Synoptic Gospels, Acts of the Apostles, John’s Gospel and Johannine literature, the writings of Paul and the later Pauline writings, the Book of Revelation, and Christian Apocryphal Literature.</s>
                   <s>Candidates must be committed to core Catholic teachings and approach their teaching and research in an interdisciplinary way, with sensitivity to pastoral needs and cultural diversity.</s>
                   <s>Applicants should be able to demonstrate strong teaching and research ability, including the ability to contribute to the formation of Jesuits and other candidates approved for ordination studies, and of women and men for lay ecclesial ministries and for service rooted in faith.</s>
@@ -341,7 +338,7 @@
             <s>The word “Israel” refers to a person, a people, and a land.</s>
             <s>In the Bible, Abraham’s grandson Jacob is also given the name “Israel.”</s>
             <s>In general, the ending “–ites” means “sons of” or “descendants of,” so the <hi>Israelites are the people who claim descent from Israel the person</hi>.</s>
-            <s>As a people the Israelites can be called the people Israel or simply Israel.</s>
+            <s>As a people the Israelites can be called the people of Israel or simply Israel.</s>
             <s>The land or territory in which the Israelites lived is also called the <hi>land of Israel</hi> or simply Israel.</s>
             <s>(If you continue Old Testament studies you will also learn that Israel can refer to the Northern Kingdom of Israel, in contrast to the Southern Kingdom, Judah.)</s>
             <s>The land and people of Israel are linked, especially in the Jewish perspective, because God promised to form a special relationship with one nation and make them secure in their own land.</s>
@@ -364,11 +361,11 @@
             </figure>
             <figure rend="wide" xml:id="southtexas">
               <graphic width="100%" n="1007" url="media/image8.jpeg"/>
-              <head type="figure">Israel and south Texas side by side</head>
+              <head type="figure">Israel and south Texas side by side. Look for Nazareth and Jerusalem.</head>
             </figure>
             <figure rend="wide" xml:id="israel">
               <graphic width="100%" n="1008" url="media/image9.png" source="Moody Bible Atlas in BibleWorks 9"/>
-              <head type="figure">Israel at the time of Jesus. Source: Moody Bible Atlas in BibleWorks 9</head>
+              <head type="figure">Israel at the time of Jesus. Look for Nazareth and Jerusalem. Source: Moody Bible Atlas in BibleWorks 9.</head>
             </figure>
             <p>
               <s>The Israelites were never a large or powerful empire.</s>
@@ -377,7 +374,7 @@
               <s>It is probably not a coincidence that they are geographically at the crossroads of the ancient civilizations of</s>
               <s><hi>Egypt</hi>, <hi>Mesopotamia</hi> (Babylon, Assyria, Persia to the east), and the <hi>Mediterranean</hi> (Greece, Rome).</s>
               <s>Their ideas drew from many directions and spread in many directions, always by persuasion rather than force.</s>
-              <s>The figure labeled <ref target="#romanempire">“Roman Empire”</ref> shows the land of Israel in comparison with its ancient neighbors.</s>
+              <s>The figure labeled <ref target="#romanempire">Roman Empire</ref> shows the land of Israel in comparison with its ancient neighbors.</s>
               <!-- probably a smarter way to calculate figure number -->
             </p>
             <p>
@@ -450,12 +447,12 @@
               <item>
                 <s><date when="-597">597</date> and <date when="-587">587 BCE</date> – South defeated by Babylon.</s>
                 <s>Begins <hi>Babylonian Exile</hi>.</s>
-                <s>Independent monarchy ends and is never restored (not counting some local kings who reported to foreign kings, like Herod).</s>
+                <s>Independent monarchy ends and is never restored (not counting some local kings, like Herod, who reported to foreign kings).</s>
               </item>
               <item>
                 <s><date when="-538">538 BCE</date> – Cyrus of Persia defeats the Babylonians and allows the people of Jerusalem who had been taken to Babylon to return (ends the Babylonian Exile).</s>
                 <s>Begins the <hi>Persian period</hi>.</s>
-                <s>The term “Israelite” can be used for the people in this period, it is better to use the term “Israelite” for the period 1250–587, and use “<hi>Judean</hi>” in the Persian period.</s>
+                <s>It is better to use the term “Israelite” for the people in the period 1250–587, and use “<hi>Judean</hi>” in the Persian period.</s>
                 <s>“Judean” is later shortened to “<hi>Jew</hi>.”</s>
                 <s>Much of the Hebrew Bible / Old Testament is written at this time, drawing on sources from the Monarchic period.</s>
               </item>
@@ -601,7 +598,6 @@
             <s>In fact, the denial of the existence of a higher power is not really found until modern times.</s>
             <s>Across human history a variety of conceptions of higher powers and spiritual realms have occurred.</s>
             <s>In the ancient Near East, which is the cultural neighborhood of the Israelites, the gods, by definition, had the following characteristics:</s>
-            <!-- tei xml, unlike html, is okay with lists and block quotes within paragraphs, so no continuation paragraph style necessary -->
             <list type="unordered">
               <item>
                 <s><hi>Immortal</hi>: They do not die.</s>
@@ -727,7 +723,6 @@
                 </quote>
                 <ref cRef="Amos 5:21-24">Amos 5:21–24</ref>
               </cit>
-              <!-- tei xml, unlike html, is okay with lists and block quotes within paragraphs, so no continuation paragraph style necessary -->
               <s>Whereas the other nations conceived of gods who were fickle and opportunistic, the Israelites asserted that their God was fundamentally an ethical God.</s>
             </p>
           </div>
@@ -770,12 +765,20 @@
                 </quote>
                 <ref cRef="Ps 135:5">Psalm 135:5</ref>
               </cit>
-              <!-- tei xml, unlike html, is okay with lists and block quotes within paragraphs, so no continuation paragraph style necessary -->
               <s>Some Jews and Christians will interpret these subordinate divine beings as angels, rather than gods.</s>
               <s>The early Israelites, however, called them gods.</s>
               <s>The idea that one God is king of all the other gods is not different from the idea that Marduk or Zeus is king of the gods.</s>
               <s>This early stage is still <hi>polytheism</hi>, the belief in many gods.</s>
             </p>
+            <floatingText rend="float">
+              <body>
+                <head type="floatingText">The name of God</head>
+                <ab>
+                  <s>Like English, Hebrew has a word that can mean God or any old god or gods.</s>
+                  <s>The God of Israel also has a personal name, which appears in English Bibles as LORD in all capital letters.</s>
+                </ab>
+              </body>
+            </floatingText>
             <p>
               <s>You might think if one God is superior to other gods then only the superior god should be worshiped and served.</s>
               <s>In fact, many polytheists focused on other gods who more immediately pertained to their needs.</s>
@@ -789,17 +792,6 @@
                 </quote>
                 <ref cRef="Exod 20:2-3">Exodus 20:2–3</ref>
               </cit>
-              <floatingText rend="float">
-                <body>
-                  <head type="floatingText">The name of God</head>
-                  <ab>
-                    <s>Like English, Hebrew has a word that can mean God or any old god or gods.</s>
-                    <s>The God of Israel also has a personal name, which appears in English Bibles as LORD in all capital letters.</s>
-                  </ab>
-                </body>
-              </floatingText>
-              <!-- tei xml, unlike html, is okay with lists and block quotes within paragraphs, so no continuation paragraph style necessary -->
-              <!-- also issue here of floatingText inside p -->
               <s>In this passage God is a “jealous” god.</s>
               <s>There are other gods to be jealous of.</s>
               <s>God demands to be ranked first.</s>
@@ -811,7 +803,6 @@
                 </quote>
                 <ref cRef="Deut 6:4">Deuteronomy 6:4</ref>
               </cit>
-              <!-- tei xml, unlike html, is okay with lists and block quotes within paragraphs, so no continuation paragraph style necessary -->
               <s>This translation is how the original audience, the ancient Israelites, would have understood the verse.</s>
               <s>Jews today would translate it a bit differently, in light of monotheism.</s>
             </p>
@@ -834,7 +825,6 @@
                 </quote>
                 <ref cRef="Deut 6:4">Deuteronomy 6:4</ref>
               </cit>
-              <!-- tei xml, unlike html, is okay with lists and block quotes within paragraphs, so no continuation paragraph style necessary -->
               <s>The absolute unity and oneness of God is an aspect of monotheism.</s>
               <s>Other, fairly late parts of the Hebrew Bible clearly assert monotheism.</s>
               <cit>
@@ -859,7 +849,6 @@
                 </quote>
                 <ref cRef="Ps 96:5">Psalm 96:5</ref>
               </cit>
-              <!-- tei xml, unlike html, is okay with lists and block quotes within paragraphs, so no continuation paragraph style necessary -->
               <s>Like many of the major ideas of the Israelites, the idea that there is only one God developed over time, through stages.</s>
             </p>
           </div>
@@ -879,7 +868,6 @@
                 </quote>
                 <ref cRef="Neh 9:6">Nehemiah 9:6</ref>
               </cit>
-              <!-- tei xml, unlike html, is okay with lists and block quotes within paragraphs, so no continuation paragraph style necessary -->
               <s>It is true that Israel’s neighbors had stories explaining how the earth came to exist as it does, and gods fashion things in a way comparable to creation.</s>
               <s>Israel’s understanding of their God as the creator stands out.</s>
               <s>God is purposeful and deliberate about creating in an orderly way.</s>
@@ -914,7 +902,7 @@
           <div type="section">
             <head type="section">Transcends human metaphors</head>
             <p>
-              <s>Israel’s neighbors imagined the gods as super-human, but basically the extension of human (and animal) characteristics.</s>
+              <s>Israel’s neighbors imagined the gods as super-human, but basically through the extension of human (and animal) characteristics.</s>
               <s>The gods are like a strong human only stronger, like a powerful king only more powerful, fast as a bird only faster.</s>
               <s>Early Israelites continued to picture God in human form, but they moved away from thinking of God as even comparable to humans.</s>
               <s>They continued to use metaphors, but they recognized that <hi>metaphors for God are only metaphors</hi>.</s>
@@ -924,7 +912,6 @@
                 </quote>
                 <ref cRef="Hos 11:9">Hosea 11:9</ref>
               </cit>
-              <!-- tei xml, unlike html, is okay with lists and block quotes within paragraphs, so no continuation paragraph style necessary -->
               <s>God may be comparable to a father, protective mother, husband, warrior, king, or judge, but the comparisons are limited.</s>
               <s>God is not actually any of those.</s>
               <s>One implication is that God may be compared to a male human, but God is not male.</s>
@@ -1061,7 +1048,7 @@
               <s>Maybe she deserved it.</s>
               <s>Maybe the suffering will lead to greater happiness.</s>
               <s>Maybe it is part of God’s larger plan.</s>
-              <s>We are not God, we do not know what God knows, and we are not as smart as god, so we cannot expect to understand or dictate what God should do.</s>
+              <s>We are not God, we do not know what God knows, and we are not as smart as God, so we cannot expect to understand or dictate what God should do.</s>
               <s>We should basically accept God’s plan.</s>
             </p>
             <floatingText rend="float">
@@ -1230,7 +1217,7 @@
               <s>Some scholars believe the Israelites hated the economic injustice associated with the rich, elitist, abusive Canaanites.</s>
               <s>Some believe it was their sexual perversion that initiated the separation.</s>
               <s>Whether it was the original issue or not, the point most clearly emphasized in Israelite literature is that you <hi>cannot worship both gods</hi>.</s>
-              <s>The God of Israel, LORD, cannot tolerate Israelites worshipping the god of the Canaanites, Ba‘al, any more than my wife can tolerate me sleeping with other women.</s>
+              <s>The God of Israel, LORD, cannot tolerate Israelites worshipping the god of the Canaanites, Ba‘al, any more than a married person can tolerate infidelity from a spouse.</s>
               <s>In most of the ancient world it was pretty normal to celebrate a festival to one god one month and another festival to another god the next month.</s>
               <s>The Israelite prophets demanded exclusivity.</s>
               <s>The Israelites were not allowed to go to the festivals of other gods, especially Ba‘al.</s>
@@ -1304,7 +1291,6 @@
               <s>Debts were to be automatically cancelled every seven years.</s>
               <s>That kind of financial plan will not get you too far in the business school, but the Israelites proposed a super-natural financial system, one in which God guarantees prosperity, particularly for those who share their prosperity.</s>
               <s>The goal was clear, <q>“There shall be no needy among you—since the LORD your God will bless you in the land.”</q> <ref cRef="Deut 15:4">Deuteronomy 15:4</ref></s>
-              <!-- using the cit element here renders as a block element, not worth coding a distinction so drop the cit element -->
             </p>
             <p>
               <s>On several matters the Israelites were perhaps better than their ancient neighbors, but still hard to accept as ethical by our standards.</s>
@@ -1329,8 +1315,8 @@
             <head>Purity and holiness</head>
             <figure rend="float">
               <graphic width="3in" n="10016" url="media/image17.jpeg" source="http://3.bp.blogspot.com/_Z-DEoN3ydt4/TPfO4DjZXyI/AAAAAAAABr0/vgTR6HkEhMM/s1600/swine.gif">
-								<desc>A pig</desc>
-							</graphic>
+                <desc>A pig</desc>
+              </graphic>
             </figure>
             <p>
               <s>The Israelites were also expected to maintain high standards of purity. One area of purity governed <hi>food</hi>.</s>
@@ -1451,7 +1437,7 @@
                 <s>315 CE – After centuries of persecution, Christianity becomes the favored <hi>religion of the Roman Empire</hi>.</s>
               </item>
               <item>
-                <s>325 CE – Christian leaders meet at <hi>Nicea</hi> to get their story straight.</s>
+                <s>325 CE – Christian leaders meet at <hi>Nicaea</hi> to get their story straight.<!--to clarify their shared beliefs.--></s>
                 <s>As a relatively underground movement, many conflicting ideas existed in various Christian communities.</s>
                 <s>Now that Christianity was dominant, uniformity in message and governance was important.</s>
                 <s>This will bring us to the following chapter, Christendom.</s>
@@ -1697,7 +1683,7 @@
               <s>The term <hi>eschatology</hi> comes from the Greek <foreign>eschatoi</foreign> (<foreign xml:lang="el" rend="notitalic">εσχατοι</foreign>) “last things” and <foreign>logoi</foreign> (<foreign xml:lang="el" rend="notitalic">λογοι</foreign>) “words, discourse,” so is the discourse or words we use to talk about the last things.</s>
               <s>The classical definition specifies four last things, namely death, judgment, heaven, and hell.</s>
               <s>Theologians today often speak of eschatology as our ultimate hope as Christians, as in where do we hope this world is going and what God will do for it.</s>
-              <s>I will be happy if remember that eschatology is the theological discourse about the <hi>afterlife and the end of the world</hi>.</s>
+              <s>I will be happy if you remember that eschatology is the theological discourse about the <hi>afterlife and the end of the world</hi>.</s>
               <s>If you think about it, those two things are distinct, but both pertain to the goal or end of a life as we know it and the world as we know it.</s>
             </p>
             <p>
@@ -1798,15 +1784,15 @@
                 <body>
                   <ab>
                     <s><hi rend="underline">four great beasts</hi> represent four kingdoms: Babylonian, Persian, Median, and Greek.</s>
-                    <s>It was assumed that every nation had its own guardian angel (not necessarily a good angel).</s>
-                    <s>The beast could represent the angel that guides the empire or the empire itself.</s>
+                    <s>It was assumed that every kingdom had its own guardian angel (not necessarily a good angel).</s>
+                    <s>The beast could represent the angel that guides the kingdom or the kingdom itself.</s>
                   </ab>
                 </body>
               </floatingText>
               <figure rend="float">
                 <graphic width="3in" n="10021" url="media/image22.jpg">
-									<desc>Hans Holbein the Younger, The Four Beasts of Daniel 7, Woodcut</desc>
-								</graphic>
+                  <desc>Hans Holbein the Younger, The Four Beasts of Daniel 7, Woodcut</desc>
+                </graphic>
               </figure>
               <floatingText rend="float">
                 <body>
@@ -1934,7 +1920,6 @@
                 </quote>
                 <ref cRef="Dan 7:1-28">Daniel 7</ref>
               </cit>
-              <!-- tei xml, unlike html, is okay with lists and block quotes within paragraphs, so no continuation paragraph style necessary -->
             </p>
             <p>
               <s>Technically the phrase “kingdom of God” does not appear in this chapter, but the kingdom of the holy ones of God develops into the idea of the kingdom of God.</s>
@@ -2208,7 +2193,6 @@
                 </quote>
                 <ref cRef="Matt 5:1-48">Matthew 5:1-48</ref>
               </cit>
-              <!-- tei xml, unlike html, is okay with lists and block quotes within paragraphs, so no continuation paragraph style necessary -->
               <s>Before too long some Christians would understand faith in Jesus as replacing the demands of the Jewish law, or at least loosening up the details.</s>
               <s>In this passage that is certainly not the case.</s>
             </p>
@@ -2260,7 +2244,6 @@
                 </quote>
                 <ref cRef="Matt 26:56">Matthew 26:56</ref>
               </cit>
-              <!-- tei xml, unlike html, is okay with lists and block quotes within paragraphs, so no continuation paragraph style necessary -->
               <s>Second, If Jesus fulfills the promise that a son of David would always rule as king, that would make Jesus the Messiah.</s>
               <s>Of course there was disagreement about what that meant exactly.</s>
               <s>Those Jews who expected the Messiah expected the Messiah to defeat the Romans, which Jesus did not do.</s>
@@ -2279,7 +2262,6 @@
                 </quote>
                 <ref cRef="Mark 8:27-30">Mark 8:27-30</ref>
               </cit>
-              <!-- tei xml, unlike html, is okay with lists and block quotes within paragraphs, so no continuation paragraph style necessary -->
               <s>Mark also suggests that Jesus let the secret out shortly before he was killed.</s>
               <s>Notice that Mark indicates Jesus claimed both roles, Messiah and Son of Man (quoting Daniel 7):</s>
             </p>
@@ -2297,7 +2279,7 @@
               <s>The third and trickiest title of Jesus is “Lord.”</s>
               <s>Although it is attested very early, the meaning is ambiguous.</s>
               <s>In English the word “Lord” is mostly used for God, medieval history, and British royalty.</s>
-              <s>In Aramaic and Greek (and I believe Spanish) the word can be used for any respected authority, from a crew chief at McDonald’s to God.</s>
+              <s>In Aramaic and Greek (like Spanish señor) the word can be used for any respected authority, from a crew chief at McDonald’s to God.</s>
               <s>Consider the following passage.</s>
               <s>Clearly the lordship of Jesus is significant and the role of Jesus as Lord is essentially identical to what is said of Lord God in the Old Testament.</s>
               <s>On the other hand, the word “God” only appears in this passage as a separate being who acts upon Jesus.</s>
@@ -2315,7 +2297,6 @@
                 </quote>
                 <ref cRef="Rom 10:9-13">Romans 10:9-13</ref>
               </cit>
-              <!-- tei xml, unlike html, is okay with lists and block quotes within paragraphs, so no continuation paragraph style necessary -->
               <s>Eventually Christians will say that there are actually <hi>three persons in one God</hi>, the Father, Son, and Holy Spirit.</s>
               <s>Such that Jesus is God and also God is God, and also God’s spirit is God.</s>
               <s>God gets along with God and talks to God and raises God from the dead.</s>
@@ -2514,7 +2495,7 @@
                 <s>God commanded Adam not to eat the fruit of the tree of knowledge.</s>
                 <s>The threat was “on the day you eat of it you shall surely die.”</s>
                 <s>Adam ate the fruit anyway, and actually lived to be 930.</s>
-                <s>One interpretation of the threat was, “one the day you eat of it you shall surely become mortal.”</s>
+                <s>One interpretation of the threat was, “on the day you eat of it you shall surely become mortal.”</s>
               </item>
               <item>
                 <s>Adam signed a contract with Death.</s>
@@ -2540,7 +2521,7 @@
                 <s>Satan and Death argue about who screwed up.</s>
               </item>
               <item>
-                <s>Not only is Jesus free to go, Jesus tears up the contract Adam had signed.</s>
+                <s>Not only is Jesus free to go, Jesus rips up the contract Adam had signed.</s>
                 <s>Death violated the mandate, now the whole deal is off.</s>
                 <s>It’s like Death served one minor a drink and lost its liquor license.</s>
                 <s>Jesus’ victory over Death is absolute, and all on his team share his victory.</s>
@@ -2702,7 +2683,6 @@
                 </quote>
                 <ref cRef="Matt 16:27-28">Matthew 16:27-28</ref>
               </cit>
-              <!-- tei xml, unlike html, is okay with lists and block quotes within paragraphs, so no continuation paragraph style necessary -->
               <s>When Jesus returns in glory the most obvious action expected is the defeat of the Roman Empire, seen as the opposite of the Kingdom of God.</s>
               <s>Part of the problem is that they were mean.</s>
               <s>They harshly occupied Judea, they killed Jesus, they persecuted the followers of Jesus.</s>
@@ -2755,7 +2735,6 @@
                 </quote>
                 <ref cRef="Rev 13:1-10">Revelation 13:1-10</ref>
               </cit>
-              <!-- tei xml, unlike html, is okay with lists and block quotes within paragraphs, so no continuation paragraph style necessary -->
               <s>All sorts of nasty things happen to those who give in to the power of the Empire.</s>
               <s>In the end, Revelation promises a new heaven, a new earth, and a new Jerusalem in which the righteous will enjoy the blessing they deserve.</s>
             </p>
@@ -2807,7 +2786,6 @@
                 </quote>
                 <ref cRef="Matt 25:31-40">Matthew 25:31-40</ref>
               </cit>
-              <!-- tei xml, unlike html, is okay with lists and block quotes within paragraphs, so no continuation paragraph style necessary -->
               <s>Matthew 25 does not mention any dead people being judged, but other passages suggest the dead will be resurrected so that they can be judged.</s>
             </p>
             <cit>
@@ -2948,7 +2926,7 @@
               </p>
               <p>
                 <s>The third category consists of books that were written by and for this particular sect within Judaism.</s>
-                <s>These books tell us about a minority of Judaism at the time, not the mainstream.</s>
+                <s>These books tell us about a minority at the time, not the mainstream Jewish beliefs.</s>
                 <s>However, this minority is remarkably similar to another Jewish sect from that time that went on to become Christianity.</s>
                 <s>There probably was no direct connection between this sect and Jesus himself, but some say John the Baptist (remembered by Christians as a forerunner of Jesus) would have encountered this sect, or that the message of Jesus particularly flourished in this sect.</s>
                 <s>At the very least they are comparable phenomena.</s>
@@ -2983,9 +2961,8 @@
                     <s>These men are despisers of riches, and so very communicative as raises our admiration.</s>
                     <s>Nor is there anyone to be found among them who has more than another; for it is a law among them, that those who come to them must let what they have be common to the whole order,—insomuch that among them all there is no appearance of poverty or excess of riches, but everyone’s possessions are intermingled with everyone’s possessions; and so there is, as it were, one patrimony among all the brethren.</s>
                   </quote>
-                  <ref cRef="J.W. 2.122">Josephus, The Jewish Wars 2.122</ref>
+                  <ref cRef="J.W. 2.122">Josephus, <bibl><title>The Jewish Wars</title></bibl> 2.122</ref>
                 </cit>
-                <!-- tei xml, unlike html, is okay with lists and block quotes within paragraphs, so no continuation paragraph style necessary -->
                 <s>Josephus goes on to describe the rule of hospitality that traveling members are welcome by other communities of the sect wherever they go.</s>
                 <s>Hence, they have no need to carry anything with them (or pay baggage fees).</s>
               </p>
@@ -3058,7 +3035,7 @@
               <s>Certain roles were associated with leadership and responsibility, but these leaders were not to be marked by special privilege, wealth, or status.</s>
             </p>
             <p>
-              <s>The Essenes and Qumran sect rejected slavery.</s>
+              <s>The Essenes and the Qumran sect rejected slavery.</s>
               <s>On this point the early followers of Jesus were not quite so progressive.</s>
               <s>Paul encouraged a Christian refugee slave to return to his master and obediently serve him.</s>
               <s>The Didache (early Christian instruction book) encouraged Christian slave owners to treat their slaves well, if they are Christian.</s>
@@ -3079,7 +3056,6 @@
               <head type="figure">Paul and Thecla teaching together, 6th century painting.</head>
             </figure>
             <p>
-              <!-- tei xml, unlike html, is okay with lists and block quotes within paragraphs, so no continuation paragraph style necessary -->
               <s>Speaking of male and female, the early Jesus movement seems to have included women to a remarkable degree, at least compared to the standards of the day.</s>
               <s>It is clear that women were well represented as matrons, deaconesses, missionaries, and martyrs.</s>
               <s>Even some of the negative things said about women reveal that, whether Paul liked it or not, women were taking leadership roles in the movement.</s>
@@ -3123,7 +3099,7 @@
                 <quote>
                   <p>
                     <s>These Essenes reject pleasures as an evil, but esteem continence and the conquest over our passions, to be virtue.</s>
-                    <s>They neglect wedlock, but select other persons children, while they are pliable,</s>
+                    <s>They neglect wedlock, but select other persons’ children, while they are pliable,</s>
                     <s>and fit for learning, and esteem them to be of their kindred, and form them according to their own manners.</s>
                     <s>They do not absolutely deny the fitness of marriage, and the succession of mankind thereby continued;</s>
                     <s>but they guard against the lascivious behaviour of women, and are persuaded that none of them preserve their fidelity to one man.</s>
@@ -3188,7 +3164,6 @@
                 <ref cRef="1 Cor 7:1-9">Paul’s First Letter to the Corinthians 7:1-9</ref>
               </cit>
               <p>
-                <!-- this is an example of a time that p with preceeding sibling cit should not be assumed to be type="continuation" -->
                 <s>John asserts that male virgins have a special status accompanying Jesus.</s>
               </p>
               <cit>
@@ -3238,13 +3213,12 @@
                 </quote>
                 <ref cRef="Gal 3:2, 23-26">Paul’s Letter to the Galatians 3:2, 23-26</ref>
               </cit>
-              <!-- tei xml, unlike html, is okay with lists and block quotes within paragraphs, so no continuation paragraph style necessary -->
               <s>We shall see this passage again in a few weeks.</s>
               <s>In the 16th century the reformer Martin Luther applied Paul’s arguments about the Jewish law to the Catholic sacraments.</s>
               <s>He argued that faith, not works, is required.</s>
             </p>
             <p>
-              <s>The Acts of the Apostles presents as a story how the holy Spirit made known the change that Gentiles could be baptized too:</s>
+              <s>The Acts of the Apostles presents as a story how the Holy Spirit made known the change that Gentiles could be baptized too:</s>
               <cit>
                 <quote>
                   <milestone unit="vs" n="44"/>
@@ -3261,7 +3235,6 @@
                 </quote>
                 <ref cRef="Acts 10:44-48">The Acts of the Apostles 10:44–48</ref>
               </cit>
-              <!-- tei xml, unlike html, is okay with lists and block quotes within paragraphs, so no continuation paragraph style necessary -->
             </p>
             <p>
               <s>Later, the Spirit also makes known that Jewish laws such as circumcision are not required of Gentile followers of Jesus, but only the core laws against pagan sacrifice, some food laws, and unlawful marriage:</s>
@@ -3285,7 +3258,6 @@
                 </quote>
                 <ref cRef="Acts 15:1, 11, 28-29">Acts 15:1, 11, 28–29</ref>
               </cit>
-              <!-- tei xml, unlike html, is okay with lists and block quotes within paragraphs, so no continuation paragraph style necessary -->
               <s>Note the claim is not that the historical Jesus taught these things,</s>
               <s>but that the Spirit continues to operate among the followers of Jesus and guides major decisions and reforms.</s>
             </p>
@@ -3370,9 +3342,11 @@
               <s>Augustine was born in 354 and converted to Christianity in 387.</s>
               <s>He wrote many works which strongly influenced all western Christians, both Catholic and later Protestant.</s>
               <s>The study of concepts such as original sin, grace, free will, just war theory, and many more center on Augustine.</s>
-              <s>His 22-book series called</s> 
-							<bibl rend="inline"><title>The City of God </title></bibl> 
-							<s><hi>responded to the fall of Rome</hi> by defining Christendom as fundamentally a spiritual “city” that transcended Rome or any other human city.</s>
+              <s>His 22-book series called</s>
+              <bibl rend="inline">
+                <title>The City of God </title>
+              </bibl>
+              <s><hi>responded to the fall of Rome</hi> by defining Christendom as fundamentally a spiritual “city” that transcended Rome or any other human city.</s>
               <s>Augustine died in 430, leaving a cathedral and library in Hippo, the city where he served as bishop (see map below).</s>
             </p>
             <figure rend="float">
@@ -3419,8 +3393,8 @@
                 </item>
                 <item>
                   <s>Jesus is <hi>eternally begotten</hi> by God as the firstborn son of God.</s>
-                  <s>The metaphor of father and son should not be taken so literally as to mean the son is derivative of or second to the father.</s>
-                  <s>There never was a time when the father existed and the son did not.</s>
+                  <s>The metaphor of father and son should not be taken so literally as to mean the Son is derivative of or subordinate to the Father.</s>
+                  <s>There never was a time when the Father existed and the Son did not.</s>
                 </item>
               </list>
               <s>Again, only the last went on to be accepted in Christianity as it survived.</s>
@@ -3450,6 +3424,29 @@
               <s>Almost all Christians today accept this statement of belief according to some interpretation.</s>
             </p>
             <cit>
+							<quote>
+								<p><s>I believe in one God, the <hi>Father</hi> almighty, maker of heaven and earth, of all things visible and invisible.</s></p>
+								<p>
+									<s>I believe in one Lord <hi>Jesus Christ</hi>, the Only Begotten Son of God, born of the Father before all ages.</s>
+									<s>God from God, Light from Light, true God from true God, begotten, not made, consubstantial with the Father; through him all things were made.</s>
+									<s>For us men and for our salvation he came down from heaven, and by the Holy Spirit was incarnate of the Virgin Mary, and became man.</s>
+									<s>For our sake he was crucified under Pontius Pilate, he suffered death and was buried, and rose again on the third day in accordance with the Scriptures.</s>
+									<s>He ascended into heaven and is seated at the right hand of the Father.</s>
+									<s>He will come again in glory to judge the living and the dead and his kingdom will have no end.</s>
+								</p>
+								<p>
+									<s>I believe in the <hi>Holy Spirit</hi>, the Lord, the giver of life,</s>
+									<s>who proceeds from the Father and the Son,</s>
+									<s>who with the Father and the Son is adored and glorified,</s>
+									<s>who has spoken through the prophets.</s>
+								</p>
+								<p>
+									<s>I believe in one, holy, catholic and apostolic Church.</s>
+									<s>I confess one Baptism for the forgiveness of sins</s>
+									<s>and I look forward to the resurrection of the dead and the life of the world to come.</s>
+								</p>
+							</quote>
+							<!--
               <quote>
                 <p>
                   <s>We believe in one God, the <hi>Father</hi>, the Almighty, maker of heaven and earth, of all that is, seen and unseen.</s>
@@ -3478,6 +3475,7 @@
                   <s>We look for the resurrection of the dead, and the life of the world to come.</s>
                 </p>
               </quote>
+							-->
             </cit>
           </div>
           <div type="section">
@@ -3493,7 +3491,7 @@
             </list>
             <figure rend="wide">
               <graphic width="100%" n="10036" url="media/image37.jpeg"/>
-              <head type="figure">The Roman Empire around 300 CE. Source: Wikimedia Commons.</head>
+              <head type="figure">The Roman Empire around 300 CE. Look for Rome and Nicaea. Source: Wikimedia Commons.</head>
             </figure>
           </div>
         </div>
@@ -3504,7 +3502,7 @@
             <s>We have talked about beliefs and practices, and those are important.</s>
             <s>Especially in the period of Christendom between Constantine and the Reformation, the core or <hi>what it means to be a Christian is to be a citizen of the Church</hi>.</s>
             <s>The Church may be oriented toward Christ, but the average Christian is oriented toward the Church and experiences the Church more directly.</s>
-            <s>Certainly there were practical concerns in organizing a Church that seeks to deliver salvation from Christ to a large number of people.</s>
+            <s>Certainly there were practical concerns in organizing a Church that seeks to deliver (mediate) salvation from Christ to a large number of people.</s>
             <s>There were also theoretical, theological concerns.</s>
             <s>Theological <hi>discourse about the nature of the Church is ecclesiology</hi>, from the Greek <foreign>ekklēsia</foreign> (<foreign xml:lang="el" rend="notitalic">ἐκκλησία</foreign>) (church, originally assembly or congregation).</s>
           </p>
@@ -3634,7 +3632,7 @@
               <body>
                 <head type="floatingText">Capitalization</head>
                 <ab>
-                  <s>Church is always capitalized when it is part of a name of an organization, such as the Roman Catholic Church or the Presbyterian Church of America.</s>
+                  <s>Church is always capitalized when it is part of a name of an organization, such as the Roman Catholic Church or the Presbyterian Church in America.</s>
                   <s>Theologians generally capitalize Church when they mean the one abstract ideal of the body of Christ, as in <emph>the</emph> Church.</s>
                   <s>It is lowercase when it refers to any old church or churches, unless it is a title.</s>
                   <s>
@@ -3677,7 +3675,8 @@
                 <hi>This “big tent” approach to Christianity, in contrast to the Donatist approach, was called the universal Church.</hi>
               </s>
               <s>The Greek word for universal is <foreign>katholikos</foreign> (<foreign xml:lang="el" rend="notitalic">καθολικός</foreign>), <hi>catholic</hi>.</s>
-              <s>Today, especially when capitalized, the term Catholic refers to the Roman Catholic Church, as opposed to Eastern Orthodox or Protestant.</s>
+              <s>Today, especially when capitalized, people use the term “Catholic” to refer to the Roman Catholic Church, as opposed to Eastern Orthodox or Protestant.</s>
+							<!-- (There are Catholic Churches that are not Roman but are in full communion with the Roman Catholic Church.) -->
               <s>Originally the catholic Church was the general, universal church of all the baptized, sinners or not.</s>
               <s>Although Catholicism does have a concept of excommunication for serious, unrepentant rejection of the core teachings of Christ through the Church, simply being a sinner does not make a baptized person any less Catholic.</s>
             </p>
@@ -4110,15 +4109,8 @@
               <s>Below we will read an excerpt from the writings of Gertrude the Great (1256–1302).</s>
             </p>
             <p>
-              <s>
-								<hi>Mysticism can be defined as <q>“the exceptionally vivid intuition of one’s union with ultimate reality” </q></hi>
-								<ref>
-									<bibl>
-										<author>John Haught</author>, 
-										<title>What is Religion? </title> 
-										<biblScope unit="page" n="97">97</biblScope>
-									</bibl>
-								</ref>.
+              <s><hi>Mysticism can be defined as <q>“the exceptionally vivid intuition of one’s union with ultimate reality” </q></hi><ref><bibl><author>John Haught</author>, 
+										<title>What is Religion? </title><biblScope unit="page" n="97">97</biblScope></bibl></ref>.
 							</s>
               <s>Outsiders and skeptics may tend to think of mysticism as other than reality or escape from reality.</s>
               <s>It is important to recognize that for the mystics, mystical union is more real than any ordinary object.</s>
@@ -4226,7 +4218,6 @@
                 </p>
               </quote>
             </cit>
-            <!-- tei xml, unlike html, is okay with lists and block quotes within paragraphs, so no continuation paragraph style necessary -->
             <figure>
               <graphic width="3in" n="10047" url="media/image48.jpeg" source="THE TWO HEARTS WITH ROSES"/>
               <head type="figure">Jesus showed Gertrude his heart and she showed him hers.</head>
@@ -4567,8 +4558,8 @@
             </p>
             <figure rend="float">
               <graphic width="3in" n="10056" url="media/image57.jpeg" source="http://4.bp.blogspot.com/-kC_N-UguIx0/T1lvLqnZEHI/AAAAAAAAAVI/g-6KDVC-35M/s1600/ALIEN+ICON.jpg">
-								<desc>An alien holding a Bible and dressed as an orthodox bishop</desc>
-							</graphic>
+                <desc>An alien holding a Bible and dressed as an orthodox bishop</desc>
+              </graphic>
               <head type="figure">Source: saintandcynic.blogspot.com</head>
             </figure>
             <p>
@@ -4702,8 +4693,8 @@
           <head type="chapter">What do I have to do to be saved?</head>
           <figure rend="float">
             <graphic width="3in" n="10058" url="media/image59.png">
-							<desc>Cartoon of a dog at the gates of heaven being told by St. Peter, “I know you have been very good, but all that entitles you to is a walk.”</desc>
-						</graphic>
+              <desc>Cartoon of a dog at the gates of heaven being told by St. Peter, “I know you have been very good, but all that entitles you to is a walk.”</desc>
+            </graphic>
           </figure>
           <p>
             <s>As a young monk, Martin Luther was deeply worried about his worthiness to stand before God.</s>
@@ -4808,8 +4799,8 @@
             </p>
             <figure rend="float">
               <graphic width="3in" n="10059" url="media/image60.jpeg" source="http://www.freestuff4.me/wp-content/uploads/2011/02/free-stuff-2.jpg">
-								<desc>Plastic bin labeled “free stuff.”</desc>
-							</graphic>
+                <desc>Plastic bin labeled “free stuff.”</desc>
+              </graphic>
             </figure>
             <p>
               <s>
@@ -4849,8 +4840,8 @@
             <head type="section">Salvation by faith and works</head>
             <figure rend="float">
               <graphic width="3in" n="10060" url="media/image61.jpeg" source="http://0.tqn.com/d/arthistory/1/0/n/1/1/Norman-Rockwell-A-Scout-is-Helpful-1939.jpg">
-								<desc>Normal Rockwell painting of a Boy Scout rescuing a child from a flood.</desc>
-							</graphic>
+                <desc>Normal Rockwell painting of a Boy Scout rescuing a child from a flood.</desc>
+              </graphic>
               <head type="figure">If you do a heroic deed because you expect a medal, are you really a hero? Artist: Normal Rockwell</head>
             </figure>
             <p>
@@ -5135,8 +5126,8 @@
             </p>
             <figure rend="float">
               <graphic width="3in" n="10068" url="media/image69.jpeg" source="http://4.bp.blogspot.com/-O8meL1ymZdE/TeaXvPeLEYI/AAAAAAAABPs/7Lz0ZfSsT08/s1600/nh_license_plate2.jpg">
-								<desc>New Hampshire license plate with the motto “Live Free or Die”</desc>
-							</graphic>
+                <desc>New Hampshire license plate with the motto “Live Free or Die”</desc>
+              </graphic>
               <head type="figure">Live free or die. Um, can we work out a compromise?</head>
             </figure>
             <p>
@@ -5163,7 +5154,6 @@
               </item>
               <item>Others?</item>
             </list>
-            <!-- [[[ @@@ create here a SVG of Cartesian axes labeled good/agree, collectivism, bad/disagree, individualism ]]] -->
           </div>
         </div>
       </div>
@@ -5262,21 +5252,21 @@
               <graphic width="3in" n="10070" url="media/image71.jpeg"/>
               <head type="figure">Pope John XXIII (the twenty-third)</head>
             </figure>
-						<p>
-            <cit>
-              <quote>
-                <s>The greatest concern of the Ecumenical Council is this:</s>
-                <s>that the sacred deposit of Christian doctrine should be guarded and taught more efficaciously [effectively, efficiently] …</s>
-                <s>It is necessary first of all that the Church should never depart from the sacred patrimony [gift received from ancestors] of truth received from the Fathers.</s>
-                <s>But at the same time she [the Church] must ever look into the present, to the new conditions and new forms of life introduced into the modern world,</s>
-                <s>which have opened new avenues to the Catholic apostolate [mission]. …</s>
-                <s>The authentic doctrine should be studied and expounded through the <hi>methods of research and the literary forms of modern thought</hi>.</s>
-                <s>The substance of the ancient doctrine of the deposit of faith is one thing, and <hi>the way in which it is presented</hi> is another.</s>
-                <s>And it is the latter that must be taken into great consideration with patience if necessary.</s>
-              </quote>
-              <ref>Excerpt from Pope John XXIII’s opening address of Vatican II</ref>
-            </cit>
-						</p>
+            <p>
+              <cit>
+                <quote>
+                  <s>The greatest concern of the Ecumenical Council is this:</s>
+                  <s>that the sacred deposit of Christian doctrine should be guarded and taught more efficaciously [effectively, efficiently] …</s>
+                  <s>It is necessary first of all that the Church should never depart from the sacred patrimony [gift received from ancestors] of truth received from the Fathers.</s>
+                  <s>But at the same time she [the Church] must ever look into the present, to the new conditions and new forms of life introduced into the modern world,</s>
+                  <s>which have opened new avenues to the Catholic apostolate [mission]. …</s>
+                  <s>The authentic doctrine should be studied and expounded through the <hi>methods of research and the literary forms of modern thought</hi>.</s>
+                  <s>The substance of the ancient doctrine of the deposit of faith is one thing, and <hi>the way in which it is presented</hi> is another.</s>
+                  <s>And it is the latter that must be taken into great consideration with patience if necessary.</s>
+                </quote>
+                <ref>Excerpt from Pope John XXIII’s opening address of Vatican II</ref>
+              </cit>
+            </p>
             <figure rend="float">
               <graphic width="3in" n="10071" url="media/image72.png" source="http://4.bp.blogspot.com/-wq5sBDGEAck/TcL33ctOTzI/AAAAAAAABFU/BxaYfBRivUM/s1600/pope-john-paul-ii-0201.png"/>
               <head type="figure">Pope John Paul II (the second)</head>
@@ -5509,9 +5499,11 @@
             <head type="section">She blinded me with science</head>
             <figure rend="float">
               <graphic width="2in" n="10075" url="media/image76.jpeg" source="http://static.superherosuperstar.com/uploads/2011/05/charles-darwin-the-origin-of-species.jpg">
-								<desc>Cover of book by Charles Darwin, The Origin of Species</desc>
-							</graphic>
-              <head type="figure"><bibl><author>Charles Darwin</author>, <title>The Origin of Species</title></bibl></head>
+                <desc>Cover of book by Charles Darwin, The Origin of Species</desc>
+              </graphic>
+              <head type="figure">
+                <bibl><author>Charles Darwin</author>, <title>The Origin of Species</title></bibl>
+              </head>
             </figure>
             <p>
               <s>But reason goes well beyond rational inquiry into scripture.</s>
@@ -5568,8 +5560,8 @@
             <head>Secularism</head>
             <figure rend="wide">
               <graphic width="3.5in" n="10076" url="media/image77.jpeg" source="http://www.wired.com/images_blogs/thisdayintech/2010/09/simpsons.jpg">
-								<desc>Stephen Jay Gould (1941-2002) as portrayed on The Simpsons</desc>
-							</graphic>
+                <desc>Stephen Jay Gould (1941-2002) as portrayed on The Simpsons</desc>
+              </graphic>
               <head type="figure">Harvard zoologist Stephen Jay Gould (1941-2002) wrote enough popular works to be featured among the Harvard-centric snooty allusions of “The Simpsons.” He maintained that religion and science are not in conflict because they have nothing to do with each other. Science should constrain itself to facts, not faith, and religion should constrain itself to beliefs that cannot be scientifically supported or refuted. Catholicism would not accept this way of isolating two essential and complementary ways of pursuing truth.</head>
             </figure>
             <p>
@@ -5613,8 +5605,8 @@
             <head type="section">The New Age Movement</head>
             <figure rend="float">
               <graphic width="3in" n="10078" url="media/image79.jpeg" source="http://loymachedo.com/wp-content/uploads/2011/01/What-The-Bleep-Do-We-Know.jpg">
-								<desc>Poster for the movie “What the Bleep Do We Know?</desc>
-							</graphic>
+                <desc>Poster for the movie “What the Bleep Do We Know?</desc>
+              </graphic>
               <head type="figure"><bibl><title>What the Bleep Do We Know? </title></bibl> This 2004 semi-documentary presents a view of quantum physics and spirituality coming together to prove that reality is an illusion constructed by individual and group consciousness. The film weaves together established science with fringe spirituality.</head>
             </figure>
             <p>
@@ -5727,8 +5719,8 @@
             </p>
             <figure rend="float">
               <graphic width="3in" n="10080" url="media/image81.jpeg">
-								<desc>Three aid workers wearing logos of the red star of david, red cross, and red crescent, respectively</desc>
-							</graphic>
+                <desc>Three aid workers wearing logos of the red star of david, red cross, and red crescent, respectively</desc>
+              </graphic>
               <head type="figure">The red cross on a white background was used as a symbol of the Crusades. Today, the red cross might symbolize charity to us, but it is problematic to wave our Christian flag while serving people of other faiths, particularly the descendants of people killed under that flag. One solution to is make red stars and crescents. The logo of Catholic Relief Services is not explicitly religious.</head>
             </figure>
             <p>
@@ -5775,9 +5767,11 @@
               <s>However, <hi>three major contributions can be associated with the Catholic Church.</hi></s>
               <s>First, whereas the worker movements originated from an “us vs. them” relationship with factory owners, the Catholic Church in principle included (or could have included) all sides.</s>
               <s>Church documents such as</s>
-						 	<bibl rend="inline"><title>Rerum Novarum </title></bibl> 
-							<ref>“New Things,” <bibl><date when="1891">1891</date></bibl></ref>
-							<s>proceeded with a more conciliatory approach, describing the mutual responsibilities of employer and employee, rather than single-sided lists of demands.</s>
+              <bibl rend="inline">
+                <title>Rerum Novarum </title>
+              </bibl>
+              <ref>“New Things,” <bibl><date when="1891">1891</date></bibl></ref>
+              <s>proceeded with a more conciliatory approach, describing the mutual responsibilities of employer and employee, rather than single-sided lists of demands.</s>
               <s><hi>Second</hi>, in the United States many of the tyrannized workers happened to be Catholic immigrants.</s>
               <s>Beyond the official documents, there were many priests and nuns who took seriously the obligation to care for the workers in the pews.</s>
               <s>Priests and nuns occasionally led meetings themselves, allowed parish halls to be used for meetings, or provided safe haven when organizing workers were violently attacked.</s>
@@ -5860,8 +5854,8 @@
             </p>
             <figure rend="float">
               <graphic width="3in" n="10083" url="media/image84.jpeg">
-								<desc>Painting of the prophet Miriam leading the Song of the Sea in Exodus 15</desc>
-							</graphic>
+                <desc>Painting of the prophet Miriam leading the Song of the Sea in Exodus 15</desc>
+              </graphic>
               <head type="figure">Is the problem that there aren't women prophets in the Bible, or there are and you never hear about them?</head>
             </figure>
             <p>
@@ -5929,8 +5923,8 @@
             <head type="section">Natural law: universal moral truths that are not the domain of one religion</head>
             <figure rend="float">
               <graphic width="3in" n="10084" url="media/image85.jpeg" source="http://www.normannfinancial.com/images/misc/Gravity%20Lessons.jpg">
-								<desc>Looney Tunes, Roadrunner and Wile E. Coyote</desc>
-							</graphic>
+                <desc>Looney Tunes, Roadrunner and Wile E. Coyote</desc>
+              </graphic>
               <head type="figure">In one episode the coyote runs over a cliff but does not fall. The roadrunner hands him a book explaining gravity, then he falls.</head>
             </figure>
             <p>
@@ -5974,8 +5968,8 @@
             </p>
             <figure rend="float">
               <graphic width="3in" n="10085" url="media/image86.jpeg" source="http://www.scientificamerican.com/media/inline/birth-control-pills-affect-womens-taste_1.jpg">
-								<desc>Birth control pills</desc>
-							</graphic>
+                <desc>Birth control pills</desc>
+              </graphic>
               <head type="figure">
                 The Magisterium has consistently viewed birth control pills as a sinful choice.
                 The Affordable Care Act led to a debate as to whether Catholic institutions should continue to be able to prevent birth control coverage from being included in the medical plans for their employees and students.
@@ -6019,8 +6013,8 @@
             </p>
             <figure rend="float">
               <graphic width="3in" n="10086" url="media/image87.png">
-								<desc>Man holding sign that says “Abortion is Murder”</desc>
-							</graphic>
+                <desc>Man holding sign that says “Abortion is Murder”</desc>
+              </graphic>
             </figure>
             <p>
               <s>You may have already heard all this so far.</s>
@@ -6068,8 +6062,8 @@
             <head type="section">The 21st century</head>
             <figure rend="float">
               <graphic width="3in" n="10087" url="media/image88.jpeg" source="http://www.shc.edu/theolibrary/graphics/vaticanii.jpg">
-								<desc>Photo of Vatican II inside St. Peter’s Basilica</desc>
-							</graphic>
+                <desc>Photo of Vatican II inside St. Peter’s Basilica</desc>
+              </graphic>
               <head type="figure">I hope they keep the same venue from Vatican II. It has nice high ceilings and maybe even some room to squeeze in some women.</head>
             </figure>
             <p>

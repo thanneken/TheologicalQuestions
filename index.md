@@ -1,9 +1,9 @@
-[GitHub Repository](https://github.com/thanneken/TheologicalQuestions/)
-
 [HTML Webpage](derivatives/TheologicalQuestions.html)
 
 [PDF Virtual Paper](derivatives/TheologicalQuestions.pdf)
 
-[ePub](derivatives/TheologicalQuestions.epub)
+[ePub (DAISY accessibility compliant)](derivatives/TheologicalQuestions.epub)
 
-[MOBI](derivatives/TheologicalQuestions.mobi)
+[Kindle MOBI](derivatives/TheologicalQuestions.mobi)
+
+[GitHub Source Repository](https://github.com/thanneken/TheologicalQuestions/)
