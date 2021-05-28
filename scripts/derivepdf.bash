@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 BASEPATH='/home/thanneken/git/'
 FILE='TheologicalQuestions'
+xmlstarlet val -e -d ${BASEPATH}TheologicalQuestions/source/tei_tq.dtd ${BASEPATH}TheologicalQuestions/source/TheologicalQuestions.xml
 ${BASEPATH}/teic/Stylesheets/bin/teitopdf \
 	--localsource=${BASEPATH}teic/TEI/P5 \
 	--profiledir=${BASEPATH}TheologicalQuestions/stylesheets/profiles \

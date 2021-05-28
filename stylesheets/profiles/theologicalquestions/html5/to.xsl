@@ -46,6 +46,7 @@
 			.vs{color:gray;font-size:75%;line-height:0;position:relative;vertical-align:baseline;top:-0.5em;padding-right:0.3em;}
 			.wide{margin:0;width:6.5in;max-width:100%;}
 			span.distinct{font-style:normal;color:maroon;}
+			div.l{margin-left:0;}
 		</xsl:element>
 	</xsl:template>
 	<!-- add credits to footer -->

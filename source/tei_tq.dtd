@@ -1,6 +1,6 @@
 
 <!--
-DTD generated from ODD source 2021-05-17T19:54:45Z. .This template file is freely available and you are hereby authorised to copy, modify, and redistribute it in any way without further reference or permissions. When making such modifications, you are strongly recommended to change the present text to include an accurate statement of the licencing conditions applicable to your modified text.
+DTD generated from ODD source 2021-05-27T21:50:59Z. .This template file is freely available and you are hereby authorised to copy, modify, and redistribute it in any way without further reference or permissions. When making such modifications, you are strongly recommended to change the present text to include an accurate statement of the licencing conditions applicable to your modified text.
 TEI Edition: Version 4.2.2. Last updated on
 	9th April 2021, revision 609a109b1
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.2.2/
@@ -55,13 +55,25 @@ TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.2.2/
 
 <!-- predeclared classes -->
 
+<!ENTITY % tei_att.global.responsibility.attribute.cert '
+cert %teidata.probCert;  #IMPLIED'>
+
+<!ENTITY % tei_att.global.responsibility.attribute.resp '
+resp CDATA  #IMPLIED'>
+<!ENTITY % tei_att.global.responsibility.attributes '
+ %tei_att.global.responsibility.attribute.cert;
+ %tei_att.global.responsibility.attribute.resp;'> 
 <!ENTITY % tei_att.global.rendition.attribute.rend '
 rend CDATA  #IMPLIED'>
+
+<!ENTITY % tei_att.global.rendition.attribute.style '
+style %teidata.text;  #IMPLIED'>
 
 <!ENTITY % tei_att.global.rendition.attribute.rendition '
 rendition CDATA  #IMPLIED'>
 <!ENTITY % tei_att.global.rendition.attributes '
  %tei_att.global.rendition.attribute.rend;
+ %tei_att.global.rendition.attribute.style;
  %tei_att.global.rendition.attribute.rendition;'> 
 <!ENTITY % tei_att.global.source.attribute.source '
 source CDATA  #IMPLIED'>
@@ -249,6 +261,14 @@ default (true|false) "false" '>
 status %teidata.enumerated;  "draft" '>
 <!ENTITY % tei_att.docStatus.attributes '
  %tei_att.docStatus.attribute.status;'> 
+<!ENTITY % tei_att.global.responsibility.attribute.cert '
+cert %teidata.probCert;  #IMPLIED'>
+
+<!ENTITY % tei_att.global.responsibility.attribute.resp '
+resp CDATA  #IMPLIED'>
+<!ENTITY % tei_att.global.responsibility.attributes '
+ %tei_att.global.responsibility.attribute.cert;
+ %tei_att.global.responsibility.attribute.resp;'> 
 <!ENTITY % tei_att.editLike.attribute.evidence '
 evidence NMTOKENS  #IMPLIED'>
 
@@ -260,10 +280,14 @@ instant %teidata.xTruthValue;  "false" '>
 <!ENTITY % tei_att.global.rendition.attribute.rend '
 rend CDATA  #IMPLIED'>
 
+<!ENTITY % tei_att.global.rendition.attribute.style '
+style %teidata.text;  #IMPLIED'>
+
 <!ENTITY % tei_att.global.rendition.attribute.rendition '
 rendition CDATA  #IMPLIED'>
 <!ENTITY % tei_att.global.rendition.attributes '
  %tei_att.global.rendition.attribute.rend;
+ %tei_att.global.rendition.attribute.style;
  %tei_att.global.rendition.attribute.rendition;'> 
 <!ENTITY % tei_att.global.source.attribute.source '
 source CDATA  #IMPLIED'>
@@ -277,10 +301,18 @@ n %teidata.text;  #IMPLIED'>
 
 <!ENTITY % tei_att.global.attribute.xmllang '
 xml:lang %teidata.language;  #IMPLIED'>
-<!ENTITY % tei_att.global.attributes '%tei_att.global.rendition.attributes;%tei_att.global.linking.attributes;%tei_att.global.analytic.attributes;%tei_att.global.source.attributes;
+
+<!ENTITY % tei_att.global.attribute.xmlbase '
+xml:base %teidata.pointer;  #IMPLIED'>
+
+<!ENTITY % tei_att.global.attribute.xmlspace '
+xml:space (default|preserve) #IMPLIED'>
+<!ENTITY % tei_att.global.attributes '%tei_att.global.rendition.attributes;%tei_att.global.linking.attributes;%tei_att.global.analytic.attributes;%tei_att.global.responsibility.attributes;%tei_att.global.source.attributes;
  %tei_att.global.attribute.xmlid;
  %tei_att.global.attribute.n;
- %tei_att.global.attribute.xmllang;'> 
+ %tei_att.global.attribute.xmllang;
+ %tei_att.global.attribute.xmlbase;
+ %tei_att.global.attribute.xmlspace;'> 
 <!ENTITY % tei_att.internetMedia.attribute.mimeType '
 mimeType CDATA  #IMPLIED'>
 <!ENTITY % tei_att.internetMedia.attributes '
@@ -504,11 +536,11 @@ to %teidata.word;  #IMPLIED'>
 <!ENTITY % model.noteLike_sequenceOptional "note?"> 
 <!ENTITY % model.noteLike_sequenceOptionalRepeatable "note*"> 
 <!ENTITY % model.noteLike_sequenceRepeatable "note+"> 
-<!ENTITY % model.lLike ""> 
-<!ENTITY % model.lLike_sequence ""> 
-<!ENTITY % model.lLike_sequenceOptional ""> 
-<!ENTITY % model.lLike_sequenceOptionalRepeatable ""> 
-<!ENTITY % model.lLike_sequenceRepeatable ""> 
+<!ENTITY % model.lLike "l"> 
+<!ENTITY % model.lLike_sequence "l"> 
+<!ENTITY % model.lLike_sequenceOptional "l?"> 
+<!ENTITY % model.lLike_sequenceOptionalRepeatable "l*"> 
+<!ENTITY % model.lLike_sequenceRepeatable "l+"> 
 <!ENTITY % model.pLike "p |ab"> 
 <!ENTITY % model.pLike_sequence "p, ab"> 
 <!ENTITY % model.pLike_sequenceOptional "p?, ab?"> 
@@ -529,11 +561,11 @@ to %teidata.word;  #IMPLIED'>
 <!ENTITY % model.global.edit_sequenceOptional ""> 
 <!ENTITY % model.global.edit_sequenceOptionalRepeatable ""> 
 <!ENTITY % model.global.edit_sequenceRepeatable ""> 
-<!ENTITY % model.divPart "%model.pLike;"> 
-<!ENTITY % model.divPart_sequence "%model.pLike;"> 
-<!ENTITY % model.divPart_sequenceOptional "%model.pLike;?"> 
-<!ENTITY % model.divPart_sequenceOptionalRepeatable "%model.pLike;*"> 
-<!ENTITY % model.divPart_sequenceRepeatable "%model.pLike;+"> 
+<!ENTITY % model.divPart "%model.lLike; |%model.pLike;"> 
+<!ENTITY % model.divPart_sequence "%model.lLike;, %model.pLike;"> 
+<!ENTITY % model.divPart_sequenceOptional "%model.lLike;?, %model.pLike;?"> 
+<!ENTITY % model.divPart_sequenceOptionalRepeatable "%model.lLike;*, %model.pLike;*"> 
+<!ENTITY % model.divPart_sequenceRepeatable "%model.lLike;+, %model.pLike;+"> 
 <!ENTITY % model.placeNamePart ""> 
 <!ENTITY % model.placeNamePart_sequence ""> 
 <!ENTITY % model.placeNamePart_sequenceOptional ""> 
@@ -749,7 +781,7 @@ select CDATA  #IMPLIED'>
  %tei_att.global.linking.attribute.select;'> 
 <!-- start rest of patterns -->
 
-<!ENTITY % macro.paraContent '(#PCDATA|_DUMMY_model.gLike|%model.phrase;|%model.inter;|%model.global;|lg|_DUMMY_model.lLike)*' >
+<!ENTITY % macro.paraContent '(#PCDATA|_DUMMY_model.gLike|%model.phrase;|%model.inter;|%model.global;|lg|%model.lLike;)*' >
 
 <!ENTITY % macro.limitedContent '(#PCDATA|%model.limitedPhrase;|%model.inter;)*' >
 
@@ -949,7 +981,7 @@ social %teidata.text;  #IMPLIED >
  %tei_att.media.attributes;
  %tei_att.resourced.attributes; >
 <!--doc:(heading) contains any type of heading, for example the title of a section, or the heading of a list, glossary, manuscript description, etc. [4.2.1. Headings and Trailers] -->
-<!ELEMENT head (#PCDATA|lg|_DUMMY_model.gLike|%model.phrase;|%model.inter;|_DUMMY_model.lLike|%model.global;)*>
+<!ELEMENT head (#PCDATA|lg|_DUMMY_model.gLike|%model.phrase;|%model.inter;|%model.lLike;|%model.global;)*>
 <!ATTLIST head xmlns CDATA "http://www.tei-c.org/ns/1.0">
 <!ATTLIST head
  %tei_att.global.attributes;
@@ -981,6 +1013,11 @@ type %teidata.enumerated;  #IMPLIED >
 <!ATTLIST keywords
  %tei_att.global.attributes;
 scheme %teidata.pointer;  #IMPLIED >
+<!--doc:(verse line) contains a single, possibly incomplete, line of verse. [3.13.1. Core Tags for Verse 3.13. Passages of Verse or Drama 7.2.5. Speech Contents] -->
+<!ELEMENT l (#PCDATA|_DUMMY_model.gLike|%model.phrase;|%model.inter;|%model.global;)*>
+<!ATTLIST l xmlns CDATA "http://www.tei-c.org/ns/1.0">
+<!ATTLIST l
+ %tei_att.global.attributes; >
 <!--doc:(language usage) describes the languages, sublanguages, registers, dialects, etc. represented within a text. [2.4.2. Language Usage 2.4. The Profile Description 15.3.2. Declarable Elements] -->
 <!ELEMENT langUsage ((%model.pLike;)+|(language)+)>
 <!ATTLIST langUsage xmlns CDATA "http://www.tei-c.org/ns/1.0">

@@ -32,16 +32,22 @@
       </publicationStmt>
       <notesStmt>
         <note>
-          <p><s>This Open Educational Resource (OER) is freely available in Web HTML, PDF, ePub, and Kindle MOBI formats.</s></p>
-          <p><s>The source is also freely available for authors and educators to modify.</s></p>
-          <p><s>See <ref target="https://thanneken.github.io/TheologicalQuestions/">https://thanneken.github.io/TheologicalQuestions/</ref>.</s></p>
+          <p>
+            <s>This Open Educational Resource (OER) is freely available in Web HTML, PDF, ePub, and Kindle MOBI formats.</s>
+          </p>
+          <p>
+            <s>The source is also freely available for authors and educators to modify.</s>
+          </p>
+          <p>
+            <s>See <ref target="https://thanneken.github.io/TheologicalQuestions/">https://thanneken.github.io/TheologicalQuestions/</ref>.</s>
+          </p>
         </note>
       </notesStmt>
       <sourceDesc>
         <p>
-					<s>The TEI XML source was born digital.</s>
-					<s>Other formats (HTML, PDF, ePub, MOBI) are derived from the TEI XML source.</s>
-				</p>
+          <s>The TEI XML source was born digital.</s>
+          <s>Other formats (HTML, PDF, ePub, MOBI) are derived from the TEI XML source.</s>
+        </p>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -70,6 +76,7 @@
         <language ident="he">Hebrew</language>
         <language ident="el">Greek</language>
         <language ident="la">Latin</language>
+        <language ident="fr">French</language>
       </langUsage>
       <textClass>
         <keywords>
@@ -200,7 +207,7 @@
             <head type="section">What do theologians do?</head>
             <p>
               <s>Many thinking, intellectual people of faith do theology, and also have other professions and titles.</s>
-              <s>Someone whose main professional title is “theologian” probably spends her time teaching in a department of theology and writing books and articles</s>
+              <s>Someone whose main professional title is “theologian” probably spends most of the day teaching in a department of theology and writing books and articles</s>
               <s>that offer a deeper understanding of our past tradition, a better way of articulating our faith, or new ways of thinking about our faith.</s>
               <s>Like most professions, any one theologian has a basic knowledge of the field as a whole, and a specialization in a particular area.</s>
             </p>
@@ -272,8 +279,8 @@
               <item>Health Care and Medical Ethics… does stem cell research save lives or take lives, or both? If my brain is dead and a machine is making my heart beat, am I alive? </item>
               <item>Christology… is Jesus God? Human? Both? Neither? What has he done for me lately?</item>
               <item>Ecclesiology… what is the Church? Do we need it? </item>
-							<item>Sacraments… how do certain objects and actions in particular become encounters with the divine?</item>
-							<item>Theology in the Southwest… how do regional language and culture, particularly those of the Southwest, shape experiences of faith?</item>
+              <item>Sacraments… how do certain objects and actions in particular become encounters with the divine?</item>
+              <item>Theology in the Southwest… how do regional language and culture, particularly those of the Southwest, shape experiences of faith?</item>
             </list>
           </div>
           <div type="section">
@@ -967,7 +974,7 @@
               <s>
                 <hi>“Why do the righteous suffer while the wicked prosper?”</hi>
               </s>
-              <s>If the cosmos is governed by a just judge, then everyone should get what she deserves.</s>
+              <s>If the cosmos is governed by a just judge, then everyone should get what one deserves.</s>
               <s>Yet, when I look around me it appears that there are bad people with more prosperity and happiness than me, and good people who are suffering through no fault of their own.</s>
             </p>
             <p>
@@ -1016,7 +1023,7 @@
             </p>
             <p>
               <s>The Israelites also struggled with the timing of the chastisement.</s>
-              <s>A parent generally punishes a child right away (or at least as soon as she finds out, which theoretically should be immediately for God).</s>
+              <s>A parent generally punishes a child right away (or at least as soon as one finds out, which theoretically should be immediately for God).</s>
               <s>However, Deuteronomy did not claim that the punishment immediately followed the sin, or that restoration immediately followed the repentance.</s>
               <s>These things moved slowly, and could take generations.</s>
               <s>On the one hand, this may be realistic.</s>
@@ -1032,7 +1039,7 @@
               <s>If there appear to be exceptions in the short term, one must look harder to see that everything eventually works out justly.</s>
               <s>Setbacks and challenges build character for the righteous, while success is hollow and fleeting for the wicked.</s>
               <s>Ultimately, there is no real injustice.</s>
-              <s>Everyone gets what she deserves.</s>
+              <s>Everyone gets what one deserves.</s>
             </p>
             <p>
               <s>This perspective is controversial because it seems to suggest that the wealthy are wealthy because they deserve it, and the poor are poor because they deserve it.</s>
@@ -1045,7 +1052,7 @@
               <s>Other parts of the Hebrew Bible, such as <hi>Ecclesiastes and Job</hi>, do not so much explain suffering in the world as challenge the human capacity to understand the explanation.</s>
               <s>The argument is that <hi>God’s justice cannot be understood by human beings</hi>.</s>
               <s>God may have reasons for causing good or bad things to happen to someone that humans do not and cannot understand.</s>
-              <s>Maybe she deserved it.</s>
+              <s>Maybe the sinner deserved it.</s>
               <s>Maybe the suffering will lead to greater happiness.</s>
               <s>Maybe it is part of God’s larger plan.</s>
               <s>We are not God, we do not know what God knows, and we are not as smart as God, so we cannot expect to understand or dictate what God should do.</s>
@@ -1068,9 +1075,9 @@
             <head>Radical personal responsibility</head>
             <p>
               <s>Deuteronomy was content to say that as a general pattern, over the community as a whole and history as a whole, suffering is deserved and meaningful.</s>
-              <s>It seems that in the time of Ezekiel, everyone thought she was the exception, who did not deserve to suffer but was suffering because of wicked neighbors or ancestors.</s>
+              <s>It seems that in the time of Ezekiel, many saw themselves as exceptions who did not deserve to suffer but were suffering because of wicked neighbors or ancestors.</s>
               <s>
-                <hi>Ezekiel asserted that every individual gets exactly what she deserves.</hi>
+                <hi>Ezekiel asserted that every individual gets exactly what that individual deserves.</hi>
               </s>
               <s>He completely rejected even the possibility that a righteous person might suffer or a wicked person get away with it.</s>
               <s>In response to the then-recent Babylonian invasion, Ezekiel asserted that God sent angels to mark and protect the righteous while the wicked were left to be slaughtered by the Babylonian army.</s>
@@ -1615,7 +1622,7 @@
             </p>
             <p>
               <s>Another debate among Jews was whether non-Jews could join them.</s>
-              <s>Many understood God’s people Israel as the biological descendents of Jacob, so placed little or no interest in people of other ethnic groups joining their ethnic group.</s>
+              <s>Many understood God’s people Israel as the biological descendants of Jacob, so placed little or no interest in people of other ethnic groups joining their ethnic group.</s>
               <s>Others concluded that if there is only one God then that God should be worshiped by all nations.</s>
               <s>They imagined all nations should eventually join the Jews.</s>
             </p>
@@ -1662,7 +1669,7 @@
               <s>Similarly, God will destroy the earth again, and only a small sect of truly righteous people will be saved.</s>
             </item>
             <item>
-              <s>As we discussed in connection with theodicy, thinkers such as Ezekiel took a radical view of God’s justice, such that every individual gets exactly what he or she deserves.</s>
+              <s>As we discussed in connection with theodicy, thinkers such as Ezekiel took a radical view of God’s justice, such that every individual gets exactly what is deserved.</s>
               <s>The more one expects God to reward God’s people, the more one is disappointed when things don’t work out as hoped.</s>
               <s>This leads to a cycle of frustration and more radical hopes.</s>
             </item>
@@ -1719,7 +1726,7 @@
             </p>
             <p>
               <s>Anointing people with oil is a very ancient ritual for marking a significant change in legal status.</s>
-              <s>If a slave became free she would be anointed with oil.</s>
+              <s>If a slave became free he or she would be anointed with oil.</s>
               <s>If a priest was ordained he would be anointed with oil.</s>
               <s>The most relevant change in legal status is that the king would be anointed when he became king (or king designate).</s>
               <s>During the monarchic period, the anointed one was the king of Israel, the descendant of David.</s>
@@ -1777,7 +1784,7 @@
             <p>
               <s>The Book of Daniel is probably the last book of the Hebrew Bible (this chapter is actually in Aramaic) to be completed in about 164 BCE (some books in the Jewish Greek Bible, which became the Catholic Old Testament are later).</s>
               <s>It is set in the sixth century BCE, during the time of the Babylonian Exile.</s>
-              <s>Although most Jews recognize the decree of Cyrus the Persian in 538 as ending the <hi>The Babylonian Exile</hi>,</s>
+              <s>Although most Jews recognize the decree of Cyrus the Persian in 538 as ending <hi>The Babylonian Exile</hi>,</s>
               <s>Daniel seems to suggest the Babylonian Exile didn’t really end in the sense of properly restoring the kingdom of God.</s>
               <s>Daniel 7 uses the literary genre “apocalypse” to describe the revelation of the real pattern of history.</s>
               <floatingText rend="float">
@@ -2499,7 +2506,7 @@
               </item>
               <item>
                 <s>Adam signed a contract with Death.</s>
-                <s>All Adam’s descendents would also sin, and they would all also die.</s>
+                <s>All Adam’s descendants would also sin, and they would all also die.</s>
                 <s>Death thereby had a mandate over all sinners, which is everyone.</s>
               </item>
               <item>
@@ -2824,7 +2831,7 @@
             </p>
             <figure rend="float">
               <graphic width="3in" n="10026" url="media/image27.jpeg" source="rapture.jpg"/>
-              <head type="figure">This portrayal of the reurrection of the body conveys the idea that the living and the dead reunite in a physical manner (with a dated view of an ideal body). Christ’s return and judgment are not included here.</head>
+              <head type="figure">This portrayal of the resurrection of the body conveys the idea that the living and the dead reunite in a physical manner (with a dated view of an ideal body). Christ’s return and judgment are not included here.</head>
             </figure>
             <list type="unordered">
               <item>
@@ -3102,7 +3109,7 @@
                     <s>They neglect wedlock, but select other persons’ children, while they are pliable,</s>
                     <s>and fit for learning, and esteem them to be of their kindred, and form them according to their own manners.</s>
                     <s>They do not absolutely deny the fitness of marriage, and the succession of mankind thereby continued;</s>
-                    <s>but they guard against the lascivious behaviour of women, and are persuaded that none of them preserve their fidelity to one man.</s>
+                    <s>but they guard against the lascivious behavior of women, and are persuaded that none of them preserve their fidelity to one man.</s>
                   </p>
                   <p>
                     <s>Moreover, there is another order of Essenes, who agree with the rest as to their way of living, and customs, and laws,</s>
@@ -3424,29 +3431,31 @@
               <s>Almost all Christians today accept this statement of belief according to some interpretation.</s>
             </p>
             <cit>
-							<quote>
-								<p><s>I believe in one God, the <hi>Father</hi> almighty, maker of heaven and earth, of all things visible and invisible.</s></p>
-								<p>
-									<s>I believe in one Lord <hi>Jesus Christ</hi>, the Only Begotten Son of God, born of the Father before all ages.</s>
-									<s>God from God, Light from Light, true God from true God, begotten, not made, consubstantial with the Father; through him all things were made.</s>
-									<s>For us men and for our salvation he came down from heaven, and by the Holy Spirit was incarnate of the Virgin Mary, and became man.</s>
-									<s>For our sake he was crucified under Pontius Pilate, he suffered death and was buried, and rose again on the third day in accordance with the Scriptures.</s>
-									<s>He ascended into heaven and is seated at the right hand of the Father.</s>
-									<s>He will come again in glory to judge the living and the dead and his kingdom will have no end.</s>
-								</p>
-								<p>
-									<s>I believe in the <hi>Holy Spirit</hi>, the Lord, the giver of life,</s>
-									<s>who proceeds from the Father and the Son,</s>
-									<s>who with the Father and the Son is adored and glorified,</s>
-									<s>who has spoken through the prophets.</s>
-								</p>
-								<p>
-									<s>I believe in one, holy, catholic and apostolic Church.</s>
-									<s>I confess one Baptism for the forgiveness of sins</s>
-									<s>and I look forward to the resurrection of the dead and the life of the world to come.</s>
-								</p>
-							</quote>
-							<!--
+              <quote>
+                <p>
+                  <s>I believe in one God, the <hi>Father</hi> almighty, maker of heaven and earth, of all things visible and invisible.</s>
+                </p>
+                <p>
+                  <s>I believe in one Lord <hi>Jesus Christ</hi>, the Only Begotten Son of God, born of the Father before all ages.</s>
+                  <s>God from God, Light from Light, true God from true God, begotten, not made, consubstantial with the Father; through him all things were made.</s>
+                  <s>For us men and for our salvation he came down from heaven, and by the Holy Spirit was incarnate of the Virgin Mary, and became man.</s>
+                  <s>For our sake he was crucified under Pontius Pilate, he suffered death and was buried, and rose again on the third day in accordance with the Scriptures.</s>
+                  <s>He ascended into heaven and is seated at the right hand of the Father.</s>
+                  <s>He will come again in glory to judge the living and the dead and his kingdom will have no end.</s>
+                </p>
+                <p>
+                  <s>I believe in the <hi>Holy Spirit</hi>, the Lord, the giver of life,</s>
+                  <s>who proceeds from the Father and the Son,</s>
+                  <s>who with the Father and the Son is adored and glorified,</s>
+                  <s>who has spoken through the prophets.</s>
+                </p>
+                <p>
+                  <s>I believe in one, holy, catholic and apostolic Church.</s>
+                  <s>I confess one Baptism for the forgiveness of sins</s>
+                  <s>and I look forward to the resurrection of the dead and the life of the world to come.</s>
+                </p>
+              </quote>
+              <!--
               <quote>
                 <p>
                   <s>We believe in one God, the <hi>Father</hi>, the Almighty, maker of heaven and earth, of all that is, seen and unseen.</s>
@@ -3676,7 +3685,7 @@
               </s>
               <s>The Greek word for universal is <foreign>katholikos</foreign> (<foreign xml:lang="el" rend="notitalic">καθολικός</foreign>), <hi>catholic</hi>.</s>
               <s>Today, especially when capitalized, people use the term “Catholic” to refer to the Roman Catholic Church, as opposed to Eastern Orthodox or Protestant.</s>
-							<!-- (There are Catholic Churches that are not Roman but are in full communion with the Roman Catholic Church.) -->
+              <!-- (There are Catholic Churches that are not Roman but are in full communion with the Roman Catholic Church.) -->
               <s>Originally the catholic Church was the general, universal church of all the baptized, sinners or not.</s>
               <s>Although Catholicism does have a concept of excommunication for serious, unrepentant rejection of the core teachings of Christ through the Church, simply being a sinner does not make a baptized person any less Catholic.</s>
             </p>
@@ -3753,7 +3762,7 @@
               <s>
                 <hi>Marcion concluded that Judaism and Christianity were different religions who serve different gods and should have completely different, non-overlapping scriptures.</hi>
               </s>
-              <s>He rejected the entire Jewish scriptures and edited the Gospel of Luke and letters of Paul to remove the “Judaizing” tendency of Christians who corrupted the true message of the new religion with the false teaching of compatibility with the old religion.</s>
+              <s>He rejected all of the Jewish scriptures and edited the Gospel of Luke and letters of Paul to remove the “Judaizing” tendency of Christians who corrupted the true message of the new religion with the false teaching of compatibility with the old religion.</s>
             </p>
             <p>
               <s>Two things are striking about the response to Marcion.</s>
@@ -3831,7 +3840,7 @@
               <s>The covenant that God once had with the Jewish people has been abrogated (cancelled), and now they have no God and God has no care for them, except for them to convert to Christianity.</s>
             </p>
             <p>
-              <s><hi>Supersessionism has been rejected by the Roman Catholic Church</hi>, particularly with a document at Vatican II in 1961.</s>
+              <s><hi>Supersessionism has been rejected by the Roman Catholic Church</hi>, particularly with a document at Vatican II in 1965.</s>
               <s>Some Christians continue to hold this view in some form.</s>
               <s>The current Catholic position is that God does not break God’s promises.</s>
               <s>God can offer something better through Christ, but that does not end the possibility of the Jewish people continuing to live under the terms of the existing contract.</s>
@@ -3852,11 +3861,12 @@
             </p>
             <p>
               <s>Today Catholicism teaches that Jesus died in order to take away the sin of the world, not because the Jews (or the Romans) killed him.</s>
-              <s>God the Father willed the death of Jesus, and he consented.</s>
+              <!--<s>God the Father willed the death of Jesus, and he consented.</s>-->
+              <s>Jesus accepted his death willingly.</s>
               <s>The individual Jews and Romans who did take part did not act on behalf of all Jews everywhere.</s>
               <s>Furthermore, human sin does not break God’s covenants.</s>
               <s>In fact, God’s covenant with the Jewish people accounts for sin and punishment, so sinning and being punished fulfills rather than destroys the covenant.</s>
-              <s>Human sin can make God “angry” but unlike God’s mercy, God’s wrath does not extend to descendents indefinitely.</s>
+              <s>Human sin can make God “angry” but unlike God’s mercy, God’s wrath does not extend to descendants indefinitely.</s>
               <s>
                 <hi>Nothing could force God to revoke God’s promises or contracts.</hi>
               </s>
@@ -3943,7 +3953,7 @@
                   <s>Somewhere it has been written in the law and prophets,</s>
                   <s>“<hi>They paid me back evil for good</hi>, and my soul with barrenness” (Psalm 34:12),</s>
                   <s>“plotting evil against me” (Psalm 34:4; 40:8),</s>
-                  <s>  saying, “Let us bind this just man because he is troublesome to us” (Isaiah 3:10 LXX).</s>
+                  <s>saying, “Let us bind this just man because he is troublesome to us” (Isaiah 3:10 LXX).</s>
                 </p>
                 <p>
                   <milestone unit="vs" n="73"/>
@@ -4032,7 +4042,7 @@
               <s>Early monks would regularly deprive themselves of food, sleep, and comfortable clothing or bedding.</s>
               <s>Over time, as monks took on more duties besides prayer and contemplation, it was recognized that monks do need their basic bodily needs met in order to be productive in their responsibilities.</s>
               <s>The ideal of poverty continued in that monks were not to have <hi>personal property or indulgent comforts</hi> beyond the basic necessities.</s>
-              <s>Perhaps the head of a monastery (abbot) did need to worry about finances, but for most monks liberation from “mo money mo problems” was at the core of monastic life.</s>
+              <s>Perhaps the head of a monastery (abbot) did need to worry about finances, but for most monks liberation from the problems that come with managing money was at the core of monastic life.</s>
             </p>
             <figure>
               <graphic width="3in" n="10044" url="media/image45.jpeg" source="https://lh5.googleusercontent.com/-hjzz-Gy9oic/TLh8q419X8I/AAAAAAAABsk/uNXsKsiMcxs/s720/Saint%20NIcholas.jpg"/>
@@ -4089,14 +4099,14 @@
             </figure>
             <p>
               <s>Finally, it should be noted that while the institutional episcopacy (bishops) was exclusively male, there were many <hi>monasteries for women</hi>.</s>
-              <s>A monastery was under the jurisdiction of a male bishop who could give orders and collect profits.</s>
+              <s>Most monasteries were under the jurisdiction of a male bishop who could give orders and collect profits.</s>
               <s>At least on a day-to-day basis, however, these women were independent and autonomous.</s>
               <s>Women were led by other women and took on many non-traditional roles.</s>
               <s>Certainly a modern feminist would point out that joining a monastery had strings attached, including abandoning marriage, sex, and children.</s>
               <s>A vow of obedience limits liberation even if the vow is to obey a woman.</s>
               <s>Nevertheless, because of monasteries women had at least one choice other than wife and mother.</s>
               <s>In some monasteries, women could go beyond literacy to advanced studies.</s>
-              <s>Three women have been named Doctors of the Church, joining the rank of thirty men.</s>
+              <s>Four women have been named Doctors of the Church, joining the rank of thirty-two men.</s>
             </p>
           </div>
           <div type="section">
@@ -4109,8 +4119,7 @@
               <s>Below we will read an excerpt from the writings of Gertrude the Great (1256–1302).</s>
             </p>
             <p>
-              <s><hi>Mysticism can be defined as <q>“the exceptionally vivid intuition of one’s union with ultimate reality” </q></hi><ref><bibl><author>John Haught</author>, 
-										<title>What is Religion? </title><biblScope unit="page" n="97">97</biblScope></bibl></ref>.
+              <s><hi>Mysticism can be defined as <q>“the exceptionally vivid intuition of one’s union with ultimate reality” </q></hi><ref><bibl xml:space="preserve"><author>John Haught</author>, <title>What is Religion?</title> <biblScope unit="page" n="97">97</biblScope></bibl></ref>.
 							</s>
               <s>Outsiders and skeptics may tend to think of mysticism as other than reality or escape from reality.</s>
               <s>It is important to recognize that for the mystics, mystical union is more real than any ordinary object.</s>
@@ -4118,7 +4127,10 @@
               <s>It contrasts with the mundane in degree of sensation, and in that others around the mystic do not experience what the mystic experiences.</s>
             </p>
             <p>
-              <s>Scholars describe five characteristics of mystical experience.</s>
+              <s>
+								Scholars describe five characteristics of mystical experience 
+								<ref><bibl xml:space="preserve"><author>William James</author>, <title>The Variety of Religious Experience</title> <biblScope unit="page" n="299-336">299-336</biblScope></bibl></ref>.
+						</s>
             </p>
             <list type="ordered">
               <item>
@@ -4252,7 +4264,7 @@
                   <s>O most divine goodness, what greater testimony can there be to the depth of your care!</s>
                 </p>
               </quote>
-              <!-- really should provide a reference, need to find it first -->
+              <ref>Shawn Madigan, ed., <bibl><title>Mystics, Visionaries, and Prophets</title></bibl></ref>
             </cit>
           </div>
         </div>
@@ -4289,7 +4301,7 @@
               <graphic width="100%" n="10049" url="media/image50.jpeg"/>
               <head type="figure">Depth, movement, realism, and human focus characterize Renaissance art, such as the Last Supper by Leonardo DaVinci (1498).</head>
             </figure>
-            <figure>
+            <figure rend="wide">
               <graphic width="100%" n="10051" url="media/image52.jpeg" source="http://upload.wikimedia.org/wikipedia/commons/b/b8/SanPietroFacciata-SteO153.jpg"/>
               <head type="figure">Work on St. Peter’s Basilica in Rome began in 1506 and it is still the largest church in the world.</head>
             </figure>
@@ -4333,7 +4345,7 @@
               <s>In fact, the points had already been discussed in other places.</s>
               <s>What was new was how quickly the ideas flowed beyond his immediate circle and gained a wide audience.</s>
             </p>
-            <figure>
+            <figure rend="float">
               <graphic width="3in" n="10050" url="media/image51.jpeg" source="http://upload.wikimedia.org/wikipedia/commons/1/1e/Gutenberg_press.jpg"/>
               <head type="figure">The printing press</head>
             </figure>
@@ -4344,7 +4356,7 @@
               <s>The Internet is also worthy of comparison because in both cases some would doubt that the new ideas so easily multiplied are worthy of the honor.</s>
             </p>
             <p>
-              <s>While new ideas were flowing through Europe, <hi>the papacy stuck with political infighting and corruption</hi>.</s>
+              <s>While new ideas were flowing through Europe, <hi>the papacy was slow to respond to the new religious and political reality</hi>.</s>
               <s>Perhaps at one point the bishop of Rome (pope) filled a power vacuum and offered stability to Western Europe (through the Holy Roman Empire).</s>
               <s>As the king of France and German-speaking princes (it would be misleading to speak of Germany as a nation before the 19th century) became more powerful, the papacy faced opposition, and generally handled bad situations badly.</s>
               <s>In a theology class we will talk about the ideas of Martin Luther.</s>
@@ -4357,7 +4369,7 @@
             <p>
               <s>Although the papacy was not quick to accept the intellectual openness of the Renaissance, it does get credit or blame (depending on how you look at it) for promoting Renaissance art and architecture.</s>
               <s>
-                <hi>Many of the masterpieces of Renaissance art and architecture, such as Michelangelo’s ceiling of the Sistine chapel and St. Peter Basilica, were commissioned by the popes.</hi>
+                <hi>Many of the masterpieces of Renaissance art and architecture, such as Michelangelo’s ceiling of the Sistine chapel and St. Peter’s Basilica, were commissioned by the popes.</hi>
               </s>
               <s>The controversy comes in how expensive these projects were, and how the money was raised.</s>
               <s>Today major public works might be funded through taxes or government bonds.</s>
@@ -4371,22 +4383,46 @@
             </p>
             <floatingText rend="wide">
               <body>
-                <head type="floatingText">Biblical verses used to justify the sale of indulgences</head>
-                <cit rend="citquote">
-                  <quote>
-                    <s>I will give you the keys to the kingdom of heaven.</s>
-                    <s>Whatever you bind on earth shall be bound in heaven; and whatever you loose on earth shall be loosed in heaven.</s>
-                  </quote>
-                  <ref cRef="Matt 16:19">Matthew 16:19</ref>
-                </cit>
-                <cit rend="citquote">
-                  <quote>
-                    <s>Whose sins you forgive are forgiven them, and whose sins you retain are retained.</s>
-                  </quote>
-                  <ref cRef="John 20:23">John 20:23</ref>
-                </cit>
+                <head type="floatingText">Indulgences</head>
+                <p>
+                  <s>Two verses from the Bible were used to justify the sale of indulgences.</s>
+                  <cit>
+                    <quote>
+                      <s>I will give you the keys to the kingdom of heaven.</s>
+                      <s>Whatever you bind on earth shall be bound in heaven; and whatever you loose on earth shall be loosed in heaven.</s>
+                    </quote>
+                    <ref cRef="Matt 16:19">Matthew 16:19</ref>
+                  </cit>
+                  <cit>
+                    <quote>
+                      <s>Whose sins you forgive are forgiven them, and whose sins you retain are retained.</s>
+                    </quote>
+                    <ref cRef="John 20:23">John 20:23</ref>
+                  </cit>
+                </p>
+                <p>
+                  <s>One particular “salesman” of indulgences exploited concern for deceased loved ones with the pitch,</s>
+                  <cit>
+                    <quote>
+                      <s>As soon as the gold in the casket rings,</s>
+                      <s>the rescued soul to heaven springs.</s>
+                    </quote>
+                    <ref>Attributed to Johann Tetzel</ref>
+                  </cit>
+                </p>
+                <p>
+                  <s>Those who contested Luther did not defend this crass way of turning salvation into a tradeable commodity.</s>
+                  <s>The debate quickly shifted to the deeper question of sources of authority.</s>
+                </p>
               </body>
             </floatingText>
+						<figure rend="wide">
+							<graphic width="3in" url="media/image89.jpeg" source="https://static.tvtropes.org/pmwiki/pub/images/get_out_of_jail_free.jpg"/>
+							<head type="figure">
+								<s>In the 1935 Hasbro boardgame “Monopoly” a card could be bought and sold that would release players from “jail.”</s>
+								<s>Indulgences have been called “Get out of purgatory free” cards, with “free” understood as without time or suffering, not as without cost.</s>
+							</head>
+						</figure>
           </div>
           <div type="section">
             <head type="section">People: Martin Luther, John Calvin, Henry VIII</head>
@@ -4440,25 +4476,27 @@
               <s>Luther was a persuasive speaker and writer, but Calvin excelled at intricate intellectual arguments.</s>
               <s>Luther thought that any honest man could interpret scripture for himself once it was translated into German, without need of clergy.</s>
               <s>Calvin recognized the difficulty of interpreting the Bible in any language, and wrote extensive commentaries on the Bible.</s>
-              <s>However, in the spirit of Luther, Calvin claimed only reason, not the Holy Spirit, apostolic succession, or ordained office as the authority behind his interpretation of scripture.</s>
+              <s>However, in the spirit of Luther, Calvin claimed only reason, not apostolic succession or ordained office, as the authority behind his interpretation of scripture.</s>
             </p>
+            <figure rend="float">
+              <graphic width="3in" n="10054" url="media/image55.png"/>
+              <head type="figure">King Henry VIII of England declared himself head of the Church of England</head>
+            </figure>
             <p>
               <s>One might wonder whether the spread of Luther’s ideas among the German-speaking princes had more to do with theological ideals or politics.</s>
               <s>In England, it was all politics.</s>
               <s><hi>King Henry VIII of England</hi> (1491–1547, reigned 1509–1547) had no theological qualms with Rome,</s>
               <s>except that the Church of England should be loyal to no human higher than the king of England.</s>
+							<!--<s>except that his desire for a male heir to his throne was greater than his desire to stay married to Catherine of Aragon.</s>-->
               <s>The theme of national independence of churches runs deep, but the specific occasion for the separation was a dispute over whether Henry needed the permission of the pope to divorce and remarry.</s>
-              <s>Organizational independence has led the Church of England, or Anglican Church, to make some different decisions over the centuries, but theologically and liturgically it can be difficult to tell the difference.</s>
+              <s>Organizational independence has led the Church of England, or Anglican Church, to make some different decisions over the centuries,</s>
+						 	<s>but theologically and liturgically it can be difficult to tell the difference between Anglicans and Roman Catholics.</s>
               <s>Perhaps the most obvious differences are that Anglican priests can be women and can be married.</s>
             </p>
             <p>
               <s>In the lands that England colonized, particularly North America and Africa, the churches that extend from the Anglican Church are called Episcopalian (literally “of the bishops”).</s>
               <s>Major denominations to separate from the Church of England include the Puritans, who worked under the influence of John Calvin and mostly went to North America, and the Methodists, founded by John Wesley (1703–1791).</s>
             </p>
-            <figure>
-              <graphic width="3in" n="10054" url="media/image55.png"/>
-              <head type="figure">King Henry VIII of England declared himself head of the Church of England</head>
-            </figure>
           </div>
           <div type="section">
             <head type="section">Council of Trent</head>
@@ -4617,7 +4655,8 @@
               <s>Consider how much people contest over who gets to be president, and then consider that Luther made the Bible a higher authority.</s>
               <s>Who controls that authority, and how?</s>
               <s>As we shall see, Luther thought that every individual should have that authority for himself, but it soon became apparent that in the real world people do not simply read the Bible for themselves; they are influenced by interpreters who tell them what it means.</s>
-              <s>At a Catholic university Bible scholars are in the minority among people who use other methods within a theology department, and the theology department as a whole has less teaching authority in principle than the bishop.</s>
+              <s>At a Catholic university Bible scholars are part but only part of a theology department, along with systematic theologians and moral theologians.</s>
+							<s>The theology department as a whole has less teaching authority in principle than the bishop.</s>
               <s>For many protestants, interpreting the Bible is theology; there are no other authorities for understanding faith or God.</s>
               <s><hi>Bible scholarship became very important</hi>, very fast.</s>
               <s>The development of modern biblical interpretation started before Luther and much of it developed later, but <foreign xml:lang="la">sola scriptura</foreign> (scripture alone) fueled the process.</s>
@@ -4781,10 +4820,10 @@
               <s>When most Americans think of “works” they first think of “<hi>good deeds</hi>,” “ethical action,” or “moral behavior.”</s>
               <s>That is true but only part of the debate.</s>
               <s>The other part of “works” includes <hi>pious deeds</hi> in general, and particularly the sacraments.</s>
-              <s>Luther rejected both aspects of works as necessary for salvation.</s>
+							<s>Luther was not opposed to doing works but he was opposed to thinking about works as necessary for salvation.</s>
               <s>He continued to think of good deeds as a proper response of a Christian grateful for God’s gifts.</s>
-              <s>He had a more negative view of the second part of “works.”</s>
-              <s>Others would go further than Luther with the principle that devotions that go beyond direct worship of God, proclamation of scripture, and following Jesus’ commands of baptism and commemorating the last supper were distracting at best and idolatrous at worst.</s>
+              <s>Others would go further than Luther himself with a negative view of works in the sense of devotions and sacraments.</s>
+							<s>Today many protestants see devotions that go beyond practices explicitly commanded in scripture as distracting at best and idolatrous at worst.</s>
               <s>The next section will address how theology is lived and practiced, including Catholic and Lutheran views of devotions and sacraments.</s>
             </p>
           </div>
@@ -4809,7 +4848,7 @@
               <s>It will not be helpful here to think about grace in the sense of “elegant movement,” how one might describe ballet as graceful, the opposite of awkward.</s>
               <s>The word “gratuitous” is related, but usually has a negative connotation of unmerited in the sense of unwarranted or inappropriate.</s>
               <s>“Gratuity” today basically means a tip freely given, although if it is expected or earned that would be a difference from the theological definition.</s>
-              <s>In modern Italian and I believe Spanish “gratis” means free as in “free beer.”</s>
+              <s>In modern Italian and Spanish “gratis” means free as in “free beer.”</s>
               <s>At any rate, among theologians there is emphasis that grace is something God gives us for no reason other than because God is cool that way.</s>
               <s>It is not because it is our birthday, not because we are cool, not because it is expected, not because God expects something in return.</s>
               <s>In fact, philosophers go crazy telling us there are no human analogies because even if we get satisfaction from giving we, unlike God, are getting something in return.</s>
@@ -4854,7 +4893,7 @@
               <s>We can open an umbrella and divert it away from us, or we can grab a bucket to gather as much as we can.</s>
               <s>Sin is like an umbrella.</s>
               <s>Devotional actions are like a bucket.</s>
-              <s>The rain falls on saint and sinner alike, but the saint at prayer receives more grace than the gangsta in Vegas.</s>
+              <s>The rain falls on saint and sinner alike, but the saint at prayer receives more grace than the gangster in Vegas.</s>
               <s>Sacraments in particular put us in a position to receive God’s grace.</s>
               <s>It is not that we are demanding anything of God.</s>
             </p>
@@ -4971,7 +5010,8 @@
               <s>
                 <hi>From the Anabaptist perspective, baptism is only legitimate when the person being baptized chooses to be baptized, and in particular chooses to accept and have a personal relationship with Jesus.</hi>
               </s>
-              <s>The word Anabaptist means “re-baptizer,” because they thought someone needed to be baptized again if the first baptism was not a personal choice.</s>
+							<s>The word Anabaptist means re-baptizer.</s>
+							<s>Outsiders see them as baptizing a second time, but from their own perspective what was done to the infant never counted as baptism in the first place.</s>
               <s>As we shall see, this focus on the individual conscience and personal choice is largely a logical extension of Lutheran ideals,</s>
               <s>although on this point Lutherans continue the tradition of infant baptism.</s>
               <s>Today, Mennonites, Amish, Quakers, and Baptists follow the Anabaptist tradition.</s>
@@ -4982,8 +5022,9 @@
             <p>
               <s>Even though the Council of Trent cut back on excessive feast days, Trent defended the importance of works as part of the larger plan of salvation.</s>
               <s>Many local customs and devotional practices remained, while the core seven sacraments were standardized for all Catholicism.</s>
-              <s>Martin Luther opposed some devotional practices entirely, and kept others as legitimate customs, but not essential to salvation.</s>
-              <s>Here are a couple of pious deeds and <hi>devotions</hi> that Luther would demote or reject, and are commonly found in Catholicism.</s>
+              <s>Meanwhile, most protestants opposed some devotional practices entirely, and kept others as legitimate customs, but not essential to salvation.</s>
+							<s>(As is often the case, Anglicans and the very early Reformation including Luther himself do not align perfectly with what would become distinctive protestant ideas.)</s>
+              <s>Here are a couple of pious deeds and <hi>devotions</hi> that protestants would demote or reject, and are commonly found in Catholicism.</s>
             </p>
             <figure rend="float">
               <graphic width="3in" n="10063" url="media/image64.jpeg" source="http://upload.wikimedia.org/wikipedia/en/0/08/Rosary%26scapular.jpg"/>
@@ -4992,7 +5033,7 @@
             <list type="unordered">
               <item>Reverence for heroes of piety, including all official saints, some not-yet-official saints, deceased relatives, and Mary in particular</item>
               <item>The rosary (a series of prayers with emphasis on Mary)</item>
-              <item>“Dear God if you save my family from the plague I will build a beautiful church in your honor.”</item>
+              <item>“Dear God if you save my family from the plague I will build a beautiful church in your honor”</item>
               <item>Elaborate statues and religious art</item>
               <item>Devotions that worked for Christian heroes of the past but are not described in scripture, such as the scapular (worn like a necklace over one’s heart and back)</item>
               <item>Shrines, pilgrimages, holy objects (relics of the saints or the cross on which Jesus was crucified) and holy sites believed to be associated with miraculous healing</item>
@@ -5050,7 +5091,9 @@
                 <s>In Catholicism Holy Orders mark the special rights and responsibilities of the <hi>priesthood</hi>.</s>
                 <s>Luther rejected this sacrament on multiple levels.</s>
                 <s>Most importantly, he taught the priesthood of all believers, such that there is no formal separation of status after baptism.</s>
-                <s>Today Lutherans have leaders called pastors, ministers, or reverend, but leading the community is a job, not a special sacramental status.</s>
+                <s>Today Lutherans have leaders called pastors, ministers, or reverend.</s>
+								<s>Those leaders may be worthy of respect because of the talent and training that prepared the person for the role.</s>
+								<s>Leading the community is an important role, a vocation, and a job, but it is not a formal sacramental status.</s>
               </item>
               <item>
                 <s><hi>Anointing of the Sick</hi> –</s>
@@ -5206,7 +5249,7 @@
               <s>This was not a quick or easy transition.</s>
               <s>For a while the papacy had some success with responding to challenges in authority with increased exercise in authority.</s>
               <s>Although the Protestant Reformation brought England and some German-speaking provinces away from papal authority, in the regions that remained loyal to Rome the authority and institutionalization of the papacy strengthened, bolstered by tens of thousands of Jesuit priests who pledged absolute obedience to the pope.</s>
-              <s>Meanwhile, the major colonial powers of Portugal and Spain remained loyal to Rome (not to say without tension) and served as vehicles from the spread of Roman Catholicism in the New World.</s>
+              <s>Meanwhile, the major colonial powers of Portugal and Spain remained loyal to Rome (not to say without tension) and served as vehicles for the spread of Roman Catholicism in the New World.</s>
               <s>When the English Empire later spread protestant Christianity, it would still not be accurate to say that Protestantism was the biggest factor in challenging papal authority.</s>
               <s>Rather the challenge to the authority of the pope and institutional church came largely from within.</s>
             </p>
@@ -5227,7 +5270,7 @@
             </floatingText>
             <p>
               <s>As late as the 19th century, the major response to challenges to the authority of the papacy was to assert even more strongly the authority of the papacy.</s>
-              <s>In particular, the <hi>First Vatican Council (Vatican I, 1869–1870) defined the papal authority of infallibility.</hi></s>
+              <s>In particular, the <hi>First Vatican Council (Vatican I, 1869–1870) defined the doctrine of papal infallibility.</hi></s>
               <s>This issue stands out in a period of struggle in which the dominant voice sought to strengthen the faith by strengthening the church by strengthening the papacy.</s>
               <s>It was precisely because the papacy was becoming weak on political and intellectual fronts that the response to strengthen it was so dramatic.</s>
               <s>The Catholic Church became even more hierarchical, more institutionalized, and more focused on unity through obedience.</s>
@@ -5238,7 +5281,7 @@
               </s>
             </p>
             <p>
-              <s>In rough sketch, <hi>the Second Vatican Council (1962–1965) can be thought of as the opposite, or pushing in the opposite direction, of the First Vatican Council.</hi></s>
+              <s>In rough sketch, <hi>the Second Vatican Council (1962–1965) can be thought of as the mirror image, or pushing in the opposite direction, of the First Vatican Council.</hi></s>
               <s>If the First reacted against modernity, the Second embraced modernity.</s>
               <s>If the First promoted strength and security through unity, the Second recognized the dangers of concentrating authority in a few voices, particularly as seen in fascist Germany and Italy.</s>
               <s>Beyond the particular things it said, the Second Vatican Council was revolutionary in how it conducted itself.</s>
@@ -5597,7 +5640,7 @@
               <s>However, relativism and absolutism define a scale on which most fall somewhere between the extremes.</s>
               <s>Catholicism does (for the most part) accept inculturation.</s>
               <s><hi>Inculturation would say that the absolute truths such as the love of Christ can be expressed differently in different cultures</hi> in language and images that make sense to different people.</s>
-              <s>Catholicism also generally accepts <hi>pluralism, the idea that different religious traditions should co-exist with mutual respect</hi></s>
+              <s>Catholicism also generally accepts <hi>pluralism, the idea that different religious traditions can co-exist with mutual respect</hi></s>
               <s>(even as individuals remain grounded in the principled belief that their own tradition is the best).</s>
             </p>
           </div>
@@ -5648,8 +5691,7 @@
               <item>
                 <s>Deism – the idea that God created the laws of the universe but then left it alone to play itself out.</s>
                 <s>God does not pay attention to human affairs let alone intervene.</s>
-                <s>The image of God is as a clock maker.</s>
-                <s>Another way of articulating this belief is “I don’t believe in an interventionist God.”</s>
+                <s>The image of God is as a clock maker who designs a clock to run on its own.</s>
                 <figure rend="wide">
                   <graphic width="100%" n="10079" url="media/image80.jpeg" source="http://sciphilos.info/docs_pages/images/deism.jpg"/>
                   <head type="figure">This image combining Michelangelo’s painting on the ceiling of the Sistine Chapel of God creating Adam, and images of the cosmos from the Hubble telescope, might convey the Deist idea that God created the universe in a broad sense (perhaps knowable through science), but God did not fashion humans directly.</head>
@@ -5766,12 +5808,10 @@
               <s>Worker movements and labor unions developed largely on secular foundations.</s>
               <s>However, <hi>three major contributions can be associated with the Catholic Church.</hi></s>
               <s>First, whereas the worker movements originated from an “us vs. them” relationship with factory owners, the Catholic Church in principle included (or could have included) all sides.</s>
-              <s>Church documents such as</s>
-              <bibl rend="inline">
-                <title>Rerum Novarum </title>
-              </bibl>
-              <ref>“New Things,” <bibl><date when="1891">1891</date></bibl></ref>
-              <s>proceeded with a more conciliatory approach, describing the mutual responsibilities of employer and employee, rather than single-sided lists of demands.</s>
+              <s>
+								Church documents such as <title>Rerum Novarum</title> (“New Things,” <date when="1891">1891</date>)
+								proceeded with a more conciliatory approach, describing the mutual responsibilities of employer and employee, rather than single-sided lists of demands.
+							</s>
               <s><hi>Second</hi>, in the United States many of the tyrannized workers happened to be Catholic immigrants.</s>
               <s>Beyond the official documents, there were many priests and nuns who took seriously the obligation to care for the workers in the pews.</s>
               <s>Priests and nuns occasionally led meetings themselves, allowed parish halls to be used for meetings, or provided safe haven when organizing workers were violently attacked.</s>
@@ -5873,15 +5913,15 @@
               <s>If women had been included all along we might have avoided these problems.</s>
               <s>As it is there is a tremendous amount of work to do for people who respect women to rearticulate the faith in expressions that maintain the dignity of both halves of humanity, the image of God.</s>
             </p>
-            <p>
-              <s>Meanwhile, there is a backlash against feminist theology.</s>
-              <s>In the past decade or so the term “New Catholic Feminism” has come to describe a theology that rejects feminism as old and un-Catholic.</s>
-              <s>The basic argument is that God created <hi>separate roles and virtues for men and women, as evidenced in their distinct reproductive capabilities</hi>.</s>
-              <s>Vaginas prove that God wants women to be receptive of whatever men impose on them.</s>
-              <s>Uteruses prove that making babies is the primary contribution of women to society.</s>
-              <s>Breasts prove that women should be self-sacrificing and always put others above themselves.</s>
-              <s>For their part, men are called to protect women from labor outside the home, leadership responsibility, and birth control, all of which would undermine their very nature as human beings.</s>
-            </p>
+						<p resp="#REB">
+							<s>In the past few years, Pope Francis has taken steps to formally recognize some of the contributions that non-priests (including all women and most men) were already making to the Church.</s>
+							<s>In 2021, he opened some roles in liturgical worship (lector and acolyte) and teaching the faith (catechist) to women on a permanent basis (previously it had been happening on a temporary basis).</s>
+							<s>The significance of these changes is not so much in doing things differently, but in thinking about the Church differently.</s>
+							<s>Whereas some, especially between Constantine and Vatican II, had thought of the Church primarily as the bishops and priests (then secondarily ordinary followers and assistants),</s>
+							<s>Francis is visioning the Church as primarily the communion of all the baptized.</s>
+							<s>With Constantine, thinking of the Church as communion shifted toward thinking of the Church as mediator.</s>
+							<s>With Vatican II and Francis, we are seeing a reverse of that shift in emphasis.</s>
+						</p>
           </div>
         </div>
         <div type="chapter" n="4">
@@ -5964,7 +6004,7 @@
               <s>
                 <hi>In theological terms, life is sacred, and human life in particular has sanctity because it is infused with the divine spirit.</hi>
               </s>
-              <s>Questions arise regarding when life begins or becomes sacred, and when the life of the mother ceases to be more sacred than the life of the child.</s>
+              <s>Questions arise regarding when life begins or becomes sacred.</s>
             </p>
             <figure rend="float">
               <graphic width="3in" n="10085" url="media/image86.jpeg" source="http://www.scientificamerican.com/media/inline/birth-control-pills-affect-womens-taste_1.jpg">
@@ -5972,7 +6012,6 @@
               </graphic>
               <head type="figure">
                 The Magisterium has consistently viewed birth control pills as a sinful choice.
-                The Affordable Care Act led to a debate as to whether Catholic institutions should continue to be able to prevent birth control coverage from being included in the medical plans for their employees and students.
               </head>
             </figure>
             <p>
@@ -5981,17 +6020,14 @@
               </s>
               <s>Going back to the Essenes before Christianity, one view of sex is that it is only acceptable as a means to <hi>creating life</hi>.</s>
               <s>The theological term here is “<hi>procreative</hi>.”</s>
-              <s>For centuries this was the only value in sex and its only justification.</s>
-              <s>Relatively recently, Catholicism would add “<hi>unitive</hi>” as part of the sanctity of sex, namely because it <hi>brings married people together into fuller union</hi>.</s>
+              <s>For centuries this was the primary (if not only) value in sex.</s>
+							<s>The other justification is “<hi>unitive</hi>,” namely that sex <hi>brings married people together into fuller union</hi>.</s>
               <s>Some Christians would add “pleasurable” to the list of what makes sex good or holy, but Catholicism has not yet done so.</s>
               <s>Lacking these goods, sex loses its sanctity.</s>
               <s><hi>Masturbation</hi> is a sin because it is neither unitive nor procreative.</s>
               <s>Artificial birth control is a sin because it interferes in the procreative potential of sex, particularly where the sanctity of sex intersects with the sanctity of life.</s>
-              <s>Catholicism has long encouraged large families, and has recently responded to the desire to plan smaller families or curb <hi>overpopulation</hi> with “don’t have sex” or more precisely, don’t have sex when a woman is fertile.</s>
-              <s>The opposition to <hi>birth control</hi> has also extended to the availability and use of <hi>condoms</hi>, even when the primary intent is to curb the spread of HIV.</s>
-              <s>For example, condoms are not acceptable even if one spouse is infected with HIV and the other is not.</s>
               <s>These issues are good examples of times when it makes a big difference how we define “the Church.”</s>
-              <s>If the Church is the Catholic magisterium, and the pope in particular, then “the Church” is opposed to artificial birth control even to prevent the spread of HIV.</s>
+              <s>If the Church is the Catholic magisterium, then “the Church” is opposed to artificial birth control.</s>
               <s>If “the Church” is the community of all the faithful, then the dominant perspective is quite different.</s>
               <s>Birth control is the most common example cited for the “relevance gap” between the hierarchy and laity within the Catholic Church.</s>
               <s>That is, even Catholics with a strong respect for the teaching authority of the bishops feel less bound than ever to agree with individual teachings.</s>
@@ -6002,14 +6038,18 @@
               <s>For example, some would justify abortion if the life of the mother is in imminent danger and abortion could save her life.</s>
               <s>Some would also extend that to the psychological well-being of the mother.</s>
               <s>Again, theological questions can be answered differently by different Christians and different thinkers within Catholicism.</s>
-              <s>The current teaching of the Catholic bishops is that it is not justified to terminate a pregnancy to save the life of the mother.</s>
-              <s>Abortion is an <hi>intrinsic evil</hi> that is never justified by a greater evil, even the evil of both the mother and fetus dying on a hospital bed in front of doctors who could easily save one of the lives.</s>
+							<s resp="#REB">The current teaching of the U.S. Catholic bishops is that it is not justified to terminate a pregnancy to save the life of the mother.</s>
+							<s resp="#REB">If a human is alive, it is not permissible to intentionally kill one human in order to save another human.</s>
+							<s resp="#REB">Doctors should try to save the lives of both mother and child without prioritizing one over the other.</s>
             </p>
             <p>
               <s>Another implication of treating a human embryo as a life complete with all sanctity, dignity, and rights is opposition to <hi>stem cell research</hi>.</s>
               <s>Certainly if I did a study on a group of college students and most of them died in the process, no one would imagine that any benefits of my research could justify my methods.</s>
               <s>In the case of human embryo research the promise is that countless lives could be saved as entire diseases are eradicated.</s>
               <s>The current teaching of the Catholic magisterium is that taking the lives of embryos to save the lives of adults cannot be justified.</s>
+							<s>There are many actions that have a good primary effect but a negative secondary effect (the principle of double-effect).</s>
+							<s>Good intentions can mitigate but not replace responsibility for unintended consequences.</s>
+							<s>These complexities are explored in Moral Theology courses and in the NBC TV series, “The Good Place.”</s>
             </p>
             <figure rend="float">
               <graphic width="3in" n="10086" url="media/image87.png">
@@ -6046,16 +6086,24 @@
               <s>In this country physician-assisted suicide is illegal, but it is legal elsewhere in the world.</s>
               <s>The more common issue is artificial life support.</s>
               <s>On this point Catholic theologians aim to support preserving life but not drawing out a painful death.</s>
-              <s>In practice it can be difficult to be certain whether there is any hope of recovery or sustainability of life, or if artificial life support is just extending pain and wasting money.</s>
-              <s>Speaking of wasting money, faith also is relevant to those asking if it is justified to spend a million dollars to make a 92-year-old live an extra week,</s>
-              <s>while children in other parts of the world die for lack of a two-dollar immunization.</s>
-              <s>Thinking theologically should lead us past the answer, “only if it is my mother.”</s>
-            </p>
+              <s>In practice it can be difficult to be certain whether there is any hope of recovery or sustainability of life, or if artificial life support is just extending pain.</s>
+						</p>
+						<p>
+							<s>Another issue is what to do when medical resources are limited or prohibitively expensive.</s>
+						 	<s>During the 2020-2021 COVID-19 pandemic the demand for life-saving ventilators exceeded supply.</s>
+							<s>Should the government intervene to make life-saving equipment available equitably,</s>
+							<s>or should the market be free to decide if the wealthy and powerful should have greater access?</s>
+							<s>At what point, if any, should a ventilator be taken away from someone still alive but with no hope of recovery so that the ventilator can save the life of someone else?</s>
+							<s>The allocation of limited life-saving resources in emergency medical situations used to be called <foreign xml:lang="fr">triage</foreign>, although many medical professionals today prefer euphemisms.</s>
+							<s><foreign xml:lang="fr">Triage</foreign> is the French word for “sorting,” and was used in battlefield hospitals during the First World War to prioritize limited medical resources.</s>
+							<s>Those with life-threatening but treatable injuries were prioritized over those with no hope of survival or no danger of death.</s>
+							<s>There are many situations in which <hi>the word <foreign xml:lang="fr">triage</foreign> is used literally or figuratively for selective allocation of limited resources</hi>.</s>
+						</p>
             <p>
               <s>The dignity of life also extends to state-sponsored killing generally, including <hi>capital punishment</hi> and <hi>just war theory</hi>.</s>
-              <s>Without denying that it might theoretically be necessary to kill one person to prevent that person from killing again, current Catholic teaching opposes capital punishment as it exists in the United States.</s>
+              <s>Catholic teaching opposes all capital punishment as it exists in the United States.</s>
               <s>Just war theory goes back to pre-Christian Rome and has developed in Christian thought.</s>
-              <s>The bishops of the United States (and Iraq for that matter) did oppose the Second Gulf War, although not in an efficacious way.</s>
+              <s>The bishops of the United States did oppose the Second Gulf War, although not in an efficacious way.</s>
             </p>
           </div>
           <div type="section">
@@ -6072,7 +6120,9 @@
               <s>In response to calls for <hi>same-sex unions and marriage</hi>, theologians are scrambling to articulate the relationship between the sacrament of matrimony and the civil laws defining the rights and responsibilities of marriage.</s>
               <s>There are many questions left unanswered, but that is the way it has always been.</s>
               <s>Just when the issues of the early Church seemed to have been resolved, new issues arose from new circumstances.</s>
-              <s>Certain elements of the tradition are timeless, but most of it changes.</s>
+							<s resp="#REB">Certain elements of the tradition are timeless, but some elements can change in response to the needs of a changing world.</s>
+							<s resp="#REB">Some theological ideas simply sound different in the twenty-first century than they did in the seventeenth century.</s>
+							<s resp="#REB">The changing context of the world allows theologians to see old ideas in fresh ways and to address new theological problems that the Essenes and Early Christians could not have even imagined.</s>
               <s>
                 <hi>There are problems in theology today that welcome and require work. </hi>
               </s>
@@ -6082,8 +6132,9 @@
               <s>How will it change?</s>
               <s>What will Vatican III look like?</s>
               <s>It hasn’t been scheduled; we don’t know it will be called Vatican III; we do know that change will happen.</s>
-              <s>Will it steer back toward Vatican I, moving away from Vatican II the way Vatican II moved away from much of Vatican I?</s>
-              <s>Will it go further in the direction of Vatican II, such that the things that today seem like leaps of progress in Vatican II will be seen as small steps?</s>
+							<s resp="#REB">Having come to the end of a semester of theology, which topics do you think would be most important if Vatican III is called in the next ten years?</s>
+							<s resp="#REB">What ideas from the past do you think are most important?</s>
+							<s resp="#REB">How do you think Christians should address the topics that you think are most important for the next ten years?</s>
               <s>In a certain sense these decisions will be made by the bishops, or perhaps some professional theologians.</s>
               <s>In a more fundamental sense, the decision will be made by the tradition, and it is up to all the faithful to decide how the tradition will be handed down.</s>
               <s>Simply leaving the Church and not handing down the tradition at all is more practical a possibility than ever.</s>
