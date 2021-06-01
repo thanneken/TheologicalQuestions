@@ -36,10 +36,13 @@
 			span.distinct{font-style:normal;color:maroon;}
 			figure{margin:6pt;}
 			<!-- not proud of this hack but it gets the job done -->
-			#p3-2-4-2,#p4-1-2-3,#p4-4-1-9-1,#p5-4-2-5-1{clear:right;}
+			#p3-2-4-2,#p4-1-2-3,#p4-4-1-9-1,#p5-4-2-5-1,#p6-1-1-6{clear:right;}
 		</xsl:element>
 	</xsl:template>
-
+	<!-- css does not suffice to add parentheses around ref in ePub version -->
+	<xsl:template match="tei:ref">
+		<xsl:text>(</xsl:text><xsl:apply-templates/><xsl:text>)</xsl:text>
+	</xsl:template>
 	<!-- allow verse milestones to be formatted as biblicists expect --> 
 	<xsl:template match="tei:milestone">
 		<xsl:if test="@unit='vs'">

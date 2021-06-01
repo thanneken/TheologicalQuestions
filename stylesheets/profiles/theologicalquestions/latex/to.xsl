@@ -47,8 +47,8 @@
 		<xsl:text>&#10;\makeatother </xsl:text>
 		<xsl:text>&#10;\vspace{18pt} </xsl:text>
 		<xsl:text>&#10;\par{</xsl:text><xsl:value-of select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:editionStmt/tei:edition/tei:title"/><xsl:text>} </xsl:text>
-		<xsl:text>&#10;\par{</xsl:text><xsl:value-of select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:pubPlace"/><xsl:text>} </xsl:text>
 		<xsl:text>&#10;\par{</xsl:text><xsl:value-of select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:distributor"/><xsl:text>} </xsl:text>
+		<xsl:text>&#10;\par{</xsl:text><xsl:value-of select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:pubPlace"/><xsl:text>} </xsl:text>
 		<xsl:text>&#10;\par{\TheDate}</xsl:text>
 		<xsl:text>&#10;\par{doi: </xsl:text><xsl:value-of select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:idno[@type='doi']"/><xsl:text>} </xsl:text>
 		<xsl:text>&#10;\par{</xsl:text><xsl:value-of select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:availability/tei:licence"/><xsl:text>} </xsl:text>

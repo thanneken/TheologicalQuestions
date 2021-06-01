@@ -8,7 +8,7 @@ It is free to use and modify (see below).
 *Theological Questions* is available in formats for 
 [web](https://thanneken.github.io/TheologicalQuestions/derivatives/TheologicalQuestions.html), 
 [ePub](https://thanneken.github.io/TheologicalQuestions/derivatives/TheologicalQuestions.epub), 
-[PDF virtual paper](https://thanneken.github.io/TheologicalQuestions/derivatives/TheologicalQuestions.pdf)
+[PDF](https://thanneken.github.io/TheologicalQuestions/derivatives/TheologicalQuestions.pdf)
 and [Kindle MOBI](https://thanneken.github.io/TheologicalQuestions/derivatives/TheologicalQuestions.mobi). 
 Just remember that citing by page will not be meaningful to readers using other formats. 
 The section numbers are standard across formats. 
@@ -23,6 +23,8 @@ It is not considered a commercial use to apply for a grant to build on the proje
 
 # How do I contribute back my improvements? 
 Improvements are welcome in all areas, including corrections/clarifications, additional sections and subsections, supplementary readings and exercises, and improvements to appearance and accessibility. 
+It is easy to create alternate editions. 
+See or edit the [Desiderata](https://github.com/thanneken/TheologicalQuestions/wiki/Desiderata) wiki page.
 
 ## If interested in theology and teaching, not TEI or GitHub
 If you have no technical interests, the simplest method is to be in email contact with the author, Todd Hanneken. 
@@ -45,7 +47,7 @@ When making modifications, please make appropriate modifications to the header a
 
 Most matters of formatting are governed by the stylesheets. 
 The directory `stylesheets/profiles/theologicalquestions/` contains special formatting that builds on the default stylesheets offered by the TEI Consortium. 
-As with the text itself, friendly ammendments and alternative versions of the stylesheet profile are welcome. 
+As with the text itself, friendly amendments and alternative versions of the stylesheet profile are welcome. 
 
 The included scripts will run on Linux, MacOS, and WSL (Windows Subsystem for Linux). 
 The scripts require simple modification of the BASEPATH variable and the tools provided by the 

@@ -5,15 +5,14 @@
       <titleStmt>
         <title>Theological Questions</title>
         <author xml:id="TRH">Todd R. Hanneken</author>
-        <editor role="advisor" xml:id="REB">Rhodora E. Beaton</editor>
         <editor role="advisor" xml:id="JN">Jude Ngome</editor>
         <editor role="advisor" xml:id="SR">Sara Ronis</editor>
         <editor role="advisor" xml:id="DD">Diane Duesterhoeft</editor>
         <funder>Atla</funder>
       </titleStmt>
       <editionStmt>
-        <edition n="202105">
-          <title>202105 Edition</title>
+        <edition n="202106">
+          <title>202106 Edition</title>
           <date when="2021">2021</date>
         </edition>
       </editionStmt>
@@ -3614,7 +3613,7 @@
               <s>One needs to eat the bread of life in order to have eternal life.</s>
               <s>In the earliest Jesus movement perhaps any gathering could perform this ritual with or without an agent appointed by Christ.</s>
               <s><hi>As the Church became institutionalized and structured, not just anyone could take the place of Christ in this ritual, only someone who was duly appointed</hi> (no matter how long that chain of appointment may be).</s>
-              <s>In a very real sense, the Church had a monopoly on salvation.</s>
+              <s>In a very real sense, the Church had a Monopoly on salvation.</s>
               <s>Even if the ultimate supplier was Christ, in practice it could only be obtained through official channels.</s>
             </p>
             <p>
@@ -4264,7 +4263,7 @@
                   <s>O most divine goodness, what greater testimony can there be to the depth of your care!</s>
                 </p>
               </quote>
-              <ref>Shawn Madigan, ed., <bibl><title>Mystics, Visionaries, and Prophets</title></bibl></ref>
+              <ref>Excerpt of Gertrude the Great in Shawn Madigan, ed., <bibl><title>Mystics, Visionaries, and Prophets</title></bibl></ref>
             </cit>
           </div>
         </div>
@@ -4417,11 +4416,10 @@
               </body>
             </floatingText>
 						<figure rend="wide">
-							<graphic width="3in" url="media/image89.jpeg" source="https://static.tvtropes.org/pmwiki/pub/images/get_out_of_jail_free.jpg"/>
-							<head type="figure">
-								<s>In the 1935 Hasbro boardgame “Monopoly” a card could be bought and sold that would release players from “jail.”</s>
-								<s>Indulgences have been called “Get out of purgatory free” cards, with “free” understood as without time or suffering, not as without cost.</s>
-							</head>
+							<graphic width="3in" url="media/image89.jpeg" source="https://static.tvtropes.org/pmwiki/pub/images/get_out_of_jail_free.jpg">
+                <desc>Get out of jail free monopoly card</desc>
+							</graphic>
+							<head type="figure">In the 1935 Hasbro boardgame “Monopoly” a card could be bought and sold that would release players from “jail.” Indulgences have been called “Get out of purgatory free” cards, with “free” understood as without time or suffering, not as without cost.</head>
 						</figure>
           </div>
           <div type="section">
@@ -5314,7 +5312,7 @@
               <graphic width="3in" n="10071" url="media/image72.png" source="http://4.bp.blogspot.com/-wq5sBDGEAck/TcL33ctOTzI/AAAAAAAABFU/BxaYfBRivUM/s1600/pope-john-paul-ii-0201.png"/>
               <head type="figure">Pope John Paul II (the second)</head>
             </figure>
-            <p>
+            <p xml:id="p6-1-1-6">
               <s>Finally, the papacy of <hi>John Paul II</hi> (pope 1978–2005) marked many firsts for the papacy.</s>
               <s>Only one person in history served as pope for a longer time (his predecessor was pope for only 33 days).</s>
               <s>That gave him a long time to shape the church gradually.</s>
@@ -5544,9 +5542,6 @@
               <graphic width="2in" n="10075" url="media/image76.jpeg" source="http://static.superherosuperstar.com/uploads/2011/05/charles-darwin-the-origin-of-species.jpg">
                 <desc>Cover of book by Charles Darwin, The Origin of Species</desc>
               </graphic>
-              <head type="figure">
-                <bibl><author>Charles Darwin</author>, <title>The Origin of Species</title></bibl>
-              </head>
             </figure>
             <p>
               <s>But reason goes well beyond rational inquiry into scripture.</s>
@@ -5913,7 +5908,7 @@
               <s>If women had been included all along we might have avoided these problems.</s>
               <s>As it is there is a tremendous amount of work to do for people who respect women to rearticulate the faith in expressions that maintain the dignity of both halves of humanity, the image of God.</s>
             </p>
-						<p resp="#REB">
+						<p>
 							<s>In the past few years, Pope Francis has taken steps to formally recognize some of the contributions that non-priests (including all women and most men) were already making to the Church.</s>
 							<s>In 2021, he opened some roles in liturgical worship (lector and acolyte) and teaching the faith (catechist) to women on a permanent basis (previously it had been happening on a temporary basis).</s>
 							<s>The significance of these changes is not so much in doing things differently, but in thinking about the Church differently.</s>
@@ -6038,9 +6033,9 @@
               <s>For example, some would justify abortion if the life of the mother is in imminent danger and abortion could save her life.</s>
               <s>Some would also extend that to the psychological well-being of the mother.</s>
               <s>Again, theological questions can be answered differently by different Christians and different thinkers within Catholicism.</s>
-							<s resp="#REB">The current teaching of the U.S. Catholic bishops is that it is not justified to terminate a pregnancy to save the life of the mother.</s>
-							<s resp="#REB">If a human is alive, it is not permissible to intentionally kill one human in order to save another human.</s>
-							<s resp="#REB">Doctors should try to save the lives of both mother and child without prioritizing one over the other.</s>
+							<s>The current teaching of the U.S. Catholic bishops is that it is not justified to terminate a pregnancy to save the life of the mother.</s>
+							<s>If a human is alive, it is not permissible to intentionally kill one human in order to save another human.</s>
+							<s>Doctors should try to save the lives of both mother and child without prioritizing one over the other.</s>
             </p>
             <p>
               <s>Another implication of treating a human embryo as a life complete with all sanctity, dignity, and rights is opposition to <hi>stem cell research</hi>.</s>
@@ -6120,9 +6115,9 @@
               <s>In response to calls for <hi>same-sex unions and marriage</hi>, theologians are scrambling to articulate the relationship between the sacrament of matrimony and the civil laws defining the rights and responsibilities of marriage.</s>
               <s>There are many questions left unanswered, but that is the way it has always been.</s>
               <s>Just when the issues of the early Church seemed to have been resolved, new issues arose from new circumstances.</s>
-							<s resp="#REB">Certain elements of the tradition are timeless, but some elements can change in response to the needs of a changing world.</s>
-							<s resp="#REB">Some theological ideas simply sound different in the twenty-first century than they did in the seventeenth century.</s>
-							<s resp="#REB">The changing context of the world allows theologians to see old ideas in fresh ways and to address new theological problems that the Essenes and Early Christians could not have even imagined.</s>
+							<s>Certain elements of the tradition are timeless, but some elements can change in response to the needs of a changing world.</s>
+							<s>Some theological ideas simply sound different in the twenty-first century than they did in the seventeenth century.</s>
+							<s>The changing context of the world allows theologians to see old ideas in fresh ways and to address new theological problems that the Essenes and Early Christians could not have even imagined.</s>
               <s>
                 <hi>There are problems in theology today that welcome and require work. </hi>
               </s>
@@ -6132,9 +6127,9 @@
               <s>How will it change?</s>
               <s>What will Vatican III look like?</s>
               <s>It hasn’t been scheduled; we don’t know it will be called Vatican III; we do know that change will happen.</s>
-							<s resp="#REB">Having come to the end of a semester of theology, which topics do you think would be most important if Vatican III is called in the next ten years?</s>
-							<s resp="#REB">What ideas from the past do you think are most important?</s>
-							<s resp="#REB">How do you think Christians should address the topics that you think are most important for the next ten years?</s>
+							<s>Having come to the end of a semester of theology, which topics do you think would be most important if Vatican III is called in the next ten years?</s>
+							<s>What ideas from the past do you think are most important?</s>
+							<s>How do you think Christians should address the topics that you think are most important for the next ten years?</s>
               <s>In a certain sense these decisions will be made by the bishops, or perhaps some professional theologians.</s>
               <s>In a more fundamental sense, the decision will be made by the tradition, and it is up to all the faithful to decide how the tradition will be handed down.</s>
               <s>Simply leaving the Church and not handing down the tradition at all is more practical a possibility than ever.</s>
