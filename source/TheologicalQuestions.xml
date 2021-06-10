@@ -11,23 +11,23 @@
         <funder>Atla</funder>
       </titleStmt>
       <editionStmt>
-        <edition n="202106">
-          <title>202106 Edition</title>
+        <edition n="20210610">
+          <title>20210610 Edition</title>
           <date when="2021">2021</date>
         </edition>
       </editionStmt>
       <extent>Analogous to 136+vi pages in six units</extent>
       <publicationStmt>
-        <distributor>St. Mary’s University</distributor>
-        <pubPlace>San Antonio, Texas</pubPlace>
+        <distributor>Atla Open Press</distributor>
+        <pubPlace>Chicago</pubPlace>
         <availability status="free">
           <licence>
             <ref target="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC</ref>
           </licence>
         </availability>
-        <date when="2021-06-01">2021</date>
-        <idno type="doi">10.5281/zenodo.4459329</idno>
-        <idno type="uri">https://doi.org/10.5281/zenodo.4459329</idno>
+        <date when="2021-06-10">2021</date>
+        <idno type="doi">10.31046/atlaopenpress.81</idno>
+        <idno type="uri">https://doi.org/10.31046/atlaopenpress.81</idno>
       </publicationStmt>
       <notesStmt>
         <note>
@@ -96,6 +96,7 @@
       <change when="2021-01-20" who="#TRH">Beta version circulated to students in <name>Hanneken</name>’s sections of <soCalled>Foundations of Reflection: God.</soCalled></change>
       <change when="2021-05-18" who="#TRH">Fully compliant xml, tei dtd, epub accessibility, html accessibility, improved formatting</change>
       <change when="2021-06-01" who="#TRH">First publicized version delivered to Atla.</change>
+      <change when="2021-06-10" who="#TRH">Change DOI and distributor to Atla Open Press</change>
     </revisionDesc>
   </teiHeader>
   <text xml:lang="en">
