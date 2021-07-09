@@ -123,7 +123,7 @@
       <div>
         <head>Formal declaration</head>
         <schemaSpec ident="tei_tq" xml:lang="en" prefix="tei_" targetLang="en" docLang="en">
-          <moduleRef key="core" include="p list item head author title bibl biblScope cit date distinct editor emph foreign graphic hi lb milestone note pubPlace q quote ref soCalled name desc l"/>
+          <moduleRef key="core" include="p list item head author title bibl biblScope cit date distinct editor emph foreign graphic hi lb milestone note pubPlace q quote ref soCalled name desc l ptr label"/>
           <moduleRef key="tei"/>
           <moduleRef key="header" include="teiHeader fileDesc titleStmt publicationStmt sourceDesc availability change creation distributor edition editionStmt editorialDecl encodingDesc extent funder idno keywords langUsage language licence notesStmt profileDesc refsDecl revisionDesc seriesStmt textClass"/>
           <moduleRef key="textstructure" include="TEI text body div floatingText"/>

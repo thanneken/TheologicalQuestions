@@ -11,8 +11,8 @@
         <funder>Atla</funder>
       </titleStmt>
       <editionStmt>
-        <edition n="20210610">
-          <title>20210610 Edition</title>
+        <edition n="20210709">
+          <title>20210709 Edition</title>
           <date when="2021">2021</date>
         </edition>
       </editionStmt>
@@ -21,9 +21,7 @@
         <distributor>Atla Open Press</distributor>
         <pubPlace>Chicago</pubPlace>
         <availability status="free">
-          <licence>
-            <ref target="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC</ref>
-          </licence>
+          <licence target="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC</licence>
         </availability>
         <date when="2021-06-10">2021</date>
         <idno type="doi">10.31046/atlaopenpress.81</idno>
@@ -117,7 +115,17 @@
               <s>Although the object of study is God, the words are human words which we struggle to understand, define, and use.</s>
             </p>
             <figure rend="float">
-              <graphic width="3in" n="1001" url="media/image2.jpeg" source="http://cyberbrethren.com/wp-content/uploads/2011/04/anselm-Saint.jpg"/>
+              <graphic width="3in" n="1001" url="media/image2.jpeg" source="http://cyberbrethren.com/wp-content/uploads/2011/04/anselm-Saint.jpg">
+								<desc>
+									<bibl>
+										<title>Catholic Culture: St. Anselm</title>
+										<distributor>Trinity Communications</distributor>
+										<ptr target="https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2021-04-21"/>
+										<ptr target="https://www.catholicculture.org/culture/liturgicalyear/pictures/4_21_anselm2.jpg"/>
+										<date type="accessed" when="2021-06-29">Accessed 6/29/2021</date>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">Anselm of Canterbury, 1033-1109</head>
             </figure>
             <p>
@@ -302,16 +310,64 @@
                 <ab>
                   <figure>
                     <graphic width="1.5in" n="1002" height="2in" url="media/image3.jpeg" source="41ik7oky9l.jpg (359×500)">
-                      <desc>Elizabeth Johnson, Quest for the Living God</desc>
+                      <desc>
+												<label>Elizabeth Johnson, Quest for the Living God</label>
+												<bibl>
+													<author>Elizabeth A. Johnson</author>
+													<title>Quest for the Living God: Mapping Frontiers in the Theology of God</title>
+													<pubPlace>New York</pubPlace>
+													<distributor>Continuum</distributor>
+													<date>2011</date>
+													<ptr target="https://www.worldcat.org/title/quest-for-the-living-god-mapping-frontiers-in-the-theology-of-god/oclc/973649350"/>
+													<ptr target="https://coverart.oclc.org/ImageWebSvc/oclc/+-+508491824_140.jpg"/>
+													<date type="accessed" when="2021-06-29">Accessed 6/29/2021</date>
+												</bibl>
+											</desc>
                     </graphic>
                     <graphic width="1.5in" n="1003" height="2in" url="media/image4.jpeg">
-                      <desc>John Meier, A Marginal Jew</desc>
+                      <desc>
+												<label>John Meier, A Marginal Jew</label>
+												<bibl>
+													<author>John P. Meier</author>
+													<title>A Marginal Jew: Rethinking the Historical Jesus, Volume One: The Roots of the Problem and the Person</title>
+													<pubPlace>New York</pubPlace>
+													<distributor>Doubleday</distributor>
+													<date>1991</date>
+													<ptr target="https://www.worldcat.org/title/marginal-jew-rethinking-the-historical-jesus-volume-one-the-roots-of-the-problem-and-the-person/oclc/778938327"/>
+													<ptr target="https://coverart.oclc.org/ImageWebSvc/oclc/+-+278384322_140.jpg"/>
+													<date type="accessed" when="2021-06-29">Accessed 6/29/2021</date>
+												</bibl>
+											</desc>
                     </graphic>
                     <graphic width="1.5in" n="1004" height="2in" url="media/image5.jpeg" source="http://tandtclark.typepad.com/ttc/images/2007/12/07/justlove.jpg">
-                      <desc>Margaret Farley, Just Love</desc>
+                      <desc>
+												<label>Margaret Farley, Just Love</label>
+												<bibl>
+													<author>Margaret Farley</author>
+													<title>Just Love: A Framework for Christian Sexual Ethics</title>
+													<pubPlace>New York</pubPlace>
+													<distributor>Continuum</distributor>
+													<date>2010</date>
+													<ptr target="https://www.worldcat.org/title/just-love-a-framework-for-christian-sexual-ethics/oclc/1048583907"/>
+													<ptr target="https://coverart.oclc.org/ImageWebSvc/oclc/+-+2548303956_140.jpg"/>
+													<date type="accessed" when="2021-06-29">Accessed 6/29/2021</date>
+												</bibl>
+											</desc>
                     </graphic>
                     <graphic width="1.5in" n="1005" height="2in" url="media/image6.jpeg" source="http://1.bp.blogspot.com/_ksx6dIcRH6c/TA05s6GexeI/AAAAAAAAAFM/4LJ9DKj3KcA/s1600/TheologyofLiberation.jpg">
-                      <desc>Gustavo Gutiérrez, A Theology of Liberation</desc>
+                      <desc>
+												<label>Gustavo Gutiérrez, A Theology of Liberation</label>
+												<bibl>
+													<author>Gustavo Gutiérrez</author>
+													<title>A Theology of Liberation: History, Politics, and Salvation</title>
+													<pubPlace>Maryknoll</pubPlace>
+													<distributor>Orbis</distributor>
+													<date>1973</date>
+													<ptr target="https://www.worldcat.org/title/theology-of-liberation-history-politics-and-salvation/oclc/1084549594"/>
+													<ptr target="https://coverart.oclc.org/ImageWebSvc/oclc/+-+9404909356_140.jpg"/>
+													<date type="accessed" when="2021-06-29">Accessed 6/29/2021</date>
+												</bibl>
+											</desc>
                     </graphic>
                   </figure>
                 </ab>
@@ -363,16 +419,46 @@
           <div type="section">
             <head type="section">Where is the land of Israel?</head>
             <figure rend="wide" xml:id="romanempire">
-              <graphic width="100%" n="1006" url="media/image7.jpeg" source="C:\Program Files\BibleWorks 9\images\mbatlas\098.jpg"/>
-              <head type="figure">The Roman Empire. Source: Moody Bible Atlas in BibleWorks 9. Look for Babylon, Jerusalem, Red Sea, Nile River, Egypt, Athens, Rome.</head>
+              <graphic width="100%" n="1006" url="media/image7.jpeg" source="C:\Program Files\BibleWorks 9\images\mbatlas\098.jpg">
+								<desc>
+									<bibl>
+										<author>Barry J. Beitzel</author>
+										<title>The New Moody Atlas of the Bible</title>
+										<pubPlace>Chicago</pubPlace>
+										<distributor>Moody Publishers</distributor>
+										<date>2009</date>
+										<ptr target="https://www.moodypublishers.com/the-new-moody-atlas-of-the-bible/"/>
+									</bibl>
+								</desc>
+							</graphic>
+              <head type="figure">The Roman Empire. Look for Babylon, Jerusalem, Red Sea, Nile River, Egypt, Athens, Rome. Source: The New Moody Atlas of the Bible. </head>
             </figure>
             <figure rend="wide" xml:id="southtexas">
-              <graphic width="100%" n="1007" url="media/image8.jpeg"/>
+              <graphic width="100%" n="1007" url="media/image8.jpeg">
+								<desc>
+									<bibl>
+										<author>Todd Hanneken, Barry J. Beitzel, and Google</author>
+										<title>Israel and South Texas Side by Side, Created from the New Moody Atlas of the Bible and Google Maps</title>
+										<date>2012</date>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">Israel and south Texas side by side. Look for Nazareth and Jerusalem.</head>
             </figure>
             <figure rend="wide" xml:id="israel">
-              <graphic width="100%" n="1008" url="media/image9.png" source="Moody Bible Atlas in BibleWorks 9"/>
-              <head type="figure">Israel at the time of Jesus. Look for Nazareth and Jerusalem. Source: Moody Bible Atlas in BibleWorks 9.</head>
+              <graphic width="100%" n="1008" url="media/image9.png" source="Moody Bible Atlas in BibleWorks 9">
+								<desc>
+									<bibl>
+										<author>Barry J. Beitzel</author>
+										<title>The New Moody Atlas of the Bible</title>
+										<pubPlace>Chicago</pubPlace>
+										<distributor>Moody Publishers</distributor>
+										<date>2009</date>
+										<ptr target="https://www.moodypublishers.com/the-new-moody-atlas-of-the-bible/"/>
+									</bibl>
+								</desc>
+							</graphic>
+              <head type="figure">Israel at the time of Jesus. Look for Nazareth and Jerusalem. Source: The New Moody Atlas of the Bible.</head>
             </figure>
             <p>
               <s>The Israelites were never a large or powerful empire.</s>
@@ -497,7 +583,18 @@
               <s>The Jews seem to have been the first.</s>
             </p>
             <figure rend="wide">
-              <graphic width="100%" n="1009" url="media/image10.jpeg" source="BABYLONA.gif"/>
+              <graphic width="100%" n="1009" url="media/image10.jpeg" source="BABYLONA.gif">
+								<desc>
+									<bibl>
+										<author>R. Russell</author>
+										<title>Ancient Babylonia - Nebuchadnezzar's Babylon</title>
+										<distributor>Bible History</distributor>
+										<ptr target="https://www.bible-history.com/babylonia/babylonianebuchadnezzars_babylon.htm"/>
+										<ptr target="https://www.bible-history.com/babylonia/BABYLONA.gif"/>
+										<date type="accessed" when="2021-06-29">Accessed 6/29/2021</date>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">Artist’s rendering of ancient Babylon. When the captive Israelites were taken to Babylon they saw an awe-inspiring city, but they held on to their own identity and beliefs. Source: bible-history.com.</head>
             </figure>
             <p>
@@ -541,7 +638,19 @@
               <s>The Bible was edited and interpreted for a long time, but careful examination of it tells us much about the Israelites.</s>
             </p>
             <figure rend="wide">
-              <graphic width="100%" n="10010" url="media/image11.jpeg" source="http://gath.files.wordpress.com/2011/07/dscf5743.jpg"/>
+              <graphic width="100%" n="10010" url="media/image11.jpeg" source="http://gath.files.wordpress.com/2011/07/dscf5743.jpg">
+								<desc>
+									<bibl>
+										<author>Aren Maeir</author>
+										<title>The news is out! A large stone altar in Area D (MiYoung Im working around the altar)</title>
+										<distributor>The Tell es-Safi/Gath Archaeological Project Official (and Unofficial) Weblog</distributor>
+										<date>2011</date>
+										<ptr target="https://gath.wordpress.com/2011/07/25/the-news-is-out-a-large-stone-altar-in-area-d/"/>
+										<ptr target="http://gath.files.wordpress.com/2011/07/dscf5743.jpg"/>
+										<date type="accessed" when="2021-06-29">Accessed 6/29/2021</date>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">Archaeologist MiYoung Im digging away dirt around a horned altar in the ancient Philistine city of Gath.  Source Aren Maeir, gath.wordpress.com.</head>
             </figure>
             <p>
@@ -560,8 +669,23 @@
           <div type="section">
             <head type="section">How did they know?</head>
             <figure rend="float">
-              <graphic width="3in" n="10011" url="media/image12.jpeg" source="http://www.moleiro.com/a/img/orig/GHAB_021v_g.jpg"/>
-              <head type="figure">A biblical author imagined as merely copying the already-written words revealed by an angel. Catholicism today imagines humans as playing a greater role. Source: moleiro.com.</head>
+              <graphic width="3in" n="10011" url="media/image12.jpeg" source="http://www.moleiro.com/a/img/orig/GHAB_021v_g.jpg">
+								<desc>
+									<bibl>
+										<author>Jean Bourdichon (1457–1521)</author>
+										<title>Matthew the Evangelist, miniature from the Grandes Heures of Anne of Brittany, Queen consort of France (1477-1514)</title>
+										<date>1503-1508</date>
+										<pubPlace>Paris</pubPlace>
+										<distributor>Bibliothèque nationale de France</distributor>
+										<ptr target="https://en.wikipedia.org/wiki/File:Grandes_Heures_Anne_de_Bretagne_Saint_Matthieu.jpg"/>
+										<date type="accessed" when="2021-06-29">Accessed 6/29/2021</date>
+										<availability>
+											<ab>Public Domain</ab>
+										</availability>
+									</bibl>
+								</desc>
+							</graphic>
+              <head type="figure">A biblical author imagined as merely copying the already-written words revealed by an angel. Catholicism today imagines humans as playing a greater role.</head>
             </figure>
             <p>
               <s>Many ancient civilizations are worthy of study, and I hope you have time to learn about them.</s>
@@ -629,7 +753,20 @@
           <div type="section">
             <head type="section">How did other ancient civilizations think about the gods?</head>
             <figure rend="float">
-              <graphic width="3in" n="10012" url="media/image13.jpeg" source="Inanna-Rain.JPG (640×370)"/>
+              <graphic width="3in" n="10012" url="media/image13.jpeg" source="Inanna-Rain.JPG (640×370)">
+								<desc>
+									<bibl>
+										<author>Stéphane Beaulieu (illustrator)</author>
+										<title>Inanna, illustration based on photo in D. Wolkstein and S.N. Kramer, Inanna, Queen of Heaven and Earth: Her Stories and Hymns from Sumer, New York: Harper and Row, 1983</title>
+										<distributor>Johanna Stuckley, “Inanna: Goddess of Infinite Variety” Matrifocus 4.1</distributor>
+										<date>2004</date>
+										<ptr target="https://saturniancosmology.org/files/mesopot/inanna.htm"/>
+										<ptr target="https://saturniancosmology.org/files/mesopot/spotligi.jpg"/>
+										<ptr target="https://archive.org/details/input-compressed-2015mar28a29/page/n116/mode/1up"/>
+										<date type="accessed" when="2021-06-29">Accessed 6/29/2021</date>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">A team of gods make it rain (useful for farmers). Source: S. Beaulieu, after Wolkstein &amp; Kramer 1983:94.</head>
             </figure>
             <p>
@@ -1107,8 +1244,23 @@
           <div type="section">
             <head>God has enemies</head>
             <figure rend="float">
-              <graphic width="3in" n="10013" url="media/image14.jpeg" source="http://upload.wikimedia.org/wikipedia/commons/9/9d/Paradise_Lost_12.jpg"/>
-              <head type="figure">Satan cast out of heaven. Illustration by the 19th century woodcut artist Gustave Doré. Source: Wikimedia Commons.</head>
+              <graphic width="3in" n="10013" url="media/image14.jpeg" source="http://upload.wikimedia.org/wikipedia/commons/9/9d/Paradise_Lost_12.jpg">
+								<desc>
+									<bibl>
+										<author>Gustave Doré</author>
+										<title>Illustration for John Milton's Paradise Lost, The Spiritual Descent of Lucifer into Satan</title>
+										<date>1866</date>
+										<distributor>Wikimedia Commons</distributor>
+										<ptr target="https://commons.wikimedia.org/wiki/File:Paradise_Lost_12.jpg"/>
+										<ptr target="https://upload.wikimedia.org/wikipedia/commons/9/9d/Paradise_Lost_12.jpg"/>
+										<date type="accessed" when="2021-06-29">Accessed 6/29/2021</date>
+										<availability>
+											<ab>Public Domain</ab>
+										</availability>
+									</bibl>
+								</desc>
+							</graphic>
+              <head type="figure">Satan cast out of heaven. Illustration by the 19th century woodcut artist Gustave Doré.</head>
             </figure>
             <p>
               <s>Around the same time the idea developed that the evil which the righteous face in this life cannot be explained by chastisement, bad luck, or bad choices made by human enemies.</s>
@@ -1206,8 +1358,17 @@
           <div type="section">
             <head>Exclusively Israelite, not Canaanite</head>
             <figure rend="float">
-              <graphic width="2in" n="10014" url="media/image15.jpeg"/>
-              <head type="figure">The Canaanite god Ba‘al</head>
+              <graphic width="2in" n="10014" url="media/image15.jpeg">
+								<desc>
+									<bibl>
+										<title>Baal</title>
+										<ptr target="https://www.womeninthebible.net/war-in-the-bible/deborah-bible-battle/"/>
+										<ptr target="https://www.womeninthebible.net/wp-content/uploads/2017/08/Baal_plaque.jpg"/>
+										<date type="accessed" when="2021-06-29">Accessed 6/29/2021</date>
+									</bibl>
+								</desc>
+							</graphic>
+							<head type="figure">The Canaanite god Ba‘al</head>
             </figure>
             <p>
               <s>The Israelites thought of themselves as <hi>a people called to live in a special and exclusive relationship with God</hi>.</s>
@@ -1252,7 +1413,16 @@
           <div type="section">
             <head>Pilgrimage festivals</head>
             <figure rend="wide">
-              <graphic width="100%" n="10015" url="media/image16.jpeg"/>
+              <graphic width="100%" n="10015" url="media/image16.jpeg">
+								<desc>
+									<bibl>
+										<title>King Solomon’s Temple</title>
+										<ptr target="https://freemasoninformation.com/wp-content/uploads/2009/05/king-solomon-temple.jpg"/>
+										<ptr target="https://freemasoninformation.com/2009/05/solomon-the-magician/"/>
+										<date type="accessed" when="2021-06-29">Accessed 6/29/2021</date>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">Illustration of the first temple in Jerusalem, 950-587 BCE</head>
             </figure>
             <p>
@@ -1322,7 +1492,14 @@
             <head>Purity and holiness</head>
             <figure rend="float">
               <graphic width="3in" n="10016" url="media/image17.jpeg" source="http://3.bp.blogspot.com/_Z-DEoN3ydt4/TPfO4DjZXyI/AAAAAAAABr0/vgTR6HkEhMM/s1600/swine.gif">
-                <desc>A pig</desc>
+								<desc>
+									<label>A pig</label>
+									<bibl>
+										<distributor>Blogspot</distributor>
+										<ptr target="http://3.bp.blogspot.com/_Z-DEoN3ydt4/TPfO4DjZXyI/AAAAAAAABr0/vgTR6HkEhMM/s1600/swine.gif"/>
+										<date type="accessed" when="2021-06-29">Accessed 6/29/2021</date>
+									</bibl>
+								</desc>
               </graphic>
             </figure>
             <p>
@@ -1407,7 +1584,21 @@
                 <s>Some books of the Bible were still being written and edited.</s>
                 <s>The Jews confronted Greek philosophical ideas and other cultural perspectives.</s>
                 <figure rend="float">
-                  <graphic width="3in" n="10017" url="media/image18.jpeg" source="http://2.bp.blogspot.com/_BkEbP5apmoU/St1IatDwY0I/AAAAAAAAA18/T5T6p_D_l40/s1600/alexander+the+great.jpg"/>
+                  <graphic width="3in" n="10017" url="media/image18.jpeg" source="http://2.bp.blogspot.com/_BkEbP5apmoU/St1IatDwY0I/AAAAAAAAA18/T5T6p_D_l40/s1600/alexander+the+great.jpg">
+										<desc>
+											<bibl>
+												<author>Photographed by Freeman &amp; Co. Ltd.</author>
+												<title>Alexander the Great, portrait head on a coin of Lysimachus (355–281 BCE)</title>
+												<date>Circa 300 BCE</date>
+												<pubPlace>London</pubPlace>
+												<distributor>British Museum</distributor>
+												<ptr target="https://www.britannica.com/summary/Alexander-the-Greats-Achievements"/>
+												<ptr target="https://cdn.britannica.com/s:1500x700,q:85/44/13544-004-9AF1CD3D/Alexander-the-Great-coin-portrait-head-Lysimachus.jpg"/>
+												<ptr target="https://www.britishmuseum.org/collection/object/C_1919-0820-1"/>
+												<date type="accessed" when="2021-06-29">Accessed 6/29/2021</date>
+											</bibl>
+										</desc>
+									</graphic>
                   <head type="figure">Alexander the Great</head>
                 </figure>
               </item>
@@ -1490,7 +1681,17 @@
                 <s>It would be tangible, but would not have the aches, pain, lusts, and corruptibility of our present bodies.</s>
                 <s>Christians believe Jesus was already resurrected and all Christians will be resurrected when Jesus returns in the future.</s>
                 <figure rend="float">
-                  <graphic width="3in" n="10018" url="media/image19.jpeg" source="http://4.bp.blogspot.com/-5K1UkxsC-l8/TmygG5siyiI/AAAAAAAACJY/3FY5BPWf4IY/s1600/Scary-Zombie-Wallpapers-2.jpg"/>
+                  <graphic width="3in" n="10018" url="media/image19.jpeg" source="http://4.bp.blogspot.com/-5K1UkxsC-l8/TmygG5siyiI/AAAAAAAACJY/3FY5BPWf4IY/s1600/Scary-Zombie-Wallpapers-2.jpg">
+										<desc>
+											<bibl>
+												<title>Scary Zombie Wallpapers</title>
+												<distributor>WallpaperAccess</distributor>
+												<ptr target="https://wallpaperaccess.com/scary-zombie?2717904"/>
+												<ptr target="https://wallpaperaccess.com/download/scary-zombie-2717904"/>
+												<date type="accessed" when="2021-06-29">Accessed 6/29/2021</date>
+											</bibl>
+										</desc>
+									</graphic>
                   <head type="figure">Whereas a zombie is the same body raised without a soul, Paul believes the soul will rise again in an incorruptible body.</head>
                 </figure>
               </item>
@@ -1543,7 +1744,24 @@
           <div type="section">
             <head>Is religion worth dying for?</head>
             <figure rend="wide">
-              <graphic width="100%" n="10019" url="media/image20.jpeg" source="Albrecht Dürer Martyrdom of Saint Catherine"/>
+              <graphic width="100%" n="10019" url="media/image20.jpeg" source="Albrecht Dürer Martyrdom of Saint Catherine">
+							<desc>
+								<bibl>
+									<author>Albrecht Dürer</author>
+									<title>The Martyrdom of Saint Catherine (woodcut)</title>
+									<date>c. 1497/1499</date>
+									<pubPlace>Washington D.C.</pubPlace>
+									<distributor>National Gallary of Art, Rosenwald Collection, 1964.8.1791, Wikimedia Commons</distributor>
+									<ptr target="https://upload.wikimedia.org/wikipedia/commons/5/52/Albrecht_D%C3%BCrer%2C_The_Martyrdom_of_Saint_Catherine%2C_c._1497-1499%2C_NGA_49059.jpg"/>
+									<ptr target="https://commons.wikimedia.org/wiki/File:Albrecht_D%C3%BCrer,_The_Martyrdom_of_Saint_Catherine,_c._1497-1499,_NGA_49059.jpg"/>
+									<date type="accessed" when="2021-07-06">Accessed 7/6/2021</date>
+									<availability>
+										<ab>Public Domain</ab>
+										<licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en">CC 0</licence>
+									</availability>
+								</bibl>
+							</desc>
+						</graphic>
               <head type="figure">Catherine of Alexandria survived a horrible torture device before being beheaded. Artist: Albrecht Dürer</head>
             </figure>
             <p>
@@ -1714,7 +1932,23 @@
           <div type="section">
             <head>Messiahs</head>
             <figure rend="float">
-              <graphic width="3in" n="10020" url="media/image21.jpeg"/>
+              <graphic width="3in" n="10020" url="media/image21.jpeg">
+								<desc>
+									<bibl>
+										<title>Dura Europos Synagogue, panel WC3: David Anointed King by Samuel</title>
+										<date>Circa 244-245 CE</date>
+										<pubPlace>Originally Dura Europos, excavated by Yale University and the French Academy of Inscriptions and Letters and moved to the National Museum of Damascus, Syria</pubPlace>
+										<distributor>Wikimedia Commons</distributor>
+										<ptr target="https://commons.wikimedia.org/wiki/File:Dura_Synagogue_WC3_David_anointed_by_Samuel.jpg"/>
+										<ptr target="https://upload.wikimedia.org/wikipedia/commons/a/ad/Dura_Synagogue_WC3_David_anointed_by_Samuel.jpg"/>
+										<ptr target="http://media.artgallery.yale.edu/duraeuropos/"/>
+										<date type="accessed" when="2021-07-06">Accessed 7/6/2021</date>
+										<availability>
+											<ab>Public Domain</ab>
+										</availability>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">The prophet Samuel uses an animal horn filled with olive oil to anoint David as legitimate King of Israel, as portrayed in an ancient synagogue.</head>
             </figure>
             <p>
@@ -1798,8 +2032,29 @@
               </floatingText>
               <figure rend="float">
                 <graphic width="3in" n="10021" url="media/image22.jpg">
-                  <desc>Hans Holbein the Younger, The Four Beasts of Daniel 7, Woodcut</desc>
-                </graphic>
+									<desc>
+										<label>Hans Holbein the Younger, The Four Beasts of Daniel 7 (woodcut)</label>
+										<bibl>
+											<author>Hans Holbein the Younger</author>
+											<title>The Four Beasts of Daniel 7 (woodcut)</title>
+											<date>Sixteenth Century</date>
+											<bibl>
+												<author>Arthur Mayger Hind (editor)</author>
+												<title>Hans Holbein, The Younger: His Old Testament Illustrations, Dance of Death and Other Woodcuts</title>
+												<pubPlace>London</pubPlace>
+												<distributor>William Heinemann</distributor>
+												<date>1912</date>
+											</bibl>
+											<distributor>Wikimedia Commons</distributor>
+											<ptr target="https://commons.wikimedia.org/wiki/File:Daniel_4_Beasts.JPG"/>
+											<ptr target="https://upload.wikimedia.org/wikipedia/commons/1/10/Daniel_4_Beasts.JPG"/>
+											<date type="accessed" when="2021-07-06">Accessed 7/6/2021</date>
+											<availability>
+												<ab>Public Domain</ab>
+											</availability>
+										</bibl>
+									</desc>
+								</graphic>
               </figure>
               <floatingText rend="float">
                 <body>
@@ -2002,7 +2257,18 @@
           <div type="section">
             <head type="section">Controversy</head>
             <figure rend="float">
-              <graphic width="3in" n="10022" url="media/image23.jpg"/>
+              <graphic width="3in" n="10022" url="media/image23.jpg">
+								<desc>
+									<bibl>
+										<author>Mike Fillon (author), Richard Neave (artist)</author>
+										<title>The Real Face Of Jesus</title>
+										<date>December 2002</date>
+										<distributor>Popular Mechanics, Volume 179 Issue 12</distributor>
+										<ptr target="https://www.popularmechanics.com/science/health/a234/1282186/"/>
+										<date type="accessed" when="2021-07-06">Accessed 7/6/2021</date>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">This is not the most beautiful or popular image of Jesus of Nazareth. It is based on scientific data on how a Galilean at the time would have appeared. Portrayals of Jesus with a halo, blue eyes, and white skin are based on faith and cultural assumptions.</head>
             </figure>
             <p>
@@ -2351,7 +2617,16 @@
               <s>The more we sin, the more we owe suffering.</s>
             </p>
             <figure rend="float">
-              <graphic width="3in" n="10023" url="media/image24.jpeg" source="http://rlv.zcache.com/lamb_of_god_002_sticker-p217341746837833603z85xz_400.jpg"/>
+              <graphic width="3in" n="10023" url="media/image24.jpeg" source="http://rlv.zcache.com/lamb_of_god_002_sticker-p217341746837833603z85xz_400.jpg">
+								<desc>
+									<bibl>
+										<title>The Lamb of God in the Heaven</title>
+										<pubPlace>Ceiling of the Vatican Embassy in Sofia, Bulgaria</pubPlace>
+										<ptr target="https://www.pinterest.com.au/pin/413768284485420803/"/>
+										<date type="accessed" when="2021-07-06">Accessed 7/6/2021</date>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">Jesus, the victorious lamb of God as painted on the ceiling of the Vatican embassy in Bulgaria.</head>
             </figure>
             <p>
@@ -2541,7 +2816,20 @@
               </item>
             </list>
             <figure rend="wide">
-              <graphic width="100%" n="10024" url="media/image25.jpeg" source="http://www.wga.hu/art/a/andrea/firenze/1centra5.jpg"/>
+              <graphic width="100%" n="10024" url="media/image25.jpeg" source="http://www.wga.hu/art/a/andrea/firenze/1centra5.jpg">
+								<desc>
+									<bibl>
+										<author>Andrea di Bonaiuto (da Firenze)</author>
+										<title>Descent of Christ to Hell (fresco)</title>
+										<date>1366-1367</date>
+										<pubPlace>Cappella Spagnuolo, Santa Maria Novella, Florence</pubPlace>
+										<distributor>Web Gallery of Art</distributor>
+										<ptr target="https://www.wga.hu/html/a/andrea/firenze/spanish/1north6.html"/>
+										<ptr target="https://www.wga.hu/detail/a/andrea/firenze/spanish/1north6.jpg"/>
+										<date type="accessed" when="2021-07-06">Accessed 7/6/2021</date>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">The Harrowing of Hell. Basilica of Santa Maria Novella, Florence, Italy. 14th century. In all representations Adam and Eve are the first in, first out.</head>
             </figure>
             <p>
@@ -2707,7 +2995,23 @@
               <s>Its insight is in its critique of false glory, false power, false empire, and false worship.</s>
               <s>Drawing from Daniel 7, Revelation acknowledges the appearances of the power of Rome, but contrasts it with the true and enduring power of God.</s>
               <figure rend="float">
-                <graphic width="3in" n="10025" url="media/image26.jpeg" source="http://beastsofrevelation.com/images/7headedBeast-only-AlbrechtDurer.jpg"/>
+                <graphic width="3in" n="10025" url="media/image26.jpeg" source="http://beastsofrevelation.com/images/7headedBeast-only-AlbrechtDurer.jpg">
+									<desc>
+										<bibl>
+											<author>Albrecht Dürer</author>
+											<title>The Beast with Two Horns Like a Lamb (The Apocalypse of Saint John 1498, Latin Edition, plate 13)</title>
+											<date>1498</date>
+											<pubPlace>Washington D.C.</pubPlace>
+											<distributor>National Gallary of Art, Rosenwald Collection, 2008.109.13</distributor>
+											<ptr target="https://www.nga.gov/collection/art-object-page.142360.html"/>
+											<date type="accessed" when="2021-07-06">Accessed 7/6/2021</date>
+											<availability>
+												<ab>Public Domain</ab>
+												<licence target="https://creativecommons.org/publicdomain/zero/1.0/deed.en">CC 0</licence>
+											</availability>
+										</bibl>
+									</desc>
+								</graphic>
                 <head type="figure">Detail of Albrecht Dürer’s woodcut of Revelation 13</head>
               </figure>
               <cit>
@@ -2830,7 +3134,17 @@
               <s>Eventually, the teaching that most stuck is the following:</s>
             </p>
             <figure rend="float">
-              <graphic width="3in" n="10026" url="media/image27.jpeg" source="rapture.jpg"/>
+              <graphic width="3in" n="10026" url="media/image27.jpeg" source="rapture.jpg">
+								<desc>
+									<bibl>
+										<author>Third Angels Message</author>
+										<title>The Second Coming or Left Behind</title>
+										<ptr target="https://thethirdangelsmessage.com/bible-study-series/8-second-coming.php"/>
+										<ptr target="https://i2.wp.com/thethirdangelsmessage.com/wp-content/uploads/2018/03/AngelRapture.jpeg"/>
+										<date type="accessed" when="2021-07-06">Accessed 7/6/2021</date>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">This portrayal of the resurrection of the body conveys the idea that the living and the dead reunite in a physical manner (with a dated view of an ideal body). Christ’s return and judgment are not included here.</head>
             </figure>
             <list type="unordered">
@@ -2941,17 +3255,60 @@
             </body>
           </floatingText>
           <figure rend="wide">
-            <graphic width="90%" n="10027" url="media/image28.jpeg" source="Qumran.jpeg (1600×1200)"/>
+            <graphic width="90%" n="10027" url="media/image28.jpeg" source="Qumran.jpeg (1600×1200)">
+							<desc>
+								<label>Cave 4 at Qumran</label>
+								<bibl>
+									<author>Effi Schweizer (photographer)</author>
+									<title>Cave 4 at Qumran</title>
+									<date>2007</date>
+									<distributor>Wikimedia Commons</distributor>
+									<ptr target="https://en.wikipedia.org/wiki/File:Qumran.jpeg"/>
+									<ptr target="https://upload.wikimedia.org/wikipedia/commons/c/cb/Qumran.jpeg"/>
+									<date type="accessed" when="2021-07-06">Accessed 7/6/2021</date>
+									<availability>
+										<ab>Public Domain</ab>
+									</availability>
+								</bibl>
+							</desc>
+						</graphic>
             <head type="figure">Hundreds of ancient manuscripts were found in the cave dug into the side of the cliff. Because the region is dry, remote, and desolate the Scrolls were undisturbed since the site was destroyed by the Romans around 70 CE.</head>
           </figure>
           <figure rend="wide">
-            <graphic width="90%" n="10028" url="media/image29.jpeg" source="C:\Users\TRH\Desktop\isaiah-scroll1.jpg"/>
+            <graphic width="90%" n="10028" url="media/image29.jpeg" source="C:\Users\TRH\Desktop\isaiah-scroll1.jpg">
+							<desc>
+								<bibl>
+									<author>John Trever (photographer, unconfirmed)</author>
+									<title>The Great Isaiah Scroll</title>
+									<date>c. 125 BCE</date>
+									<pubPlace>Jerusalem</pubPlace>
+									<distributor>Bible-Researcher.com</distributor>
+									<ptr target="http://www.bible-researcher.com/isaiah-scroll.html"/>
+									<ptr target="http://www.bible-researcher.com/isaiah-scroll1.jpg"/>
+									<ptr target="http://dss.collections.imj.org.il/isaiah"/>
+									<date type="accessed" when="2021-07-06">Accessed 7/6/2021</date>
+								</bibl>
+							</desc>
+						</graphic>
             <head type="figure">Among the Dead Sea Scrolls are the most ancient copies of books of the Bible. Pictured here is the Book of Isaiah.</head>
           </figure>
           <div type="section">
             <head type="section">Attitudes toward property</head>
             <figure>
-              <graphic width="100%" n="10029" url="media/image30.jpeg" source="http://1.bp.blogspot.com/_Ijk5FGQE5Sw/S7UVXAz5XaI/AAAAAAAAAS4/NIVxkH9IZxU/s1600/Peter+simon+COMMUNE+Dancing.jpg"/>
+              <graphic width="100%" n="10029" url="media/image30.jpeg" source="http://1.bp.blogspot.com/_Ijk5FGQE5Sw/S7UVXAz5XaI/AAAAAAAAAS4/NIVxkH9IZxU/s1600/Peter+simon+COMMUNE+Dancing.jpg">
+								<desc>
+									<bibl>
+										<author>Peter Simon (photographer)</author>
+										<title>Commune Dancing</title>
+										<date>1960s</date>
+										<distributor>Sara Davidson, “What’s a Hippie Grandma?” Life at This Age (weblog), 2010</distributor>
+										<ptr target="https://www.saradavidson.com/blog/2010/04/whats-a-hippie-grandma.html"/>
+										<ptr target="http://1.bp.blogspot.com/_Ijk5FGQE5Sw/S7UVXAz5XaI/AAAAAAAAAS4/NIVxkH9IZxU/s1600/Peter+simon+COMMUNE+Dancing.jpg"/>
+										<ptr target="https://www.petersimon.com/"/>
+										<date type="accessed" when="2021-07-06">Accessed 7/6/2021</date>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">In the 1960s voluntary communes became popular in the United States. There were significant differences among the spiritual, political, economic, and social ideals that drove them. Few were eschatological. Source: PeterSimon.com</head>
             </figure>
             <p>
@@ -3059,7 +3416,20 @@
               </cit>
             </p>
             <figure rend="wide">
-              <graphic width="85%" n="10030" url="media/image31.jpeg" source="http://anthonyuu.files.wordpress.com/2011/03/paul-thecla.jpg"/>
+              <graphic width="85%" n="10030" url="media/image31.jpeg" source="http://anthonyuu.files.wordpress.com/2011/03/paul-thecla.jpg">
+								<desc>
+									<bibl>
+										<title>Paul and Thecla (fresco)</title>
+										<date>Sixth century</date>
+										<pubPlace>Discovered in 1906 in the Cave of St. Thecla and St. Paul on the northern slope of Bülbül Dag, above the ruins of ancient Ephesus.</pubPlace>
+										<bibl>
+											David R. Cartlidge, “Thecla: The Apostle Who Defied Women’s Destiny.” Bible Review 20:6, December 2004; BAS Library: Biblical Archaeology Society Online Archive.
+										</bibl>
+										<ptr target="https://www.baslibrary.org/bible-review/20/6/7"/>
+										<date type="accessed" when="2021-07-06">Accessed 7/6/2021</date>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">Paul and Thecla teaching together, 6th century painting.</head>
             </figure>
             <p>
@@ -3075,7 +3445,17 @@
           <div type="section">
             <head type="section">Attitudes toward sexuality</head>
             <figure rend="wide">
-              <graphic width="85%" n="10031" url="media/image32.jpeg" source="http://sacredsites.com/africa/egypt/images/st-catherines-monastery-500.jpg"/>
+              <graphic width="85%" n="10031" url="media/image32.jpeg" source="http://sacredsites.com/africa/egypt/images/st-catherines-monastery-500.jpg">
+								<desc>
+									<bibl>
+										<author>Martin Gray</author>
+										<title>World Pilgrimage Guide: Mount Sinai, Egypt</title>
+										<ptr target="https://sacredsites.com/africa/egypt/mount_sinai.html"/>
+										<ptr target="https://sacredsites.com/images/africa/egypt/mt_sinai_st_catherines_monastery_1200.jpg"/>
+										<date type="accessed" when="2021-06-29">Accessed 6/29/2021</date>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">St. Catherine’s Monastery in the Sinai Desert</head>
             </figure>
             <floatingText rend="float">
@@ -3315,7 +3695,18 @@
           <div type="section">
             <head type="section">Dates</head>
             <figure rend="float">
-              <graphic width="3in" n="10032" url="media/image33.jpeg"/>
+              <graphic width="3in" n="10032" url="media/image33.jpeg">
+								<desc>
+									<bibl>
+										<author>Philip Jackson (sculptor)</author>
+										<title>Constantine the Great</title>
+										<date>1998</date>
+										<pubPlace>York, England</pubPlace>
+										<ptr target="https://en.wikipedia.org/wiki/Statue_of_Constantine_the_Great,_York"/>
+										<date type="accessed" when="2021-07-06">Accessed 7/6/2021</date>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">Christianity on the other side of the Roman sword. 20th century sculpture of Constantine by Philip Jackson, York, England.</head>
             </figure>
             <list type="unordered">
@@ -3339,7 +3730,20 @@
               <s>Christendom largely followed this divide, and in 1054 the Great Schism irreparably divided Eastern Orthodox Christianity from Roman Catholic Christianity.</s>
             </p>
             <figure rend="float">
-              <graphic width="3in" n="10033" url="media/image34.jpeg"/>
+              <graphic width="3in" n="10033" url="media/image34.jpeg">
+								<desc>
+									<bibl>
+										<author>Sandro Botticelli</author>
+										<title>Augustine of Hippo</title>
+										<date>c 1480</date>
+										<pubPlace>Florence</pubPlace>
+										<distributor>Ognissanti Church, Wikimedia Commons</distributor>
+										<ptr target="https://commons.wikimedia.org/wiki/File:Augustine_of_Hippo_Sandro_Botticelli.jpg"/>
+										<ptr target="https://upload.wikimedia.org/wikipedia/commons/0/06/Augustine_of_Hippo_Sandro_Botticelli.jpg"/>
+										<date type="accessed" when="2021-07-06">Accessed 7/6/2021</date>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">Augustine of Hippo painted by Botticelli. Source: Wikimedia Commons.</head>
             </figure>
             <p xml:id="p4-1-2-2">
@@ -3357,7 +3761,21 @@
               <s>Augustine died in 430, leaving a cathedral and library in Hippo, the city where he served as bishop (see map below).</s>
             </p>
             <figure rend="float">
-              <graphic width="3in" n="10034" url="media/image35.jpeg" source="http://upload.wikimedia.org/wikipedia/commons/e/e3/St-thomas-aquinas.jpg"/>
+              <graphic width="3in" n="10034" url="media/image35.jpeg" source="http://upload.wikimedia.org/wikipedia/commons/e/e3/St-thomas-aquinas.jpg">
+								<desc>
+									<bibl>
+										<author>Carlo Crivelli</author>
+										<title>Saint Thomas Aquinas</title>
+										<date>1476</date>
+										<pubPlace>Originally in Ascoli Piceno, Italy, now in London</pubPlace>
+										<distributor>The National Gallery, Wikimedia Commons</distributor>
+										<ptr target="https://commons.wikimedia.org/wiki/File:St-thomas-aquinas.jpg"/>
+										<ptr target="http://upload.wikimedia.org/wikipedia/commons/e/e3/St-thomas-aquinas.jpg"/>
+										<ptr target="https://www.nationalgallery.org.uk/paintings/carlo-crivelli-saint-thomas-aquinas"/>
+										<date type="accessed" when="2021-07-06">Accessed 7/6/2021</date>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">Thomas Aquinas: A scholar in service of the Church in the Middle Ages. Source: Wikimedia Commons.</head>
             </figure>
             <p xml:id="p4-1-2-3">
@@ -3420,7 +3838,19 @@
               <s>However, it does suggest that the order of the cosmos, the way of God which we strive to imitate, is more collaborative than individualistic.</s>
             </p>
             <figure rend="wide">
-              <graphic width="100%" n="10035" url="media/image36.jpeg" source="http://upload.wikimedia.org/wikipedia/commons/5/5a/An%C3%B4nimo_-_A_Sant%C3%ADssima_Trindade%2C_c._1840.JPG"/>
+              <graphic width="100%" n="10035" url="media/image36.jpeg" source="http://upload.wikimedia.org/wikipedia/commons/5/5a/An%C3%B4nimo_-_A_Sant%C3%ADssima_Trindade%2C_c._1840.JPG">
+								<desc>
+									<bibl>
+										<title>Holy Trinity</title>
+										<date>c. 1840</date>
+										<pubPlace>Salvador, Brazil</pubPlace>
+										<distributor>Museu de Arte Sacra da Universidade Federal da Bahia, Wikimedia Commons, Scan from: MAIA, Pedro Moacir. Museu de Arte Sacra/UFBA. São Paulo: Banco Safra, 1987.</distributor>
+										<ptr target="https://commons.wikimedia.org/wiki/File:An%C3%B4nimo_-_A_Sant%C3%ADssima_Trindade,_c._1840.JPG"/>
+										<ptr target="https://upload.wikimedia.org/wikipedia/commons/5/5a/An%C3%B4nimo_-_A_Sant%C3%ADssima_Trindade%2C_c._1840.JPG"/>
+										<date type="accessed" when="2021-07-06">Accessed 7/6/2021</date>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">In older art the Trinity is often represented as an old man, a young man, and a dove. In more recent art one might see three identical connected figures. Source: Wikimedia Commons.</head>
             </figure>
           </div>
@@ -3499,7 +3929,23 @@
               <item>Alexandria – most associated with allegorical interpretation of scripture.</item>
             </list>
             <figure rend="wide">
-              <graphic width="100%" n="10036" url="media/image37.jpeg"/>
+              <graphic width="100%" n="10036" url="media/image37.jpeg">
+								<desc>
+									<bibl>
+										<author>Coppermine Photo Gallery</author>
+										<title>Historic Map of Roman Empire During the First Tetrarchy</title>
+										<date>2008</date>
+										<distributor>Wikimedia Commons</distributor>
+										<ptr target="https://commons.wikimedia.org/wiki/File:Tetrarchy_map3.jpg"/>
+										<ptr target="https://upload.wikimedia.org/wikipedia/commons/0/07/Tetrarchy_map3.jpg"/>
+										<date type="accessed" when="2021-07-06">Accessed 7/6/2021</date>
+										<availability>
+											<ab>Open Source</ab>
+											<licence target="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC BY-SA</licence>
+										</availability>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">The Roman Empire around 300 CE. Look for Rome and Nicaea. Source: Wikimedia Commons.</head>
             </figure>
           </div>
@@ -3571,7 +4017,20 @@
               <s>Christ, unlike an emperor, could not die (again) or be defeated.</s>
             </p>
             <figure>
-              <graphic width="3in" n="10037" url="media/image38.jpeg" source="http://tomreeder.files.wordpress.com/2010/03/st-patrick-icon.jpg"/>
+              <graphic width="3in" n="10037" url="media/image38.jpeg" source="http://tomreeder.files.wordpress.com/2010/03/st-patrick-icon.jpg">
+								<desc>
+									<label>Icon of Saint Patrick, Enlightener of Ireland</label>
+									<bibl>
+										<author>Tom Reeder</author>
+										<title>Here's to the Apostle of Ireland</title>
+										<date>2010</date>
+										<distributor>Tom Reeder's Blog: History, Travel, Sports, Art, and Nonsense</distributor>
+										<ptr target="https://tomreeder.wordpress.com/2010/03/13/heres-to-the-apostle-of-ireland/"/>
+										<ptr target="https://tomreeder.files.wordpress.com/2010/03/st-patrick-icon.jpg"/>
+										<date type="accessed" when="2021-07-06">Accessed 7/6/2021</date>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">Patrick spread Christianity in Ireland and now is in heaven, so if you’re Irish he might be able to put in a good word for you.</head>
             </figure>
             <p>
@@ -3597,7 +4056,17 @@
           <div type="section">
             <head type="section">Mediator of salvation</head>
             <figure rend="float">
-              <graphic width="3in" n="10038" url="media/image39.jpeg" source="http://4.bp.blogspot.com/-7zEKRzXPhKc/Tz0Kzvfl81I/AAAAAAAAE4M/6zNazLeNwek/s1600/PeterKeys.jpg"/>
+              <graphic width="3in" n="10038" url="media/image39.jpeg" source="http://4.bp.blogspot.com/-7zEKRzXPhKc/Tz0Kzvfl81I/AAAAAAAAE4M/6zNazLeNwek/s1600/PeterKeys.jpg">
+								<desc>
+									<bibl>
+										<title>Christ hands the keys of the Church to Peter</title>
+										<distributor>Biblioteca y Galeria de la SMHE, Vitrales, 2010</distributor>
+										<ptr target="http://smhebiblioteca.blogspot.com/2010/09/vitrales.html"/>
+										<ptr target="http://4.bp.blogspot.com/-7zEKRzXPhKc/Tz0Kzvfl81I/AAAAAAAAE4M/6zNazLeNwek/s1600/PeterKeys.jpg"/>
+										<date type="accessed" when="2021-07-06">Accessed 7/6/2021</date>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">Christ hands the keys of the Church to Peter.</head>
             </figure>
             <p>
@@ -3710,7 +4179,20 @@
           <div type="section">
             <head type="section">The Early Jesus Movement</head>
             <figure rend="float">
-              <graphic width="3in" n="10039" url="media/image40.jpeg" source="http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2009/01/08/j460.jpg"/>
+              <graphic width="3in" n="10039" url="media/image40.jpeg" source="http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2009/01/08/j460.jpg">
+								<desc>
+									<label>Label used for img alt text for HTML and ePub screen readers</label>
+									<bibl>
+										<author>Josie Jammet</author>
+										<title>Jesus of Nazareth</title>
+										<date>2009</date>
+										<bibl>Howard Jacobson, “Behold! The Jewish Jesus,” <title>The Guardian</title> January 8, 2009.</bibl>
+										<ptr target="https://www.theguardian.com/world/2009/jan/09/christianity-judaism"/>
+										<ptr target="http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2009/01/08/j460.jpg"/>
+										<date type="accessed" when="2021-07-06">Accessed 7/6/2021</date>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">This portrayal of Jesus as a modern Hasidic Jew may not accurately reflect first century Jewish practices, but it makes an accurate point that Jesus followed Jewish law. Illustration by Josie Jammet.</head>
             </figure>
             <p>
@@ -3803,7 +4285,20 @@
               <s>(Later in the course we will encounter the related but opposite term “agnostic” which means lack of knowledge, as in humans cannot know whether there is a God, anything about that God, or how to worship that God.)</s>
             </p>
             <figure rend="float">
-              <graphic width="3in" n="10040" url="media/image41.jpeg" source="The Matrix desktop wallpaper number 1 (1024 x 768 pixels)"/>
+              <graphic width="3in" n="10040" url="media/image41.jpeg" source="The Matrix desktop wallpaper number 1 (1024 x 768 pixels)">
+								<desc>
+									<label>Still image from the movie The Matrix</label>
+									<bibl>
+										<author>Lana Wachowski, Lilly Wachowski (directors)</author>
+										<title>The Matrix</title>
+										<date>1999</date>
+										<distributor>Warner Bros. Pictures, DesktopBackground.org</distributor>
+										<ptr target="https://www.desktopbackground.org/wallpaper/the-matrix-wallpapers-number-1-1024-x-768-pixels-320366"/>
+										<ptr target="https://www.desktopbackground.org/download/o/2011/12/30/320366_the-matrix-wallpapers-number-1-1024-x-768-pixels_1024x768_h.jpg"/>
+										<date type="accessed" when="2021-07-09">Accessed 7/9/2021</date>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">The movie series “The Matrix” has been compared to Gnosticism in that it asserts that the visible world hides a truer reality to which one can escape if one acquires the correct knowledge or way of seeing things. The character “Neo” is overtly Christ-like.</head>
             </figure>
             <p>
@@ -3847,7 +4342,20 @@
               <s>To be clear, Catholicism does not embrace relativism (the idea that any religion is as good as any other), but one can believe that one’s own way is best without denying goodness or holiness in other ways.</s>
             </p>
             <figure rend="float">
-              <graphic width="3in" n="10041" url="media/image42.jpeg" source="C:\Users\TRH\Desktop\7.jpg"/>
+              <graphic width="3in" n="10041" url="media/image42.jpeg" source="C:\Users\TRH\Desktop\7.jpg">
+								<desc>
+									<label>Still image from the movie The Passion of the Christ</label>
+									<bibl>
+										<author>Mel Gibson (director)</author>
+										<title>The Passion of the Christ</title>
+										<date>2004</date>
+										<distributor>Newmarket Films, Icon Productions</distributor>
+										<ptr target="https://www.ststephensarmonk.org/honor-and-shame"/>
+										<ptr target="https://images.squarespace-cdn.com/content/v1/56da0945f699bb89fc2c7c32/1537721737652-WIUUUZ27FSKABVJPCFCQ/4787331810_e86ab6a8d2_b.jpg"/>
+										<date type="accessed" when="2021-07-09">Accessed 7/9/2021</date>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">If you get your information from Mel Gibson you might think that every Jew’s idea of a good time is killing some Jesus. Stop thinking that.</head>
             </figure>
             <p>
@@ -3934,7 +4442,7 @@
                   <s>Therefore, those things which once had value are <hi>today without value</hi>, because the things which have true value have appeared.</s>
                 </p>
               </quote>
-              <ref>Melito of Sardis, <bibl><title>Peri Pascha</title></bibl> 36-43</ref>
+              <ref>Melito of Sardis, <bibl rend="inline"><title>Peri Pascha</title></bibl> 36-43</ref>
             </cit>
             <p>
               <s>The following excerpt comes from an elaborate accusation of deicide that begins as follows and concludes, 
@@ -3967,7 +4475,7 @@
                   </s>
                 </p>
               </quote>
-              <ref>Melito of Sardis, <bibl><title>Peri Pascha</title></bibl> 72-73</ref>
+              <ref>Melito of Sardis, <bibl rend="inline"><title>Peri Pascha</title></bibl> 72-73</ref>
             </cit>
           </div>
         </div>
@@ -3994,7 +4502,20 @@
               <s>Whether they were escaping from pagans or Christians, Christians often found a need to escape the pressures of economic and political society.</s>
             </p>
             <figure rend="wide">
-              <graphic width="100%" n="10042" url="media/image43.jpeg" source="http://4.bp.blogspot.com/_O0ch3ABb3L4/TCR2fWU8OqI/AAAAAAAABrg/EGa6a_fRQhg/s1600/3Salvador-Dali-The-Temptation-Of-Saint-Anthony.jpg"/>
+              <graphic width="100%" n="10042" url="media/image43.jpeg" source="http://4.bp.blogspot.com/_O0ch3ABb3L4/TCR2fWU8OqI/AAAAAAAABrg/EGa6a_fRQhg/s1600/3Salvador-Dali-The-Temptation-Of-Saint-Anthony.jpg">
+								<desc>
+									<bibl>
+										<author>Salvador Dalí</author>
+										<title>The Temptation of St. Anthony</title>
+										<date>1946</date>
+										<pubPlace>Brussels</pubPlace>
+										<distributor>Royal Museum of Fine Arts of Belgium</distributor>
+										<ptr target="https://en.wikipedia.org/wiki/The_Temptation_of_St._Anthony_(Dal%C3%AD)"/>
+										<ptr target="https://upload.wikimedia.org/wikipedia/en/c/c0/The_Temptation_of_St._Anthony.jpg"/>
+										<date type="accessed" when="2021-07-09">Accessed 7/9/2021</date>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">St. Anthony the Great (around 300 CE) went to the desert to escape the world and battle the internal temptations of women and wealth. Portrayed here by Salvador Dalí.</head>
             </figure>
             <p>
@@ -4009,7 +4530,20 @@
               <s>Ironically, some of these heroes of isolation developed cult followings as people went out to admire them or catch the overflow of their spirituality.</s>
             </p>
             <figure rend="wide">
-              <graphic width="100%" n="10043" url="media/image44.jpeg" source="http://2.bp.blogspot.com/_tmB-hUQAf4c/SMZzsAqxeYI/AAAAAAAAACM/y2dCva6P560/s400/20.jpg"/>
+              <graphic width="100%" n="10043" url="media/image44.jpeg" source="http://2.bp.blogspot.com/_tmB-hUQAf4c/SMZzsAqxeYI/AAAAAAAAACM/y2dCva6P560/s400/20.jpg">
+								<desc>
+									<label>Label used for img alt text for HTML and ePub screen readers</label>
+									<bibl>
+										<author>Rita E. Mansour</author>
+										<title>Christian Sites in Lebanon, The Monastry of Hammatoura in Kousba</title>
+										<date>2008-2020</date>
+										<distributor>Lebanon: Land of Faith</distributor>
+										<ptr target="http://lebanon-faith.blogspot.com/2008/06/this-blog-www.html"/>
+										<ptr target="http://2.bp.blogspot.com/_tmB-hUQAf4c/SMZzsAqxeYI/AAAAAAAAACM/y2dCva6P560/s400/20.jpg"/>
+										<date type="accessed" when="2021-07-09">Accessed 7/9/2021</date>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">Early monasteries like this one in Lebanon are in scenic but difficult to reach places.</head>
             </figure>
             <p>
@@ -4045,7 +4579,19 @@
               <s>Perhaps the head of a monastery (abbot) did need to worry about finances, but for most monks liberation from the problems that come with managing money was at the core of monastic life.</s>
             </p>
             <figure>
-              <graphic width="3in" n="10044" url="media/image45.jpeg" source="https://lh5.googleusercontent.com/-hjzz-Gy9oic/TLh8q419X8I/AAAAAAAABsk/uNXsKsiMcxs/s720/Saint%20NIcholas.jpg"/>
+              <graphic width="3in" n="10044" url="media/image45.jpeg" source="https://lh5.googleusercontent.com/-hjzz-Gy9oic/TLh8q419X8I/AAAAAAAABsk/uNXsKsiMcxs/s720/Saint%20NIcholas.jpg">
+								<desc>
+									<label>Ukranian icon of Saint Nicholas wearing elaborate vestments</label>
+									<bibl>
+										<title>Saint Nicholas (icon)</title>
+										<date>Sixteenth century</date>
+										<pubPlace>Sushystya the Great, Lviv Oblast</pubPlace>
+										<ptr target="https://onceiwasacleverboy.blogspot.com/2015/12/st-nicholas.html"/>
+										<ptr target="https://lh5.googleusercontent.com/-hjzz-Gy9oic/TLh8q419X8I/AAAAAAAABsk/uNXsKsiMcxs/s720/Saint%20NIcholas.jpg"/>
+										<date type="accessed" when="2021-07-09">Accessed 7/9/2021</date>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">Whereas a bishop could be expected to wear fancy, gold embroidered vestments and bling-class gold cross and rings, monks would dress and live as simply as possible.</head>
             </figure>
             <p>
@@ -4056,7 +4602,20 @@
               <s>Different Christians can follow different spiritual courses, choosing poverty or not.</s>
             </p>
             <figure>
-              <graphic width="3in" n="10045" url="media/image46.jpeg" source="http://www.orthodox-christianity.com/wp-content/uploads/2011/11/as_bede_writing.jpg"/>
+              <graphic width="3in" n="10045" url="media/image46.jpeg" source="http://www.orthodox-christianity.com/wp-content/uploads/2011/11/as_bede_writing.jpg">
+								<desc>
+									<bibl>
+										<title>Portrait of Bede writing, from a copy of his Life of St. Cuthbert</title>
+										<date>Twelfth Century</date>
+										<pubPlace>London</pubPlace>
+										<distributor>British Library, Yates Thompson MS 26, f. 2r</distributor>
+										<ptr target="https://www.bl.uk/people/bede"/>
+										<ptr target="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Yates_thompson_MS_26"/>
+										<ptr target="http://www.bl.uk/manuscripts/Viewer.aspx?ref=yates_thompson_ms_26_f002r"/>
+										<date type="accessed" when="2021-07-09">Accessed 7/9/2021</date>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">All texts were copied by hand.</head>
             </figure>
             <p>
@@ -4094,7 +4653,19 @@
               <s>In other ways, modern religious orders continue the roles formerly held by monasteries.</s>
             </p>
             <figure rend="float">
-              <graphic width="3in" n="10046" url="media/image47.jpeg" source="http://4.bp.blogspot.com/-gGHK_jWK2-k/Tbpe6dBIzUI/AAAAAAAAKwg/cMxSBmxLlFY/s400/4_29_Catherine_of_Siena_writing.jpg"/>
+              <graphic width="3in" n="10046" url="media/image47.jpeg" source="http://4.bp.blogspot.com/-gGHK_jWK2-k/Tbpe6dBIzUI/AAAAAAAAKwg/cMxSBmxLlFY/s400/4_29_Catherine_of_Siena_writing.jpg">
+								<desc>
+									<bibl>
+										<author>Rutilio di Lorenzo Manetti</author>
+										<title>Catherine of Siena Writing</title>
+										<date>1630s</date>
+										<distributor>Wikimedia Commons</distributor>
+										<ptr target="https://commons.wikimedia.org/wiki/File:Catherine_of_Siena_writing.jpg"/>
+										<ptr target="https://upload.wikimedia.org/wikipedia/commons/6/6f/Catherine_of_Siena_writing.jpg"/>
+										<date type="accessed" when="2021-07-09">Accessed 7/9/2021</date>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">Catherine of Siena (1347-1380) persuaded Pope Gregory XI to reform the clergy and end the Avignon papacy, the Church scandal of the day.</head>
             </figure>
             <p>
@@ -4119,7 +4690,7 @@
               <s>Below we will read an excerpt from the writings of Gertrude the Great (1256–1302).</s>
             </p>
             <p>
-              <s><hi>Mysticism can be defined as <q>“the exceptionally vivid intuition of one’s union with ultimate reality” </q></hi><ref><bibl xml:space="preserve"><author>John Haught</author>, <title>What is Religion?</title> <biblScope unit="page" n="97">97</biblScope></bibl></ref>.
+              <s><hi>Mysticism can be defined as <q>“the exceptionally vivid intuition of one’s union with ultimate reality” </q></hi><ref><bibl rend="inline" xml:space="preserve"><author>John Haught</author> <title>What is Religion?</title> <biblScope unit="page" n="97">97</biblScope></bibl></ref>.
 							</s>
               <s>Outsiders and skeptics may tend to think of mysticism as other than reality or escape from reality.</s>
               <s>It is important to recognize that for the mystics, mystical union is more real than any ordinary object.</s>
@@ -4129,7 +4700,7 @@
             <p>
               <s>
 								Scholars describe five characteristics of mystical experience 
-								<ref><bibl xml:space="preserve"><author>William James</author>, <title>The Variety of Religious Experience</title> <biblScope unit="page" n="299-336">299-336</biblScope></bibl></ref>.
+								<ref><bibl rend="inline" xml:space="preserve"><author>William James</author> <title>The Variety of Religious Experience</title> <biblScope unit="page" n="299-336">299-336</biblScope></bibl></ref>.
 						</s>
             </p>
             <list type="ordered">
@@ -4231,7 +4802,17 @@
               </quote>
             </cit>
             <figure>
-              <graphic width="3in" n="10047" url="media/image48.jpeg" source="THE TWO HEARTS WITH ROSES"/>
+              <graphic width="3in" n="10047" url="media/image48.jpeg" source="THE TWO HEARTS WITH ROSES">
+								<desc>
+									<bibl>
+										<title>Saint Gertrude: Herald of the Sacred Heart</title>
+										<distributor>CatholicTradition.org</distributor>
+										<ptr target="http://www.catholictradition.org/Gertrude/saint-gertrude6.htm"/>
+										<ptr target="http://www.catholictradition.org/Gertrude/saint-gertrude6b.jpg"/>
+										<date type="accessed" when="2021-07-09">Accessed 7/9/2021</date>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">Jesus showed Gertrude his heart and she showed him hers.</head>
             </figure>
             <cit>
@@ -4264,7 +4845,7 @@
                   <s>O most divine goodness, what greater testimony can there be to the depth of your care!</s>
                 </p>
               </quote>
-              <ref>Excerpt of Gertrude the Great in Shawn Madigan, ed., <bibl><title>Mystics, Visionaries, and Prophets</title></bibl></ref>
+              <ref>Excerpt of Gertrude the Great in Shawn Madigan, ed., <bibl rend="inline"><title>Mystics, Visionaries, and Prophets</title></bibl></ref>
             </cit>
           </div>
         </div>
@@ -4294,15 +4875,55 @@
           <div type="section">
             <head type="section">Renaissance</head>
             <figure rend="wide">
-              <graphic width="3in" n="10048" url="media/image49.png"/>
+              <graphic width="3in" n="10048" url="media/image49.png">
+								<desc>
+									<bibl>
+										<author>Michelangelo (photographed by David Gaya)</author>
+										<title>David</title>
+										<date>1501-1504</date>
+										<pubPlace>Florence</pubPlace>
+										<distributor>Galleria dell'Accademia, Wikimedia Commons</distributor>
+										<ptr target="https://commons.wikimedia.org/wiki/File:Michelangelos_David.jpg"/>
+										<ptr target="https://upload.wikimedia.org/wikipedia/commons/6/63/Michelangelos_David.jpg"/>
+										<date type="accessed" when="2021-07-09">Accessed 7/9/2021</date>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">Renaissance art such as Michelangelo’s “David” (1504) continues the Greek and Roman style. Source: Wikimedia Commons.</head>
             </figure>
             <figure rend="wide">
-              <graphic width="100%" n="10049" url="media/image50.jpeg"/>
+              <graphic width="100%" n="10049" url="media/image50.jpeg">
+								<desc>
+									<bibl>
+										<author>Leonardo DaVinci</author>
+										<title>The Last Supper</title>
+										<date>1498</date>
+										<pubPlace>Milan</pubPlace>
+										<distributor>Santa Maria delle Grazie, Wikimedia Commons</distributor>
+										<ptr target="https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_(1452-1519)_-_The_Last_Supper_(1495-1498).jpg"/>
+										<ptr target="https://upload.wikimedia.org/wikipedia/commons/0/08/Leonardo_da_Vinci_%281452-1519%29_-_The_Last_Supper_%281495-1498%29.jpg"/>
+										<date type="accessed" when="2021-07-09">Accessed 7/9/2021</date>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">Depth, movement, realism, and human focus characterize Renaissance art, such as the Last Supper by Leonardo DaVinci (1498).</head>
             </figure>
             <figure rend="wide">
-              <graphic width="100%" n="10051" url="media/image52.jpeg" source="http://upload.wikimedia.org/wikipedia/commons/b/b8/SanPietroFacciata-SteO153.jpg"/>
+              <graphic width="100%" n="10051" url="media/image52.jpeg" source="http://upload.wikimedia.org/wikipedia/commons/b/b8/SanPietroFacciata-SteO153.jpg">
+								<desc>
+									<bibl>
+										<title>Fascade of Saint Peter’s Basilica in Vatican City (Rome)</title>
+										<date>1506 (photo 2006)</date>
+										<distributor>Wikimedia Commons</distributor>
+										<ptr target="https://commons.wikimedia.org/wiki/File:SanPietroFacciata-SteO153.jpg"/>
+										<ptr target="https://upload.wikimedia.org/wikipedia/commons/b/b8/SanPietroFacciata-SteO153.jpg"/>
+										<date type="accessed" when="2021-07-09">Accessed 7/9/2021</date>
+										<availability>
+											<licence target="https://creativecommons.org/licenses/by-sa/2.5/deed.en">CC BY-SA</licence>
+										</availability>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">Work on St. Peter’s Basilica in Rome began in 1506 and it is still the largest church in the world.</head>
             </figure>
             <p>
@@ -4346,7 +4967,18 @@
               <s>What was new was how quickly the ideas flowed beyond his immediate circle and gained a wide audience.</s>
             </p>
             <figure rend="float">
-              <graphic width="3in" n="10050" url="media/image51.jpeg" source="http://upload.wikimedia.org/wikipedia/commons/1/1e/Gutenberg_press.jpg"/>
+              <graphic width="3in" n="10050" url="media/image51.jpeg" source="http://upload.wikimedia.org/wikipedia/commons/1/1e/Gutenberg_press.jpg">
+								<desc>
+									<bibl>
+										<title>A printer to the press, William Caxton showing specimens of his printing to King Edward IV and Queen</title>
+										<date>1877 image of 1477 event</date>
+										<distributor>The Graphic 15.396, June 30, 1877 p617</distributor>
+										<ptr target="https://commons.wikimedia.org/wiki/File:The_Caxton_Celebration_-_William_Caxton_showing_specimens_of_his_printing_to_King_Edward_IV_and_his_Queen.jpg"/>
+										<ptr target="https://upload.wikimedia.org/wikipedia/commons/1/1b/The_Caxton_Celebration_-_William_Caxton_showing_specimens_of_his_printing_to_King_Edward_IV_and_his_Queen.jpg"/>
+										<date type="accessed" when="2021-07-09">Accessed 7/9/2021</date>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">The printing press</head>
             </figure>
             <p>
@@ -4418,7 +5050,16 @@
             </floatingText>
 						<figure rend="wide">
 							<graphic width="3in" url="media/image89.jpeg" source="https://static.tvtropes.org/pmwiki/pub/images/get_out_of_jail_free.jpg">
-                <desc>Get out of jail free monopoly card</desc>
+								<desc>
+									<label>Get out of jail free monopoly card</label>
+									<bibl>
+										<title>Get Out of Jail Free Card from Monopoly</title>
+										<date>1935</date>
+										<distributor>Hasbro</distributor>
+										<ptr target="https://static.tvtropes.org/pmwiki/pub/images/get_out_of_jail_free.jpg"/>
+										<date type="accessed" when="2021-07-09">Accessed 7/9/2021</date>
+									</bibl>
+								</desc>
 							</graphic>
 							<head type="figure">In the 1935 Hasbro boardgame “Monopoly” a card could be bought and sold that would release players from “jail.” Indulgences have been called “Get out of purgatory free” cards, with “free” understood as without time or suffering, not as without cost.</head>
 						</figure>
@@ -4426,7 +5067,20 @@
           <div type="section">
             <head type="section">People: Martin Luther, John Calvin, Henry VIII</head>
             <figure rend="float">
-              <graphic width="3in" n="10052" url="media/image53.jpeg" source="http://upload.wikimedia.org/wikipedia/commons/5/52/Martin_Luther_3.jpg"/>
+              <graphic width="3in" n="10052" url="media/image53.jpeg" source="http://upload.wikimedia.org/wikipedia/commons/5/52/Martin_Luther_3.jpg">
+								<desc>
+									<bibl>
+										<author>Lucas Cranach the Elder</author>
+										<title>Martin Luther</title>
+										<date>1529</date>
+										<pubPlace>Augsburgh</pubPlace>
+										<distributor>St. Anne’s Church, Wikimedia Commons</distributor>
+										<ptr target="https://commons.wikimedia.org/wiki/File:Martin_Luther,_1529.jpg"/>
+										<ptr target="https://upload.wikimedia.org/wikipedia/commons/f/f8/Martin_Luther%2C_1529.jpg"/>
+										<date type="accessed" when="2021-07-09">Accessed 7/9/2021</date>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">Martin Luther, 1483-1546</head>
             </figure>
             <p>
@@ -4459,7 +5113,18 @@
               <s>Others would go on to reform more radically.</s>
             </p>
             <figure rend="float">
-              <graphic width="3in" n="10053" url="media/image54.jpeg" source="http://upload.wikimedia.org/wikipedia/commons/5/5b/John_Calvin_-_best_likeness.jpg"/>
+              <graphic width="3in" n="10053" url="media/image54.jpeg" source="http://upload.wikimedia.org/wikipedia/commons/5/5b/John_Calvin_-_best_likeness.jpg">
+								<desc>
+									<bibl>
+										<title>John Calvin</title>
+										<pubPlace>Geneva</pubPlace>
+										<distributor>University Library, Wikimedia Commons</distributor>
+										<ptr target="https://commons.wikimedia.org/wiki/File:John_Calvin_-_best_likeness.jpg"/>
+										<ptr target="https://upload.wikimedia.org/wikipedia/commons/5/5b/John_Calvin_-_best_likeness.jpg"/>
+										<date type="accessed" when="2021-07-09">Accessed 7/9/2021</date>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">John Calvin, 1509-1564</head>
             </figure>
             <p>
@@ -4478,7 +5143,20 @@
               <s>However, in the spirit of Luther, Calvin claimed only reason, not apostolic succession or ordained office, as the authority behind his interpretation of scripture.</s>
             </p>
             <figure rend="float">
-              <graphic width="3in" n="10054" url="media/image55.png"/>
+              <graphic width="3in" n="10054" url="media/image55.png">
+								<desc>
+									<bibl>
+										<author>Hans Eworth after Hans Holbein the Younger</author>
+										<title>Portrait of Henry VIII</title>
+										<date>After 1537</date>
+										<pubPlace>Liverpool</pubPlace>
+										<distributor>Walker Art Gallery, Wikimedia Commons</distributor>
+										<ptr target="https://commons.wikimedia.org/wiki/File:After_Hans_Holbein_the_Younger_-_Portrait_of_Henry_VIII_-_Google_Art_Project.jpg"/>
+										<ptr target="https://upload.wikimedia.org/wikipedia/commons/f/f9/After_Hans_Holbein_the_Younger_-_Portrait_of_Henry_VIII_-_Google_Art_Project.jpg"/>
+										<date type="accessed" when="2021-07-09">Accessed 7/9/2021</date>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">King Henry VIII of England declared himself head of the Church of England</head>
             </figure>
             <p>
@@ -4560,7 +5238,23 @@
               <s>Jehovah’s Witnesses, for example, do not celebrate Christmas.</s>
             </p>
             <figure rend="float">
-              <graphic width="3in" n="10055" url="media/image56.jpeg" source="http://upload.wikimedia.org/wikipedia/commons/0/03/Lutherbibel.jpg"/>
+              <graphic width="3in" n="10055" url="media/image56.jpeg" source="http://upload.wikimedia.org/wikipedia/commons/0/03/Lutherbibel.jpg">
+								<desc>
+									<bibl>
+										<author>Torsten Schleese (photographer)</author>
+										<title>Martin Luther’s 1534 Bible</title>
+										<date>1534 object, 1999 photograph</date>
+										<pubPlace>Wittenberg</pubPlace>
+										<distributor>Lutherhaus, Wikimedia Commons</distributor>
+										<ptr target="https://commons.wikimedia.org/wiki/File:Lutherbibel.jpg"/>
+										<ptr target="https://upload.wikimedia.org/wikipedia/commons/0/03/Lutherbibel.jpg"/>
+										<date type="accessed" when="2021-07-09">Accessed 7/9/2021</date>
+										<availability>
+											<ab>Public Domain</ab>
+										</availability>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">Luther’s 1534 German translation of the Bible</head>
             </figure>
             <p>
@@ -4595,9 +5289,21 @@
             </p>
             <figure rend="float">
               <graphic width="3in" n="10056" url="media/image57.jpeg" source="http://4.bp.blogspot.com/-kC_N-UguIx0/T1lvLqnZEHI/AAAAAAAAAVI/g-6KDVC-35M/s1600/ALIEN+ICON.jpg">
-                <desc>An alien holding a Bible and dressed as an orthodox bishop</desc>
+								<desc>
+									<label>An alien holding a Bible and dressed as an orthodox bishop</label>
+									<bibl>
+										<author>Camilla Kesterton</author>
+										<title>Census Hopeful</title>
+										<date>2007</date>
+										<pubPlace>London</pubPlace>
+										<distributor>New Contemporaries</distributor>
+										<ptr target="https://www.newcontemporaries.org.uk/2007/artists/camilla-kesterton"/>
+										<ptr target="https://www.newcontemporaries.org.uk/asset/360/view/0/720"/>
+										<date type="accessed" when="2021-07-09">Accessed 7/9/2021</date>
+									</bibl>
+								</desc>
               </graphic>
-              <head type="figure">Source: saintandcynic.blogspot.com</head>
+              <head type="figure"><bibl rend="inline"><author>Camilla Kesterton</author> <title>Census Hopeful</title></bibl>.</head>
             </figure>
             <p>
               <s>
@@ -4710,7 +5416,17 @@
               <s>Fundamentalists applied the phrase “the Bible interprets itself” to mean there is no need for interpretation beyond <hi>accepting the truth of the literal meaning</hi> of the text.</s>
             </p>
             <figure rend="float">
-              <graphic width="3in" n="10057" url="media/image58.png"/>
+              <graphic width="3in" n="10057" url="media/image58.png">
+								<desc>
+									<bibl>
+										<title>The Creation Museum, Petersburg, Kentucky</title>
+										<date>2007</date>
+										<distributor>Atlas Obscura</distributor>
+										<ptr target="https://www.atlasobscura.com/places/the-creation-museum-petersburg-kentucky"/>
+										<date type="accessed" when="2021-07-09">Accessed 7/9/2021</date>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">A fundamentalist “creation museum” in Kentucky presents Genesis as historical and scientific fact. It insists that the earth is less than six thousand years old and dinosaurs were on Noah’s ark.</head>
             </figure>
             <p>
@@ -4731,7 +5447,18 @@
           <head type="chapter">What do I have to do to be saved?</head>
           <figure rend="float">
             <graphic width="3in" n="10058" url="media/image59.png">
-              <desc>Cartoon of a dog at the gates of heaven being told by St. Peter, “I know you have been very good, but all that entitles you to is a walk.”</desc>
+							<desc>
+								<label>Cartoon of a dog at the gates of heaven being told by St. Peter, “I know you have been very good, but all that entitles you to is a walk.”</label>
+								<bibl>
+									<author>Elmer Parolini</author>
+									<title>I know you have been very good but all that entitles you to is a walk</title>
+									<date>Before 2005</date>
+									<distributor>Cartoonstock.com</distributor>
+									<ptr target="https://www.cartoonstock.com/cartoon?searchID=CS331826"/>
+									<ptr target="https://s3.amazonaws.com/lowres.cartoonstock.com/animals-dog-pet-pet_dog-heaven-angel-epa1392_low.jpg"/>
+									<date type="accessed" when="2021-07-09">Accessed 7/9/2021</date>
+								</bibl>
+							</desc>
             </graphic>
           </figure>
           <p>
@@ -4837,8 +5564,18 @@
             </p>
             <figure rend="float">
               <graphic width="3in" n="10059" url="media/image60.jpeg" source="http://www.freestuff4.me/wp-content/uploads/2011/02/free-stuff-2.jpg">
-                <desc>Plastic bin labeled “free stuff.”</desc>
-              </graphic>
+								<desc>
+									<label>Plastic bin labeled “free stuff.”</label>
+									<bibl>
+										<author>Bill Sobel</author>
+										<title>How About Some Free Stuff</title>
+										<date>2011</date>
+										<distributor>Sobel Media</distributor>
+										<ptr target="http://www.sobelmedia.com/2009/02/23/how-about-some-free-stuff/"/>
+										<date type="accessed" when="2021-07-09">Accessed 7/9/2021</date>
+									</bibl>
+								</desc>
+							</graphic>
             </figure>
             <p>
               <s>
@@ -4878,8 +5615,21 @@
             <head type="section">Salvation by faith and works</head>
             <figure rend="float">
               <graphic width="3in" n="10060" url="media/image61.jpeg" source="http://0.tqn.com/d/arthistory/1/0/n/1/1/Norman-Rockwell-A-Scout-is-Helpful-1939.jpg">
-                <desc>Normal Rockwell painting of a Boy Scout rescuing a child from a flood.</desc>
-              </graphic>
+								<desc>
+									<label>Norman Rockwell painting of a Boy Scout rescuing a child from a flood</label>
+									<bibl>
+										<author>Norman Rockwell</author>
+										<title>A Scout is Helpful</title>
+										<date>1941</date>
+										<pubPlace>Stockbridge, Massachusetts</pubPlace>
+										<distributor>Norman Rockwell Museum</distributor>
+										<ptr target="https://www.nrm.org/2011/08/shelter-from-the-storm/a-scout-is-helpful_web/"/>
+										<ptr target="https://www.nrm.org/wp2016/wp-content/uploads/2011/09/A-Scout-Is-Helpful_web.jpg"/>
+										<ptr target="https://www.wikiart.org/en/norman-rockwell/a-scout-is-helpful-1941"/>
+										<date type="accessed" when="2021-07-09">Accessed 7/9/2021</date>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">If you do a heroic deed because you expect a medal, are you really a hero? Artist: Normal Rockwell</head>
             </figure>
             <p>
@@ -4947,7 +5697,18 @@
           <div type="section">
             <head type="section">Salvation by works alone</head>
             <figure rend="float">
-              <graphic width="3in" n="10061" url="media/image62.jpeg" source="http://upload.wikimedia.org/wikipedia/commons/0/03/MKGandhi.jpg"/>
+              <graphic width="3in" n="10061" url="media/image62.jpeg" source="http://upload.wikimedia.org/wikipedia/commons/0/03/MKGandhi.jpg">
+								<desc>
+									<bibl>
+										<title>M.K. Gandhi</title>
+										<date>1948</date>
+										<distributor>Gandhi Foundation</distributor>
+										<ptr target="https://gandhifoundation.org/aims/"/>
+										<ptr target="https://gandhifoundation.files.wordpress.com/2008/12/1948_mkgandhi.jpg"/>
+										<date type="accessed" when="2021-07-09">Accessed 7/9/2021</date>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">Gandhi. Burning in hell?</head>
             </figure>
             <p>
@@ -5646,7 +6407,7 @@
               <graphic width="3in" n="10078" url="media/image79.jpeg" source="http://loymachedo.com/wp-content/uploads/2011/01/What-The-Bleep-Do-We-Know.jpg">
                 <desc>Poster for the movie “What the Bleep Do We Know?</desc>
               </graphic>
-              <head type="figure"><bibl><title>What the Bleep Do We Know? </title></bibl> This 2004 semi-documentary presents a view of quantum physics and spirituality coming together to prove that reality is an illusion constructed by individual and group consciousness. The film weaves together established science with fringe spirituality.</head>
+              <head type="figure"><bibl rend="inline"><title>What the Bleep Do We Know? </title></bibl> This 2004 semi-documentary presents a view of quantum physics and spirituality coming together to prove that reality is an illusion constructed by individual and group consciousness. The film weaves together established science with fringe spirituality.</head>
             </figure>
             <p>
               <s>Another encounter between religion and science is associated with the 20th century, particularly the 1970s.</s>

@@ -1,6 +1,6 @@
 
 <!--
-DTD generated from ODD source 2021-05-27T21:50:59Z. .This template file is freely available and you are hereby authorised to copy, modify, and redistribute it in any way without further reference or permissions. When making such modifications, you are strongly recommended to change the present text to include an accurate statement of the licencing conditions applicable to your modified text.
+DTD generated from ODD source 2021-06-16T21:30:22Z. .This template file is freely available and you are hereby authorised to copy, modify, and redistribute it in any way without further reference or permissions. When making such modifications, you are strongly recommended to change the present text to include an accurate statement of the licencing conditions applicable to your modified text.
 TEI Edition: Version 4.2.2. Last updated on
 	9th April 2021, revision 609a109b1
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.2.2/
@@ -471,11 +471,11 @@ to %teidata.word;  #IMPLIED'>
 <!ENTITY % model.pPart.edit_sequenceOptional ""> 
 <!ENTITY % model.pPart.edit_sequenceOptionalRepeatable ""> 
 <!ENTITY % model.pPart.edit_sequenceRepeatable ""> 
-<!ENTITY % model.ptrLike "ref"> 
-<!ENTITY % model.ptrLike_sequence "ref"> 
-<!ENTITY % model.ptrLike_sequenceOptional "ref?"> 
-<!ENTITY % model.ptrLike_sequenceOptionalRepeatable "ref*"> 
-<!ENTITY % model.ptrLike_sequenceRepeatable "ref+"> 
+<!ENTITY % model.ptrLike "ptr |ref"> 
+<!ENTITY % model.ptrLike_sequence "ptr, ref"> 
+<!ENTITY % model.ptrLike_sequenceOptional "ptr?, ref?"> 
+<!ENTITY % model.ptrLike_sequenceOptionalRepeatable "ptr*, ref*"> 
+<!ENTITY % model.ptrLike_sequenceRepeatable "ptr+, ref+"> 
 <!ENTITY % model.lPart ""> 
 <!ENTITY % model.lPart_sequence ""> 
 <!ENTITY % model.lPart_sequenceOptional ""> 
@@ -521,11 +521,11 @@ to %teidata.word;  #IMPLIED'>
 <!ENTITY % model.headLike_sequenceOptional "head?"> 
 <!ENTITY % model.headLike_sequenceOptionalRepeatable "head*"> 
 <!ENTITY % model.headLike_sequenceRepeatable "head+"> 
-<!ENTITY % model.labelLike "desc"> 
-<!ENTITY % model.labelLike_sequence "desc"> 
-<!ENTITY % model.labelLike_sequenceOptional "desc?"> 
-<!ENTITY % model.labelLike_sequenceOptionalRepeatable "desc*"> 
-<!ENTITY % model.labelLike_sequenceRepeatable "desc+"> 
+<!ENTITY % model.labelLike "desc |label"> 
+<!ENTITY % model.labelLike_sequence "desc, label"> 
+<!ENTITY % model.labelLike_sequenceOptional "desc?, label?"> 
+<!ENTITY % model.labelLike_sequenceOptionalRepeatable "desc*, label*"> 
+<!ENTITY % model.labelLike_sequenceRepeatable "desc+, label+"> 
 <!ENTITY % model.listLike "list"> 
 <!ENTITY % model.listLike_sequence "list"> 
 <!ENTITY % model.listLike_sequenceOptional "list?"> 
@@ -1018,6 +1018,13 @@ scheme %teidata.pointer;  #IMPLIED >
 <!ATTLIST l xmlns CDATA "http://www.tei-c.org/ns/1.0">
 <!ATTLIST l
  %tei_att.global.attributes; >
+<!--doc:(label) contains any label or heading used to identify part of a text, typically but not exclusively in a list or glossary. [3.8. Lists] -->
+<!ELEMENT label %macro.phraseSeq;>
+<!ATTLIST label xmlns CDATA "http://www.tei-c.org/ns/1.0">
+<!ATTLIST label
+ %tei_att.global.attributes;
+ %tei_att.typed.attributes;
+ %tei_att.placement.attributes; >
 <!--doc:(language usage) describes the languages, sublanguages, registers, dialects, etc. represented within a text. [2.4.2. Language Usage 2.4. The Profile Description 15.3.2. Declarable Elements] -->
 <!ELEMENT langUsage ((%model.pLike;)+|(language)+)>
 <!ATTLIST langUsage xmlns CDATA "http://www.tei-c.org/ns/1.0">
@@ -1100,6 +1107,15 @@ Elements] -->
 <!ATTLIST profileDesc xmlns CDATA "http://www.tei-c.org/ns/1.0">
 <!ATTLIST profileDesc
  %tei_att.global.attributes; >
+<!--doc:(pointer) defines a pointer to another location. [3.7. Simple Links and Cross-References 16.1. Links] -->
+<!ELEMENT ptr  EMPTY>
+<!ATTLIST ptr xmlns CDATA "http://www.tei-c.org/ns/1.0">
+<!ATTLIST ptr
+ %tei_att.cReferencing.attributes;
+ %tei_att.global.attributes;
+ %tei_att.internetMedia.attributes;
+ %tei_att.pointing.attributes;
+ %tei_att.typed.attributes; >
 <!--doc:(publication place) contains the name of the place where a bibliographic item was published. [3.12.2.4. Imprint, Size of a Document, and Reprint Information] -->
 <!ELEMENT pubPlace %macro.phraseSeq;>
 <!ATTLIST pubPlace xmlns CDATA "http://www.tei-c.org/ns/1.0">
