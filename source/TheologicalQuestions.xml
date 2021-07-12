@@ -11,8 +11,8 @@
         <funder>Atla</funder>
       </titleStmt>
       <editionStmt>
-        <edition n="20210709">
-          <title>20210709 Edition</title>
+        <edition n="20210712">
+          <title>20210712 Edition</title>
           <date when="2021">2021</date>
         </edition>
       </editionStmt>
@@ -5751,7 +5751,17 @@
           <div type="section">
             <head type="section">Anabaptists</head>
             <figure rend="float">
-              <graphic width="3in" n="10062" url="media/image63.jpeg"/>
+              <graphic width="3in" n="10062" url="media/image63.jpeg">
+								<desc>
+									<bibl>
+										<title>Mountain River Baptism</title>
+										<distributor>Vanderbilt University Library</distributor>
+										<ptr target="https://www.fccpuyallup.com/2020/08/08-16-20/"/>
+										<ptr target="https://i.pinimg.com/originals/b3/5c/ff/b35cff5a4e405a324ca5e8d7853faae5.jpg"/>
+										<date type="accessed" when="2021-07-12">Accessed 7/12/2021</date>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">An Anabaptist baptism</head>
             </figure>
             <p>
@@ -5787,7 +5797,22 @@
               <s>Here are a couple of pious deeds and <hi>devotions</hi> that protestants would demote or reject, and are commonly found in Catholicism.</s>
             </p>
             <figure rend="float">
-              <graphic width="3in" n="10063" url="media/image64.jpeg" source="http://upload.wikimedia.org/wikipedia/en/0/08/Rosary%26scapular.jpg"/>
+              <graphic width="3in" n="10063" url="media/image64.jpeg" source="http://upload.wikimedia.org/wikipedia/en/0/08/Rosary%26scapular.jpg">
+								<desc>
+									<bibl>
+										<author>John Stephen Dwyer (photographer)</author>
+										<title>Rosary and Scapular</title>
+										<date>2009</date>
+										<distributor>Wikimedia Commons</distributor>
+										<ptr target="https://commons.wikimedia.org/wiki/File:Rosary%26scapular.jpg"/>
+										<ptr target="https://upload.wikimedia.org/wikipedia/commons/0/08/Rosary%26scapular.jpg"/>
+										<date type="accessed" when="2021-07-12">Accessed 7/12/2021</date>
+										<availability>
+											<licence target="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC BY-SA</licence>
+										</availability>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">Rosary and scapular</head>
             </figure>
             <list type="unordered">
@@ -5827,8 +5852,23 @@
                 <s><hi>Eucharist</hi> – along with baptism, Luther had no problem with the eucharist, which derives from Jesus’ command at the <hi>Last Supper</hi> to break bread in his memory.</s>
                 <s>There was debate as to whether the bread becomes Jesus’ body really, symbolically, or in some other complicated way.</s>
                 <figure rend="wide">
-                  <graphic width="3in" n="10064" url="media/image65.jpeg" source="http://www.catholicradiodramas.com/wp-content/uploads/2010/07/LastSupperJUAN-DE-FLANDES1560.jpg"/>
-                  <head type="figure">The Last Supper, Juan de Flandes</head>
+                  <graphic width="3in" n="10064" url="media/image65.jpeg" source="http://www.catholicradiodramas.com/wp-content/uploads/2010/07/LastSupperJUAN-DE-FLANDES1560.jpg">
+										<desc>
+											<bibl>
+												<author>Juan de Juanes (Vicente Juan Masip)</author>
+												<title>The Last Supper</title>
+												<date>1555-1562</date>
+												<pubPlace>Madrid</pubPlace>
+												<distributor>Museo Nactional De Prado</distributor>
+												<ptr target="https://www.museodelprado.es/en/the-collection/art-work/the-last-supper/2800c04d-a3ad-41eb-a75b-fe359d7d1dde"/>
+												<date type="accessed" when="2021-07-12">Accessed 7/12/2021</date>
+												<availability>
+													<ab>Authorized for use in non-profit publications with no commercial distribution</ab>
+												</availability>
+											</bibl>
+										</desc>
+									</graphic>
+                  <head type="figure">The Last Supper, Juan de Juanes</head>
                 </figure>
               </item>
               <item>
@@ -5842,7 +5882,20 @@
                 <s>The only link between Jesus and matrimony is that Jesus went to a wedding when he was young.</s>
                 <s>The major discussion of matrimony in the New Testament is Paul discouraging it but permitting it as the lesser of the lust-based evils.</s>
                 <figure rend="wide">
-                  <graphic width="90%" n="10065" url="media/image66.jpeg"/>
+                  <graphic width="90%" n="10065" url="media/image66.jpeg">
+									<desc>
+										<bibl>
+											<author>Raphael (Raffaello Sanzio)</author>
+											<title>Marriage of the Virgin</title>
+											<date>1504</date>
+											<pubPlace>Milan</pubPlace>
+											<distributor>Pinacoteca di Brera</distributor>
+											<ptr target="https://pinacotecabrera.org/en/collezione-online/opere/the-marriage-of-the-virgin/"/>
+											<ptr target="https://pinacotecabrera.org/wp-content/uploads/2014/09/82_Raffaello_Spozalizio_.jpg"/>
+											<date type="accessed" when="2021-07-12">Accessed 7/12/2021</date>
+										</bibl>
+									</desc>
+								</graphic>
                   <head type="figure">Before the 12th century marriage was a civil institution that could be blessed on the steps of a cathedral, but was not a sacrament and could not take place inside. Artist: Raphael</head>
                 </figure>
               </item>
@@ -5865,7 +5918,20 @@
           <div type="section">
             <head type="section">The individual conscience</head>
             <figure rend="float">
-              <graphic width="3in" n="10066" url="media/image67.jpeg" source="http://thumbnails.hulu.com/647/40041647/40041647_384x288_generated.jpg"/>
+              <graphic width="3in" n="10066" url="media/image67.jpeg" source="http://thumbnails.hulu.com/647/40041647/40041647_384x288_generated.jpg">
+								<desc>
+									<bibl>
+										<author>Don Novello (actor)</author>
+										<title>Saturday Night Live Weekend Update Segment - Father Guido Sarducci</title>
+										<date>1985</date>
+										<pubPlace>New York</pubPlace>
+										<distributor>National Broadcast Corporation</distributor>
+										<ptr target="https://www.nbc.com/saturday-night-live/video/weekend-update-segment---father-guido-sarducci/n9381"/>
+										<ptr target="https://usefullyuselessinfo.wordpress.com/2016/08/20/a-horrible-horrible-dream-the-top-7-silver-linings-of-snl-season-11/"/>
+										<date type="accessed" when="2021-07-12">Accessed 7/12/2021</date>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">Saturday Night Live character Father Guido Sarducci started a religion in which everyone is pope. You could join for $19.95.</head>
             </figure>
             <p>
@@ -5896,7 +5962,20 @@
               <s>I cannot and I will not recant anything, since <hi>it is neither safe nor right to go against conscience</hi>. May God help me. Amen.</s>
             </quote>
             <figure rend="float">
-              <graphic width="3in" n="10067" url="media/image68.jpeg" source="http://behance.vo.llnwd.net/profiles2/94158/projects/196848/941581237131359.jpg"/>
+              <graphic width="3in" n="10067" url="media/image68.jpeg" source="http://behance.vo.llnwd.net/profiles2/94158/projects/196848/941581237131359.jpg">
+								<desc>
+									<label>Label used for img alt text for HTML and ePub screen readers</label>
+									<bibl>
+										<author>Kevin Bauman</author>
+										<title>Small Churches</title>
+										<date>Before 2012</date>
+										<ptr target="https://www.kevinbauman.com/projects/small-churches/"/>
+										<ptr target="https://www.thecoolist.com/tiny-churches-by-kevin-bauman/"/>
+										<ptr target="https://cdn.thecoolist.com/wp-content/uploads/2012/03/Tiny-churches-8.jpg"/>
+										<date type="accessed" when="2021-07-12">Accessed 7/12/2021</date>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">Small independent churches are common in the United States. Photo: Kevin Bauman</head>
             </figure>
             <p>
@@ -5929,8 +6008,18 @@
             </p>
             <figure rend="float">
               <graphic width="3in" n="10068" url="media/image69.jpeg" source="http://4.bp.blogspot.com/-O8meL1ymZdE/TeaXvPeLEYI/AAAAAAAABPs/7Lz0ZfSsT08/s1600/nh_license_plate2.jpg">
-                <desc>New Hampshire license plate with the motto “Live Free or Die”</desc>
-              </graphic>
+								<desc>
+									<label>New Hampshire license plate with the motto “Live Free or Die”</label>
+									<bibl>
+										<author>State of New Hampshire</author>
+										<title>License Plate</title>
+										<date>1999</date>
+										<ptr target="https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_New_Hampshire"/>
+										<ptr target="http://4.bp.blogspot.com/-O8meL1ymZdE/TeaXvPeLEYI/AAAAAAAABPs/7Lz0ZfSsT08/s1600/nh_license_plate2.jpg"/>
+										<date type="accessed" when="2021-07-12">Accessed 7/12/2021</date>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">Live free or die. Um, can we work out a compromise?</head>
             </figure>
             <p>
@@ -5986,7 +6075,17 @@
           <div type="section">
             <head type="section">Church history</head>
             <figure rend="float">
-              <graphic width="3in" n="10069" url="media/image70.jpeg" source="http://occupyeverything.org/assets/Martin-Luther-King-with-Malcom-X.jpg"/>
+              <graphic width="3in" n="10069" url="media/image70.jpeg" source="http://occupyeverything.org/assets/Martin-Luther-King-with-Malcom-X.jpg">
+								<desc>
+									<bibl>
+										<title>Martin Luther King Jr. and Malcolm X</title>
+										<date>1964</date>
+										<ptr target="https://www.northendagents.com/king-x-story-demetrius-dillard/"/>
+										<ptr target="https://i1.wp.com/www.northendagents.com/wp-content/uploads/martin-luther-king-and-malcolm-x1.jpg"/>
+										<date type="accessed" when="2021-07-12">Accessed 7/12/2021</date>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">Whereas the Southern Baptist minister Martin Luther King, Jr. (left) saw Christianity as a source of strength in resisting injustice, Malcolm X (right) saw Christianity as part of a system of oppression from which African Americans should escape by turning to Islam. Time and again modern people will ask themselves whether a particular faith, or faith itself, is more part of the solution or more part of the problem.</head>
             </figure>
             <p>
@@ -6052,7 +6151,19 @@
               <s>Indeed, some would like to reverse direction entirely and reform the reforms back the way they were.</s>
             </p>
             <figure rend="float">
-              <graphic width="3in" n="10070" url="media/image71.jpeg"/>
+              <graphic width="3in" n="10070" url="media/image71.jpeg">
+								<desc>
+									<bibl>
+										<title>Pope John XXIII</title>
+										<date>1958</date>
+										<pubPlace>Vatican City (Rome)</pubPlace>
+										<distributor>Wikimedia Commons</distributor>
+										<ptr target="http://en.wikipedia.org/wiki/File:John-xxiii-2.jpg"/>
+										<ptr target="http://upload.wikimedia.org/wikipedia/commons/6/6a/John-xxiii-2.jpg"/>
+										<date type="accessed" when="2012-07-12">Accessed 7/12/2012</date>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">Pope John XXIII (the twenty-third)</head>
             </figure>
             <p>
@@ -6071,7 +6182,17 @@
               </cit>
             </p>
             <figure rend="float">
-              <graphic width="3in" n="10071" url="media/image72.png" source="http://4.bp.blogspot.com/-wq5sBDGEAck/TcL33ctOTzI/AAAAAAAABFU/BxaYfBRivUM/s1600/pope-john-paul-ii-0201.png"/>
+              <graphic width="3in" n="10071" url="media/image72.png" source="http://4.bp.blogspot.com/-wq5sBDGEAck/TcL33ctOTzI/AAAAAAAABFU/BxaYfBRivUM/s1600/pope-john-paul-ii-0201.png">
+								<desc>
+									<bibl>
+										<title>Pope John Paul II Waving</title>
+										<distributor>Catholic Travel Blog</distributor>
+										<ptr target="https://catholictravelblog.com/shrines-to-blessed-john-paul-ii-around-the-world/john-paul-ii-waving/"/>
+										<ptr target="https://catholictravelblog.com/wp-content/uploads/2013/08/John-Paul-II-waving.jpg"/>
+										<date type="accessed" when="2021-07-12">Accessed 7/12/2021</date>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">Pope John Paul II (the second)</head>
             </figure>
             <p xml:id="p6-1-1-6">
@@ -6124,7 +6245,21 @@
           <div type="section">
             <head type="section">Economic history</head>
             <figure rend="float">
-              <graphic width="3in" n="10072" url="media/image73.jpeg" source="http://upload.wikimedia.org/wikipedia/commons/f/fc/Karl_Marx.jpg"/>
+              <graphic width="3in" n="10072" url="media/image73.jpeg" source="http://upload.wikimedia.org/wikipedia/commons/f/fc/Karl_Marx.jpg">
+								<desc>
+									<label>Label used for img alt text for HTML and ePub screen readers</label>
+									<bibl>
+										<author>John Jabez Edwin Mayall (photographer)</author>
+										<title>Portrait of Karl Marx</title>
+										<date>1875</date>
+										<pubPlace>Amsterdam</pubPlace>
+										<distributor>International Institute of Social History in Amsterdam, Wikimedia Commons</distributor>
+										<ptr target="https://commons.wikimedia.org/wiki/File:Karl_Marx.jpg"/>
+										<ptr target="http://upload.wikimedia.org/wikipedia/commons/f/fc/Karl_Marx.jpg"/>
+										<date type="accessed" when="2012-07-12">Accessed 7/12/2012</date>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">Karl Marx, 1818–1883</head>
             </figure>
             <p>
@@ -6155,8 +6290,20 @@
               <s>Especially when the church was associated with the old way of doing things, violent revolution often meant violence against religion: particularly the burning and confiscation of church property, systematic murder of priests, and rape of nuns.</s>
             </p>
             <figure rend="float">
-              <graphic width="3in" n="10073" url="media/image74.jpeg" source="http://1.bp.blogspot.com/-U2zaBPcdKBw/T1aBqD5HG-I/AAAAAAAAtj8/fgbX4Cw9A_U/s640/Adolf_Hitler_Pope_Pius_XI.jpg"/>
-              <head type="figure">Pope Pius XI and Adolf Hitler sharing an awkward moment. What would you do in his situation?</head>
+              <graphic width="3in" n="10073" url="media/image74.jpeg" source="http://1.bp.blogspot.com/-U2zaBPcdKBw/T1aBqD5HG-I/AAAAAAAAtj8/fgbX4Cw9A_U/s640/Adolf_Hitler_Pope_Pius_XI.jpg">
+								<desc>
+									<bibl>
+										<title>Adolf Hitler with the Vatican ambassador, Cesare Orsenigo</title>
+										<date>1935</date>
+										<pubPlace>Washington, D.C.</pubPlace>
+										<distributor>U.S. Holocaust Museum, Wikimedia Commons</distributor>
+										<ptr target="https://commons.wikimedia.org/wiki/File:Orsen.jpg"/>
+										<ptr target="https://upload.wikimedia.org/wikipedia/commons/d/da/Orsen.jpg"/>
+										<date type="accessed" when="2021-07-12">Accessed 7/12/2021</date>
+									</bibl>
+								</desc>
+							</graphic>
+              <head type="figure">The Vatican Ambassador and Adolf Hitler sharing an awkward moment. What would you do in his situation?</head>
             </figure>
             <p>
               <s>But communism was not the only political force that threatened the existence of churches.</s>
@@ -6206,7 +6353,20 @@
         <div type="chapter" n="2">
           <head type="chapter">Faith and/or reason?</head>
           <figure rend="float">
-            <graphic width="2.3in" n="10074" url="media/image75.png" source="http://upload.wikimedia.org/wikipedia/commons/b/bd/PaineAgeReason.png"/>
+            <graphic width="2.3in" n="10074" url="media/image75.png" source="http://upload.wikimedia.org/wikipedia/commons/b/bd/PaineAgeReason.png">
+							<desc>
+								<bibl>
+									<author>Thomas Paine</author>
+									<title>The Age of Reason: Being an Investigation of True and Fabulous Theology</title>
+									<date>1794</date>
+									<pubPlace>Paris</pubPlace>
+									<distributor>Barrois</distributor>
+									<ptr target="https://commons.wikimedia.org/wiki/File:PaineAgeReason.png"/>
+									<ptr target="http://upload.wikimedia.org/wikipedia/commons/b/bd/PaineAgeReason.png"/>
+									<date type="accessed" when="2021-07-12">Accessed 7/12/2021</date>
+								</bibl>
+							</desc>
+						</graphic>
             <head type="figure">I hate to disappoint you, but when American founding father Thomas Paine wrote about “fabulous theology” he was not exploring gay culture. For him, “fabulous” meant “fable-like” or false, in contrast to the true theology which is based on reason. For him, reason was incompatible with miracles and left the Bible as nice human literature, but nothing more.</head>
           </figure>
           <p>
@@ -6302,8 +6462,20 @@
             <head type="section">She blinded me with science</head>
             <figure rend="float">
               <graphic width="2in" n="10075" url="media/image76.jpeg" source="http://static.superherosuperstar.com/uploads/2011/05/charles-darwin-the-origin-of-species.jpg">
-                <desc>Cover of book by Charles Darwin, The Origin of Species</desc>
-              </graphic>
+								<desc>
+									<label>Cover of book by Charles Darwin, The Origin of Species</label>
+									<bibl>
+										<author>Charles Darwin</author>
+										<title>The Origin of Species</title>
+										<date>1859 original, 2013 edition shown</date>
+										<pubPlace>London</pubPlace>
+										<distributor>John Murray</distributor>
+										<ptr target="https://www.google.com/books/edition/On_the_Origin_of_Species_by_Means_of_Nat/jTZbAAAAQAAJ"/>
+										<ptr target="https://s3.amazonaws.com/s3.timetoast.com/public/uploads/photo/2345628/image/3f544183cea94e037f96fcbb27ed6053"/>
+										<date type="accessed" when="2021-07-12">Accessed 7/12/2021</date>
+									</bibl>
+								</desc>
+							</graphic>
             </figure>
             <p>
               <s>But reason goes well beyond rational inquiry into scripture.</s>
@@ -6360,8 +6532,19 @@
             <head>Secularism</head>
             <figure rend="wide">
               <graphic width="3.5in" n="10076" url="media/image77.jpeg" source="http://www.wired.com/images_blogs/thisdayintech/2010/09/simpsons.jpg">
-                <desc>Stephen Jay Gould (1941-2002) as portrayed on The Simpsons</desc>
-              </graphic>
+								<desc>
+									<label>Stephen Jay Gould (1941-2002) as portrayed on The Simpsons</label>
+									<bibl>
+										<author>Matt Groening</author>
+										<title>Stephen Jay Gould in The Simpsons Season 9 Episode 8, “Lisa the Skeptic”</title>
+										<date>1997</date>
+										<distributor>Fox Television</distributor>
+										<ptr target="http://www.thesimpsons.com/episode_guide/0908.htm"/>
+										<ptr target="https://www.wired.com/images_blogs/thisdayintech/2010/09/simpsons.jpg"/>
+										<date type="accessed" when="2021-07-12">Accessed 7/12/2021</date>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">Harvard zoologist Stephen Jay Gould (1941-2002) wrote enough popular works to be featured among the Harvard-centric snooty allusions of “The Simpsons.” He maintained that religion and science are not in conflict because they have nothing to do with each other. Science should constrain itself to facts, not faith, and religion should constrain itself to beliefs that cannot be scientifically supported or refuted. Catholicism would not accept this way of isolating two essential and complementary ways of pursuing truth.</head>
             </figure>
             <p>
@@ -6382,7 +6565,20 @@
               <s>Scientific progress without faith messages such as the sanctity of human life is bad all around.</s>
             </p>
             <figure rend="wide">
-              <graphic width="1.8in" n="10077" url="media/image78.png"/>
+              <graphic width="1.8in" n="10077" url="media/image78.png">
+								<desc>
+									<bibl>
+										<author>Todd Hanneken (photographer)</author>
+										<title>“Thailand” in the series “Virgin and Child”</title>
+										<date>Photo 1996</date>
+										<pubPlace>Nazareth</pubPlace>
+										<distributor>Basilica of the Annunciation</distributor>
+										<availability>
+											<licence target="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC</licence>
+										</availability>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">Mary and Jesus, inculturated in Thailand</head>
             </figure>
             <p>
@@ -6405,8 +6601,20 @@
             <head type="section">The New Age Movement</head>
             <figure rend="float">
               <graphic width="3in" n="10078" url="media/image79.jpeg" source="http://loymachedo.com/wp-content/uploads/2011/01/What-The-Bleep-Do-We-Know.jpg">
-                <desc>Poster for the movie “What the Bleep Do We Know?</desc>
-              </graphic>
+                <desc></desc>
+								<desc>
+									<label>Poster for the movie “What the Bleep Do We Know?”</label>
+									<bibl>
+										<author>William Arntz</author>
+										<title>What the Bleep Do We Know?</title>
+										<date>2004</date>
+										<distributor>Roadside Attractions, Samuel Goldwyn Films</distributor>
+										<ptr target="https://en.wikipedia.org/wiki/What_the_Bleep_Do_We_Know!%3F"/>
+										<ptr target="https://whatthebleep.com/"/>
+										<date type="accessed" when="2021-07-12">Accessed 7/12/2021</date>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure"><bibl rend="inline"><title>What the Bleep Do We Know? </title></bibl> This 2004 semi-documentary presents a view of quantum physics and spirituality coming together to prove that reality is an illusion constructed by individual and group consciousness. The film weaves together established science with fringe spirituality.</head>
             </figure>
             <p>
@@ -6450,7 +6658,19 @@
                 <s>God does not pay attention to human affairs let alone intervene.</s>
                 <s>The image of God is as a clock maker who designs a clock to run on its own.</s>
                 <figure rend="wide">
-                  <graphic width="100%" n="10079" url="media/image80.jpeg" source="http://sciphilos.info/docs_pages/images/deism.jpg"/>
+                  <graphic width="100%" n="10079" url="media/image80.jpeg" source="http://sciphilos.info/docs_pages/images/deism.jpg">
+										<desc>
+											<bibl>
+												<author>Pastiche of Michelangelo and NASA</author>
+												<title>Creation of Adam and Orion Nebula</title>
+												<date>1512, 2006</date>
+												<ptr target="https://scienzamagia.eu/scienza-tecnologia/luniverso-durera-allinfinito-oppure-no/"/>
+												<ptr target="https://scienzamagia.eu/wp-content/uploads/2018/03/scienza_fede-1.jpg"/>
+												<ptr target="https://hubblesite.org/contents/news-releases/2006/news-2006-01.html"/>
+												<date type="accessed" when="2021-07-12">Accessed 7/12/2021</date>
+											</bibl>
+										</desc>
+									</graphic>
                   <head type="figure">This image combining Michelangelo’s painting on the ceiling of the Sistine Chapel of God creating Adam, and images of the cosmos from the Hubble telescope, might convey the Deist idea that God created the universe in a broad sense (perhaps knowable through science), but God did not fashion humans directly.</head>
                 </figure>
               </item>
@@ -6518,8 +6738,20 @@
             </p>
             <figure rend="float">
               <graphic width="3in" n="10080" url="media/image81.jpeg">
-                <desc>Three aid workers wearing logos of the red star of david, red cross, and red crescent, respectively</desc>
-              </graphic>
+								<desc>
+									<label>Three aid workers wearing logos of the red star of david, red cross, and red crescent, respectively</label>
+									<bibl>
+										<author>The Canadian Red Cross</author>
+										<title>Worldwide Wednesday Wrap-Up</title>
+										<date>2010</date>
+										<pubPlace>Location of a publisher, where a work of art was orginally created, or where it is now.</pubPlace>
+										<distributor>Canadian Red Cross Blog</distributor>
+										<ptr target="https://www.redcross.ca/blog/2010/7/worldwide-wednesday-wrap-up"/>
+										<ptr target="https://www.redcross.ca/blogImages/en-CA/2010/07/christine1.jpg"/>
+										<date type="accessed" when="2021-07-12">Accessed 7/12/2021</date>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">The red cross on a white background was used as a symbol of the Crusades. Today, the red cross might symbolize charity to us, but it is problematic to wave our Christian flag while serving people of other faiths, particularly the descendants of people killed under that flag. One solution to is make red stars and crescents. The logo of Catholic Relief Services is not explicitly religious.</head>
             </figure>
             <p>
@@ -6554,7 +6786,19 @@
               <s>Work can be dehumanizing whether the factory owner is hiring a militia to fire upon workers, or the demands of work stand in the way of health and happiness.</s>
             </p>
             <figure rend="float">
-              <graphic width="3in" n="10081" url="media/image82.jpeg"/>
+              <graphic width="3in" n="10081" url="media/image82.jpeg">
+								<desc>
+									<bibl>
+										<author>Oscar R. Castillo</author>
+										<title>Cesar Chavez</title>
+										<date>1972</date>
+										<pubPlace>Coachella, California</pubPlace>
+										<ptr target="https://www.timetoast.com/timelines/civil-rights-in-america-9fbe42b6-2262-4df4-8593-c2cb12fb3de7"/>
+										<ptr target="https://s3.amazonaws.com/s3.timetoast.com/public/uploads/photos/7287830/cec-old.jpg"/>
+										<date type="accessed" when="2021-07-12">Accessed 7/12/2021</date>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">Faith in general and Catholic social teaching in particular played a major role in the work of Cesar Chavez.</head>
             </figure>
             <p>
@@ -6608,7 +6852,21 @@
               <s>the New Testament makes clear: the plan of God is the victory of life over death.</s>
             </p>
             <figure rend="float">
-              <graphic width="3in" n="10082" url="media/image83.jpeg" source="http://upload.wikimedia.org/wikipedia/en/c/c6/Assassination_of_Oscar_Romero.jpg"/>
+              <graphic width="3in" n="10082" url="media/image83.jpeg" source="http://upload.wikimedia.org/wikipedia/en/c/c6/Assassination_of_Oscar_Romero.jpg">
+								<desc>
+									<bibl>
+										<author>Author of a book, artist, photographer of a historical photograph</author>
+										<title>The Assassination of Oscar Romero</title>
+										<date>1980</date>
+										<pubPlace>Madrid</pubPlace>
+										<distributor>El Pais, Wikimedia Commons</distributor>
+										<ptr target="https://en.wikipedia.org/wiki/%C3%93scar_Romero"/>
+										<ptr target="https://en.wikipedia.org/wiki/File:Assassination_of_Oscar_Romero.jpg"/>
+										<ptr target="https://upload.wikimedia.org/wikipedia/en/c/c6/Assassination_of_Oscar_Romero.jpg"/>
+										<date type="accessed" when="2021-07-12">Accessed 7/12/2021</date>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">The assassination of Archbishop Oscar Romero</head>
             </figure>
             <p>
@@ -6651,8 +6909,21 @@
             </p>
             <figure rend="float">
               <graphic width="3in" n="10083" url="media/image84.jpeg">
-                <desc>Painting of the prophet Miriam leading the Song of the Sea in Exodus 15</desc>
-              </graphic>
+								<desc>
+									<label>Painting of the prophet Miriam leading the Song of the Sea in Exodus 15</label>
+									<bibl>
+										<author>Golden Hagaddah</author>
+										<title>Miriam and her companions dancing after crossing the Red Sea</title>
+										<date>c. 1320</date>
+										<pubPlace>Created in Spain, now in London</pubPlace>
+										<distributor>British Library, Add. ms 27210, f.15r</distributor>
+										<ptr target="https://www.bl.uk/collection-items/golden-haggadah"/>
+										<ptr target="http://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Add_MS_27210"/>
+										<ptr target="http://www.bl.uk/manuscripts/Viewer.aspx?ref=add_ms_27210_f015r"/>
+										<date type="accessed" when="2021-07-12">Accessed 7/12/2021</date>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">Is the problem that there aren't women prophets in the Bible, or there are and you never hear about them?</head>
             </figure>
             <p>
@@ -6719,9 +6990,19 @@
           <div type="section">
             <head type="section">Natural law: universal moral truths that are not the domain of one religion</head>
             <figure rend="float">
-              <graphic width="3in" n="10084" url="media/image85.jpeg" source="http://www.normannfinancial.com/images/misc/Gravity%20Lessons.jpg">
-                <desc>Looney Tunes, Roadrunner and Wile E. Coyote</desc>
-              </graphic>
+              <graphic width="3in" n="10084" url="media/image90.jpeg" source="http://www.normannfinancial.com/images/misc/Gravity%20Lessons.jpg">
+								<desc>
+									<label>Looney Tunes character Wile E. Coyote says, “I wouldn't mind—except that he defies the law of gravity!” Roadrunner replies, “Sure—but I never studied law!”</label>
+									<bibl>
+										<author>Chuck Jones</author>
+										<title>Road Runner and Wile E. Coyote</title>
+										<date>1949-1963</date>
+										<distributor>Warner Brothers</distributor>
+										<ptr target="https://i1.wp.com/digbysblog.net/wp-content/uploads/2018/04/057429a5836bdc5099270f97ff8d3582.jpg"/>
+										<date type="accessed" when="2021-07-12">Accessed 7/12/2021</date>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">In one episode the coyote runs over a cliff but does not fall. The roadrunner hands him a book explaining gravity, then he falls.</head>
             </figure>
             <p>
@@ -6764,9 +7045,23 @@
               <s>Questions arise regarding when life begins or becomes sacred.</s>
             </p>
             <figure rend="float">
-              <graphic width="3in" n="10085" url="media/image86.jpeg" source="http://www.scientificamerican.com/media/inline/birth-control-pills-affect-womens-taste_1.jpg">
-                <desc>Birth control pills</desc>
-              </graphic>
+              <graphic width="3in" n="10085" url="media/image91.jpeg" source="http://www.scientificamerican.com/media/inline/birth-control-pills-affect-womens-taste_1.jpg">
+							<!-- image86 came from Scientific American which in turn was licensed from iStockPhoto (Ceneri), replaced with search of creative commons -->
+								<desc>
+									<label>Birth control pills</label>
+									<bibl>
+										<author>Brianna Laugher</author>
+										<title>Birth control pill UX is confusing</title>
+										<date>2018</date>
+										<distributor>Flickr</distributor>
+										<ptr target="https://flic.kr/p/JJgQ2x"/>
+										<date type="accessed" when="2021-07-12">Accessed 7/12/2021</date>
+										<availability>
+											<licence target="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</licence>
+										</availability>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">
                 The Magisterium has consistently viewed birth control pills as a sinful choice.
               </head>
@@ -6810,8 +7105,19 @@
             </p>
             <figure rend="float">
               <graphic width="3in" n="10086" url="media/image87.png">
-                <desc>Man holding sign that says “Abortion is Murder”</desc>
-              </graphic>
+								<desc>
+									<label>Man holding sign that says “Abortion is Murder”</label>
+									<bibl>
+										<author>Joshua Sager</author>
+										<title>Refuting Anti-Abortion Talking Points: Part #1</title>
+										<date>2015</date>
+										<distributor>The Progressive Cynic (blog)</distributor>
+										<ptr target="https://theprogressivecynic.com/2015/07/20/refuting-anti-abortion-talking-points-part-1/"/>
+										<ptr target="https://progressivecynic.files.wordpress.com/2015/07/abortion-quotes-51.jpg"/>
+										<date type="accessed" when="2021-07-12">Accessed 7/12/2021</date>
+									</bibl>
+								</desc>
+							</graphic>
             </figure>
             <p>
               <s>You may have already heard all this so far.</s>
@@ -6866,9 +7172,20 @@
           <div type="section">
             <head type="section">The 21st century</head>
             <figure rend="float">
-              <graphic width="3in" n="10087" url="media/image88.jpeg" source="http://www.shc.edu/theolibrary/graphics/vaticanii.jpg">
-                <desc>Photo of Vatican II inside St. Peter’s Basilica</desc>
-              </graphic>
+              <graphic width="3in" n="10087" url="media/image92.jpeg" source="http://www.shc.edu/theolibrary/graphics/vaticanii.jpg">
+							<!-- couldn't find good attribution for image88 -->
+								<desc>
+									<label>Photo of Vatican II inside St. Peter’s Basilica</label>
+									<bibl>
+										<title>Second Vatican Council</title>
+										<date>1962-1965</date>
+										<distributor>Wikimedia Commons</distributor>
+										<ptr target="https://commons.wikimedia.org/wiki/File:Vatican-i.jpg"/>
+										<ptr target="https://upload.wikimedia.org/wikipedia/commons/f/fd/Vatican-i.jpg"/>
+										<date type="accessed" when="2021-07-12">Accessed 7/12/2021</date>
+									</bibl>
+								</desc>
+							</graphic>
               <head type="figure">I hope they keep the same venue from Vatican II. It has nice high ceilings and maybe even some room to squeeze in some women.</head>
             </figure>
             <p>

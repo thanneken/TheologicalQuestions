@@ -27,7 +27,7 @@
 		<xsl:element name="style" xmlns="http://www.w3.org/1999/xhtml">
 			span.bibl{font-style:normal;}
 			.caption{color:darkred;font-style:normal;max-width:100%;}
-			.chapter{clear:right;border-top:2pxdottedblue;margin-top:2em;}
+			.chapter,.listfigures{clear:left;clear:right;border-top:2pxdottedblue;margin-top:2em;}
 			.cit{padding-left:3em;padding-bottom:0;margin-bottom:1em;}
 			div.citquote{margin-left:0;margin-right:0;}
 			.doubleunderline{text-decoration:underline;text-decoration-style:double;}
