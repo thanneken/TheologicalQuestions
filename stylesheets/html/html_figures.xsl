@@ -379,11 +379,9 @@ of this software, even if advised of the possibility of such damage.
       </xsl:variable>
       <xsl:variable name="Alt">
          <xsl:choose>
-				 <!-- next two lines modified by TRH to specify only the label, not all of the desc -->
+				 <!-- next three lines modified by TRH to specify only the label, not all of the desc -->
             <xsl:when test="tei:desc/tei:label">
-               <xsl:for-each select="tei:desc/tei:label">
-		 <xsl:apply-templates mode="plain"/>
-	       </xsl:for-each>
+							 <xsl:value-of select="tei:desc/tei:label/text()"/>
             </xsl:when>
             <xsl:when test="tei:figDesc">
                <xsl:for-each select="tei:figDesc">

@@ -57,6 +57,7 @@ of this software, even if advised of the possibility of such damage.
     </xsl:copy>
   </xsl:template>
 
+  <doc xmlns="http://www.oxygenxml.com/ns/doc/xsl"><desc>TRH: added node()| before @* in copy-of so that desc/label would be preserved</desc></doc>
   <xsl:template match="tei:graphic|tei:media" mode="preflight">
     <xsl:copy>
       <xsl:choose>
@@ -70,14 +71,15 @@ of this software, even if advised of the possibility of such damage.
           <xsl:attribute name="url">
             <xsl:value-of select="$newName"/>
           </xsl:attribute>
-          <xsl:copy-of select="@*[not(local-name()='url')]"/>
+          <xsl:copy-of select="node()|@*[not(local-name()='url')]"/>
         </xsl:when>
         <xsl:otherwise>
-          <xsl:copy-of select="@*"/>
+          <xsl:copy-of select="node()|@*"/>
         </xsl:otherwise>
       </xsl:choose>
     </xsl:copy>
   </xsl:template>
+
   <xsl:template match="tei:pb[@facs]" mode="preflight">
     <xsl:copy>
       <xsl:choose>

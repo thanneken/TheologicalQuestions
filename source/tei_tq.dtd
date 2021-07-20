@@ -1,6 +1,6 @@
 
 <!--
-DTD generated from ODD source 2021-06-16T21:30:22Z. .This template file is freely available and you are hereby authorised to copy, modify, and redistribute it in any way without further reference or permissions. When making such modifications, you are strongly recommended to change the present text to include an accurate statement of the licencing conditions applicable to your modified text.
+DTD generated from ODD source 2021-07-13T20:46:21Z. .This template file is freely available and you are hereby authorised to copy, modify, and redistribute it in any way without further reference or permissions. When making such modifications, you are strongly recommended to change the present text to include an accurate statement of the licencing conditions applicable to your modified text.
 TEI Edition: Version 4.2.2. Last updated on
 	9th April 2021, revision 609a109b1
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.2.2/
@@ -626,6 +626,16 @@ to %teidata.word;  #IMPLIED'>
 <!ENTITY % model.divTop_sequenceOptional "%model.divTopPart;?"> 
 <!ENTITY % model.divTop_sequenceOptionalRepeatable "%model.divTopPart;*"> 
 <!ENTITY % model.divTop_sequenceRepeatable "%model.divTopPart;+"> 
+<!ENTITY % model.frontPart.drama ""> 
+<!ENTITY % model.frontPart.drama_sequence ""> 
+<!ENTITY % model.frontPart.drama_sequenceOptional ""> 
+<!ENTITY % model.frontPart.drama_sequenceOptionalRepeatable ""> 
+<!ENTITY % model.frontPart.drama_sequenceRepeatable ""> 
+<!ENTITY % model.pLike.front "head"> 
+<!ENTITY % model.pLike.front_sequence "head"> 
+<!ENTITY % model.pLike.front_sequenceOptional "head?"> 
+<!ENTITY % model.pLike.front_sequenceOptionalRepeatable "head*"> 
+<!ENTITY % model.pLike.front_sequenceRepeatable "head+"> 
 <!ENTITY % model.divBottomPart ""> 
 <!ENTITY % model.divBottomPart_sequence ""> 
 <!ENTITY % model.divBottomPart_sequenceOptional ""> 
@@ -661,6 +671,11 @@ to %teidata.word;  #IMPLIED'>
 <!ENTITY % model.biblPart_sequenceOptional "%model.respLike;?, %model.imprintPart;?, bibl?, edition?, extent?, availability?"> 
 <!ENTITY % model.biblPart_sequenceOptionalRepeatable "%model.respLike;*, %model.imprintPart;*, bibl*, edition*, extent*, availability*"> 
 <!ENTITY % model.biblPart_sequenceRepeatable "%model.respLike;+, %model.imprintPart;+, bibl+, edition+, extent+, availability+"> 
+<!ENTITY % model.frontPart ""> 
+<!ENTITY % model.frontPart_sequence ""> 
+<!ENTITY % model.frontPart_sequenceOptional ""> 
+<!ENTITY % model.frontPart_sequenceOptionalRepeatable ""> 
+<!ENTITY % model.frontPart_sequenceRepeatable ""> 
 <!ENTITY % model.pPart.data "%model.dateLike; |%model.nameLike;"> 
 <!ENTITY % model.pPart.data_sequence "%model.dateLike;, %model.nameLike;"> 
 <!ENTITY % model.pPart.data_sequenceOptional "%model.dateLike;?, %model.nameLike;?"> 
@@ -824,6 +839,11 @@ select CDATA  #IMPLIED'>
  %tei_att.global.attributes;
  %tei_att.declarable.attributes;
 status (free|unknown|restricted) #IMPLIED >
+<!--doc:(back matter) contains any appendixes, etc. following the main part of a text. [4.7. Back Matter 4. Default Text Structure] -->
+<!ELEMENT back (((_DUMMY_model.frontPart|%model.pLike.front;|%model.pLike;|%model.listLike;|%model.global;)*,(((_DUMMY_model.div1Like),(_DUMMY_model.frontPart|_DUMMY_model.div1Like|%model.global;)*)|((%model.divLike;),(_DUMMY_model.frontPart|%model.divLike;|%model.global;)*))?,((_DUMMY_model.divBottomPart),(_DUMMY_model.divBottomPart|%model.global;)*)?))>
+<!ATTLIST back xmlns CDATA "http://www.tei-c.org/ns/1.0">
+<!ATTLIST back
+ %tei_att.global.attributes; >
 <!--doc:(bibliographic citation) contains a loosely-structured bibliographic citation of which the sub-components may or may not be explicitly tagged. [3.12.1. Methods of Encoding Bibliographic References and Lists of References 2.2.7. The Source Description 15.3.2. Declarable Elements] -->
 <!ELEMENT bibl (#PCDATA|_DUMMY_model.gLike|%model.highlighted;|%model.pPart.data;|_DUMMY_model.pPart.edit|%model.segLike;|%model.ptrLike;|%model.biblPart;|%model.global;)*>
 <!ATTLIST bibl xmlns CDATA "http://www.tei-c.org/ns/1.0">

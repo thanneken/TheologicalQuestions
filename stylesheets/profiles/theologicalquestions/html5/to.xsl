@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xsl:stylesheet xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" exclude-result-prefixes="tei" version="2.0">
+<xsl:stylesheet 
+	xmlns:tei="http://www.tei-c.org/ns/1.0" 
+	xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
+	xmlns:oxy="http://www.oxygenxml.com/ns/doc/xsl" 
+	exclude-result-prefixes="tei" version="2.0">
 	<xsl:import href="../../../html5/html5.xsl"/>
-	<doc xmlns="http://www.oxygenxml.com/ns/doc/xsl" scope="stylesheet" type="stylesheet">
+	<oxy:doc scope="stylesheet" type="stylesheet">
 		<desc>
 			<p>CC BY-NC</p>
 			<p>Author: Todd Hanneken</p>
 		</desc>
-	</doc>
+	</oxy:doc>
 	<!-- strip space fixes <p> </p> between block quotes; -->
 	<!-- may be necessary to use <xsl:preserve-space elements="something"/> in the future -->
 	<!-- alternatively, could use xml:space="preserve" in the xml when space is meaningful -->
@@ -22,12 +26,13 @@
 			<xsl:attribute name="content">width=device-width, initial-scale=1</xsl:attribute>
 		</xsl:element>
   </xsl:template>
-	<!-- add css (tagsDecl is really supposed be descriptive of source, not prescriptive of derivative) -->
+
+	<oxy:doc><desc>Cascading Style Sheets</desc></oxy:doc>
 	<xsl:template name="cssHook">
 		<xsl:element name="style" xmlns="http://www.w3.org/1999/xhtml">
 			span.bibl{font-style:normal;}
 			.caption{color:darkred;font-style:normal;max-width:100%;}
-			.chapter,.listfigures{clear:left;clear:right;border-top:2pxdottedblue;margin-top:2em;}
+			.chapter{clear:left;clear:right;border-top:2pxdottedblue;margin-top:2em;}
 			.cit{padding-left:3em;padding-bottom:0;margin-bottom:1em;}
 			div.citquote{margin-left:0;margin-right:0;}
 			.doubleunderline{text-decoration:underline;text-decoration-style:double;}
@@ -44,47 +49,19 @@
 			.section{clear:right;}
 			.toc{padding-inline-start:0.4em;}
 			.unit{border-top:3pxsolidblue;margin-top:3em;}
-			.vs{color:gray;font-size:75%;line-height:0;position:relative;vertical-align:baseline;top:-0.5em;padding-right:0.3em;}
+			.vs{color:#747474;font-size:75%;line-height:0;position:relative;vertical-align:baseline;top:-0.5em;padding-right:0.3em;}
 			.wide{margin:0;width:6.5in;max-width:100%;}
 			span.distinct{font-style:normal;color:maroon;}
 			div.l{margin-left:0;}
 			div.figurelistitem{clear:left;padding-top:10px;}
 			p.bibliography{font-size:85%;}
+			@media (orientation:landscape){
+				body#TOP.simple{max-width:7in;margin-left:auto;margin-right:auto;}
+			}
 		</xsl:element>
 	</xsl:template>
 	<!-- add list of figures and credits to footer -->
 	<xsl:template name="stdfooter">
-		<xsl:element name="div" xmlns="http://www.w3.org/1999/xhtml">
-			<xsl:attribute name="class">listfigures</xsl:attribute>
-			<xsl:attribute name="id">listfigures</xsl:attribute>
-			<xsl:element name="h2" xmlns="http://www.w3.org/1999/xhtml">
-				<xsl:attribute name="id">headlistfigures</xsl:attribute>
-				<xsl:text>List of Figures</xsl:text>
-			</xsl:element>
-			<xsl:for-each select="//tei:graphic">
-				<xsl:element name="div" xmlns="http://www.w3.org/1999/xhtml">
-					<xsl:attribute name="class">figurelistitem</xsl:attribute>
-					<xsl:element name="img" xmlns="http://www.w3.org/1999/xhtml">
-						<xsl:attribute name="src"><xsl:value-of select="@url"/></xsl:attribute>
-						<xsl:attribute name="style"><xsl:text>float:left;width:1in;margin-right:10px;</xsl:text></xsl:attribute>
-					</xsl:element>
-					<xsl:element name="div" xmlns="http://www.w3.org/1999/xhtml">
-						<xsl:attribute name="class"><xsl:text>figlistcaption</xsl:text></xsl:attribute>
-						<xsl:value-of select="tei:desc/tei:label"/>
-						<xsl:if test="tei:desc/tei:label and ../tei:head">
-							<xsl:text>. </xsl:text>
-						</xsl:if>
-						<xsl:value-of select="../tei:head"/>
-					</xsl:element>
-					<xsl:element name="p" xmlns="http://www.w3.org/1999/xhtml">
-						<xsl:for-each select="tei:desc/tei:bibl">
-							<xsl:attribute name="class"><xsl:text>bibliography</xsl:text></xsl:attribute>
-							<xsl:apply-templates/>
-						</xsl:for-each>
-					</xsl:element>
-				</xsl:element>
-			</xsl:for-each>
-		</xsl:element>
 		<xsl:element name="div" xmlns="http://www.w3.org/1999/xhtml">
 			<xsl:attribute name="class">stdfooter</xsl:attribute>
 			<xsl:element name="p" xmlns="http://www.w3.org/1999/xhtml">
@@ -133,11 +110,19 @@
 				<xsl:text>License</xsl:text>
 			</xsl:element>
 			<xsl:element name="p" xmlns="http://www.w3.org/1999/xhtml">
-				<xsl:apply-templates select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:availability/tei:licence"/><xsl:text> </xsl:text>
+				<xsl:element name="a" xmlns="http://www.w3.org/1999/xhtml">
+					<xsl:attribute name="href">
+						<xsl:value-of select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:availability/tei:licence/@target"/>
+					</xsl:attribute>
+					<xsl:apply-templates select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:availability/tei:licence"/>
+				</xsl:element>
+				<xsl:text> </xsl:text>
+				<xsl:value-of select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:availability/tei:ab/text()"/>
 			</xsl:element>
 			<xsl:apply-templates select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:notesStmt/tei:note"/>
 		</xsl:element>
 	</xsl:template>
+
 	<!-- cause each image to become a link to the full-size version of itself -->
 	<xsl:template match="tei:graphic">
 			<xsl:element name="a" xmlns="http://www.w3.org/1999/xhtml">
@@ -180,7 +165,55 @@
 		<xsl:apply-templates/>
 	</xsl:template>
 
-	<!-- format bibliography, particularly in list of figures -->
+  <oxy:doc class="numbering"><desc>[common] How to number sections in back matter</desc></oxy:doc>
+  <xsl:template name="numberBackDiv">
+    <xsl:if test="not($numberBackHeadings='')">
+      <xsl:number count="tei:div" format="A.1.1.1.1.1:" level="multiple"/>
+    </xsl:if>
+  </xsl:template>
+
+	<oxy:doc><desc>Backmatter</desc></oxy:doc>
+	<xsl:template match="tei:back/tei:div">
+		<xsl:choose>
+			<xsl:when test="@xml:id='listfigures'">
+				<xsl:element name="div" xmlns="http://www.w3.org/1999/xhtml">
+					<xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute>
+					<!--
+					putting the heading in the xml rather than here causes it to be included in the TOC, advantageous or internationalization
+					-->
+					<xsl:apply-templates select="tei:head"/>
+					<xsl:for-each select="//tei:graphic">
+						<xsl:element name="div" xmlns="http://www.w3.org/1999/xhtml">
+							<xsl:attribute name="class">figurelistitem</xsl:attribute>
+							<xsl:element name="img" xmlns="http://www.w3.org/1999/xhtml">
+								<xsl:attribute name="src"><xsl:value-of select="@url"/></xsl:attribute>
+								<xsl:attribute name="style"><xsl:text>float:left;width:1in;margin-right:10px;</xsl:text></xsl:attribute>
+							</xsl:element>
+							<xsl:element name="div" xmlns="http://www.w3.org/1999/xhtml">
+								<xsl:attribute name="class"><xsl:text>figlistcaption</xsl:text></xsl:attribute>
+								<xsl:value-of select="tei:desc/tei:label"/>
+								<xsl:if test="tei:desc/tei:label and ../tei:head">
+									<xsl:text>. </xsl:text>
+								</xsl:if>
+								<xsl:value-of select="../tei:head"/>
+							</xsl:element>
+							<xsl:element name="p" xmlns="http://www.w3.org/1999/xhtml">
+								<xsl:for-each select="tei:desc/tei:bibl">
+									<xsl:attribute name="class"><xsl:text>bibliography</xsl:text></xsl:attribute>
+									<xsl:apply-templates/>
+								</xsl:for-each>
+							</xsl:element>
+						</xsl:element>
+					</xsl:for-each>
+				</xsl:element>
+			</xsl:when>
+			<xsl:otherwise>
+				<xsl:text>Unanticipated Scenario in Backmatter</xsl:text>
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:template>
+
+	<oxy:doc><desc>Format bibliography, particularly in list of figures</desc></oxy:doc>
 	<xsl:template match="tei:bibl/tei:author">
 		<xsl:value-of select="."/>
 		<xsl:text>, </xsl:text>
@@ -209,13 +242,13 @@
 		<xsl:value-of select="."/>
 		<xsl:text>. </xsl:text>
 	</xsl:template>
-	<xsl:template match="tei:bibl/tei:ptr">
+	<xsl:template match="tei:ptr">
 		<xsl:text>&lt;</xsl:text>
 		<xsl:element name="a" xmlns="http://www.w3.org/1999/xhtml">
 			<xsl:attribute name="href"><xsl:value-of select="@target"/></xsl:attribute>
-			<xsl:value-of disable-output-escaping="yes" select="replace(@target,'[A-z]/','$0&lt;wbr/&gt;')"/>
+			<xsl:value-of disable-output-escaping="yes" select="replace(@target,'([A-z]|[0-9])([/_])','$1&#8203;$2')"/>
 		</xsl:element>
-		<xsl:text>&gt; </xsl:text>
+		<xsl:text>&gt;</xsl:text>
 	</xsl:template>
 	<xsl:template match="tei:bibl/tei:availability/tei:ab">
 		<xsl:value-of select="."/>

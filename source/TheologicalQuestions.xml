@@ -11,8 +11,8 @@
         <funder>Atla</funder>
       </titleStmt>
       <editionStmt>
-        <edition n="20210712">
-          <title>20210712 Edition</title>
+        <edition n="20210720">
+          <title>20210720 Edition</title>
           <date when="2021">2021</date>
         </edition>
       </editionStmt>
@@ -22,6 +22,7 @@
         <pubPlace>Chicago</pubPlace>
         <availability status="free">
           <licence target="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC</licence>
+					<ab>All text except quotations and images attributed otherwise. Translations of the Bible draw from NABRE, NRSV, and the author’s own translations.</ab>
         </availability>
         <date when="2021-06-10">2021</date>
         <idno type="doi">10.31046/atlaopenpress.81</idno>
@@ -31,12 +32,8 @@
         <note>
           <p>
             <s>This Open Educational Resource (OER) is freely available in Web HTML, PDF, ePub, and Kindle MOBI formats.</s>
-          </p>
-          <p>
             <s>The source is also freely available for authors and educators to modify.</s>
-          </p>
-          <p>
-            <s>See <ref target="https://thanneken.github.io/TheologicalQuestions/">https://thanneken.github.io/TheologicalQuestions/</ref>.</s>
+            <s>See <ptr target="https://thanneken.github.io/TheologicalQuestions/"/>.</s>
           </p>
         </note>
       </notesStmt>
@@ -349,7 +346,7 @@
 													<distributor>Continuum</distributor>
 													<date>2010</date>
 													<ptr target="https://www.worldcat.org/title/just-love-a-framework-for-christian-sexual-ethics/oclc/1048583907"/>
-													<ptr target="https://coverart.oclc.org/ImageWebSvc/oclc/+-+2548303956_140.jpg"/>
+													<ptr target="https://coverart.oclc.org/ImageWebSvc/oclc/+-+2548303956_140.jpg?SearchOrder=+-+OT,OS,TN,GO,FA"/>
 													<date type="accessed" when="2021-06-29">Accessed 6/29/2021</date>
 												</bibl>
 											</desc>
@@ -1751,7 +1748,7 @@
 									<title>The Martyrdom of Saint Catherine (woodcut)</title>
 									<date>c. 1497/1499</date>
 									<pubPlace>Washington D.C.</pubPlace>
-									<distributor>National Gallary of Art, Rosenwald Collection, 1964.8.1791, Wikimedia Commons</distributor>
+									<distributor>National Gallery of Art, Rosenwald Collection, 1964.8.1791, Wikimedia Commons</distributor>
 									<ptr target="https://upload.wikimedia.org/wikipedia/commons/5/52/Albrecht_D%C3%BCrer%2C_The_Martyrdom_of_Saint_Catherine%2C_c._1497-1499%2C_NGA_49059.jpg"/>
 									<ptr target="https://commons.wikimedia.org/wiki/File:Albrecht_D%C3%BCrer,_The_Martyrdom_of_Saint_Catherine,_c._1497-1499,_NGA_49059.jpg"/>
 									<date type="accessed" when="2021-07-06">Accessed 7/6/2021</date>
@@ -3278,7 +3275,7 @@
             <graphic width="90%" n="10028" url="media/image29.jpeg" source="C:\Users\TRH\Desktop\isaiah-scroll1.jpg">
 							<desc>
 								<bibl>
-									<author>John Trever (photographer, unconfirmed)</author>
+									<author>John Trever (photographer)</author>
 									<title>The Great Isaiah Scroll</title>
 									<date>c. 125 BCE</date>
 									<pubPlace>Jerusalem</pubPlace>
@@ -3325,7 +3322,7 @@
                     <s>These men are despisers of riches, and so very communicative as raises our admiration.</s>
                     <s>Nor is there anyone to be found among them who has more than another; for it is a law among them, that those who come to them must let what they have be common to the whole order,—insomuch that among them all there is no appearance of poverty or excess of riches, but everyone’s possessions are intermingled with everyone’s possessions; and so there is, as it were, one patrimony among all the brethren.</s>
                   </quote>
-                  <ref cRef="J.W. 2.122">Josephus, <bibl><title>The Jewish Wars</title></bibl> 2.122</ref>
+                  <ref cRef="J.W. 2.122">Josephus, <bibl rend="inline"><title>The Jewish Wars</title>, trans. <ref target="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0148%3Abook%3D2%3Awhiston%20chapter%3D8%3Awhiston%20section%3D3">Whiston</ref></bibl> 2.122</ref>
                 </cit>
                 <s>Josephus goes on to describe the rule of hospitality that traveling members are welcome by other communities of the sect wherever they go.</s>
                 <s>Hence, they have no need to carry anything with them (or pay baggage fees).</s>
@@ -3350,7 +3347,7 @@
                   <s>  shall enroll him at the appropriate rank among his brothers for discussion of the Law, jurisprudence, participation in pure meals and <hi>admixture of property</hi>.</s>
                   <s>Thenceforth the <foreign>Yahad</foreign> may draw upon his counsel and judgement.</s>
                 </quote>
-                <ref cRef="1QS VI">Qumran Cave 1 Community Rule, Column 6</ref>
+                <ref cRef="1QS VI">Qumran Cave 1 Community Rule, Column 6, trans. <ref target="https://www.google.com/books/edition/The_Dead_Sea_Scrolls_Revised_Edition/218JbeU2POgC">Wise et al.</ref></ref>
               </cit>
             </div>
             <div type="section">
@@ -3500,7 +3497,7 @@
                     <s>But they do not use to accompany with their wives when they are with child, as a demonstration that they do not marry out of regard to pleasure, but for the sake of posterity.</s>
                   </p>
                 </quote>
-                <ref cRef="J.W. 2.120-121, 160-161">Josephus, <bibl><title>The Jewish Wars</title></bibl> Book 2, sections 120-121 and 160-161</ref>
+                <ref cRef="J.W. 2.120-121, 160-161">Josephus, <bibl rend="inline"><title>The Jewish Wars</title></bibl> Book 2, sections 120-121 and 160-161, trans. <ref target="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0148%3Abook%3D2%3Awhiston%20chapter%3D8%3Awhiston%20section%3D2">Whiston</ref></ref>
               </cit>
             </div>
             <div type="section">
@@ -4181,7 +4178,6 @@
             <figure rend="float">
               <graphic width="3in" n="10039" url="media/image40.jpeg" source="http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2009/01/08/j460.jpg">
 								<desc>
-									<label>Label used for img alt text for HTML and ePub screen readers</label>
 									<bibl>
 										<author>Josie Jammet</author>
 										<title>Jesus of Nazareth</title>
@@ -4442,7 +4438,7 @@
                   <s>Therefore, those things which once had value are <hi>today without value</hi>, because the things which have true value have appeared.</s>
                 </p>
               </quote>
-              <ref>Melito of Sardis, <bibl rend="inline"><title>Peri Pascha</title></bibl> 36-43</ref>
+              <ref>Melito of Sardis, <bibl rend="inline"><title>Peri Pascha</title>, trans. <ref target="https://www.kerux.com/doc/0401.asp">Dennison</ref></bibl> 36-43</ref>
             </cit>
             <p>
               <s>The following excerpt comes from an elaborate accusation of deicide that begins as follows and concludes, 
@@ -4475,7 +4471,7 @@
                   </s>
                 </p>
               </quote>
-              <ref>Melito of Sardis, <bibl rend="inline"><title>Peri Pascha</title></bibl> 72-73</ref>
+              <ref>Melito of Sardis, <bibl rend="inline"><title>Peri Pascha</title>, trans. <ref target="https://www.kerux.com/doc/0401.asp">Dennison</ref></bibl> 72-73</ref>
             </cit>
           </div>
         </div>
@@ -4532,10 +4528,9 @@
             <figure rend="wide">
               <graphic width="100%" n="10043" url="media/image44.jpeg" source="http://2.bp.blogspot.com/_tmB-hUQAf4c/SMZzsAqxeYI/AAAAAAAAACM/y2dCva6P560/s400/20.jpg">
 								<desc>
-									<label>Label used for img alt text for HTML and ePub screen readers</label>
 									<bibl>
 										<author>Rita E. Mansour</author>
-										<title>Christian Sites in Lebanon, The Monastry of Hammatoura in Kousba</title>
+										<title>Christian Sites in Lebanon, The Monastery of Hammatoura in Kousba</title>
 										<date>2008-2020</date>
 										<distributor>Lebanon: Land of Faith</distributor>
 										<ptr target="http://lebanon-faith.blogspot.com/2008/06/this-blog-www.html"/>
@@ -4581,7 +4576,7 @@
             <figure>
               <graphic width="3in" n="10044" url="media/image45.jpeg" source="https://lh5.googleusercontent.com/-hjzz-Gy9oic/TLh8q419X8I/AAAAAAAABsk/uNXsKsiMcxs/s720/Saint%20NIcholas.jpg">
 								<desc>
-									<label>Ukranian icon of Saint Nicholas wearing elaborate vestments</label>
+									<label>Ukrainian icon of Saint Nicholas wearing elaborate vestments</label>
 									<bibl>
 										<title>Saint Nicholas (icon)</title>
 										<date>Sixteenth century</date>
@@ -4690,54 +4685,40 @@
               <s>Below we will read an excerpt from the writings of Gertrude the Great (1256–1302).</s>
             </p>
             <p>
-              <s><hi>Mysticism can be defined as <q>“the exceptionally vivid intuition of one’s union with ultimate reality” </q></hi><ref><bibl rend="inline" xml:space="preserve"><author>John Haught</author> <title>What is Religion?</title> <biblScope unit="page" n="97">97</biblScope></bibl></ref>.
-							</s>
+              <s><hi>Mysticism can be defined as <q>“the exceptionally vivid intuition of one’s union with ultimate reality” </q></hi><ref><bibl rend="inline" xml:space="preserve"><author>John Haught</author> <title>What is Religion?</title> <biblScope unit="page" n="97">97</biblScope> <ref target="https://www.google.com/books/edition/What_is_Religion/JOyNDbsXUy4C">[LINK]</ref></bibl></ref>.</s>
               <s>Outsiders and skeptics may tend to think of mysticism as other than reality or escape from reality.</s>
               <s>It is important to recognize that for the mystics, mystical union is more real than any ordinary object.</s>
               <s>It is not the absence of sensory perception, but the overwhelming of the senses.</s>
               <s>It contrasts with the mundane in degree of sensation, and in that others around the mystic do not experience what the mystic experiences.</s>
             </p>
             <p>
-              <s>
-								Scholars describe five characteristics of mystical experience 
-								<ref><bibl rend="inline" xml:space="preserve"><author>William James</author> <title>The Variety of Religious Experience</title> <biblScope unit="page" n="299-336">299-336</biblScope></bibl></ref>.
-						</s>
+              <s>Scholars describe five characteristics of mystical experience <ref><bibl rend="inline"><author>John Haught</author><title>What is Religion?</title> <biblScope unit="page" n="99-101">99-101</biblScope> <ref target="https://www.google.com/books/edition/What_is_Religion/JOyNDbsXUy4C">[LINK]</ref></bibl>, following <bibl rend="inline"><author>William James</author><title>The Varieties of Religious Experience</title> <ref target="https://www.google.com/books/edition/THE_VARIETIES_OF_RELIGIOUS_EXPERIENCE/OESbXvtUkIsC">[LINK]</ref></bibl></ref>.</s>
             </p>
             <list type="ordered">
               <item>
-                <s>
-                  <hi>Love, often erotic.</hi>
-                </s>
+                <s><hi>Love, often erotic.</hi></s>
                 <s>Sexual sensuality comes bursting through in mystical writings.</s>
                 <s>Mild forms include referring to Christ as groom or lover, described with actions of embracing or kissing.</s>
                 <s>It is not uncommon for language of penetration and climax to be used, and the mystic sometimes experiences orgasm.</s>
               </item>
               <item>
-                <s>
-                  <hi>Ineffable.</hi>
-                </s>
+                <s><hi>Ineffable.</hi></s>
                 <s>The mystic is frustrated trying to capture the experience in words, and yet often feels compelled to talk about the experience.</s>
               </item>
               <item>
-                <s>
-                  <hi>Conscious.</hi>
-                </s>
+                <s><hi>Conscious.</hi></s>
                 <s>Mystical union generally contrasts with dream visions in that the mystic has normal intellectual and rational faculties throughout the experience.</s>
                 <s>The mystic experiences heightened clarity and intellectual understanding, even if the understanding cannot be captured in words.</s>
               </item>
               <item>
-                <s>
-                  <hi>Fleeting.</hi>
-                </s>
+                <s><hi>Fleeting.</hi></s>
                 <s>The experience is intense but does not last a long time, particularly as seen by bystanders.</s>
                 <s>The mystic is left exhausted but wanting more.</s>
                 <s>Mystics may develop the ability to repeat the experience but not maintain it.</s>
                 <s>Mystics who cannot repeat the experience suffer withdrawal, which is the origin of the phrase “The Dark Night of the Soul.”</s>
               </item>
               <item>
-                <s>
-                  <hi>Passivity.</hi>
-                </s>
+                <s><hi>Passivity.</hi></s>
                 <s>Although mystics develop the ability to open themselves to mystical experience, they never feel in control.</s>
                 <s>The experience cannot be earned, immediately triggered, or planned.</s>
                 <s>The experience washes over the mystic.</s>
@@ -4845,7 +4826,7 @@
                   <s>O most divine goodness, what greater testimony can there be to the depth of your care!</s>
                 </p>
               </quote>
-              <ref>Excerpt of Gertrude the Great in Shawn Madigan, ed., <bibl rend="inline"><title>Mystics, Visionaries, and Prophets</title></bibl></ref>
+              <ref>Excerpt of Gertrude the Great in Shawn Madigan, ed., <bibl rend="inline"><title>Mystics, Visionaries, and Prophets </title> <ref target="https://www.google.com/books/edition/Mystics_Visionaries_and_Prophets/nXYUZ8AptEUC">[LINK]</ref></bibl></ref>
             </cit>
           </div>
         </div>
@@ -4912,7 +4893,7 @@
               <graphic width="100%" n="10051" url="media/image52.jpeg" source="http://upload.wikimedia.org/wikipedia/commons/b/b8/SanPietroFacciata-SteO153.jpg">
 								<desc>
 									<bibl>
-										<title>Fascade of Saint Peter’s Basilica in Vatican City (Rome)</title>
+										<title>Facade of Saint Peter’s Basilica in Vatican City (Rome)</title>
 										<date>1506 (photo 2006)</date>
 										<distributor>Wikimedia Commons</distributor>
 										<ptr target="https://commons.wikimedia.org/wiki/File:SanPietroFacciata-SteO153.jpg"/>
@@ -5013,7 +4994,7 @@
               <s>In addition to the inherent abusiveness of the practice, some local “salesmen” in the region of Martin Luther were particularly unscrupulous.</s>
               <s>It would be wrong to reduce the Reformation to one man or one issue, but this is the issue that set off Martin Luther and his 95 theses, which in turn set off the reformations of the 16th century.</s>
             </p>
-            <floatingText rend="wide">
+            <floatingText>
               <body>
                 <head type="floatingText">Indulgences</head>
                 <p>
@@ -5073,7 +5054,7 @@
 										<author>Lucas Cranach the Elder</author>
 										<title>Martin Luther</title>
 										<date>1529</date>
-										<pubPlace>Augsburgh</pubPlace>
+										<pubPlace>Augsburg</pubPlace>
 										<distributor>St. Anne’s Church, Wikimedia Commons</distributor>
 										<ptr target="https://commons.wikimedia.org/wiki/File:Martin_Luther,_1529.jpg"/>
 										<ptr target="https://upload.wikimedia.org/wikipedia/commons/f/f8/Martin_Luther%2C_1529.jpg"/>
@@ -5567,12 +5548,13 @@
 								<desc>
 									<label>Plastic bin labeled “free stuff.”</label>
 									<bibl>
-										<author>Bill Sobel</author>
-										<title>How About Some Free Stuff</title>
-										<date>2011</date>
-										<distributor>Sobel Media</distributor>
-										<ptr target="http://www.sobelmedia.com/2009/02/23/how-about-some-free-stuff/"/>
-										<date type="accessed" when="2021-07-09">Accessed 7/9/2021</date>
+										<author>TSTJames</author>
+										<title>Artists launch ‘Free Store’ in lower Manhattan near Ground Zero</title>
+										<date>2009</date>
+										<distributor>Ladies Lotto, Blogspot</distributor>
+										<ptr target="http://ladieslotto.blogspot.com/2009/03/artists-launch-free-store-in-lower.html"/>
+										<ptr target="http://4.bp.blogspot.com/_P0NsaYy6eUU/Sb7LzZM6WhI/AAAAAAAAAOI/E66dObpPeYI/s1600-h/free-stuff.jpg"/>
+										<date type="accessed" when="2021-07-20">Accessed 7/20/2021</date>
 									</bibl>
 								</desc>
 							</graphic>
@@ -5859,7 +5841,7 @@
 												<title>The Last Supper</title>
 												<date>1555-1562</date>
 												<pubPlace>Madrid</pubPlace>
-												<distributor>Museo Nactional De Prado</distributor>
+												<distributor>Museo Nacional De Prado</distributor>
 												<ptr target="https://www.museodelprado.es/en/the-collection/art-work/the-last-supper/2800c04d-a3ad-41eb-a75b-fe359d7d1dde"/>
 												<date type="accessed" when="2021-07-12">Accessed 7/12/2021</date>
 												<availability>
@@ -5964,7 +5946,6 @@
             <figure rend="float">
               <graphic width="3in" n="10067" url="media/image68.jpeg" source="http://behance.vo.llnwd.net/profiles2/94158/projects/196848/941581237131359.jpg">
 								<desc>
-									<label>Label used for img alt text for HTML and ePub screen readers</label>
 									<bibl>
 										<author>Kevin Bauman</author>
 										<title>Small Churches</title>
@@ -6247,7 +6228,6 @@
             <figure rend="float">
               <graphic width="3in" n="10072" url="media/image73.jpeg" source="http://upload.wikimedia.org/wikipedia/commons/f/fc/Karl_Marx.jpg">
 								<desc>
-									<label>Label used for img alt text for HTML and ePub screen readers</label>
 									<bibl>
 										<author>John Jabez Edwin Mayall (photographer)</author>
 										<title>Portrait of Karl Marx</title>
@@ -6739,12 +6719,11 @@
             <figure rend="float">
               <graphic width="3in" n="10080" url="media/image81.jpeg">
 								<desc>
-									<label>Three aid workers wearing logos of the red star of david, red cross, and red crescent, respectively</label>
+									<label>Three aid workers wearing logos of the red star of David, red cross, and red crescent, respectively</label>
 									<bibl>
 										<author>The Canadian Red Cross</author>
 										<title>Worldwide Wednesday Wrap-Up</title>
 										<date>2010</date>
-										<pubPlace>Location of a publisher, where a work of art was orginally created, or where it is now.</pubPlace>
 										<distributor>Canadian Red Cross Blog</distributor>
 										<ptr target="https://www.redcross.ca/blog/2010/7/worldwide-wednesday-wrap-up"/>
 										<ptr target="https://www.redcross.ca/blogImages/en-CA/2010/07/christine1.jpg"/>
@@ -6855,7 +6834,6 @@
               <graphic width="3in" n="10082" url="media/image83.jpeg" source="http://upload.wikimedia.org/wikipedia/en/c/c6/Assassination_of_Oscar_Romero.jpg">
 								<desc>
 									<bibl>
-										<author>Author of a book, artist, photographer of a historical photograph</author>
 										<title>The Assassination of Oscar Romero</title>
 										<date>1980</date>
 										<pubPlace>Madrid</pubPlace>
@@ -6912,7 +6890,7 @@
 								<desc>
 									<label>Painting of the prophet Miriam leading the Song of the Sea in Exodus 15</label>
 									<bibl>
-										<author>Golden Hagaddah</author>
+										<author>Golden Haggadah</author>
 										<title>Miriam and her companions dancing after crossing the Red Sea</title>
 										<date>c. 1320</date>
 										<pubPlace>Created in Spain, now in London</pubPlace>
@@ -7219,5 +7197,10 @@
         </div>
       </div>
     </body>
+		<back>
+			<div type="appendix" xml:id="listfigures">
+				<head>List of Figures</head>
+			</div>
+		</back>
   </text>
 </TEI>
