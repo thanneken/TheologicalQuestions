@@ -7,7 +7,7 @@
 
 [Kindle MOBI](derivatives/TheologicalQuestions.mobi)
 
-# /Theological Questions Supplements/
+# *Theological Questions Supplements*
 
 ## “Mary, Mariology, and Marianists” (*Theological Questions Supplements* 1)
 [HTML Webpage](supplements/mary/text.html)
