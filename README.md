@@ -16,7 +16,7 @@ Enjoy!
 
 There is only one version for now. When there are alternative versions they will be selectable. 
 
-Starting in 2022, there is also /Theological Questions Supplements/. The first supplement is “Mary, Mariology, and Marianists.” 
+Starting in 2022, there is also *Theological Questions Supplements*. The first supplement is “Mary, Mariology, and Marianists.” 
 ([web](https://thanneken.github.io/TheologicalQuestions/supplements/mary/text.html), 
 [ePub](https://thanneken.github.io/TheologicalQuestions/supplements/mary/text.epub), 
 [PDF](https://thanneken.github.io/TheologicalQuestions/supplements/mary/text.pdf), 

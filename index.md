@@ -1,4 +1,4 @@
-#/Theological Questions/ Textbook
+# *Theological Questions* Textbook
 [HTML Webpage](derivatives/TheologicalQuestions.html)
 
 [PDF Virtual Paper](derivatives/TheologicalQuestions.pdf)
@@ -7,9 +7,9 @@
 
 [Kindle MOBI](derivatives/TheologicalQuestions.mobi)
 
-#/Theological Questions Supplements/
+# /Theological Questions Supplements/
 
-## “Mary, Mariology, and Marianists” (/Theological Questions Supplements/ 1)
+## “Mary, Mariology, and Marianists” (*Theological Questions Supplements* 1)
 [HTML Webpage](supplements/mary/text.html)
 
 [PDF Virtual Paper](supplements/mary/text.pdf)
@@ -18,6 +18,6 @@
 
 [Kindle MOBI](supplements/mary/text.mobi)
 
-#/Theological Questions/ Open-Source Repository
+# *Theological Questions* Open-Source Repository
 
 [GitHub Source Repository](https://github.com/thanneken/TheologicalQuestions/)
