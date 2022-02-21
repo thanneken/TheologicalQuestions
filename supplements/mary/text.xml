@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "structure.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Mary, Mariology, and Marianists</title>
+        <author xml:id="TRH">Todd R. Hanneken</author>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>St. Mary’s University</distributor>
+        <pubPlace>San Antonio, Texas</pubPlace>
+        <availability status="free">
+          <licence>
+            <ref target="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC</ref>
+          </licence>
+        </availability>
+        <date when="2022">2022</date>
+      </publicationStmt>
+      <seriesStmt>
+        <title>Theological Questions Supplements</title>
+        <editor sameAs="#TRH"/>
+      </seriesStmt>
+      <sourceDesc>
+        <ab>Born Digital</ab>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change when="2021-12-16" who="#TRH">Start of basic outline</change>
+      <change when="2022-01-17" who="#TRH">First draft complete</change>
+			<change when="2022-02-21" who="#TRH">Draft Published to GitHub</change>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="en">
+    <body>
+      <div>
+        <head>Introduction</head>
+        <figure>
+          <graphic width="3in" n="1" url="media/Virgin_Mary_and_Jesus-old_Persian_miniature.jpg">
+            <desc>
+              <bibl>
+                <title>Maryam and Isa in an old Persian Miniature</title>
+                <ptr target="https://upload.wikimedia.org/wikipedia/commons/f/f4/Virgin_Mary_and_Jesus_%28old_Persian_miniature%29.jpg"/>
+              </bibl>
+            </desc>
+          </graphic>
+          <head type="figure">Maryam and Isa (Mary and Jesus) in Islam.</head>
+        </figure>
+        <p>
+          <s>Mary the mother of Jesus is an important and controversial figure in the Christian Bible and the Qur’an.</s>
+          <s>All Christians and Muslims believe Mary gave birth to Jesus miraculously as a virgin, but the agreement ends there.</s>
+          <s>The Qur’an gives more centrality to Mary than the Christian Bible, for example in the total number of mentions and by tracing the genealogy of Jesus through Mary rather than Joseph.</s>
+          <s>Yet while Christians believe that Mary is the mother of God, it is important for Muslims that Jesus was an exclusively human prophet who taught the same monotheism as the prophet Muhammed.</s>
+          <s>Within Christianity, Eastern Orthodox and Catholic Christians place more emphasis on Mary than Protestant Christians.</s>
+          <s>At least in North America, it is highly probable that a person named Mary or Maria comes from a Catholic family, and an institution named after Mary or one of her titles (St. Mary’s, Notre Dame, Our Lady of the Lake / Sea / Harbor<!-- / Victory-->, Immaculate Conception, etc.) was historically named by Catholics.</s>
+          <s>Not all Catholics choose to emphasize Mary to the same degree, and not all Protestants have the same degree of aversion, but a general pattern is clear.</s>
+          <s>The following will discuss first the story of Mary in the New Testament, on which all Christians agree.</s>
+          <s>Next, traditions not clearly stated in scripture will explain the ongoing significance of Mary for Eastern Orthodox and Catholic Christians.</s>
+          <s>From there we will turn to one particular devotee of Mary, William Joseph Chaminade, and the other founders of the Marianists, who in turn founded St. Mary’s University in San Antonio.</s>
+        </p>
+      </div>
+      <div>
+        <head>The Story of Mary of Nazareth in the New Testament</head>
+        <p>
+          <s>Most of what Eastern Orthodox and Catholic Christians believe about Mary is not clearly stated in the New Testament.</s>
+          <s>What is stated of her role in the story of God’s salvation through her son Jesus does not necessarily emphasize her centrality or continuing significance for Christians.</s>
+          <s>The earliest Christian writer, Paul, never mentions Mary.</s>
+          <s>The earliest story of the life of Jesus, the Gospel of Mark, does not mention the birth or infancy of Jesus.</s>
+          <s>Mark does name Mary as the mother of Jesus, but also names <foreign xml:lang="el">ἀδελφοὶ</foreign> “brothers.”</s>
+          <s>A later version of the story of Jesus, the Gospel of Matthew, states that Mary was a virgin when she gave birth to Jesus.</s>
+          <s>Matthew’s emphasis is on the miraculous life of Jesus and fulfillment of scriptures, in this case the prophecy of Isaiah that a virgin will conceive and bear a son.</s>
+          <s>The important early principle that Jesus fulfills the scriptures of Israel is discussed in 
+						<title level="m">Theological Questions</title> 
+						“<ref target="https://thanneken.github.io/TheologicalQuestions/derivatives/TheologicalQuestions.html#index.xml-body.1_div.3_div.3_div.7">fulfills the Scriptures</ref>.”</s>
+          <s>Mark and Matthew will leave it to later Christians to debate whether Jesus had full (both parents) siblings, that is, whether Mary remained a virgin after giving birth to Jesus.</s>
+          <s>Besides the miraculous birth, Matthew’s gospel also describes Mary, Joseph, and Jesus fleeing to Egypt while Herod massacred children.</s>
+          <s>Again, the original audience was more interested in ways that the life of Jesus parallels the story of Israel in fulfillment of the scriptures.</s>
+          <s>Readers in our own time have heard the story of the holy family as refugees as a challenge to us to think more compassionately about refugees today.</s>
+        </p>
+        <figure>
+          <graphic width="3in" n="2" url="media/ALG-Latimore.jpg">
+            <desc>
+              <bibl>
+                <author>Kelly Latimore</author>
+                <title>La Sagrada Familia</title>
+                <date type="created" when="2016">2016</date>
+                <ptr target="https://labiblia.stmarytx.edu/2021/10/ALG-Latimore.jpg"/>
+              </bibl>
+            </desc>
+          </graphic>
+          <head type="figure">Kelly Latimore, La Sagrada Familia (2016).</head>
+        </figure>
+        <p>
+          <s>The earliest Christian writing to pay extended attention to Mary is the Gospel of Luke along with its sequel, the Acts of the Apostles.</s>
+          <s>Luke makes Mary more than a passive vehicle of God’s salvation, portraying her making a choice when challenged by the angel Gabriel.</s>
+          <s>Luke also relates Mary’s visit to Elizabeth, the mother of John the Baptist, and the composition of the hymn called the Magnificat.</s>
+          <s>The Acts of the Apostles places Mary present among the apostles at Pentecost when the Holy Spirit begins to act among the followers of Jesus.</s>
+          <s>Although Mary is not mentioned after the first chapter of the Acts of the Apostles, later interpreters will find great significance in her presence.</s>
+          <s>The story of Pentecost can be thought of as the beginning, or birth, of the church.</s>
+          <s>In other early Christian writings, the church is called the body of Christ.</s>
+          <s>Interpreters will expand on the parallel between Mary as conceiver, gestator, birth-giver, and nurturer of the literal incarnate body of Christ as well as the mystical body of Christ, the church.</s>
+          <s>All Christians can agree on what is clearly stated in the New Testament, but the New Testament does not make clear whether Mary’s significance is limited to the events of two thousand years ago, or continues to be relevant to the faith lives of all Christians in the ongoing present.</s>
+        </p>
+        <p>
+          <s>The most recent Gospel in the New Testament, John, includes Mary not just at the birth of Jesus but among the followers of Jesus after his death.</s>
+          <s>According to John, Jesus, while dying on the cross, entrusts Mary to John and John to Mary.</s>
+          <s>John also portrays Mary as the first to teach others to follow Jesus while attending a wedding at Cana.</s>
+          <s>Also attributed to John is the last book of the Christian bible, the Apocalypse of John also called the book of Revelation.</s>
+          <s>The woman who gives birth is not called Mary and need not be interpreted as Mary.</s>
+          <s>She could represent the church, which would still fit the interpretation of Mary as mother of the Church.</s>
+          <s>We may never know how the author and first audience understood the strange vision in Revelation 12.</s>
+          <s>We can safely say that John’s audience understood Mary to be the mother of Jesus, an exemplary follower of Jesus, and related to the community at its founding.</s>
+          <s>We can as safely say that her role does not rival that of Jesus in frequency of mention or significance of claims.</s>
+          <s>Later Christians will decide for themselves how much significance Mary continues to play in the faith lives of the followers of her son.</s>
+        </p>
+      </div>
+      <div>
+        <head>Mary in Interpretations and Early Tradition</head>
+        <p>
+          <s>Three titles or claims about Mary illustrate three fundamental differences in how Christians think, not just about Mary, but about fundamental questions of how we think about faith.</s>
+          <s>Those differences largely correlate with differences between Catholic and Protestant Christians, but also vary within each community and across time.</s>
+          <s>The claim that Mary was eternally without sin illustrates the claim by Catholics that traditions outside of scripture can be reliable sources 
+						(Scripture and Tradition).</s>
+          <s>The claim that Mary is the mother of the church illustrates the Catholic belief that exemplary Christians who are now dead continue to be part of our faith lives 
+						(Communion of the Saints).</s>
+          <s>The claim that Mary is the Queen of Heaven illustrates the belief 
+						(less clearly divided between all Catholics and all Protestants) 
+						that advocacy from others can add meaningfully to our individual merits for purposes of divine judgment 
+						(intercession).</s>
+        </p>
+        <div>
+          <head>Eternally Virgin and Without Sin</head>
+          <p>
+            <s>The New Testament claims that Mary was a virgin when she conceived and gave birth to Jesus.</s>
+            <s>The New Testament also refers to the “brothers” of Jesus, which could refer to full (both parents) siblings or other literal or figurative family members.</s>
+            <s>The authors in the New Testament did not clarify that question.</s>
+            <s>The tradition that Mary was <hi>eternally virgin</hi> even after giving birth to Jesus (and thus that Jesus had no full siblings) goes back to the Proto-Gospel of James.</s>
+            <s>The Proto-Gospel of James narrates much of the story of the life of Mary, starting with her parents.</s>
+            <s>It is approximately as old as the formation of the New Testament, but was not included in the New Testament.</s>
+            <s>The exclusion could just mean that it was viewed as secondary in importance to the four gospels about Jesus, not necessarily as false.</s>
+            <s>The book and many of its core ideas (including the eternal virginity of Mary) were handed down by Christians for centuries.</s>
+            <s>Catholics believe that we know God both through scripture and through traditions such as these passed down for generations in our church and communities 
+							(<hi>Scripture and Tradition</hi>).</s>
+            <s>Protestants, starting with Martin Luther in the sixteenth century, assert that Scripture is in a class by itself as God’s revelation (<hi>Sola Scriptura</hi>).</s>
+            <s>Most Protestants accept many traditions outside of scripture, such as celebrating the birth of Jesus on December 25, as secondary and acceptable only if they do not contradict scripture.</s>
+            <s>If one is only reading scripture and not considering traditions, it is very reasonable to conclude that Jesus did have full siblings, or at least that the New Testament authors had no interest in teaching us to believe otherwise.</s>
+            <s>When Protestants assert that Mary did not remain a virgin, they are expressing a theological principle of the exclusive centrality of scripture.</s>
+            <s>The views of “Scripture and Tradition” versus “Scripture Alone” are discussed in 
+							<title level="m">Theological Questions</title>, 
+							“<ref target="https://thanneken.github.io/TheologicalQuestions/derivatives/TheologicalQuestions.html#index.xml-body.1_div.5_div.2">Whom do you trust with big decisions?</ref>”</s>
+          </p>
+          <p>
+            <s>Along with the belief that Mary remained eternally virgin is the belief that Mary remained eternally <hi>without sin</hi>.</s>
+            <s>The reasoning here was partly that the most holy God could not be gestated in a sinful body, so Mary must have been without sin.</s>
+            <s>The reasoning also seems to be related to a belief among many early Christians, including Augustine, that sex cannot be separated from lust and sin.</s>
+            <s>Augustine also articulated the belief that all humans are conceived with sin through sex and ultimately from our ancestors, the original sinners, Adam and Eve.</s>
+            <s>This led to the belief that original sin was miraculously blocked when Mary was conceived by her mother.</s>
+            <s>This conception without sin (Immaculate Conception) is honored by Catholics on December 8 and is not to be confused with the annunciation and conception of Jesus on March 25 (nine months before the traditional date of the birth of Jesus).</s>
+            <s>The belief that God makes it possible for people (women and men) to be freed of sin is an important concept for Christianity.</s>
+            <s>Augustine’s view of sexuality as sinful is open to reconsideration by Christians today.</s>
+          </p>
+        </div>
+        <div>
+          <head>Mother of the Church</head>
+          <figure>
+            <graphic width="4in" n="3" url="media/Duccio_di_Buoninsegna_-_Pentecost_-_WGA06739.jpg">
+              <desc>
+                <bibl>
+                  <title>Pentecost</title>
+                  <author>Duccio di Buoninsegna</author>
+                  <date type="created" when="1308">1308</date>
+                  <distributor>Museo dell'Opera del Duomo, Siena</distributor>
+                  <ptr target="https://upload.wikimedia.org/wikipedia/commons/2/21/Duccio_di_Buoninsegna_-_Pentecost_-_WGA06739.jpg"/>
+                </bibl>
+              </desc>
+            </graphic>
+            <head type="figure">Mary, Mother of the Church, center among the apostles at Pentecost, portrayed by Duccio di Buoninsegna, 1308, Siena.</head>
+          </figure>
+          <p>
+            <s>The New Testament at least implies that Mary was present among the earliest communities of the followers of Jesus after his time on earth.</s>
+            <s>The New Testament also makes it easy to conclude that 
+							if Mary conceived, gestated, birthed, and nurtured the literal body of Christ, 
+							and the church is the mystical body of Christ, 
+							then Mary is in that way the mother who conceives, gestates, births, and nurtures the church.</s>
+            <s>One could stop there and conclude that Mary’s significance for the church is limited to the first century.</s>
+            <s>From that perspective, once the important teachings for faith were written (what became the New Testament), Christians need only scripture to nurture their faith lives.</s>
+            <s>Protestant Christians tend to focus on an individual’s personal relationship with Christ as known through Scripture.</s>
+            <s>Catholic Christians add to (or complicate) this focus, not only by placing Tradition together with Scripture (as above).</s>
+            <s>Catholic teaching also focuses on <hi>community more than the individual</hi>.</s>
+            <s>This general pattern is not absolute.</s>
+            <s>Protestants do have communities that foster faith in each other, and Catholics do believe the individual is responsible for important choices.</s>
+            <s>As a matter of general emphasis and priority, however, one can say that Catholic Christians put more emphasis on community and most Protestant Christians place more emphasis on in individual’s personal relationship with God.</s>
+            <s>This difference can be seen in views of Mary’s ongoing relationship to followers of Jesus today, and more broadly the concept of the Communion of Saints.</s>
+          </p>
+          <p>
+            <s>The <hi>Communion of Saints</hi> is the Catholic belief that Mary along with other role models, ancestors, friends, and family members are still meaningful parts of our faith community even after they are dead.</s>
+            <s>We can pray with them and for them, and they can pray for us.</s>
+            <s>While Catholics would emphasize that we pray with Mary and other ancestors, not to them, Protestants more emphasize that God alone should be in our prayers.</s>
+            <s>Praying with and for other people, especially if they are dead, can be seen to distract from exclusive focus on a personal relationship with God.</s>
+            <s>Some Protestant Christians view the problem as worse than poor focus, and more like idolatry in as much as praying with people other than God resembles praying to people other than God.</s>
+            <s>The concepts of Communion of the Saints and individual responsibility are related to 
+						<title level="m">Theological Questions</title> 
+						“<ref target="https://thanneken.github.io/TheologicalQuestions/derivatives/TheologicalQuestions.html#index.xml-body.1_div.4_div.2">What is the Church?</ref>”
+						and “<ref target="https://thanneken.github.io/TheologicalQuestions/derivatives/TheologicalQuestions.html#index.xml-body.1_div.5_div.4_div.3">The individual conscience</ref>.”</s>
+          </p>
+        </div>
+        <div>
+          <head>Assumed Body and Soul into Heaven, Queen of Heaven</head>
+          <figure>
+            <graphic width="6in" n="4" url="media/ETGUYtIXYAAWTS_.jpg">
+              <desc>
+                <bibl>
+                  <ptr target="https://pbs.twimg.com/media/ETGUYtIXYAAWTS_.jpg"/>
+                </bibl>
+              </desc>
+            </graphic>
+            <head type="figure">Portrayal of the Assumption of Mary into Heaven in Assumption Chapel at St. Mary’s University.</head>
+          </figure>
+          <p>
+            <s>The New Testament never mentions the death of Mary.</s>
+            <s>For Orthodox and Catholic Christians, at the end of her earthly life she was taken up (assumed) into heaven, both body and soul (<hi>the assumption</hi>).</s>
+            <s>While other Christians are waiting for the second coming of Christ and resurrection of the body before we can be fully (body and soul) with God, Mary is ahead of us.</s>
+            <s>On one level, this could just be a rational answer to the question of what might one expect to happen to someone who was without sin.</s>
+            <s>The more important implications concern not just what happened almost two millennia ago, but where is Mary now and what can she do.</s>
+            <s>The title <hi>“Queen of Heaven”</hi> is entangled with the political, gender, and power assumptions of Christians of centuries past.</s>
+            <s>It does not merely connote reward for a life well lived, but an ongoing position of authority, even if subordinate to an implied male counterpart, the king.</s>
+            <s>Christians today can find theological insight more relevant than the cultural assumptions and metaphors of the past.</s>
+            <s>Christians differ in our experiences of how and with whom we can relate.</s>
+            <s>Some find it easier to relate to a woman, even if the ultimate goal is to relate better to her son.</s>
+            <s>Catholicism expresses this idea through the idea of patron saints of nationalities and professions 
+							(see <title level="m">Theological Questions</title>
+							“<ref target="https://thanneken.github.io/TheologicalQuestions/derivatives/TheologicalQuestions.html#index.xml-body.1_div.4_div.2_div.2">Citizenship in the Roman Empire and Medieval Europe</ref>”).</s>
+            <s>The controversy is only partly whether it can be helpful to relate to people besides God as a means to relating to God.</s>
+          </p>
+          <figure>
+            <graphic width="6in" n="5" url="media/prado-velazquez-1636-coronation.jpg">
+              <desc>
+                <bibl>
+                  <title>The Coronation of the Virgin</title>
+                  <author>Diego Rodríguez de Silva y Velázquez</author>
+                  <date type="created" when="1636">1636</date>
+                  <distributor>Museo del Prado</distributor>
+                  <ptr target="https://www.museodelprado.es/en/the-collection/art-work/the-coronation-of-the-virgin/5f39f2cc-0197-4522-aecf-1d8e3b2e4ae7"/>
+                </bibl>
+              </desc>
+            </graphic>
+            <head type="figure">The Coronation of the Virgin painted by Diego Rodríguez de Silva y Velázquez, 1636, Museo del Prado.</head>
+          </figure>
+          <p>
+            <s>The sharper controversy is <hi>intercession</hi>, whether people besides God can advocate for us in a way that might compensate for our personal shortcomings.</s>
+            <s>This controversy is less a division between Catholic and Protestant Christians, and more a manifestation of the universal tension between desire for justice (that which is deserved) and desire for mercy (that which is better than deserved).</s>
+            <s>Part of us wants to earn a job based on our own knowledge and skills, while part of us wonders if a connection through a family member, friend, fellow alumnus or fraternity/sorority member might land us a job better than we deserve.</s>
+            <s>Part of me trusts in God’s mercy, Christ’s salvation, and my efforts to cultivate faith in my life such that I may do well when judged by my creator after death.</s>
+            <s>Part of me wants to ask for all the help I can get.</s>
+            <s>When I ask Mary to “pray for us sinners now and at the hour of our death,” I am expressing belief that my community, including Mary, can help me in life and afterlife.</s>
+            <s>Others, (perhaps more so but not exclusively Protestant), could respond that I should not rely on Mary for something as important as the afterlife.</s>
+            <s>Catholics agree that Christ, not Mary, saves us, but the difference is whether focus on Mary detracts from focus on Christ or leads to Christ.</s>
+            <s>One could see devotion as a limited resource, such that allocating devotion to Mary diminishes devotion to God.</s>
+            <s>The role of intercession intersects with <title level="m">Theological Questions</title> 
+						“<ref target="https://thanneken.github.io/TheologicalQuestions/derivatives/TheologicalQuestions.html#index.xml-body.1_div.5_div.3">What do I have to do to be saved?</ref>”</s>
+          </p>
+          <p>
+            <s>The title “Queen of Heaven,” like the other titles, lends itself to confusion as to the status of Mary relative to God.</s>
+            <s>Official Christian theology maintains that Mary is mother of God, not herself God.</s>
+            <s>Mary is without sin, but not the savior who defeats sin and death.</s>
+            <s>Mary is the mother of the church, but only Christ is head of the church.</s>
+            <s>Mary is the Queen of Heaven, but not the King or judge.</s>
+            <s>Official Catholic teaching believes these distinctions can be made clearly, whereas some Protestant teaching suggests they are in danger of blurring.</s>
+            <!--
+						<s>A different question than official church teaching is faith as lived by ordinary Christians.</s>
+						<s>It seems safe to imagine that some Catholics have let devotion to Mary displace devotion to God.</s>
+						<s>How bad is that?</s>
+						<s>I think of the Christians who first came to the western hemisphere and encountered people who had deep commitments to mother goddesses as sustainers of nature and ancestors who continued to watch over them.</s>
+						<s>What should they have said?</s>
+						<s>No doubt some said that all such superstitions needed to be rejected in order to become Christian and do well in this life and the next.</s>
+						<s>Others allowed former beliefs to be woven into an expression of Christianity not identical to the expressions in Europe.</s>
+						<s>Some Christians today perceive Catholics in general and especially in the Caribbean and Latin America as not real Christians because they failed to purge goddess and ancestor worship in all forms.</s>
+						<s>The term <hi>“inculturation”</hi> is used to talk about how much the expression of Christianity can and should vary from place to place based on variations in local culture.</s>
+						-->
+          </p>
+        </div>
+      </div>
+      <div>
+        <head>The Founders of the Marianists</head>
+        <p>
+          <s>The Daughters of Mary Immaculate and Society of Mary <hi>(the Marianists)</hi> began as an endeavor to understand Christian faith in a changing world following the 1789 French Revolution.</s>
+          <s>The French Revolution can be thought of as the replacement of the French monarchy with the French republic.</s>
+          <s>Along with King Louis XVI, the clergy of the Catholic Church benefitted from the former social structure and were in conflict with the revolution.</s>
+          <s>William Joseph Chaminade sought to preserve the Catholic faith without the political and social power structure.</s>
+          <s>He resisted the revolutionaries mostly when it came to protecting non-political small faith communities.</s>
+          <s>He embraced the revolutionaries in the three-part motto of Liberty, Equality, and Family/Fraternity.</s>
+          <s>More so than other Catholic religious movements and orders, the Marianists strive for <hi>equality</hi> among priests, brothers, sisters, and ordinary people in the community.</s>
+        </p>
+        <figure>
+          <graphic width="3in" n="7" url="media/adele-portrait-square.jpg">
+            <desc>
+              <bibl>
+                <title>Adèle de Batz de Trenquelléon</title>
+                <ptr target="https://i0.wp.com/cuhministry.com/wp-content/uploads/2015/01/adele-portrait-square.jpg"/>
+              </bibl>
+            </desc>
+          </graphic>
+          <graphic width="3in" n="8" url="media/high-res-painting-by-fausto-conti.jpg">
+            <desc>
+              <bibl>
+                <title>William Joseph Chaminade</title>
+                <author>Fausto Conti</author>
+                <ptr target="https://i0.wp.com/cuhministry.com/wp-content/uploads/2015/01/high-res-painting-by-fausto-conti.jpg"/>
+              </bibl>
+            </desc>
+          </graphic>
+          <head type="figure">Portrait of Adèle de Batz de Trenquelléon painted by an unknown artist, William Joseph Chaminade painted by Fausto Conti.</head>
+        </figure>
+        <p>
+          <s>The decision to name the movement the Society of Mary (which could also be translated as Friends of Mary) reflects the judgment of Chaminade of what kind of church was needed at that time.</s>
+          <s>David Fleming, former Superior General of the Society of Mary, describes how a Marian church differs from a Petrine or Pauline church.</s>
+          <s>Peter represents the institutional church with a pope, understood as a successor of Peter, as the center.</s>
+          <s>Paul represents the missionary church who seeks to spread Christianity through proselytizing and converting.</s>
+          <s>Mary, according to Fleming, represents the <hi>nurturing church</hi>.</s>
+          <s>She gave birth to the body of Christ, understood as the Church, without claiming power structures or opposing others.</s>
+          <s>Chaminade thought Catholic faith could be nurtured in ordinary people in the (relative) absence of official structures and direct confrontation with revolutionaries who wanted to make the secular state central in the lives of the people.</s>
+        </p>
+        <p>
+          <s>The early work of William Joseph Chaminade, Adèle de Batz de Trenquelléon, and Marie-Thérèse Charlotte de Lamourous focused on two major contributions.</s>
+          <s>The first were <hi>sodalities</hi>, small groups of ordinary people with minimal organization beyond creating a place to share faith.</s>
+          <s>The second major contribution focused on <hi>education</hi>.</s>
+          <s>In the long struggle to establish order in France, many revolutionaries were torn between two principles.</s>
+          <s>They wanted education for ordinary people.</s>
+          <s>Chaminade attracted many to join the Society so they could train and serve as teachers.</s>
+          <s>Many revolutionaries also distrusted any structures associated with the Catholic Church and wanted teachers who were independent of religious authority.</s>
+          <s>Preferably, they would be atheists and teach atheism, or at least secularism in which faith is kept personal and secondary to obligations to government and public society.</s>
+          <s>Where the Society once filled a gap in French society in the need for teachers, teachers committed to public faith were later not welcome in France.</s>
+          <s>One option was to pack the bags and travel to where education and formation in faith were welcome, places such as Texas in 1852.</s>
+        </p>
+        <figure>
+          <graphic width="3in" n="6" url="media/Virgen_de_guadalupe1.jpg">
+            <desc>
+              <bibl>
+                <title>La Virgen de Guadalupe</title>
+                <distributor>Basilica of Our Lady of Guadalupe, Mexico City</distributor>
+                <ptr target="https://upload.wikimedia.org/wikipedia/commons/2/2c/Virgen_de_guadalupe1.jpg"/>
+              </bibl>
+            </desc>
+          </graphic>
+          <head type="figure">Our Lady of Guadalupe, Mexico City.</head>
+        </figure>
+      </div>
+      <div>
+        <head>St. Mary’s University in San Antonio</head>
+        <p>
+          <s>Members of the Society of Mary were active in the work of education in San Antonio starting in 1852.</s>
+          <s>It is a slight exaggeration to say that St. Mary’s University was founded as early as that.</s>
+          <s>Nevertheless, when the time did come to establish a college, the choice to name it St. Mary’s was meaningful on several levels.</s>
+          <s>Certainly the name reflected the “brand” of its founders, the Society of Mary.</s>
+          <s>The idea of patronage may also have been at work.</s>
+          <s>When one names something after a powerful person with copious resources (such as the Bill Greehey School of Business), 
+						one is not only honoring past contributions but hoping for continued patronage to maintain quality worthy of the name.</s>
+          <s>No doubt the most important factor, however, is the association in Catholic tradition of Mary with wisdom and knowledge.</s>
+          <s>In the New Testament, the angel Gabriel greets Mary as “full of grace.”</s>
+          <s>Grace in the theological sense does not mean serenity, but all the gifts of God, such as those listed in Isaiah: 
+						wisdom, understanding, counsel, strength, knowledge, and fear of God (Isaiah 11:2).</s>
+          <s>Although literacy rates for girls in rural Galilee were historically quite low, scenes of the Annunciation in Christian art always portray Mary as reading.</s>
+          <s>Furthermore, she gave birth to Christ, understood in Christianity as wisdom itself described cryptically as early as the book of Proverbs in ancient Israel.</s>
+          <s>Some people today might throw out names like Albert Einstein and Leonardo Da Vinci if they want to evoke intelligence, but <hi>Mary is the traditional seat of wisdom</hi> in Christianity.</s>
+          <s>The “brand” of St. Mary’s University is what we want for our students, namely theological literacy, wisdom, knowledge, and all the gifts of God.</s>
+        </p>
+        <figure>
+          <graphic width="6in" n="9" url="media/trh8.jpg">
+            <desc>
+              <bibl>
+                <title>Cestello Annunciation</title>
+                <author>Sandro Botticelli</author>
+                <date type="created" when="1489">1489</date>
+                <distributor>Uffizi, Florence</distributor>
+                <ptr target="https://labiblia.stmarytx.edu/2021/05/trh8.jpg"/>
+              </bibl>
+            </desc>
+          </graphic>
+          <head type="figure">Sandro Botticelli paints the tradition of the Annunciation that emphasizes that Mary cross-examined the angel Gabriel to make sure she wasn’t being tricked. As always, she is in the midst of her studies when interrupted by the angel.</head>
+        </figure>
+      </div>
+    </body>
+  </text>
+</TEI>
