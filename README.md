@@ -16,6 +16,12 @@ Enjoy!
 
 There is only one version for now. When there are alternative versions they will be selectable. 
 
+Starting in 2022, there is also /Theological Questions Supplements/. The first supplement is “Mary, Mariology, and Marianists.” 
+([web](https://thanneken.github.io/TheologicalQuestions/supplements/mary/text.html), 
+[ePub](https://thanneken.github.io/TheologicalQuestions/supplements/mary/text.epub), 
+[PDF](https://thanneken.github.io/TheologicalQuestions/supplements/mary/text.pdf), 
+[Kindle MOBI](https://thanneken.github.io/TheologicalQuestions/supplements/mary/text.mobi))
+
 # What can I do with it besides read it?
 The Creative Commons BY-NC means you can do anything with it as long as you credit the original contributors appropriately, and do not use it commercially (for profit or potential profit). 
 Please consider contributing back your improvements (next). 
