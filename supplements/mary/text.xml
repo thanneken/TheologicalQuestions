@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Mary, Mariology, and Marianists</title>
+        <title>Mary, Mariology, and the Marianist Family</title>
         <author xml:id="TRH">Todd R. Hanneken</author>
       </titleStmt>
       <publicationStmt>
@@ -36,15 +36,15 @@
       <div>
         <head>Introduction</head>
         <figure>
-          <graphic width="3in" n="1" url="media/Virgin_Mary_and_Jesus-old_Persian_miniature.jpg">
+          <graphic width="3in" n="1" url="media/PersianMiniature.jpg">
             <desc>
               <bibl>
                 <title>Maryam and Isa in an old Persian Miniature</title>
-                <ptr target="https://upload.wikimedia.org/wikipedia/commons/f/f4/Virgin_Mary_and_Jesus_%28old_Persian_miniature%29.jpg"/>
+                <ptr target="https://commons.wikimedia.org/wiki/File:Persian_miniature_of_Jesus_and_Mary.jpg"/>
               </bibl>
             </desc>
           </graphic>
-          <head type="figure">Maryam and Isa (Mary and Jesus) in Islam.</head>
+          <head type="figure">Maryam and Isa (Mary and Jesus) in Islam. (Image from <ref target="https://commons.wikimedia.org/wiki/File:Persian_miniature_of_Jesus_and_Mary.jpg">Wikimedia Commons</ref>.)</head>
         </figure>
         <p>
           <s>Mary the mother of Jesus is an important and controversial figure in the Christian Bible and the Qur’an.</s>
@@ -56,7 +56,7 @@
           <s>Not all Catholics choose to emphasize Mary to the same degree, and not all Protestants have the same degree of aversion, but a general pattern is clear.</s>
           <s>The following will discuss first the story of Mary in the New Testament, on which all Christians agree.</s>
           <s>Next, traditions not clearly stated in scripture will explain the ongoing significance of Mary for Eastern Orthodox and Catholic Christians.</s>
-          <s>From there we will turn to one particular devotee of Mary, William Joseph Chaminade, and the other founders of the Marianists, who in turn founded St. Mary’s University in San Antonio.</s>
+          <s>From there we will turn to one particular devotee of Mary, William Joseph Chaminade, and the other founders of the Marianist Family, who in turn founded St. Mary’s University in San Antonio.</s>
         </p>
       </div>
       <div>
@@ -88,7 +88,7 @@
               </bibl>
             </desc>
           </graphic>
-          <head type="figure">Kelly Latimore, La Sagrada Familia (2016).</head>
+          <head type="figure"><ref target="https://kellylatimoreicons.com/">Kelly Latimore</ref>, La Sagrada Familia (2016).</head>
         </figure>
         <p>
           <s>The earliest Christian writing to pay extended attention to Mary is the Gospel of Luke along with its sequel, the Acts of the Apostles.</s>
@@ -174,7 +174,7 @@
                 </bibl>
               </desc>
             </graphic>
-            <head type="figure">Mary, Mother of the Church, center among the apostles at Pentecost, portrayed by Duccio di Buoninsegna, 1308, Siena.</head>
+            <head type="figure">Mary, Mother of the Church, center among the apostles at Pentecost, portrayed by Duccio di Buoninsegna, 1308, Siena. <ref target="https://commons.wikimedia.org/wiki/File:Duccio_di_Buoninsegna_-_Pentecost_-_WGA06739.jpg">Wikimedia Commons</ref>.</head>
           </figure>
           <p>
             <s>The New Testament at least implies that Mary was present among the earliest communities of the followers of Jesus after his time on earth.</s>
@@ -244,7 +244,7 @@
                 </bibl>
               </desc>
             </graphic>
-            <head type="figure">The Coronation of the Virgin painted by Diego Rodríguez de Silva y Velázquez, 1636, Museo del Prado.</head>
+            <head type="figure">The Coronation of the Virgin painted by Diego Rodríguez de Silva y Velázquez, 1636, <ref target="https://www.museodelprado.es/en/the-collection/art-work/the-coronation-of-the-virgin/5f39f2cc-0197-4522-aecf-1d8e3b2e4ae7">Museo del Prado</ref>.</head>
           </figure>
           <p>
             <s>The sharper controversy is <hi>intercession</hi>, whether people besides God can advocate for us in a way that might compensate for our personal shortcomings.</s>
@@ -281,7 +281,7 @@
         </div>
       </div>
       <div>
-        <head>The Founders of the Marianists</head>
+        <head>The Founders of the Marianist Family</head>
         <p>
           <s>The Daughters of Mary Immaculate and Society of Mary <hi>(the Marianists)</hi> began as an endeavor to understand Christian faith in a changing world following the 1789 French Revolution.</s>
           <s>The French Revolution can be thought of as the replacement of the French monarchy with the French republic.</s>
@@ -296,6 +296,7 @@
             <desc>
               <bibl>
                 <title>Adèle de Batz de Trenquelléon</title>
+								<distributor>Community of the Daughters of Mary in Agen, France</distributor>
                 <ptr target="https://i0.wp.com/cuhministry.com/wp-content/uploads/2015/01/adele-portrait-square.jpg"/>
               </bibl>
             </desc>
@@ -309,14 +310,14 @@
               </bibl>
             </desc>
           </graphic>
-          <head type="figure">Portrait of Adèle de Batz de Trenquelléon painted by an unknown artist, William Joseph Chaminade painted by Fausto Conti.</head>
+          <head type="figure">Portrait of Adèle de Batz de Trenquelléon painted by an unknown artist, now at the Community of the Daughters of Mary in Agen, France. William Joseph Chaminade painted by Fausto Conti. See <ptr target="https://www.marianist.com/history"/> and <ptr target="https://cuhministry.com/founders/about-the-founders/"/>.</head>
         </figure>
         <p>
-          <s>The decision to name the movement the Society of Mary (which could also be translated as Friends of Mary) reflects the judgment of Chaminade of what kind of church was needed at that time.</s>
+					<s>The decisions to name the women’s order the Daughters of Mary Immaculate and the men’s order the Society of Mary reflect a judgment of what kind of church was needed at the time.</s>
           <s>David Fleming, former Superior General of the Society of Mary, describes how a Marian church differs from a Petrine or Pauline church.</s>
           <s>Peter represents the institutional church with a pope, understood as a successor of Peter, as the center.</s>
           <s>Paul represents the missionary church who seeks to spread Christianity through proselytizing and converting.</s>
-          <s>Mary, according to Fleming, represents the <hi>nurturing church</hi>.</s>
+          <s>Mary, <ref target="https://www.nacms.org/bookstore/new-fulcrum-marianist-horizons-today-1">according to Fleming</ref>, represents the <hi>nurturing church</hi>.</s>
           <s>She gave birth to the body of Christ, understood as the Church, without claiming power structures or opposing others.</s>
           <s>Chaminade thought Catholic faith could be nurtured in ordinary people in the (relative) absence of official structures and direct confrontation with revolutionaries who wanted to make the secular state central in the lives of the people.</s>
         </p>
@@ -360,7 +361,7 @@
           <s>Grace in the theological sense does not mean serenity, but all the gifts of God, such as those listed in Isaiah: 
 						wisdom, understanding, counsel, strength, knowledge, and fear of God (Isaiah 11:2).</s>
           <s>Although literacy rates for girls in rural Galilee were historically quite low, scenes of the Annunciation in Christian art always portray Mary as reading.</s>
-          <s>Furthermore, she gave birth to Christ, understood in Christianity as wisdom itself described cryptically as early as the book of Proverbs in ancient Israel.</s>
+          <s>Furthermore, she gave birth to Christ, understood in Christianity as wisdom itself (described cryptically as early as the book of Proverbs in ancient Israel).</s>
           <s>Some people today might throw out names like Albert Einstein and Leonardo Da Vinci if they want to evoke intelligence, but <hi>Mary is the traditional seat of wisdom</hi> in Christianity.</s>
           <s>The “brand” of St. Mary’s University is what we want for our students, namely theological literacy, wisdom, knowledge, and all the gifts of God.</s>
         </p>
@@ -373,10 +374,11 @@
                 <date type="created" when="1489">1489</date>
                 <distributor>Uffizi, Florence</distributor>
                 <ptr target="https://labiblia.stmarytx.edu/2021/05/trh8.jpg"/>
+								<ptr target="https://www.uffizi.it/en/artworks/annunciation-d9604d56-89bb-414c-ba3c-fd71f4d28eec"/>
               </bibl>
             </desc>
           </graphic>
-          <head type="figure">Sandro Botticelli paints the tradition of the Annunciation that emphasizes that Mary cross-examined the angel Gabriel to make sure she wasn’t being tricked. As always, she is in the midst of her studies when interrupted by the angel.</head>
+          <head type="figure">Sandro Botticelli paints the tradition of the Annunciation that emphasizes that Mary cross-examined the angel Gabriel to make sure she wasn’t being tricked. As always, she is in the midst of her studies when interrupted by the angel. The painting is now at the <ref target="https://www.uffizi.it/en/artworks/annunciation-d9604d56-89bb-414c-ba3c-fd71f4d28eec">Uffizi</ref> in Florence, Italy.</head>
         </figure>
       </div>
     </body>
