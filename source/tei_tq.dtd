@@ -1,9 +1,9 @@
 
 <!--
-DTD generated from ODD source 2021-07-13T20:46:21Z. .This template file is freely available and you are hereby authorised to copy, modify, and redistribute it in any way without further reference or permissions. When making such modifications, you are strongly recommended to change the present text to include an accurate statement of the licencing conditions applicable to your modified text.
-TEI Edition: Version 4.2.2. Last updated on
-	9th April 2021, revision 609a109b1
-TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.2.2/
+DTD generated from ODD source 2022-07-04T19:12:54Z. .This template file is freely available and you are hereby authorised to copy, modify, and redistribute it in any way without further reference or permissions. When making such modifications, you are strongly recommended to change the present text to include an accurate statement of the licencing conditions applicable to your modified text.
+TEI Edition: Version 4.4.0. Last updated on
+        19th April 2022, revision ff9cc28b0
+TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.4.0/
 
 -->
 
@@ -143,6 +143,10 @@ select CDATA  #IMPLIED'>
  %tei_att.global.linking.attribute.prev;
  %tei_att.global.linking.attribute.exclude;
  %tei_att.global.linking.attribute.select;'> 
+<!ENTITY % tei_att.global.facs.attribute.facs '
+facs CDATA  #IMPLIED'>
+<!ENTITY % tei_att.global.facs.attributes '
+ %tei_att.global.facs.attribute.facs;'> 
 <!-- end of predeclared classes -->
 
 <!ENTITY % tei_att.anchoring.attribute.anchored '
@@ -238,10 +242,10 @@ to %teidata.temporal.w3c;  #IMPLIED'>
  %tei_att.datable.w3c.attribute.from;
  %tei_att.datable.w3c.attribute.to;'> 
 <!ENTITY % tei_att.datable.attribute.calendar '
-calendar %teidata.pointer;  #IMPLIED'>
+calendar CDATA  #IMPLIED'>
 
 <!ENTITY % tei_att.datable.attribute.period '
-period %teidata.pointer;  #IMPLIED'>
+period CDATA  #IMPLIED'>
 <!ENTITY % tei_att.datable.attributes '%tei_att.datable.w3c.attributes;
  %tei_att.datable.attribute.calendar;
  %tei_att.datable.attribute.period;'> 
@@ -307,7 +311,7 @@ xml:base %teidata.pointer;  #IMPLIED'>
 
 <!ENTITY % tei_att.global.attribute.xmlspace '
 xml:space (default|preserve) #IMPLIED'>
-<!ENTITY % tei_att.global.attributes '%tei_att.global.rendition.attributes;%tei_att.global.linking.attributes;%tei_att.global.analytic.attributes;%tei_att.global.responsibility.attributes;%tei_att.global.source.attributes;
+<!ENTITY % tei_att.global.attributes '%tei_att.global.rendition.attributes;%tei_att.global.linking.attributes;%tei_att.global.analytic.attributes;%tei_att.global.facs.attributes;%tei_att.global.responsibility.attributes;%tei_att.global.source.attributes;
  %tei_att.global.attribute.xmlid;
  %tei_att.global.attribute.n;
  %tei_att.global.attribute.xmllang;
@@ -646,6 +650,11 @@ to %teidata.word;  #IMPLIED'>
 <!ENTITY % model.divBottom_sequenceOptional ""> 
 <!ENTITY % model.divBottom_sequenceOptionalRepeatable ""> 
 <!ENTITY % model.divBottom_sequenceRepeatable ""> 
+<!ENTITY % model.titlepagePart "graphic"> 
+<!ENTITY % model.titlepagePart_sequence "graphic"> 
+<!ENTITY % model.titlepagePart_sequenceOptional "graphic?"> 
+<!ENTITY % model.titlepagePart_sequenceOptionalRepeatable "graphic*"> 
+<!ENTITY % model.titlepagePart_sequenceRepeatable "graphic+"> 
 <!ENTITY % model.imprintPart "biblScope |pubPlace |distributor"> 
 <!ENTITY % model.imprintPart_sequence "biblScope, pubPlace, distributor"> 
 <!ENTITY % model.imprintPart_sequenceOptional "biblScope?, pubPlace?, distributor?"> 
@@ -671,11 +680,11 @@ to %teidata.word;  #IMPLIED'>
 <!ENTITY % model.biblPart_sequenceOptional "%model.respLike;?, %model.imprintPart;?, bibl?, edition?, extent?, availability?"> 
 <!ENTITY % model.biblPart_sequenceOptionalRepeatable "%model.respLike;*, %model.imprintPart;*, bibl*, edition*, extent*, availability*"> 
 <!ENTITY % model.biblPart_sequenceRepeatable "%model.respLike;+, %model.imprintPart;+, bibl+, edition+, extent+, availability+"> 
-<!ENTITY % model.frontPart ""> 
-<!ENTITY % model.frontPart_sequence ""> 
-<!ENTITY % model.frontPart_sequenceOptional ""> 
-<!ENTITY % model.frontPart_sequenceOptionalRepeatable ""> 
-<!ENTITY % model.frontPart_sequenceRepeatable ""> 
+<!ENTITY % model.frontPart "titlePage"> 
+<!ENTITY % model.frontPart_sequence "titlePage"> 
+<!ENTITY % model.frontPart_sequenceOptional "titlePage?"> 
+<!ENTITY % model.frontPart_sequenceOptionalRepeatable "titlePage*"> 
+<!ENTITY % model.frontPart_sequenceRepeatable "titlePage+"> 
 <!ENTITY % model.pPart.data "%model.dateLike; |%model.nameLike;"> 
 <!ENTITY % model.pPart.data_sequence "%model.dateLike;, %model.nameLike;"> 
 <!ENTITY % model.pPart.data_sequenceOptional "%model.dateLike;?, %model.nameLike;?"> 
@@ -794,6 +803,10 @@ select CDATA  #IMPLIED'>
  %tei_att.global.linking.attribute.prev;
  %tei_att.global.linking.attribute.exclude;
  %tei_att.global.linking.attribute.select;'> 
+<!ENTITY % tei_att.global.facs.attribute.facs '
+facs CDATA  #IMPLIED'>
+<!ENTITY % tei_att.global.facs.attributes '
+ %tei_att.global.facs.attribute.facs;'> 
 <!-- start rest of patterns -->
 
 <!ENTITY % macro.paraContent '(#PCDATA|_DUMMY_model.gLike|%model.phrase;|%model.inter;|%model.global;|lg|%model.lLike;)*' >
@@ -840,7 +853,7 @@ select CDATA  #IMPLIED'>
  %tei_att.declarable.attributes;
 status (free|unknown|restricted) #IMPLIED >
 <!--doc:(back matter) contains any appendixes, etc. following the main part of a text. [4.7. Back Matter 4. Default Text Structure] -->
-<!ELEMENT back (((_DUMMY_model.frontPart|%model.pLike.front;|%model.pLike;|%model.listLike;|%model.global;)*,(((_DUMMY_model.div1Like),(_DUMMY_model.frontPart|_DUMMY_model.div1Like|%model.global;)*)|((%model.divLike;),(_DUMMY_model.frontPart|%model.divLike;|%model.global;)*))?,((_DUMMY_model.divBottomPart),(_DUMMY_model.divBottomPart|%model.global;)*)?))>
+<!ELEMENT back (((%model.frontPart;|%model.pLike.front;|%model.pLike;|%model.listLike;|%model.global;)*,(((_DUMMY_model.div1Like),(%model.frontPart;|_DUMMY_model.div1Like|%model.global;)*)|((%model.divLike;),(%model.frontPart;|%model.divLike;|%model.global;)*))?,((_DUMMY_model.divBottomPart),(_DUMMY_model.divBottomPart|%model.global;)*)?))>
 <!ATTLIST back xmlns CDATA "http://www.tei-c.org/ns/1.0">
 <!ATTLIST back
  %tei_att.global.attributes; >
@@ -860,7 +873,7 @@ status (free|unknown|restricted) #IMPLIED >
  %tei_att.global.attributes;
  %tei_att.citing.attributes; >
 <!--doc:(text body) contains the whole body of a single unitary text, excluding any front or back matter. [4. Default Text Structure] -->
-<!ELEMENT body (((%model.global;)*,((%model.divTop;),(%model.global;|%model.divTop;)*)?,((_DUMMY_model.divGenLike),(%model.global;|_DUMMY_model.divGenLike)*)?,(((%model.divLike;),(%model.global;|_DUMMY_model.divGenLike)*)+|((_DUMMY_model.div1Like),(%model.global;|_DUMMY_model.divGenLike)*)+|(((%model.common;),(%model.global;)*)+,(((%model.divLike;),(%model.global;|_DUMMY_model.divGenLike)*)+|((_DUMMY_model.div1Like),(%model.global;|_DUMMY_model.divGenLike)*)+)?)),((_DUMMY_model.divBottom),(%model.global;)*)*))>
+<!ELEMENT body (((%model.global;)*,((%model.divTop;),(%model.global;|%model.divTop;)*)?,((_DUMMY_model.divGenLike),(%model.global;|_DUMMY_model.divGenLike)*)?,(((%model.divLike;),(%model.global;|_DUMMY_model.divGenLike)*)+|((_DUMMY_model.div1Like),(%model.global;|_DUMMY_model.divGenLike)*)+|(((schemaSpec|%model.common;),(%model.global;)*)+,(((%model.divLike;),(%model.global;|_DUMMY_model.divGenLike)*)+|((_DUMMY_model.div1Like),(%model.global;|_DUMMY_model.divGenLike)*)+)?)),((_DUMMY_model.divBottom),(%model.global;)*)*))>
 <!ATTLIST body xmlns CDATA "http://www.tei-c.org/ns/1.0">
 <!ATTLIST body
  %tei_att.global.attributes; >
@@ -896,7 +909,7 @@ target CDATA  #IMPLIED >
  %tei_att.editLike.attributes;
  %tei_att.dimensions.attributes;
  %tei_att.typed.attributes; >
-<!--doc:(description) contains a brief description of the object documented by its parent element, typically a documentation element or an entity. [22.4.1. Description of Components] -->
+<!--doc:(description) contains a short description of the purpose, function, or use of its parent element, or when the parent is a documentation element, describes or defines the object being documented.  [22.4.1. Description of Components] -->
 <!ELEMENT desc %macro.limitedContent;>
 <!ATTLIST desc xmlns CDATA "http://www.tei-c.org/ns/1.0">
 <!ATTLIST desc
@@ -920,7 +933,7 @@ social %teidata.text;  #IMPLIED >
  %tei_att.global.attributes;
  %tei_att.canonical.attributes; >
 <!--doc:(text division) contains a subdivision of the front, body, or back of a text. [4.1. Divisions of the Body] -->
-<!ELEMENT div (((%model.divTop;|%model.global;)*,((((%model.divLike;|_DUMMY_model.divGenLike),(%model.global;)*)+|(((%model.common;),(%model.global;)*)+,((%model.divLike;|_DUMMY_model.divGenLike),(%model.global;)*)*)),((_DUMMY_model.divBottom),(%model.global;)*)*)?))>
+<!ELEMENT div (((%model.divTop;|%model.global;)*,((((%model.divLike;|_DUMMY_model.divGenLike),(%model.global;)*)+|(((schemaSpec|%model.common;),(%model.global;)*)+,((%model.divLike;|_DUMMY_model.divGenLike),(%model.global;)*)*)),((_DUMMY_model.divBottom),(%model.global;)*)*)?))>
 <!ATTLIST div xmlns CDATA "http://www.tei-c.org/ns/1.0">
 <!ATTLIST div
  %tei_att.global.attributes;
@@ -986,6 +999,11 @@ social %teidata.text;  #IMPLIED >
 <!ATTLIST foreign xmlns CDATA "http://www.tei-c.org/ns/1.0">
 <!ATTLIST foreign
  %tei_att.global.attributes; >
+<!--doc:(front matter) contains any prefatory matter (headers, abstracts, title page, prefaces, dedications, etc.) found at the start of a document, before the main body. [4.6. Title Pages 4. Default Text Structure] -->
+<!ELEMENT front (((%model.frontPart;|%model.pLike;|%model.pLike.front;|%model.global;)*,((((_DUMMY_model.div1Like),(_DUMMY_model.div1Like|%model.frontPart;|%model.global;)*)|((%model.divLike;),(%model.divLike;|%model.frontPart;|%model.global;)*)),((_DUMMY_model.divBottom),(_DUMMY_model.divBottom|%model.global;)*)?)?))>
+<!ATTLIST front xmlns CDATA "http://www.tei-c.org/ns/1.0">
+<!ATTLIST front
+ %tei_att.global.attributes; >
 <!--doc:(funding body) specifies the name of an individual, institution, or organization responsible for the funding of a project or text. [2.2.1. The Title Statement] -->
 <!ELEMENT funder %macro.phraseSeq.limited;>
 <!ATTLIST funder xmlns CDATA "http://www.tei-c.org/ns/1.0">
@@ -999,7 +1017,8 @@ social %teidata.text;  #IMPLIED >
 <!ATTLIST graphic
  %tei_att.global.attributes;
  %tei_att.media.attributes;
- %tei_att.resourced.attributes; >
+ %tei_att.resourced.attributes;
+ %tei_att.typed.attributes; >
 <!--doc:(heading) contains any type of heading, for example the title of a section, or the heading of a list, glossary, manuscript description, etc. [4.2.1. Headings and Trailers] -->
 <!ELEMENT head (#PCDATA|lg|_DUMMY_model.gLike|%model.phrase;|%model.inter;|%model.lLike;|%model.global;)*>
 <!ATTLIST head xmlns CDATA "http://www.tei-c.org/ns/1.0">
@@ -1231,6 +1250,13 @@ type %teidata.enumerated;  #IMPLIED >
  %tei_att.typed.attribute.subtype;
  %tei_att.canonical.attributes;
  %tei_att.datable.attributes;
+type %teidata.enumerated;  #IMPLIED >
+<!--doc:(title page) contains the title page of a text, appearing within the front or back matter. [4.6. Title Pages] -->
+<!ELEMENT titlePage (((%model.global;)*,(%model.titlepagePart;),(%model.titlepagePart;|%model.global;)*))>
+<!ATTLIST titlePage xmlns CDATA "http://www.tei-c.org/ns/1.0">
+<!ATTLIST titlePage
+ %tei_att.global.attributes;
+ %tei_att.typed.attribute.subtype;
 type %teidata.enumerated;  #IMPLIED >
 <!--doc:(title statement) groups information about the title of a work and those responsible for its content. [2.2.1. The Title Statement 2.2. The File Description] -->
 <!ELEMENT titleStmt (((title)+,(%model.respLike;)*))>

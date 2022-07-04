@@ -69,7 +69,7 @@
 				<xsl:element name="i" xmlns="http://www.w3.org/1999/xhtml">
 					<xsl:value-of select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
 				</xsl:element><xsl:text>. </xsl:text>
-				<xsl:value-of select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:editionStmt/tei:edition/tei:title"/><xsl:text>. </xsl:text>
+				<xsl:apply-templates select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:editionStmt/tei:edition"/><xsl:text> Edition. </xsl:text>
 				<xsl:value-of select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:pubPlace"/><xsl:text>: </xsl:text>
 				<xsl:value-of select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:distributor"/><xsl:text> </xsl:text>
 				<xsl:value-of select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:date"/><xsl:text>. </xsl:text>
@@ -205,6 +205,15 @@
 							</xsl:element>
 						</xsl:element>
 					</xsl:for-each>
+				</xsl:element>
+			</xsl:when>
+			<xsl:when test="@xml:id='listsupplements'">
+				<xsl:element name="div" xmlns="http://www.w3.org/1999/xhtml">
+					<xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute>
+					<!--
+					putting the heading in the xml rather than here causes it to be included in the TOC, advantageous or internationalization
+					-->
+					<xsl:apply-templates/>
 				</xsl:element>
 			</xsl:when>
 			<xsl:otherwise>

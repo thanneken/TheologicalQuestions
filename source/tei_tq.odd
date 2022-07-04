@@ -126,14 +126,14 @@
           <moduleRef key="core" include="p list item head author title bibl biblScope cit date distinct editor emph foreign graphic hi lb milestone note pubPlace q quote ref soCalled name desc l ptr label"/>
           <moduleRef key="tei"/>
           <moduleRef key="header" include="teiHeader fileDesc titleStmt publicationStmt sourceDesc availability change creation distributor edition editionStmt editorialDecl encodingDesc extent funder idno keywords langUsage language licence notesStmt profileDesc refsDecl revisionDesc seriesStmt textClass"/>
-          <moduleRef key="textstructure" include="TEI text body div floatingText back"/>
+          <moduleRef key="textstructure" include="TEI text body div floatingText back front titlePage"/>
           <specGrpRef target="#classmods"/>
           <specGrpRef target="#bodyfixes"/>
           <specGrpRef target="#hdrfixes"/>
           <moduleRef key="figures" include="figure"/>
           <moduleRef key="analysis" include="s"/>
           <moduleRef key="linking" include="ab"/>
-        </schemaSpec>
+        <classRef key="att.global.facs"/></schemaSpec>
       </div>
     </body>
   </text>

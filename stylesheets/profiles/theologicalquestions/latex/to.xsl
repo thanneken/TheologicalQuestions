@@ -38,10 +38,14 @@
 			breaklinks=TRUE}
 		\usepackage{array}
 		\usepackage{tabularx}
+		\usepackage{pdfpages}
 	</xsl:template>
 
 	<oxy:doc><desc>front matter</desc></oxy:doc>
-	<xsl:template name="printTitleAndLogo"> 
+	<xsl:template match="/tei:TEI/tei:text/tei:front">
+		<xsl:text>&#10;\includepdf[fitpaper=true]{</xsl:text><xsl:value-of select="/tei:TEI/tei:text/tei:front/tei:titlePage/tei:graphic/@url"/><xsl:text>} </xsl:text>
+		<xsl:text>&#10;\begin{titlepage}&#10;</xsl:text>
+		<xsl:text>&#10;\pagenumbering{roman}&#10;</xsl:text>
 		<xsl:text>&#10;\topskip0pt &#10;\vspace*{\fill}&#10;\begin{minipage}{\textwidth}&#10;\begin{center}&#10;\begin{spacing}{2.0}</xsl:text>
 		<xsl:for-each select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:author">
 			<xsl:text>&#10;\noindent\par{</xsl:text><xsl:value-of select="."/><xsl:text> (author)}</xsl:text>
@@ -75,6 +79,7 @@
 		<xsl:text>}</xsl:text>
 		<xsl:text>&#10;\noindent\par{</xsl:text><xsl:apply-templates select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:notesStmt/tei:note"/><xsl:text>} </xsl:text>
 		<xsl:text>&#10;\vspace{90pt} &#10;\end{spacing} &#10;\end{center} &#10;\end{minipage} &#10;\vfill </xsl:text>
+		<xsl:text>&#10;\end{titlepage}&#10;</xsl:text>
 	</xsl:template>
 
 	<oxy:doc><desc>don't need to print top level head in addition to front matter</desc></oxy:doc>
@@ -120,7 +125,7 @@
 	<oxy:doc><desc>clearpage with every unit chapter that is not the first in the unit</desc></oxy:doc>
 	<xsl:template match="tei:div">
 		<xsl:choose>
-			<xsl:when test="tei:match(@type,'unit')">
+			<xsl:when test="tei:match(@type,'unit') and not(@n=1)">
 				<xsl:text>\clearpage</xsl:text>
 				<xsl:apply-templates/>
 			</xsl:when>
@@ -332,47 +337,6 @@
 			<xsl:when test="@xml:id='listfigures'">
 				<xsl:apply-templates select="tei:head"/>
 				<xsl:for-each select="//tei:graphic">
-
-					<!--
-					<xsl:text>\noindent\par{</xsl:text>
-					<xsl:text>&#10;\includegraphics[width=1in]{</xsl:text>
-					<xsl:value-of select="@url"/>
-					<xsl:text>}</xsl:text>
-					<xsl:for-each select="tei:desc/tei:label">
-						<xsl:value-of select="tei:escapeChars(normalize-space(.),.)"/>
-					</xsl:for-each>
-					<xsl:if test="tei:desc/tei:label and ../tei:head">
-						<xsl:text>. </xsl:text>
-					</xsl:if>
-					<xsl:for-each select="../tei:head">
-						<xsl:value-of select="tei:escapeChars(normalize-space(.),.)"/>
-					</xsl:for-each>
-					<xsl:text>}\noindent\par\small{</xsl:text>
-						<xsl:apply-templates select="tei:desc/tei:bibl"/>
-					<xsl:text>}&#10;</xsl:text>
-					-->
-
-					<!--
-					<xsl:text>&#10;\begin{wrapfigure}{l}{1in}\fbox{\begin{minipage}{1in}&#10;</xsl:text>
-					<xsl:text>&#10;\includegraphics[width=1in]{</xsl:text>
-					<xsl:value-of select="@url"/>
-					<xsl:text>}</xsl:text>
-					<xsl:text>\end{minipage}}&#10;\end{wrapfigure}&#10;</xsl:text>
-					<xsl:text>\noindent\par{</xsl:text>
-					<xsl:for-each select="tei:desc/tei:label">
-						<xsl:value-of select="tei:escapeChars(normalize-space(.),.)"/>
-					</xsl:for-each>
-					<xsl:if test="tei:desc/tei:label and ../tei:head">
-						<xsl:text>. </xsl:text>
-					</xsl:if>
-					<xsl:for-each select="../tei:head">
-						<xsl:value-of select="tei:escapeChars(normalize-space(.),.)"/>
-					</xsl:for-each>
-					<xsl:text>}\noindent\par\small{</xsl:text>
-						<xsl:apply-templates select="tei:desc/tei:bibl"/>
-					<xsl:text>}&#10;</xsl:text>
-					-->
-
 					<xsl:text>&#10;\noindent\begin{tabularx}{\textwidth}{p{0.15\textwidth} p{0.85\textwidth}}&#10;</xsl:text>
 					<xsl:text>&#10;\begin{minipage}{1in}\includegraphics[width=1in]{</xsl:text>
 					<xsl:value-of select="@url"/>
@@ -390,12 +354,10 @@
 						<xsl:apply-templates select="tei:desc/tei:bibl"/>
 					<xsl:text>}\end{minipage}\\&#10;\end{tabularx}&#10;</xsl:text>
 					<xsl:text>&#10;\vspace{18pt} </xsl:text>
-					<!--
-					-->
 				</xsl:for-each>
 			</xsl:when>
 			<xsl:otherwise>
-				<xsl:text>Unanticipated Scenario in Backmatter</xsl:text>
+				<xsl:apply-templates/>
 			</xsl:otherwise>
 		</xsl:choose>
 	</xsl:template>

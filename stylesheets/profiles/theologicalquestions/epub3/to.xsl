@@ -10,10 +10,10 @@
 	<xsl:import href="../../../epub3/tei-to-epub3.xsl"/>
 	<xsl:strip-space elements="*"/>
 	<xsl:preserve-space elements="tei:bibl"/>
-	<!-- exporting to epub similar to but not identical with html5 -->
 	<!-- quotation marks are typed in the source, do not add -->
 	<xsl:param name="preQuote"/>
 	<xsl:param name="postQuote"/>
+
 	<xsl:template name="cssHook">
 		<xsl:element name="style" xmlns="http://www.w3.org/1999/xhtml">
 			span.bibl{font-style:normal;}
@@ -255,6 +255,32 @@
 					</xsl:element>
 				</xsl:result-document>
 			</xsl:when>
+			<xsl:when test="@xml:id='listsupplements'">
+				<xsl:result-document href="{concat($directory,'/OPS/listsupplements.html')}" method="xml">
+					<xsl:element name="html" xmlns="http://www.w3.org/1999/xhtml">
+						<xsl:attribute name="xml:lang"><xsl:text>en</xsl:text></xsl:attribute>
+						<xsl:element name="head" xmlns="http://www.w3.org/1999/xhtml">
+							<xsl:call-template name="metaHTML">
+								<xsl:with-param name="title">listsupplements</xsl:with-param>
+							</xsl:call-template>
+							<xsl:call-template name="linkCSS">
+								<xsl:with-param name="file">stylesheet.css</xsl:with-param>
+							</xsl:call-template>
+							<xsl:call-template name="cssHook"/>
+							<xsl:element name="title" xmlns="http://www.w3.org/1999/xhtml">
+								<xsl:text>listsupplements</xsl:text>
+							</xsl:element>
+						</xsl:element>
+						<xsl:element name="body" xmlns="http://www.w3.org/1999/xhtml">
+							<xsl:element name="div" xmlns="http://www.w3.org/1999/xhtml">
+								<xsl:attribute name="class"><xsl:text>figurelisthead</xsl:text></xsl:attribute>
+								<xsl:value-of select="tei:head"/>
+							</xsl:element>
+							<xsl:apply-templates/>
+						</xsl:element>
+					</xsl:element>
+				</xsl:result-document>
+			</xsl:when>
 			<xsl:otherwise>
 				<xsl:text>Unanticipated Scenario in Backmatter</xsl:text>
 			</xsl:otherwise>
@@ -347,4 +373,5 @@
 		</xsl:element>
 		<xsl:text>. </xsl:text>
 	</xsl:template>
+
 </xsl:stylesheet>

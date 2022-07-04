@@ -5,15 +5,11 @@
       <titleStmt>
         <title>Theological Questions</title>
         <author xml:id="TRH">Todd R. Hanneken</author>
-        <editor role="advisor" xml:id="JN">Jude Ngome</editor>
-        <editor role="advisor" xml:id="SR">Sara Ronis</editor>
-        <editor role="advisor" xml:id="DD">Diane Duesterhoeft</editor>
         <funder>Atla</funder>
       </titleStmt>
       <editionStmt>
-        <edition n="20210720">
-          <title>20210720 Edition</title>
-          <date when="2021">2021</date>
+        <edition n="2022">
+          <date when="2022">2022</date>
         </edition>
       </editionStmt>
       <extent>Analogous to 136+vi pages in six units</extent>
@@ -24,7 +20,7 @@
           <licence target="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC</licence>
 					<ab>All text except quotations and images attributed otherwise. Translations of the Bible draw from NABRE, NRSV, and the author’s own translations.</ab>
         </availability>
-        <date when="2021-06-10">2021</date>
+        <date when="2022">2022</date>
         <idno type="doi">10.31046/atlaopenpress.81</idno>
         <idno type="uri">https://doi.org/10.31046/atlaopenpress.81</idno>
       </publicationStmt>
@@ -92,11 +88,28 @@
       <change when="2021-05-18" who="#TRH">Fully compliant xml, tei dtd, epub accessibility, html accessibility, improved formatting</change>
       <change when="2021-06-01" who="#TRH">First publicized version delivered to Atla.</change>
       <change when="2021-06-10" who="#TRH">Change DOI and distributor to Atla Open Press</change>
+			<change when="2022-07-22" who="#TRH">Updates for 2022 Edition</change>
     </revisionDesc>
   </teiHeader>
   <text xml:lang="en">
+		<front>
+			<titlePage facs="#cover" xml:id="cover">
+				<graphic width="6in" url="media/Cover-Magdalene.jpg">
+					<desc>
+						<bibl>
+							<title>Theological Questions Cover based on Georges de La Tour, The Repentant Magdalen, c. 1635/1640</title>
+							<distributor>National Gallery of Art</distributor>
+							<ptr target="https://www.nga.gov/collection/art-object-page.54386.html"/>
+							<date type="accessed" when="2022-07-02">Accessed 7/2/2022</date>
+							<availability>
+								<ab>Public Domain</ab>
+							</availability>
+						</bibl>
+					</desc>
+				</graphic>
+			</titlePage>
+		</front>
     <body xml:lang="en">
-      <head type="bookTitle">Theological Questions</head>
       <div type="unit" n="1" xml:lang="en">
         <head type="unit">Introduction</head>
         <div type="chapter" n="1">
@@ -240,7 +253,7 @@
               <s>In the Catholic Church the primary emphasis is on understanding the divine meanings of the Bible as expressed by particular human beings in particular historical contexts.</s>
               <s>Advanced study of the Bible involves reading the Bible in its original languages (Hebrew, Aramaic, and Greek) and related ancient literature and history.</s>
               <s>
-                <distinct space="stmarytx.edu">At St. Mary’s the specialists in biblical theology are Drs. Hanneken, Ronis, and Gray.</distinct>
+                <distinct space="stmarytx.edu">At St. Mary’s the specialists in biblical theology are Drs. Hanneken, Ronis, Gray, and Whipple.</distinct>
               </s>
             </p>
             <p>
@@ -251,7 +264,7 @@
               <s>Social justice considers how a Christian should respond to injustices in the world, such as inequality (racism, sexism), and economic injustice (poverty, living-wage, social security).</s>
               <s>Medical ethics deals with the sanctity of life, particularly at its beginning (embryos and fetuses) and end (life support, euthanasia).</s>
               <s>
-                <distinct space="stmarytx.edu">At St. Mary’s Dr. Ball focuses on social justice and Dr. Getz focuses on medical ethics.</distinct>
+                <distinct space="stmarytx.edu">At St. Mary’s the specialists in Moral Theology are Drs. Montecel and Ball.</distinct>
               </s>
             </p>
             <p>
@@ -260,7 +273,7 @@
               <s>The biblical writers and great theologians of the past never really considered or faced the specific challenges of modern science, globalization of war and commerce, democracy, feminism, genocide, and so forth.</s>
               <s>Systematic theology tries to find a consistent way of responding to these challenges through engagement with the existing traditions of Christianity.</s>
               <s>
-                <distinct space="stmarytx.edu">At St. Mary’s the specialist in systematic theology is Dr. Buhrman.</distinct>
+                <distinct space="stmarytx.edu">At St. Mary’s the specialist in systematic theology is Dr. Mosely.</distinct>
               </s>
             </p>
             <p>
@@ -372,14 +385,16 @@
             </floatingText>
             <floatingText>
               <body>
-                <head type="floatingText">Sample job description for a professor of biblical theology</head>
-                <ab>
-                  <s>The Ecclesiastical Faculty of the Boston College School of Theology and Ministry seeks applications for a full-time, open-rank, tenure-track position in New Testament.</s>
-                  <s>Candidates should be prepared to teach courses appropriate for the Master of Divinity, as well as offerings for other theology and ministry students at the master’s and doctoral levels concerning most or all of the following topics: Synoptic Gospels, Acts of the Apostles, John’s Gospel and Johannine literature, the writings of Paul and the later Pauline writings, the Book of Revelation, and Christian Apocryphal Literature.</s>
-                  <s>Candidates must be committed to core Catholic teachings and approach their teaching and research in an interdisciplinary way, with sensitivity to pastoral needs and cultural diversity.</s>
-                  <s>Applicants should be able to demonstrate strong teaching and research ability, including the ability to contribute to the formation of Jesuits and other candidates approved for ordination studies, and of women and men for lay ecclesial ministries and for service rooted in faith.</s>
-                  <s>To be considered, applicants must hold an earned doctorate in New Testament.</s>
-                </ab>
+                <head type="floatingText">Sample Job Description for a Professor of Systematic Theology</head>
+								<ab>
+									<s>The Theology Department of St. Mary’s University in San Antonio invites applications for a tenure-track position in Systematic Theology. </s>
+									<s>The successful candidate will demonstrate a robust academic research agenda and excellence in teaching. </s>
+									<s>The area of specialization is open, but the candidate will be expected to teach a range of courses, diachronic and thematic, in systematic theology. </s>
+									<s>The department is particularly interested in candidates who have demonstrated interest in interreligious dialogue and ecumenism, global Christianity, theology in the Southwest, Latinx theologies, liberation theology, and/or black theologies. </s>
+									<s>The successful candidate will also teach a core introduction to theology which synthesizes the broader questions of faith seeking understanding from the perspective of the Catholic tradition of the University’s Marianist founders.</s>
+									<s>Because the undergraduate core courses are required of students from diverse cultural and religious backgrounds, the successful candidate will demonstrate potential to create a learning environment that builds on diversity and respect for all. </s>
+									<s>In addition to excellence in teaching and academic research, the department seeks candidates prepared to contribute in the "family spirit" of the Marianist charism through service to the department, College, University, and community.</s>
+								</ab>
               </body>
             </floatingText>
           </div>
@@ -584,7 +599,7 @@
 								<desc>
 									<bibl>
 										<author>R. Russell</author>
-										<title>Ancient Babylonia - Nebuchadnezzar's Babylon</title>
+										<title>Ancient Babylonia - Nebuchadnezzar’s Babylon</title>
 										<distributor>Bible History</distributor>
 										<ptr target="https://www.bible-history.com/babylonia/babylonianebuchadnezzars_babylon.htm"/>
 										<ptr target="https://www.bible-history.com/babylonia/BABYLONA.gif"/>
@@ -1245,7 +1260,7 @@
 								<desc>
 									<bibl>
 										<author>Gustave Doré</author>
-										<title>Illustration for John Milton's Paradise Lost, The Spiritual Descent of Lucifer into Satan</title>
+										<title>Illustration for John Milton’s Paradise Lost, The Spiritual Descent of Lucifer into Satan</title>
 										<date>1866</date>
 										<distributor>Wikimedia Commons</distributor>
 										<ptr target="https://commons.wikimedia.org/wiki/File:Paradise_Lost_12.jpg"/>
@@ -3882,36 +3897,6 @@
                   <s>and I look forward to the resurrection of the dead and the life of the world to come.</s>
                 </p>
               </quote>
-              <!--
-              <quote>
-                <p>
-                  <s>We believe in one God, the <hi>Father</hi>, the Almighty, maker of heaven and earth, of all that is, seen and unseen.</s>
-                </p>
-                <p>
-                  <s>We believe in one Lord, <hi>Jesus Christ</hi>, the only Son of God, eternally begotten of the Father, God from God, Light from Light, true God from true God, begotten, not made, of one Being with the Father; through him all things were made.</s>
-                </p>
-                <p>
-                  <s>For us and for our salvation he came down from heaven, was incarnate of the Holy Spirit and the Virgin Mary and became truly human.</s>
-                </p>
-                <p>
-                  <s>For our sake he was crucified under Pontius Pilate; he suffered death and was buried.</s>
-                  <s>On the third day he rose again in accordance with the Scriptures; he ascended into heaven and is seated at the right hand of the Father.</s>
-                </p>
-                <p>
-                  <s>He will come again in glory to judge the living and the dead, and his kingdom will have no end.</s>
-                </p>
-                <p>
-                  <s>We believe in the <hi>Holy Spirit</hi>, the Lord, the giver of life, who proceeds from the Father and the Son, who with the Father and the Son is worshiped and glorified, who has spoken through the prophets.</s>
-                </p>
-                <p>
-                  <s>We believe in one holy catholic and apostolic Church.</s>
-                  <s>We acknowledge one baptism for the forgiveness of sins.</s>
-                </p>
-                <p>
-                  <s>We look for the resurrection of the dead, and the life of the world to come.</s>
-                </p>
-              </quote>
-							-->
             </cit>
           </div>
           <div type="section">
@@ -4019,9 +4004,9 @@
 									<label>Icon of Saint Patrick, Enlightener of Ireland</label>
 									<bibl>
 										<author>Tom Reeder</author>
-										<title>Here's to the Apostle of Ireland</title>
+										<title>Here’s to the Apostle of Ireland</title>
 										<date>2010</date>
-										<distributor>Tom Reeder's Blog: History, Travel, Sports, Art, and Nonsense</distributor>
+										<distributor>Tom Reeder’s Blog: History, Travel, Sports, Art, and Nonsense</distributor>
 										<ptr target="https://tomreeder.wordpress.com/2010/03/13/heres-to-the-apostle-of-ireland/"/>
 										<ptr target="https://tomreeder.files.wordpress.com/2010/03/st-patrick-icon.jpg"/>
 										<date type="accessed" when="2021-07-06">Accessed 7/6/2021</date>
@@ -4045,7 +4030,7 @@
               <s>Basically, if someone from your high school is now a powerful person in a corporation, government, or heaven, you might ask that person to help you out.</s>
               <s>Similarly, there was a cultural norm that women were more compassionate than men.</s>
               <s>The wife or daughter of my master might be more sympathetic to my situation and she could say something to my master.</s>
-              <s>Along those lines, Mary, the Mother of God and Queen of Heaven, might be a good place to start when asking for compassion.</s>
+              <s>Along those lines, <ref target="https://thanneken.github.io/TheologicalQuestions/supplements/mary/text.html#div3-3">Mary, the Mother of God and Queen of Heaven</ref>, might be a good place to start when asking for compassion.</s>
               <s>This is not the whole story of how Catholic theology understands the communion of the saints.</s>
               <s>However, it is related to the historical origins of how Christians understood themselves in relationship to Christ through the Church based on analogy with their relationship to the king through administrators and patrons.</s>
             </p>
@@ -4483,7 +4468,7 @@
             <s>Often the general needs of the society fell under the job description of the bishop when there was not a civil authority to effectively govern.</s>
             <s>On the other end of society, the lowest commoners could expect no formal education or active involvement in the Church.</s>
             <s>When Christianity became the default religion rather than something actively promoted through persuasion, teaching the faith was sometimes neglected.</s>
-            <s>Reverence for saints as patrons and role models, along with celebration of the Eucharist formed the backbone of living the faith for the common people.</s>
+            <s><ref target="https://thanneken.github.io/TheologicalQuestions/supplements/mary/text.html#div3-2">Reverence for saints as patrons and role models</ref>, along with celebration of the Eucharist formed the backbone of living the faith for the common people.</s>
             <s>Two additional developments are characteristic of the practice of the faith in this period.</s>
             <s>Well beyond those who themselves practiced monasticism and mysticism, these developments impacted the daily lives and spirituality of many Christians.</s>
           </p>
@@ -5798,7 +5783,7 @@
               <head type="figure">Rosary and scapular</head>
             </figure>
             <list type="unordered">
-              <item>Reverence for heroes of piety, including all official saints, some not-yet-official saints, deceased relatives, and Mary in particular</item>
+              <item>Reverence for heroes of piety, including all official saints, some not-yet-official saints, deceased relatives, and <ref target="https://thanneken.github.io/TheologicalQuestions/supplements/mary/text.html">Mary</ref> in particular</item>
               <item>The rosary (a series of prayers with emphasis on Mary)</item>
               <item>“Dear God if you save my family from the plague I will build a beautiful church in your honor”</item>
               <item>Elaborate statues and religious art</item>
@@ -6902,7 +6887,7 @@
 									</bibl>
 								</desc>
 							</graphic>
-              <head type="figure">Is the problem that there aren't women prophets in the Bible, or there are and you never hear about them?</head>
+              <head type="figure">Is the problem that there aren’t women prophets in the Bible, or there are and you never hear about them?</head>
             </figure>
             <p>
               <s>As we have seen, the idea of the equality of women challenged traditional church structures defining communal leadership in general and ordination in particular as the domain of men.</s>
@@ -6911,7 +6896,6 @@
               <s>Scripture was written and traditionally interpreted from a male perspective.</s>
               <s>People of faith who sought from the Bible messages that are liberating for women today found some positive messages, but more that degrade women and their bodies.</s>
               <s>For example, in the book of Revelation those with Christ in heaven are all men who have not defiled themselves with women, while the only roles for women are virgin and whore.</s>
-              <s>On several occasions cutting women into pieces is presented as a good thing or will of God.</s>
               <s>Moses teaches that a young girl who is raped must marry the rapist.</s>
               <s>Paul teaches that because of woman we all die, so women must be subordinated to men.</s>
               <s>Sirach says the birth of a daughter is a loss.</s>
@@ -6970,7 +6954,7 @@
             <figure rend="float">
               <graphic width="3in" n="10084" url="media/image90.jpeg" source="http://www.normannfinancial.com/images/misc/Gravity%20Lessons.jpg">
 								<desc>
-									<label>Looney Tunes character Wile E. Coyote says, “I wouldn't mind—except that he defies the law of gravity!” Roadrunner replies, “Sure—but I never studied law!”</label>
+									<label>Looney Tunes character Wile E. Coyote says, “I wouldn’t mind—except that he defies the law of gravity!” Roadrunner replies, “Sure—but I never studied law!”</label>
 									<bibl>
 										<author>Chuck Jones</author>
 										<title>Road Runner and Wile E. Coyote</title>
@@ -7200,6 +7184,10 @@
 		<back>
 			<div type="appendix" xml:id="listfigures">
 				<head>List of Figures</head>
+			</div>
+			<div type="appendix" xml:id="listsupplements">
+				<head>List of Supplements</head>
+				<p>Todd R. Hanneken, “Mary, Mariology, and the Marianist Family” <ptr target="https://thanneken.github.io/TheologicalQuestions/"/>.</p>
 			</div>
 		</back>
   </text>
